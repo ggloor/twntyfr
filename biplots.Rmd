@@ -343,8 +343,28 @@ var.axes=F, scale=0)
 
 #nms <- rownames(g.df)[g.df$cluster==max.clust.names]
 
-points(e.min.pcx$rotation[max.clust.names,][,1],e.min.pcx$rotation[max.clust.names,][,2],
-    col=rgb(0,0,1,0.2),pch=19,cex=0.2)
+#points(e.min.pcx$rotation[max.clust.names,][,1],e.min.pcx$rotation[max.clust.names,][,2],
+#    col=rgb(0,0,1,0.2),pch=19,cex=0.2)
+
+colours <- c("steelblue3", "skyblue1", "indianred1", "mediumpurple1", "olivedrab3",
+   "pink", "#FFED6F", "mediumorchid3", "ivory2", "tan1", "aquamarine3", "#C0C0C0",
+   "royalblue4", "mediumvioletred", "#999933", "#666699", "#CC9933", "#006666", "#3399FF",
+   "#993300", "#CCCC99", "#666666", "#FFCC66", "#6699CC", "#663366", "#9999CC", "#CCCCCC",
+   "#669999", "#CCCC66", "#CC6600", "#9999FF", "#0066CC", "#99CCCC", "#999999", "#FFCC00",
+   "#009999", "#FF9900", "#999966", "#66CCCC", "#339966", "#CCCC33", "#EDEDED"
+)
+
+big <- g.df[which(g.df$cluster.size >= 2),]
+colnames(big) <- colnames(g.df)
+
+lev <- factor(big$cluster)
+for(i in as.numeric(levels(lev))){
+nms <- rownames(big)[big$cluster==i]
+#print(rownames(big)[big$cluster==i])
+#print("")
+points(e.min.pcx$rotation[nms,][,1],e.min.pcx$rotation[nms,][,2], col=colours[i],
+    pch=19, cex=0.3)
+}
 ```
 
-
+Here the vast majority of low phi values come from core functions that are constant ratios in all samples, but not differential. A few smaller groups are both differential and compositionally associated.
