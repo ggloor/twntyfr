@@ -41,7 +41,7 @@ Ribose 5-phosphate isomerase B (EC 5.3.1.6)	Ribose 5-phosphate isomerase B (EC 5
 Ribosomal protein S12p Asp88 (E. coli) methylthiotransferase	Ribosomal protein S12p Asp88 (E. coli) methylthiotransferase	1	217
 Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3)	Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3)	1	217
 Colanic acid biosynthesis acetyltransferase WcaF (EC 2.3.1.-)	Colanic acid biosynthesis acetyltransferase WcaF (EC 2.3.1.-)	3	28
-Curli production assembly	ransport component CsgE	Curli production assembly	ransport component CsgE	3	28
+Curli production assembly/transport component CsgE	Curli production assembly/transport component CsgE	3	28
 Glutathione S-transferase domain protein	Glutathione S-transferase domain protein	3	28
 Glycine cleavage system transcriptional antiactivator GcvR	Glycine cleavage system transcriptional antiactivator GcvR	3	28
 Inhibitor of vertebrate lysozyme precursor	Inhibitor of vertebrate lysozyme precursor	3	28
@@ -207,7 +207,7 @@ LSU m5C1962 methyltransferase RlmI	LSU m5C1962 methyltransferase RlmI	1	217
 S-adenosylmethionine:tRNA ribosyltransferase-isomerase (EC 5.-.-.-)	S-adenosylmethionine:tRNA ribosyltransferase-isomerase (EC 5.-.-.-)	1	217
 capsular polysaccharide biosynthesis protein, putative	capsular polysaccharide biosynthesis protein, putative	6	7
 Chitinase (EC 3.2.1.14)	Chitinase (EC 3.2.1.14)	6	7
-Curli production assembly	ransport component CsgG	Curli production assembly	ransport component CsgG	6	7
+Curli production assembly/transport component CsgG	Curli production assembly/transport component CsgG	6	7
 Inner membrane protein YfeZ	Inner membrane protein YfeZ	6	7
 Protein RcsF	Protein RcsF	6	7
 Protein YcgL	Protein YcgL	6	7
@@ -265,7 +265,7 @@ Pyrophosphate--fructose 6-phosphate 1-phosphotransferase, beta subunit (EC 2.7.1
 Ribosome hibernation protein YhbH	Ribosome hibernation protein YhbH	1	217
 3-hydroxydecanoyl-[acyl-carrier-protein] dehydratase (EC 4.2.1.60)	3-hydroxydecanoyl-[acyl-carrier-protein] dehydratase (EC 4.2.1.60)	13	10
 Alkylated DNA repair protein AlkB	Alkylated DNA repair protein AlkB	13	10
-Di	ripeptide permease DtpB	Di	ripeptide permease DtpB	13	10
+Di/tripeptide permease DtpB	Di/tripeptide permease DtpB	13	10
 Hypothetical protein YrhD	Hypothetical protein YrhD	13	10
 Menaquinone-specific isochorismate synthase (EC 5.4.4.2)	Menaquinone-specific isochorismate synthase (EC 5.4.4.2)	13	10
 Polymyxin resistance protein ArnA_FT, UDP-4-amino-4-deoxy-L-arabinose formylase (EC 2.1.2.-)	Polymyxin resistance protein ArnA_FT, UDP-4-amino-4-deoxy-L-arabinose formylase (EC 2.1.2.-)	13	10
@@ -518,7 +518,7 @@ Putative phosphoenolpyruvate synthase/pyruvate phosphate dikinase, N-terminal do
 Rhodanese-related sulfurtransferases	Rhodanese-related sulfurtransferases	54	9
 Thiosulfate sulfurtransferase GlpE (EC 2.8.1.1)	Thiosulfate sulfurtransferase GlpE (EC 2.8.1.1)	54	9
 Flagellar protein FliJ	Flagellar protein FliJ	55	2
-G:T/U mismatch-specific uracil	hymine DNA-glycosylase	G:T/U mismatch-specific uracil	hymine DNA-glycosylase	1	217
+G:T/U mismatch-specific uracil/thymine DNA-glycosylase	G:T/U mismatch-specific uracil/thymine DNA-glycosylase	1	217
 L-aspartate oxidase (EC 1.4.3.16)	L-aspartate oxidase (EC 1.4.3.16)	1	217
 Glucosamine-1-phosphate N-acetyltransferase (EC 2.3.1.157)	Glucosamine-1-phosphate N-acetyltransferase (EC 2.3.1.157)	56	2
 Hypothetical protein in pyoverdin gene cluster, PA2406 homolog	Hypothetical protein in pyoverdin gene cluster, PA2406 homolog	57	3
@@ -864,7 +864,7 @@ Cold shock protein CspF	Cold shock protein CspF	69	2
 Conjugative transposon protein TraA	Conjugative transposon protein TraA	1	217
 Conjugative transposon protein TraC	Conjugative transposon protein TraC	70	2
 Crotonobetaine carnitine-CoA ligase (EC 6.3.2.-)	Crotonobetaine carnitine-CoA ligase (EC 6.3.2.-)	71	2
-Curli production assembly	ransport component CsgF	Curli production assembly	ransport component CsgF	46	8
+Curli production assembly/transport component CsgF	Curli production assembly/transport component CsgF	46	8
 CylD	CylD	72	4
 Cystine ABC transporter, periplasmic cystine-binding protein FliY	Cystine ABC transporter, periplasmic cystine-binding protein FliY	1	217
 Cytochrome c oxidase polypeptide I (EC 1.9.3.1)	Cytochrome c oxidase polypeptide I (EC 1.9.3.1)	73	2
