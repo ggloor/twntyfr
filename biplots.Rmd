@@ -14,6 +14,8 @@ Setup
 library(compositions)
 library(zCompositions)
 library(ALDEx2)
+# you can get this from:
+# https://github.com/DavidRLovell/propr
 source("~/git/proprBayes/R/propr-functions.R")
 
 library(igraph)
