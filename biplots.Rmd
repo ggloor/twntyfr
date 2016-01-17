@@ -290,10 +290,28 @@ points(cor(e.min.pcx$x[,1], o.clr[,12], method="kendall") /cor.scale.0,
 # low values are better, a good place to start is 0.05, but this has only been
 # examined in one dataset
 # this is from Lovell's R package in progress
-e.min.sym.phi <- propr.phisym(e.min.clr)
+## e.min.sym.phi <- propr.phisym(e.min.clr)
+##
+## # generate a symmetrical regression line of best fit
+## e.min.sma <- sma.df(e.min.clr)
+##
+## # make an empty dataset of the correct size
+## lt <- which(col(e.min.sym.phi)<row(e.min.sym.phi), arr.ind=FALSE)
+## lt.ind <- which(col(e.min.sym.phi)<row(e.min.sym.phi), arr.ind=TRUE)
+##
+## # find the minimum value of each row
+## e.min.phi.min <- lt.row.min(e.min.sym.phi)
 
-# generate a symmetrical regression line of best fit
-e.min.sma <- sma.df(e.min.clr)
+###### phi with Bayesian estimation
+# the problem is that a low phi can easily arise between functions
+# that have the same distribution of 0 values across samples
+# so we need to estimate the value of 0 (and other low-count functions)
+
+# generate random instances
+e.x <- aldex.clr(e.min)
+
+# calculate phi divided by number of random instances
+e.min.sym.phi <- propr.phisym(t(sapply(getMonteCarloInstances(e.x), function(y){y[,1]})))
 
 # make an empty dataset of the correct size
 lt <- which(col(e.min.sym.phi)<row(e.min.sym.phi), arr.ind=FALSE)
@@ -302,6 +320,15 @@ lt.ind <- which(col(e.min.sym.phi)<row(e.min.sym.phi), arr.ind=TRUE)
 # find the minimum value of each row
 e.min.phi.min <- lt.row.min(e.min.sym.phi)
 
+for(i in 2:numMCInstances(e.x)){
+	#print(i)
+	e.min.sym.phi <- propr.phisym(t(sapply(getMonteCarloInstances(e.x), function(y){y[,i]})))
+	e.min.phi.min <- e.min.phi.min + lt.row.min(e.min.sym.phi)
+}
+# get the expected value
+e.min.phi.min <- e.min.phi.min /numMCInstances(e.x)
+##### Done Bayesian stuff
+
 # dataframe to hold the info,
 # data is a set of vectors where only the lower triangle is kept, because the matrix is symmetrical
 # this is needed so the subset function works properly
@@ -309,8 +336,9 @@ e.min.sma.df <- data.frame(row=factor(rownames(e.min.sym.phi)[lt.ind[,"row"]]),
     col=factor(colnames(e.min.sym.phi)[lt.ind[,"col"]]))
 e.min.sma.df$phi <- e.min.sym.phi[lt]
 # find the set of connections with phi less than some value
-
- phi.cutoff <- 0.01
+# we choose an arbitrary cutoff, but it is higher after Bayesian estimation
+# obviously
+ phi.cutoff <- 0.025
 
 e.min.sma.lo.phi <- subset(e.min.sma.df, phi < phi.cutoff)
 
@@ -370,3 +398,5 @@ points(e.min.pcx$rotation[nms,][,1],e.min.pcx$rotation[nms,][,2], col=colours[i]
 ```
 
 Here the vast majority of low phi values come from core functions that are constant ratios in all samples, but not differential. A few smaller groups are both differential and compositionally associated.
+
+Incorporating the Bayesian estimate of 0 gives a much clearer picture, than using point estimates. When point estimates are used, then the majority of the clusters are near 0,0 - simply because of sets of functions that share the same distribution of 0 across samples.
