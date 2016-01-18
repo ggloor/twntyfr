@@ -58,6 +58,50 @@ propr.phisym <- function (X)
  tmp    <- 2 * Cov / outer(diag(Cov), diag(Cov), "+")
  return((1-tmp)/(1+tmp))
 }
+
+############### incorporating phi into ALDEx
+# calculate phi on Dirichlet log-ratio distributions
+# returns dataframe of the lower-triangle of symmetrical phi metric
+# requires David Lovell's propr.phisym function
+# this depends in turn on the compositons R package
+# turtles all the way down!
+
+# we ignore all the other measures that are used for trouble-shooting phi
+# the sma.df function in particular is very time and memory intensive
+
+aldex.phi <- function(aldex.clr){
+
+	# calculate expected value of phi
+	# a single high phi value will push the component out of consideration
+	# a median is right out for memory considerations
+
+	# get first value
+	sym.phi <- propr.phisym(t(sapply(getMonteCarloInstances(aldex.clr), function(y){y[,1]})))
+
+	# sum the rest of the values as we proceed through the DIR MC instances
+	for(i in 2:numMCInstances(aldex.clr)){
+		#print(i)
+		sym.phi <- sym.phi + propr.phisym(t(sapply(getMonteCarloInstances(aldex.clr), function(y){y[,i]})))
+	}
+
+	##### Done ALDEx2 stuff
+
+	# make indices of the correct size
+	lt <- which(col(sym.phi)<row(sym.phi), arr.ind=FALSE)
+	lt.ind <- which(col(sym.phi)<row(sym.phi), arr.ind=TRUE)
+
+	# dataframe to hold the info,
+	# data is a set of vectors where only the lower triangle is kept, because the matrix is symmetrical
+	# this is needed so the subset function works properly
+	sma.df <- data.frame(row=factor(rownames(sym.phi)[lt.ind[,"row"]]),
+		col=factor(colnames(sym.phi)[lt.ind[,"col"]]))
+
+	#save the lower triangle as an expected value
+	sma.df$phi <- sym.phi[lt] /  numMCInstances(aldex.clr)
+
+	return(sma.df)
+
+}
 ############ end functions
 
 ```
@@ -283,58 +327,18 @@ points(cor(e.min.pcx$x[,1], o.clr[,12], method="kendall") /cor.scale.0,
 ```
 
 ```{r phi1, warning=FALSE, message=FALSE}
-# We start with the log-ratio transformed data
-
-# generate the phi statistic
-# this is a measure of the concordance of ratios across samples
-# low values are better, a good place to start is 0.05, but this has only been
-# examined in one dataset
-# this is from Lovell's R package in progress
-## e.min.sym.phi <- propr.phisym(e.min.clr)
-##
-## # generate a symmetrical regression line of best fit
-## e.min.sma <- sma.df(e.min.clr)
-##
-## # make an empty dataset of the correct size
-## lt <- which(col(e.min.sym.phi)<row(e.min.sym.phi), arr.ind=FALSE)
-## lt.ind <- which(col(e.min.sym.phi)<row(e.min.sym.phi), arr.ind=TRUE)
-##
-## # find the minimum value of each row
-## e.min.phi.min <- lt.row.min(e.min.sym.phi)
 
 ###### phi with Bayesian estimation
 # the problem is that a low phi can easily arise between functions
 # that have the same distribution of 0 values across samples
 # so we need to estimate the value of 0 (and other low-count functions)
 
-# generate random instances
+# generate random DIR clr instances with ALDEx2
 e.x <- aldex.clr(e.min)
 
 # calculate phi divided by number of random instances
-e.min.sym.phi <- propr.phisym(t(sapply(getMonteCarloInstances(e.x), function(y){y[,1]})))
+e.min.sym.phi <- aldex.phi(e.x)
 
-# make an empty dataset of the correct size
-lt <- which(col(e.min.sym.phi)<row(e.min.sym.phi), arr.ind=FALSE)
-lt.ind <- which(col(e.min.sym.phi)<row(e.min.sym.phi), arr.ind=TRUE)
-
-# find the minimum value of each row
-e.min.phi.min <- lt.row.min(e.min.sym.phi)
-
-for(i in 2:numMCInstances(e.x)){
-	#print(i)
-	e.min.sym.phi <- propr.phisym(t(sapply(getMonteCarloInstances(e.x), function(y){y[,i]})))
-	e.min.phi.min <- e.min.phi.min + lt.row.min(e.min.sym.phi)
-}
-# get the expected value
-e.min.phi.min <- e.min.phi.min /numMCInstances(e.x)
-##### Done Bayesian stuff
-
-# dataframe to hold the info,
-# data is a set of vectors where only the lower triangle is kept, because the matrix is symmetrical
-# this is needed so the subset function works properly
-e.min.sma.df <- data.frame(row=factor(rownames(e.min.sym.phi)[lt.ind[,"row"]]),
-    col=factor(colnames(e.min.sym.phi)[lt.ind[,"col"]]))
-e.min.sma.df$phi <- e.min.sym.phi[lt]
 # find the set of connections with phi less than some value
 # we choose an arbitrary cutoff, but it is higher after Bayesian estimation
 # obviously
