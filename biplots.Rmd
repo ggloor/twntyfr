@@ -20,45 +20,6 @@ source("~/git/proprBayes/R/propr-functions.R")
 
 library(igraph)
 
-###########
-# these are functins that we need for phi.
-sma.df <- function(df){
-df.cor <- stats::cor(df, use="pairwise.complete.obs")
-df.var <- stats::cov(df, use="pairwise.complete.obs")
-df.sd <- sqrt(diag(df.var))
-r.rf2 <-
-    (outer(diag(df.var), diag(df.var), "-")^2 ) /
-    (outer(diag(df.var), diag(df.var), "+")^2 - 4 * df.var^2 )
- diag(r.rf2) <- 0
-  res.dof     <- nrow(df) - 2
-  F           <- r.rf2/(1 - r.rf2) * res.dof
-list(b=sign(df.cor) * outer(df.sd, df.sd, "/"),
-p=1 - pf(F, 1, res.dof),
-r2=df.cor^2)
-}
-
-lt.row.min <- function(X){
-
-  result <- numeric(nrow(X) - 1)
-
-  for(i in 2:nrow(X)){
-
-    result[i-1] <- min(X[i, 1:i-1])
-
-  }
-
-  result
-
-}
-
-
-propr.phisym <- function (X)
-{
- Cov    <- stats::var(X)
- tmp    <- 2 * Cov / outer(diag(Cov), diag(Cov), "+")
- return((1-tmp)/(1+tmp))
-}
-
 ############### incorporating phi into ALDEx
 # calculate phi on Dirichlet log-ratio distributions
 # returns dataframe of the lower-triangle of symmetrical phi metric
@@ -76,12 +37,14 @@ aldex.phi <- function(aldex.clr){
 	# a median is right out for memory considerations
 
 	# get first value
-	sym.phi <- propr.phisym(t(sapply(getMonteCarloInstances(aldex.clr), function(y){y[,1]})))
+	sym.phi <- propr.phisym(t(sapply(getMonteCarloInstances(aldex.clr),
+	    function(y){y[,1]})))
 
 	# sum the rest of the values as we proceed through the DIR MC instances
 	for(i in 2:numMCInstances(aldex.clr)){
 		#print(i)
-		sym.phi <- sym.phi + propr.phisym(t(sapply(getMonteCarloInstances(aldex.clr), function(y){y[,i]})))
+		sym.phi <- sym.phi + propr.phisym(t(sapply(getMonteCarloInstances(aldex.clr),
+		    function(y){y[,i]})))
 	}
 
 	##### Done ALDEx2 stuff
@@ -91,7 +54,8 @@ aldex.phi <- function(aldex.clr){
 	lt.ind <- which(col(sym.phi)<row(sym.phi), arr.ind=TRUE)
 
 	# dataframe to hold the info,
-	# data is a set of vectors where only the lower triangle is kept, because the matrix is symmetrical
+	# data is a set of vectors where only the lower triangle is kept, because the matrix
+	#    is symmetrical
 	# this is needed so the subset function works properly
 	sma.df <- data.frame(row=factor(rownames(sym.phi)[lt.ind[,"row"]]),
 		col=factor(colnames(sym.phi)[lt.ind[,"col"]]))
@@ -342,7 +306,7 @@ e.min.sma.df <- aldex.phi(e.x)
 # find the set of connections with phi less than some value
 # we choose an arbitrary cutoff, but it is higher after Bayesian estimation
 # obviously
- phi.cutoff <- 0.025
+ phi.cutoff <- 0.03
 
 e.min.sma.lo.phi <- subset(e.min.sma.df, phi < phi.cutoff)
 
@@ -369,7 +333,7 @@ max.clust <- induced.subgraph(g, which(g.clust$membership %in% which(g.clust$csi
 max.clust.names <- V(max.clust)$name
 ```
 
-```{r col.biplot, warning=FALSE, message=FALSE}
+```{r phi.biplot, warning=FALSE, message=FALSE}
 par(mfrow=c(1,1))
 
 biplot(e.min.pcx,col=c("black", rgb(1,0,0,0.2)),cex=c(0.8,0.05),
@@ -404,3 +368,30 @@ points(e.min.pcx$rotation[nms,][,1],e.min.pcx$rotation[nms,][,2], col=colours[i]
 Here the vast majority of low phi values come from core functions that are constant ratios in all samples, but not differential. A few smaller groups are both differential and compositionally associated.
 
 Incorporating the Bayesian estimate of 0 gives a much clearer picture, than using point estimates. When point estimates are used, then the majority of the clusters are near 0,0 - simply because of sets of functions that share the same distribution of 0 across samples.
+
+The relationship between phi and effect size.
+```{r phi.aldex , warning=FALSE, message=FALSE, error=FALSE}
+	B <- match(rownames(e.min.pcx$x)[e.min.pcx$x[,1] > 0], rownames(e.min.pcx$x))
+	H <- match(rownames(e.min.pcx$x)[e.min.pcx$x[,1] < 0], rownames(e.min.pcx$x))
+
+	conds <- vector()
+	conds[B] <- "B"
+	conds[H] <- "H"
+
+	x.e <- aldex.effect(e.x, conds, verbose=FALSE)
+
+	plot(x.e$diff.win, x.e$diff.btw, pch=19,cex=0.4, col=rgb(0,0,0,0.2))
+
+	abline(0,2, lty=2, col="grey")
+	abline(0,-2, lty=2, col="grey")
+	abline(0,1, lty=3, col="grey")
+	abline(0,-1, lty=3, col="grey")
+
+	for(i in as.numeric(levels(lev))){
+	nms <- rownames(big)[big$cluster==i]
+	#print(rownames(big)[big$cluster==i])
+	#print("")
+	points(x.e[nms,"diff.win"],x.e[nms,"diff.btw"], col=colours[i], pch=19, cex=0.5)
+}
+
+```
