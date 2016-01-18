@@ -337,7 +337,7 @@ points(cor(e.min.pcx$x[,1], o.clr[,12], method="kendall") /cor.scale.0,
 e.x <- aldex.clr(e.min)
 
 # calculate phi divided by number of random instances
-e.min.sym.phi <- aldex.phi(e.x)
+e.min.sma.df <- aldex.phi(e.x)
 
 # find the set of connections with phi less than some value
 # we choose an arbitrary cutoff, but it is higher after Bayesian estimation
