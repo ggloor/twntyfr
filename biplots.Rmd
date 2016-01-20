@@ -24,48 +24,9 @@ library(igraph)
 # calculate phi on Dirichlet log-ratio distributions
 # returns dataframe of the lower-triangle of symmetrical phi metric
 # requires David Lovell's propr.phisym function
-# this depends in turn on the compositons R package
-# turtles all the way down!
-
-# we ignore all the other measures that are used for trouble-shooting phi
-# the sma.df function in particular is very time and memory intensive
-
-aldex.phi <- function(aldex.clr){
-
-	# calculate expected value of phi
-	# a single high phi value will push the component out of consideration
-	# a median is right out for memory considerations
-
-	# get first value
-	sym.phi <- propr.phisym(t(sapply(getMonteCarloInstances(aldex.clr),
-	    function(y){y[,1]})))
-
-	# sum the rest of the values as we proceed through the DIR MC instances
-	for(i in 2:numMCInstances(aldex.clr)){
-		#print(i)
-		sym.phi <- sym.phi + propr.phisym(t(sapply(getMonteCarloInstances(aldex.clr),
-		    function(y){y[,i]})))
-	}
-
-	##### Done ALDEx2 stuff
-
-	# make indices of the correct size
-	lt <- which(col(sym.phi)<row(sym.phi), arr.ind=FALSE)
-	lt.ind <- which(col(sym.phi)<row(sym.phi), arr.ind=TRUE)
-
-	# dataframe to hold the info,
-	# data is a set of vectors where only the lower triangle is kept, because the matrix
-	#    is symmetrical
-	# this is needed so the subset function works properly
-	sma.df <- data.frame(row=factor(rownames(sym.phi)[lt.ind[,"row"]]),
-		col=factor(colnames(sym.phi)[lt.ind[,"col"]]))
-
-	#save the lower triangle as an expected value
-	sma.df$phi <- sym.phi[lt] /  numMCInstances(aldex.clr)
-
-	return(sma.df)
-
-}
+#
+# THIS IS NOW IN THE proprBayes source
+#
 ############ end functions
 
 ```
@@ -84,13 +45,13 @@ o <- read.table(
 
 # this is the refseq set
 d <- read.table("data/merged_readcounts_subsys4.txt", header=T,
-   row.names=1, check.names=F, sep="\t", comment.char="", quote="")
+   row.names=2, check.names=F, sep="\t", comment.char="", quote="")
 
 sub4 <- d$subsys4
 d$subsys4 <- NULL
 
-refseq <- d$refseqID
-d$refseqID <- NULL
+refseq <- d$refseqIDfaa
+d$refseqIDfaa <- NULL
 
 len <- d$length
 d$length <- NULL
@@ -114,7 +75,6 @@ d.mvar.clr <- mvar(d.clr)
 
 d.pcx <- prcomp(d.clr)
 
-# TODO color samples by most abundant organism
 biplot(d.pcx, cex=c(0.5,0.05), col=c("black",rgb(1,0,0,0.2)), var.axes=F,
     xlab=paste("PC1: ", round(sum(d.pcx$sdev[1]^2)/d.mvar.clr, 3)),
     ylab=paste("PC2: ", round(sum(d.pcx$sdev[2]^2)/d.mvar.clr, 3)),
@@ -130,6 +90,7 @@ o.d.clr <- t( apply(o.d.CZM, 1, function(x){log(x) - mean(log(x))}) )
 
 points(cor(d.pcx$x[,1], o.d.clr[,1], method="kendall") /50,
     cor(d.pcx$x[,2], o.d.clr[,1], method="kendall")/50, pch="I", col="DodgerBlue")
+
 points(cor(d.pcx$x[,1], o.d.clr[,6], method="kendall") /50,
     cor(d.pcx$x[,2], o.d.clr[,6], method="kendall")/50, pch="L", col="DarkBlue")
 
@@ -145,11 +106,56 @@ points(cor(d.pcx$x[,1], o.d.clr[,8], method="kendall") /50,
 points(cor(d.pcx$x[,1], o.d.clr[,7], method="kendall") /50,
     cor(d.pcx$x[,2], o.d.clr[,7], method="kendall")/50, pch="G", col="red")
 
-points(cor(d.pcx$x[,1], o.d.clr[,9], method="kendall") /50, cor(d.pcx$x[,2], o.d.clr[,9],
-    method="kendall")/50, pch="A", col="Goldenrod")
+points(cor(d.pcx$x[,1], o.d.clr[,9], method="kendall") /50,
+    cor(d.pcx$x[,2], o.d.clr[,9], method="kendall")/50, pch="A", col="Goldenrod")
 
 points(cor(d.pcx$x[,1], o.d.clr[,12], method="kendall") /50, cor(d.pcx$x[,2],
     o.d.clr[,12], method="kendall")/50, pch="S", col="coral3")
+
+#####
+biplot(d.pcx, cex=c(0.5,0.05), col=c("black","white"), var.axes=F,
+    xlab=paste("PC1: ", round(sum(d.pcx$sdev[1]^2)/d.mvar.clr, 3)),
+    ylab=paste("PC2: ", round(sum(d.pcx$sdev[2]^2)/d.mvar.clr, 3)),
+    scale=0
+)
+
+tax <- read.table("data/cluster_tax_lookup.txt", header=T, row.names=1,
+   check.names=F, sep="\t", comment.char="", quote=""
+)
+
+tax$genus <- gsub("\\w+;\\w+;\\w+;\\w+;\\w+;(\\w+).+","\\1", tax[,2])
+
+tax.subset <- tax[rownames(d.min),]
+
+
+li <- grep("Lactobacillus;iners",tax.subset$common_taxonomy)
+lc <- grep("Lactobacillus;crispatus",tax.subset$common_taxonomy)
+lj <- c(grep("Lactobacillus;johnsonii",tax.subset$common_taxonomy),
+    grep("Lactobacillus;gasseri",tax.subset$common_taxonomy))
+lje <- c(grep("Lactobacillus;jensenii",tax.subset$common_taxonomy))
+bvab <- grep("BVAB",tax.subset$common_taxonomy)
+pb <- grep("Prevotella",tax.subset$common_taxonomy)
+gv <- grep("Gardnerella",tax.subset$common_taxonomy)
+me <- grep("Megasphaera",tax.subset$common_taxonomy)
+sn <- grep("Sneathia",tax.subset$common_taxonomy)
+di <- grep("Dialister",tax.subset$common_taxonomy)
+le <- grep("Leptotrichia",tax.subset$common_taxonomy)
+as <- grep("NA.",rownames(tax.subset))
+
+points(d.pcx$rotation[,1][lc], d.pcx$rotation[,2][lc], pch=19, cex=0.2, col="cyan")
+points(d.pcx$rotation[,1][li], d.pcx$rotation[,2][li], pch=19, cex=0.2, col="steelblue3")
+points(d.pcx$rotation[,1][lj], d.pcx$rotation[,2][lj], pch=19, cex=0.2, col="royalblue4")
+points(d.pcx$rotation[,1][lje], d.pcx$rotation[,2][lje], pch=19, cex=0.2, col="paleturquoise1")
+points(d.pcx$rotation[,1][bvab], d.pcx$rotation[,2][bvab], pch=19, cex=0.2, col="yellow")
+points(d.pcx$rotation[,1][pb], d.pcx$rotation[,2][pb], pch=19, cex=0.2, col="mediumpurple1")
+points(d.pcx$rotation[,1][gv], d.pcx$rotation[,2][gv], pch=19, cex=0.2, col="indianred1")
+points(d.pcx$rotation[,1][me], d.pcx$rotation[,2][me], pch=19, cex=0.2, col="olivedrab3")
+points(d.pcx$rotation[,1][sn], d.pcx$rotation[,2][sn], pch=19, cex=0.2, col="pink")
+points(d.pcx$rotation[,1][di], d.pcx$rotation[,2][di], pch=19, cex=0.2, col="magenta")
+points(d.pcx$rotation[,1][le], d.pcx$rotation[,2][le], pch=19, cex=0.2, col="brown")
+points(d.pcx$rotation[,1][as], d.pcx$rotation[,2][as], pch=19, cex=0.2, col="black")
+
+#####
 
 ```
 
