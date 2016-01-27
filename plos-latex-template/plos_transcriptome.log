@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.5.24)  26 JAN 2016 10:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.5.24)  27 JAN 2016 15:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -901,42 +901,57 @@ Package microtype Info: Loading generic settings for font family
 ]
 File: PLOS-submission.eps Graphic file (type eps)
  <PLOS-submission.eps> [2]
-File: PLOS-submission.eps Graphic file (type eps)
- <PLOS-submission.eps> [3]
 
-LaTeX Warning: Reference `refseq_biplot' on page 4 undefined on input line 287.
+LaTeX Warning: Citation `macklaim:2013' on page 3 undefined on input line 281.
+
+File: PLOS-submission.eps Graphic file (type eps)
+<PLOS-submission.eps> [3]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `refseq_biplot' on page 4 undefined on input line 298.
 
 
 File: PLOS-submission.eps Graphic file (type eps)
 <PLOS-submission.eps> [4]
+
+LaTeX Warning: Reference `phi_biplot' on page 5 undefined on input line 306.
+
 File: PLOS-submission.eps Graphic file (type eps)
- <PLOS-submission.eps> [5]
+<PLOS-submission.eps> [5]
 File: PLOS-submission.eps Graphic file (type eps)
- <PLOS-submission.eps>
-[6] 
+ <PLOS-submission.eps> [6] (./plos_transcriptome.bbl
+Package microtype Info: Loading generic settings for font family
+(microtype)             `cmtt' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+File: PLOS-submission.eps Graphic file (type eps)
+
+<PLOS-submission.eps> [7]) 
 AED: lastpage setting LastPage
 File: PLOS-submission.eps Graphic file (type eps)
-<PLOS-submission.eps> [7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 390.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 390.
+<PLOS-submission.eps> [8]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 393.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 393.
  (./plos_transcriptome.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 390.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 390.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 393.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 393.
 Package rerunfilecheck Info: File `plos_transcriptome.out' has not changed.
 (rerunfilecheck)             Checksum: DF23A11A2EC86E7A161B0E09F5C496D1;122.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 390.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 393.
  ) 
 Here is how much of TeX's memory you used:
- 9970 strings out of 493090
- 151062 string characters out of 6134868
- 283200 words of memory out of 5000000
- 13303 multiletter control sequences out of 15000+600000
- 8187 words of font info for 31 fonts, out of 8000000 for 9000
+ 9996 strings out of 493090
+ 151454 string characters out of 6134868
+ 287308 words of memory out of 5000000
+ 13324 multiletter control sequences out of 15000+600000
+ 8355 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,12n,43p,1718b,383s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,13n,43p,1718b,471s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on plos_transcriptome.dvi (7 pages, 36804 bytes).
+Output written on plos_transcriptome.dvi (8 pages, 50292 bytes).

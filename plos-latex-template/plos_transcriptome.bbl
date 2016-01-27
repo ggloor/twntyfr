@@ -1,0 +1,68 @@
+\begin{thebibliography}{10}
+
+\bibitem{bowtie2}
+Langmead B, Salzberg SL.
+\newblock Fast gapped-read alignment with Bowtie 2.
+\newblock Nature methods. 2012;9(4):357--359.
+
+\bibitem{Anders:2013aa}
+Anders S, McCarthy DJ, Chen Y, Okoniewski M, Smyth GK, Huber W, et~al.
+\newblock Count-based differential expression analysis of {RNA} sequencing data
+  using {R} and {Bioconductor}.
+\newblock Nat Protoc. 2013 Sep;8(9):1765--86.
+
+\bibitem{fernandes:2013}
+Fernandes AD, Macklaim JM, Linn TG, Reid G, Gloor GB.
+\newblock {ANOVA}-Like Differential Expression ({ALDEx}) Analysis for Mixed
+  Population {RNA}-Seq.
+\newblock PLoS ONE. 2013 July;8(7):e67019.
+
+\bibitem{fernandes:2014}
+Fernandes AD, Reid JN, Macklaim JM, McMurrough TA, Edgell DR, Gloor GB.
+\newblock Unifying the analysis of high-throughput sequencing datasets:
+  characterizing {RNA}-seq, 16S r{RNA} gene sequencing and selective growth
+  experiments by compositional data analysis.
+\newblock Microbiome. 2014;2:15.
+
+\bibitem{Lovell:2015}
+Lovell D, Pawlowsky-Glahn V, Egozcue JJ, Marguerat S, B{\"a}hler J.
+\newblock Proportionality: a valid alternative to correlation for relative
+  data.
+\newblock PLoS Comput Biol. 2015 Mar;11(3):e1004075.
+
+\bibitem{Aitchison:1986}
+Aitchison J.
+\newblock The Statistical Analysis of Compositional Data.
+\newblock Chapman \& Hall; 1986.
+
+\bibitem{pawlowsky2015modeling}
+Pawlowsky-Glahn V, Egozcue JJ, Tolosana-Delgado R.
+\newblock Modeling and Analysis of Compositional Data.
+\newblock John Wiley \& Sons; 2015.
+
+\bibitem{pawlowsky2011compositional}
+Pawlowsky-Glahn V, Buccianti A.
+\newblock Compositional data analysis: Theory and applications.
+\newblock John Wiley \& Sons; 2011.
+
+\bibitem{aitchison2002biplots}
+Aitchison J, Greenacre M.
+\newblock Biplots of compositional data.
+\newblock Journal of the Royal Statistical Society: Series C (Applied
+  Statistics). 2002;51(4):375--392.
+
+\bibitem{PalareaAlbaladejo201585}
+Palarea-Albaladejo J, Mart{\'\i}n-Fern{\'a}ndez JA.
+\newblock zCompositions --- R package for multivariate imputation of
+  left-censored data under a compositional approach.
+\newblock Chemometrics and Intelligent Laboratory Systems. 2015;143(0):85 --
+  96.
+\newblock Available from:
+  \url{http://www.sciencedirect.com/science/article/pii/S0169743915000490}.
+
+\bibitem{Friedman:2012}
+Friedman J, Alm EJ.
+\newblock Inferring correlation networks from genomic survey data.
+\newblock PLoS Comput Biol. 2012;8(9):e1002687.
+
+\end{thebibliography}

@@ -108,7 +108,7 @@ d.mvar.clr <- mvar(d.clr)
 
 d.pcx <- prcomp(d.clr)
 
-biplot(d.pcx, cex=c(0.5,0.05), col=c("black",rgb(1,0,0,0.2)), var.axes=F,
+biplot(d.pcx, cex=c(0.5,0.05), col=c("black",rgb(0,0,0,0.05)), var.axes=F,
     xlab=paste("PC1: ", round(sum(d.pcx$sdev[1]^2)/d.mvar.clr, 3)),
     ylab=paste("PC2: ", round(sum(d.pcx$sdev[2]^2)/d.mvar.clr, 3)),
     scale=0
@@ -132,18 +132,18 @@ di <- grep("Dialister",tax.subset$common_taxonomy)
 le <- grep("Leptotrichia",tax.subset$common_taxonomy)
 as <- grep("NA.",rownames(tax.subset))
 
-points(d.pcx$rotation[,1][lc], d.pcx$rotation[,2][lc], pch=19, cex=0.1, col="cyan")
-points(d.pcx$rotation[,1][li], d.pcx$rotation[,2][li], pch=19, cex=0.1, col="steelblue3")
-points(d.pcx$rotation[,1][lj], d.pcx$rotation[,2][lj], pch=19, cex=0.1, col="royalblue4")
-points(d.pcx$rotation[,1][lje], d.pcx$rotation[,2][lje], pch=19, cex=0.1, col="paleturquoise1")
-points(d.pcx$rotation[,1][bvab], d.pcx$rotation[,2][bvab], pch=19, cex=0.1, col="yellow")
-points(d.pcx$rotation[,1][pb], d.pcx$rotation[,2][pb], pch=19, cex=0.1, col="mediumpurple1")
-points(d.pcx$rotation[,1][gv], d.pcx$rotation[,2][gv], pch=19, cex=0.1, col="indianred1")
-points(d.pcx$rotation[,1][me], d.pcx$rotation[,2][me], pch=19, cex=0.1, col="olivedrab3")
-points(d.pcx$rotation[,1][sn], d.pcx$rotation[,2][sn], pch=19, cex=0.1, col="pink")
-points(d.pcx$rotation[,1][di], d.pcx$rotation[,2][di], pch=19, cex=0.1, col="magenta")
-points(d.pcx$rotation[,1][le], d.pcx$rotation[,2][le], pch=19, cex=0.1, col="brown")
-points(d.pcx$rotation[,1][as], d.pcx$rotation[,2][as], pch=19, cex=0.1, col="black")
+points(d.pcx$rotation[,1][lc], d.pcx$rotation[,2][lc], pch=19, cex=0.05, col="cyan")
+points(d.pcx$rotation[,1][li], d.pcx$rotation[,2][li], pch=19, cex=0.05, col="steelblue3")
+points(d.pcx$rotation[,1][lj], d.pcx$rotation[,2][lj], pch=19, cex=0.05, col="royalblue4")
+points(d.pcx$rotation[,1][lje], d.pcx$rotation[,2][lje], pch=19, cex=0.05, col="paleturquoise1")
+points(d.pcx$rotation[,1][bvab], d.pcx$rotation[,2][bvab], pch=19, cex=0.05, col="yellow")
+points(d.pcx$rotation[,1][pb], d.pcx$rotation[,2][pb], pch=19, cex=0.05, col="mediumpurple1")
+points(d.pcx$rotation[,1][gv], d.pcx$rotation[,2][gv], pch=19, cex=0.05, col="indianred1")
+points(d.pcx$rotation[,1][me], d.pcx$rotation[,2][me], pch=19, cex=0.05, col="olivedrab3")
+points(d.pcx$rotation[,1][sn], d.pcx$rotation[,2][sn], pch=19, cex=0.05, col="pink")
+points(d.pcx$rotation[,1][di], d.pcx$rotation[,2][di], pch=19, cex=0.05, col="magenta")
+points(d.pcx$rotation[,1][le], d.pcx$rotation[,2][le], pch=19, cex=0.05, col="brown")
+points(d.pcx$rotation[,1][as], d.pcx$rotation[,2][as], pch=19, cex=0.05, col="black")
 
 #####
 
@@ -260,7 +260,11 @@ g <- graph.data.frame(e.min.sma.lo.phi, directed=FALSE)
 # # data frame containing the names and group memberships of each cluster
 g.df <- data.frame(Systematic.name=V(g)$name, cluster=g.clust$membership,
     cluster.size=g.clust$csize[g.clust$membership])
-write.table(g.df, file="g.df.txt", sep="\t", quote=F, col.names=NA)
+
+attach(g.df)
+g.order <- g.df[order(cluster),]
+detach(g.df)
+write.table(g.order, file="SEED.g.df.txt", sep="\t", quote=F, col.names=NA)
 
 max.clust <- induced.subgraph(g, which(g.clust$membership %in% which(g.clust$csize ==
     max(g.clust$csize))))
@@ -400,7 +404,12 @@ g <- graph.data.frame(k.min.sma.lo.phi, directed=FALSE)
 # # data frame containing the names and group memberships of each cluster
 KO.g.df <- data.frame(Systematic.name=V(g)$name, cluster=g.clust$membership,
     cluster.size=g.clust$csize[g.clust$membership])
-write.table(KO.g.df, file="KO.g.df.txt", sep="\t", quote=F, col.names=NA)
+
+attach(KO.g.df)
+k.order <- KO.g.df[order(cluster),]
+detach(KO.g.df)
+
+write.table(k.order, file="KO.g.df.txt", sep="\t", quote=F, col.names=NA)
 
 max.clust <- induced.subgraph(g, which(g.clust$membership %in% which(g.clust$csize ==
     max(g.clust$csize))))
