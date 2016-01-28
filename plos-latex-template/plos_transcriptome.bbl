@@ -45,12 +45,6 @@ Pawlowsky-Glahn V, Buccianti A.
 \newblock Compositional data analysis: Theory and applications.
 \newblock John Wiley \& Sons; 2011.
 
-\bibitem{aitchison2002biplots}
-Aitchison J, Greenacre M.
-\newblock Biplots of compositional data.
-\newblock Journal of the Royal Statistical Society: Series C (Applied
-  Statistics). 2002;51(4):375--392.
-
 \bibitem{PalareaAlbaladejo201585}
 Palarea-Albaladejo J, Mart{\'\i}n-Fern{\'a}ndez JA.
 \newblock zCompositions --- R package for multivariate imputation of
@@ -59,6 +53,24 @@ Palarea-Albaladejo J, Mart{\'\i}n-Fern{\'a}ndez JA.
   96.
 \newblock Available from:
   \url{http://www.sciencedirect.com/science/article/pii/S0169743915000490}.
+
+\bibitem{gloorAJS:2016}
+Gloor GB, Macklaim JM, Vu M, Fernandes AD.
+\newblock Compositional uncertainty should not be ignored in high-throughput
+  sequencing data analysis.
+\newblock Austrian Journal of Statistics. 2015;under review.
+
+\bibitem{aitchison2002biplots}
+Aitchison J, Greenacre M.
+\newblock Biplots of compositional data.
+\newblock Journal of the Royal Statistical Society: Series C (Applied
+  Statistics). 2002;51(4):375--392.
+
+\bibitem{macklaim:2013}
+Macklaim MJ, Fernandes DA, Di~Bella MJ, Hammond JA, Reid G, Gloor GB.
+\newblock Comparative meta-{RNA}-seq of the vaginal microbiota and differential
+  expression by \textit{{L}actobacillus iners} in health and dysbiosis.
+\newblock Microbiome. 2013;1:15.
 
 \bibitem{Friedman:2012}
 Friedman J, Alm EJ.
