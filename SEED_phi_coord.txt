@@ -1,0 +1,673 @@
+	Systematic.name	cluster	cluster.size	coord
+Purine nucleoside phosphorylase (EC 2.4.2.1)	Purine nucleoside phosphorylase (EC 2.4.2.1)	1	326	0.0278325791563778
+Pyruvate carboxyl transferase (EC 6.4.1.1)	Pyruvate carboxyl transferase (EC 6.4.1.1)	1	326	0.0311600850784175
+Succinate dehydrogenase flavoprotein subunit (EC 1.3.99.1)	Succinate dehydrogenase flavoprotein subunit (EC 1.3.99.1)	1	326	0.0314655142685949
+Benzoyl-CoA reductase subunit BadD (EC 1.3.99.15)	Benzoyl-CoA reductase subunit BadD (EC 1.3.99.15)	1	326	0.0344267366128994
+Benzoyl-CoA reductase subunit BadE (EC 1.3.99.15)	Benzoyl-CoA reductase subunit BadE (EC 1.3.99.15)	1	326	0.0323965980026014
+Butyryl-CoA dehydrogenase (EC 1.3.99.2)	Butyryl-CoA dehydrogenase (EC 1.3.99.2)	1	326	0.0273538114064602
+Electron transfer flavoprotein, alpha subunit	Electron transfer flavoprotein, alpha subunit	1	326	0.0314456942079007
+Nucleoside triphosphate pyrophosphohydrolase MazG	Nucleoside triphosphate pyrophosphohydrolase MazG	1	326	0.0272037287661213
+UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase (EC 3.5.1.-)	UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase (EC 3.5.1.-)	1	326	0.0272671217306443
+1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase (EC 1.17.7.1)	1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase (EC 1.17.7.1)	1	326	0.0283448950632602
+2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase (EC 2.7.7.60)	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase (EC 2.7.7.60)	1	326	0.0305338306683122
+2-keto-3-deoxy-D-arabino-heptulosonate-7-phosphate synthase I beta (EC 2.5.1.54)	2-keto-3-deoxy-D-arabino-heptulosonate-7-phosphate synthase I beta (EC 2.5.1.54)	1	326	0.0247250385746399
+2-Keto-3-deoxy-D-manno-octulosonate-8-phosphate synthase (EC 2.5.1.55)	2-Keto-3-deoxy-D-manno-octulosonate-8-phosphate synthase (EC 2.5.1.55)	1	326	0.0325828752450632
+2,3-bisphosphoglycerate-independent phosphoglycerate mutase (EC 5.4.2.1)	2,3-bisphosphoglycerate-independent phosphoglycerate mutase (EC 5.4.2.1)	1	326	0.0317060797342521
+3-dehydroquinate synthase (EC 4.2.3.4)	3-dehydroquinate synthase (EC 4.2.3.4)	1	326	0.026517993034243
+3-deoxy-D-manno-octulosonic-acid transferase (EC 2.-.-.-)	3-deoxy-D-manno-octulosonic-acid transferase (EC 2.-.-.-)	1	326	0.0315408275888035
+3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.41)	3-oxoacyl-[acyl-carrier-protein] synthase, KASII (EC 2.3.1.41)	1	326	0.0323749023538185
+4-alpha-glucanotransferase (amylomaltase) (EC 2.4.1.25)	4-alpha-glucanotransferase (amylomaltase) (EC 2.4.1.25)	1	326	0.0325090025937774
+4-hydroxybenzoyl-CoA thioesterase family active site	4-hydroxybenzoyl-CoA thioesterase family active site	1	326	0.0326816026889904
+5-nucleotidase SurE (EC 3.1.3.5)	5-nucleotidase SurE (EC 3.1.3.5)	1	326	0.0277382069647473
+Acyl-[acyl-carrier-protein]--UDP-N-acetylglucosamine O-acyltransferase (EC 2.3.1.129)	Acyl-[acyl-carrier-protein]--UDP-N-acetylglucosamine O-acyltransferase (EC 2.3.1.129)	1	326	0.0313975039428347
+Alpha-amylase (EC 3.2.1.1)	Alpha-amylase (EC 3.2.1.1)	1	326	0.0320075838118609
+Alpha-ribazole-5'-phosphate phosphatase (EC 3.1.3.73)	Alpha-ribazole-5'-phosphate phosphatase (EC 3.1.3.73)	1	326	0.0273818753208135
+Aminoacyl-histidine dipeptidase (Peptidase D) (EC 3.4.13.3)	Aminoacyl-histidine dipeptidase (Peptidase D) (EC 3.4.13.3)	1	326	0.0345318965123263
+Anaerobic nitric oxide reductase flavorubredoxin	Anaerobic nitric oxide reductase flavorubredoxin	1	326	0.0303892210484026
+Aspartate carbamoyltransferase regulatory chain (PyrI)	Aspartate carbamoyltransferase regulatory chain (PyrI)	1	326	0.0276900671673242
+ATP-dependent protease La (EC 3.4.21.53) Type I	ATP-dependent protease La (EC 3.4.21.53) Type I	1	326	0.0304612525770829
+Biopolymer transport protein ExbD/TolR	Biopolymer transport protein ExbD/TolR	1	326	0.0340944204118588
+Biotin-protein ligase (EC 6.3.4.15)	Biotin-protein ligase (EC 6.3.4.15)	1	326	0.0255954695042935
+Carboxynorspermidine dehydrogenase, putative (EC 1.1.1.-)	Carboxynorspermidine dehydrogenase, putative (EC 1.1.1.-)	1	326	0.0335644756461835
+Chorismate synthase (EC 4.2.3.5)	Chorismate synthase (EC 4.2.3.5)	1	326	0.0271857201033405
+Cytochrome c-type biogenesis protein ResA	Cytochrome c-type biogenesis protein ResA	1	326	0.0324536206017745
+Deoxyribose-phosphate aldolase (EC 4.1.2.4)	Deoxyribose-phosphate aldolase (EC 4.1.2.4)	1	326	0.0288250497679214
+DNA-binding protein HU	DNA-binding protein HU	1	326	0.0353496733959454
+Ferric siderophore transport system, periplasmic binding protein TonB	Ferric siderophore transport system, periplasmic binding protein TonB	1	326	0.0347852018088155
+Ferric uptake regulation protein FUR	Ferric uptake regulation protein FUR	1	326	0.0271819444260345
+FKBP-type peptidyl-prolyl cis-trans isomerase fklB (EC 5.2.1.8)	FKBP-type peptidyl-prolyl cis-trans isomerase fklB (EC 5.2.1.8)	1	326	0.0341050934958954
+FKBP-type peptidyl-prolyl cis-trans isomerase SlyD (EC 5.2.1.8)	FKBP-type peptidyl-prolyl cis-trans isomerase SlyD (EC 5.2.1.8)	1	326	0.0299413893334401
+Glutaminyl-tRNA synthetase (EC 6.1.1.18)	Glutaminyl-tRNA synthetase (EC 6.1.1.18)	1	326	0.0315653290594396
+Glutamyl-tRNA synthetase (EC 6.1.1.17)	Glutamyl-tRNA synthetase (EC 6.1.1.17)	1	326	0.031645859293596
+Glutathione peroxidase (EC 1.11.1.9)	Glutathione peroxidase (EC 1.11.1.9)	1	326	0.0339246216011448
+Glycogen phosphorylase (EC 2.4.1.1)	Glycogen phosphorylase (EC 2.4.1.1)	1	326	0.0304588896524525
+GTP-binding protein HflX	GTP-binding protein HflX	1	326	0.0287579504528569
+Hcp transcriptional regulator HcpR (Crp/Fnr family)	Hcp transcriptional regulator HcpR (Crp/Fnr family)	1	326	0.0248490465662192
+Hypothetical protein YggS, proline synthase co-transcribed bacterial homolog PROSC	Hypothetical protein YggS, proline synthase co-transcribed bacterial homolog PROSC	1	326	0.0302183187851083
+Lipid A biosynthesis lauroyl acyltransferase (EC 2.3.1.-)	Lipid A biosynthesis lauroyl acyltransferase (EC 2.3.1.-)	1	326	0.0311071675943312
+Lipopolysaccharide ABC transporter, ATP-binding protein LptB	Lipopolysaccharide ABC transporter, ATP-binding protein LptB	1	326	0.0290574432825446
+Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)	Long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)	1	326	0.0282636865704982
+LSU m5C1962 methyltransferase RlmI	LSU m5C1962 methyltransferase RlmI	1	326	0.029859443178252
+Malate dehydrogenase (EC 1.1.1.37)	Malate dehydrogenase (EC 1.1.1.37)	1	326	0.0352093404895779
+Malonyl CoA-acyl carrier protein transacylase (EC 2.3.1.39)	Malonyl CoA-acyl carrier protein transacylase (EC 2.3.1.39)	1	326	0.0308561380829486
+Mannose-1-phosphate guanylyltransferase (GDP) (EC 2.7.7.22)	Mannose-1-phosphate guanylyltransferase (GDP) (EC 2.7.7.22)	1	326	0.0300320368759603
+Meso-diaminopimelate D-dehydrogenase (EC 1.4.1.16)	Meso-diaminopimelate D-dehydrogenase (EC 1.4.1.16)	1	326	0.033231515145382
+Methylmalonyl-CoA decarboxylase, alpha chain (EC 4.1.1.41)	Methylmalonyl-CoA decarboxylase, alpha chain (EC 4.1.1.41)	1	326	0.0335591599010349
+MiaB family protein, possibly involved in tRNA or rRNA modification	MiaB family protein, possibly involved in tRNA or rRNA modification	1	326	0.028738590906884
+Monofunctional biosynthetic peptidoglycan transglycosylase (EC 2.4.2.-)	Monofunctional biosynthetic peptidoglycan transglycosylase (EC 2.4.2.-)	1	326	0.0270737492850397
+MoxR-like ATPase in aerotolerance operon	MoxR-like ATPase in aerotolerance operon	1	326	0.028562274176964
+Na(+)-translocating NADH-quinone reductase subunit C (EC 1.6.5.-)	Na(+)-translocating NADH-quinone reductase subunit C (EC 1.6.5.-)	1	326	0.0289959356771022
+Na(+)-translocating NADH-quinone reductase subunit F (EC 1.6.5.-)	Na(+)-translocating NADH-quinone reductase subunit F (EC 1.6.5.-)	1	326	0.02941741177923
+NADH ubiquinone oxidoreductase chain A (EC 1.6.5.3)	NADH ubiquinone oxidoreductase chain A (EC 1.6.5.3)	1	326	0.0288624966648175
+NADH-ubiquinone oxidoreductase chain B (EC 1.6.5.3)	NADH-ubiquinone oxidoreductase chain B (EC 1.6.5.3)	1	326	0.0320842202755686
+NADH-ubiquinone oxidoreductase chain I (EC 1.6.5.3)	NADH-ubiquinone oxidoreductase chain I (EC 1.6.5.3)	1	326	0.0297796572358744
+NADH-ubiquinone oxidoreductase chain J (EC 1.6.5.3)	NADH-ubiquinone oxidoreductase chain J (EC 1.6.5.3)	1	326	0.0323765767676339
+NADH-ubiquinone oxidoreductase chain K (EC 1.6.5.3)	NADH-ubiquinone oxidoreductase chain K (EC 1.6.5.3)	1	326	0.0287911264474304
+NADPH dependent preQ0 reductase	NADPH dependent preQ0 reductase	1	326	0.0244458429490355
+Nitric oxide-dependent regulator DnrN or NorA	Nitric oxide-dependent regulator DnrN or NorA	1	326	0.0295668936883277
+Outer membrane protein H precursor	Outer membrane protein H precursor	1	326	0.0352350339513967
+Pantoate--beta-alanine ligase (EC 6.3.2.1)	Pantoate--beta-alanine ligase (EC 6.3.2.1)	1	326	0.0312452356912848
+Phosphatidylserine decarboxylase (EC 4.1.1.65)	Phosphatidylserine decarboxylase (EC 4.1.1.65)	1	326	0.0297704325350669
+Polyribonucleotide nucleotidyltransferase (EC 2.7.7.8)	Polyribonucleotide nucleotidyltransferase (EC 2.7.7.8)	1	326	0.0317618150596429
+Protein YicC	Protein YicC	1	326	0.0318165149365512
+Pyrophosphate--fructose 6-phosphate 1-phosphotransferase, beta subunit (EC 2.7.1.90)	Pyrophosphate--fructose 6-phosphate 1-phosphotransferase, beta subunit (EC 2.7.1.90)	1	326	0.0350059046251285
+Pyruvate-flavodoxin oxidoreductase (EC 1.2.7.-)	Pyruvate-flavodoxin oxidoreductase (EC 1.2.7.-)	1	326	0.0302734477504384
+Queuosine Biosynthesis QueC ATPase	Queuosine Biosynthesis QueC ATPase	1	326	0.0317008377824496
+Quinolinate phosphoribosyltransferase [decarboxylating] (EC 2.4.2.19)	Quinolinate phosphoribosyltransferase [decarboxylating] (EC 2.4.2.19)	1	326	0.0343165651778502
+Quinolinate synthetase (EC 2.5.1.72)	Quinolinate synthetase (EC 2.5.1.72)	1	326	0.0344149886426745
+Ribose 5-phosphate isomerase B (EC 5.3.1.6)	Ribose 5-phosphate isomerase B (EC 5.3.1.6)	1	326	0.0294498895760291
+Ribosomal protein S12p Asp88 (E. coli) methylthiotransferase	Ribosomal protein S12p Asp88 (E. coli) methylthiotransferase	1	326	0.0279585321189834
+Ribosome hibernation protein YhbH	Ribosome hibernation protein YhbH	1	326	0.035905213675659
+Rubrerythrin	Rubrerythrin	1	326	0.0304783289077937
+S-adenosylmethionine:tRNA ribosyltransferase-isomerase (EC 5.-.-.-)	S-adenosylmethionine:tRNA ribosyltransferase-isomerase (EC 5.-.-.-)	1	326	0.0294371675102804
+Shikimate kinase I (EC 2.7.1.71)	Shikimate kinase I (EC 2.7.1.71)	1	326	0.0277063054459908
+Succinate dehydrogenase cytochrome b subunit	Succinate dehydrogenase cytochrome b subunit	1	326	0.0336576122074451
+Succinate dehydrogenase iron-sulfur protein (EC 1.3.99.1)	Succinate dehydrogenase iron-sulfur protein (EC 1.3.99.1)	1	326	0.0285172819373334
+Sulfur acceptor protein SufE for iron-sulfur cluster assembly	Sulfur acceptor protein SufE for iron-sulfur cluster assembly	1	326	0.0300003713690849
+Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3)	Thiamin-phosphate pyrophosphorylase (EC 2.5.1.3)	1	326	0.0278103305994516
+Thiamine-monophosphate kinase (EC 2.7.4.16)	Thiamine-monophosphate kinase (EC 2.7.4.16)	1	326	0.0304660168803163
+Thiol:disulfide oxidoreductase related to ResA	Thiol:disulfide oxidoreductase related to ResA	1	326	0.0288421680509258
+TonB-dependent receptor	TonB-dependent receptor	1	326	0.030413400881649
+Trk system potassium uptake protein TrkA	Trk system potassium uptake protein TrkA	1	326	0.0242488378266568
+tRNA-i(6)A37 methylthiotransferase	tRNA-i(6)A37 methylthiotransferase	1	326	0.0273175172032359
+UDP-3-O-[3-hydroxymyristoyl] glucosamine N-acyltransferase (EC 2.3.1.-)	UDP-3-O-[3-hydroxymyristoyl] glucosamine N-acyltransferase (EC 2.3.1.-)	1	326	0.0306516250545377
+UDP-N-acetylmuramoylalanyl-D-glutamate--2,6-diaminopimelate ligase (EC 6.3.2.13)	UDP-N-acetylmuramoylalanyl-D-glutamate--2,6-diaminopimelate ligase (EC 6.3.2.13)	1	326	0.0303820093019094
+3-deoxy-D-manno-octulosonate 8-phosphate phosphatase (EC 3.1.3.45)	3-deoxy-D-manno-octulosonate 8-phosphate phosphatase (EC 3.1.3.45)	1	326	0.0263692877738084
+3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.41)	3-oxoacyl-[acyl-carrier-protein] synthase, KASIII (EC 2.3.1.41)	1	326	0.029549106186339
+ADA regulatory protein	ADA regulatory protein	1	326	0.0273009576555686
+Argininosuccinate lyase (EC 4.3.2.1)	Argininosuccinate lyase (EC 4.3.2.1)	1	326	0.0289123646916949
+Beta-lactamase (EC 3.5.2.6)	Beta-lactamase (EC 3.5.2.6)	1	326	0.0259976095469636
+Cytoplasmic axial filament protein CafA and Ribonuclease G (EC 3.1.4.-)	Cytoplasmic axial filament protein CafA and Ribonuclease G (EC 3.1.4.-)	1	326	0.0303073592222274
+Dihydroorotate dehydrogenase electron transfer subunit (EC 1.3.3.1)	Dihydroorotate dehydrogenase electron transfer subunit (EC 1.3.3.1)	1	326	0.0249084572362019
+Fumarylacetoacetate hydrolase family protein	Fumarylacetoacetate hydrolase family protein	1	326	0.0261541654247204
+Glutamate synthase [NADPH] small chain (EC 1.4.1.13)	Glutamate synthase [NADPH] small chain (EC 1.4.1.13)	1	326	0.0260740068037691
+Hydroxyacylglutathione hydrolase (EC 3.1.2.6)	Hydroxyacylglutathione hydrolase (EC 3.1.2.6)	1	326	0.0279529294251547
+Hypothetical radical SAM family enzyme, NOT coproporphyrinogen III oxidase, oxygen-independent	Hypothetical radical SAM family enzyme, NOT coproporphyrinogen III oxidase, oxygen-independent	1	326	0.0308347486807782
+Integration host factor alpha subunit	Integration host factor alpha subunit	1	326	0.0255528854751661
+Leucine-responsive regulatory protein, regulator for leucine (or lrp) regulon and high-affinity branched-chain amino acid transport system	Leucine-responsive regulatory protein, regulator for leucine (or lrp) regulon and high-affinity branched-chain amino acid transport system	1	326	0.0319122804383343
+Lipid-A-disaccharide synthase (EC 2.4.1.182)	Lipid-A-disaccharide synthase (EC 2.4.1.182)	1	326	0.0257459363496816
+Peptidase M48, Ste24p precursor	Peptidase M48, Ste24p precursor	1	326	0.0271103294231167
+Phosphoglycerol transferase I (EC 2.7.8.20)	Phosphoglycerol transferase I (EC 2.7.8.20)	1	326	0.0273638866940926
+Phosphoribosylaminoimidazole-succinocarboxamide synthase (EC 6.3.2.6)	Phosphoribosylaminoimidazole-succinocarboxamide synthase (EC 6.3.2.6)	1	326	0.0294003328200616
+Proofreading thioesterase in enterobactin biosynthesis EntH	Proofreading thioesterase in enterobactin biosynthesis EntH	1	326	0.0269566243652257
+Pyridoxine biosynthesis glutamine amidotransferase, glutaminase subunit (EC 2.4.2.-)	Pyridoxine biosynthesis glutamine amidotransferase, glutaminase subunit (EC 2.4.2.-)	1	326	0.0282973908053717
+Pyruvate formate-lyase (EC 2.3.1.54)	Pyruvate formate-lyase (EC 2.3.1.54)	1	326	0.0332611648912751
+Pyruvate formate-lyase activating enzyme (EC 1.97.1.4)	Pyruvate formate-lyase activating enzyme (EC 1.97.1.4)	1	326	0.0320754067437675
+Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)	Ribonucleotide reductase of class Ia (aerobic), beta subunit (EC 1.17.4.1)	1	326	0.0290979028409718
+rubredoxin-oxygen oxidoreductase	rubredoxin-oxygen oxidoreductase	1	326	0.0297502693728982
+Shikimate 5-dehydrogenase I alpha (EC 1.1.1.25)	Shikimate 5-dehydrogenase I alpha (EC 1.1.1.25)	1	326	0.0259303228246265
+Signal peptidase-like protein	Signal peptidase-like protein	1	326	0.0296493326049289
+Sirohydrochlorin cobaltochelatase CbiK (EC 4.99.1.3)	Sirohydrochlorin cobaltochelatase CbiK (EC 4.99.1.3)	1	326	0.0307891270753607
+Spermidine synthase (EC 2.5.1.16)	Spermidine synthase (EC 2.5.1.16)	1	326	0.0297346045016736
+Sulfur carrier protein ThiS	Sulfur carrier protein ThiS	1	326	0.0314492169398039
+tRNA-guanine transglycosylase (EC 2.4.2.29)	tRNA-guanine transglycosylase (EC 2.4.2.29)	1	326	0.0274221601944349
+ABC-type multidrug transport system, ATPase component	ABC-type multidrug transport system, ATPase component	1	326	0.0298201868969743
+Alkaline phosphatase synthesis transcriptional regulatory protein PhoP	Alkaline phosphatase synthesis transcriptional regulatory protein PhoP	1	326	0.0268257879464777
+Argininosuccinate synthase (EC 6.3.4.5)	Argininosuccinate synthase (EC 6.3.4.5)	1	326	0.0278807307627906
+Cell envelope-associated transcriptional attenuator LytR-CpsA-Psr, subfamily A1 (as in PMID19099556)	Cell envelope-associated transcriptional attenuator LytR-CpsA-Psr, subfamily A1 (as in PMID19099556)	1	326	0.027391166521339
+Chorismate mutase I (EC 5.4.99.5)	Chorismate mutase I (EC 5.4.99.5)	1	326	0.0272065232099896
+Deoxycytidine triphosphate deaminase (EC 3.5.4.13)	Deoxycytidine triphosphate deaminase (EC 3.5.4.13)	1	326	0.0245943163253812
+Dihydroorotate dehydrogenase (EC 1.3.3.1)	Dihydroorotate dehydrogenase (EC 1.3.3.1)	1	326	0.0277677301666815
+Dipeptide-binding ABC transporter, periplasmic substrate-binding component (TC 3.A.1.5.2)	Dipeptide-binding ABC transporter, periplasmic substrate-binding component (TC 3.A.1.5.2)	1	326	0.0301516031898732
+Glutamine amidotransferase chain of NAD synthetase	Glutamine amidotransferase chain of NAD synthetase	1	326	0.0277310734965387
+Glycosyltransferase	Glycosyltransferase	1	326	0.0272896626280834
+Inorganic pyrophosphatase (EC 3.6.1.1)	Inorganic pyrophosphatase (EC 3.6.1.1)	1	326	0.0330199036777859
+Magnesium and cobalt efflux protein CorC	Magnesium and cobalt efflux protein CorC	1	326	0.0273429298382204
+Polyphosphate glucokinase (EC 2.7.1.63)	Polyphosphate glucokinase (EC 2.7.1.63)	1	326	0.0317043246243205
+Protein often found in Actinomycetes clustered with signal peptidase and/or RNaseHII	Protein often found in Actinomycetes clustered with signal peptidase and/or RNaseHII	1	326	0.0250747109311134
+Replicative DNA helicase (EC 3.6.1.-)	Replicative DNA helicase (EC 3.6.1.-)	1	326	0.0283256458451906
+Transaldolase (EC 2.2.1.2)	Transaldolase (EC 2.2.1.2)	1	326	0.0274133569821261
+Transketolase (EC 2.2.1.1)	Transketolase (EC 2.2.1.1)	1	326	0.0274697839974791
+Xaa-Pro aminopeptidase (EC 3.4.11.9)	Xaa-Pro aminopeptidase (EC 3.4.11.9)	1	326	0.0275532504196461
+3-methylmercaptopropionyl-CoA dehydrogenase (DmdC)	3-methylmercaptopropionyl-CoA dehydrogenase (DmdC)	1	326	0.027907877637358
+Thiamin-regulated outer membrane receptor Omr1	Thiamin-regulated outer membrane receptor Omr1	1	326	0.0278992244195482
+3-deoxy-manno-octulosonate cytidylyltransferase (EC 2.7.7.38)	3-deoxy-manno-octulosonate cytidylyltransferase (EC 2.7.7.38)	1	326	0.0292402431149082
+4-keto-6-deoxy-N-Acetyl-D-hexosaminyl-(Lipid carrier) aminotransferase	4-keto-6-deoxy-N-Acetyl-D-hexosaminyl-(Lipid carrier) aminotransferase	1	326	0.0274534412763333
+Biotin carboxyl carrier protein of methylmalonyl-CoA decarboxylase	Biotin carboxyl carrier protein of methylmalonyl-CoA decarboxylase	1	326	0.0340212508759566
+Chaperone protein HtpG	Chaperone protein HtpG	1	326	0.0343386583931234
+L-aspartate oxidase (EC 1.4.3.16)	L-aspartate oxidase (EC 1.4.3.16)	1	326	0.0362460235545436
+Putative activity regulator of membrane protease YbbK	Putative activity regulator of membrane protease YbbK	1	326	0.0266816224240946
+Thiol peroxidase, Bcp-type (EC 1.11.1.15)	Thiol peroxidase, Bcp-type (EC 1.11.1.15)	1	326	0.0291982076658492
+Crossover junction endodeoxyribonuclease RuvC (EC 3.1.22.4)	Crossover junction endodeoxyribonuclease RuvC (EC 3.1.22.4)	1	326	0.0241781132492119
+Formiminotetrahydrofolate cyclodeaminase (EC 4.3.1.4)	Formiminotetrahydrofolate cyclodeaminase (EC 4.3.1.4)	1	326	0.0227748916443564
+Hydroxyethylthiazole kinase (EC 2.7.1.50)	Hydroxyethylthiazole kinase (EC 2.7.1.50)	1	326	0.0266923931328168
+Ribonuclease PH (EC 2.7.7.56)	Ribonuclease PH (EC 2.7.7.56)	1	326	0.0277763915208936
+Ribosomal RNA small subunit methyltransferase E (EC 2.1.1.-)	Ribosomal RNA small subunit methyltransferase E (EC 2.1.1.-)	1	326	0.0230483826153984
+Twin-arginine translocation protein TatA	Twin-arginine translocation protein TatA	1	326	0.0245039987734276
+Benzoyl-CoA reductase subunit BadG (EC 1.3.99.15)	Benzoyl-CoA reductase subunit BadG (EC 1.3.99.15)	1	326	0.0334647993642204
+DNA-binding protein HU-beta	DNA-binding protein HU-beta	1	326	0.0375961110871375
+Flavodoxin 1	Flavodoxin 1	1	326	0.0358462115370619
+hypothetical protein PA3071	hypothetical protein PA3071	1	326	0.0307503608472068
+NADH-ubiquinone oxidoreductase chain H (EC 1.6.5.3)	NADH-ubiquinone oxidoreductase chain H (EC 1.6.5.3)	1	326	0.0339962265670207
+Outer membrane protein assembly factor YaeT precursor	Outer membrane protein assembly factor YaeT precursor	1	326	0.0344844329582622
+Outer membrane receptor proteins, mostly Fe transport	Outer membrane receptor proteins, mostly Fe transport	1	326	0.0320702306883584
+BatA (Bacteroides aerotolerance operon)	BatA (Bacteroides aerotolerance operon)	1	326	0.0321784389494424
+Biosynthetic arginine decarboxylase (EC 4.1.1.19)	Biosynthetic arginine decarboxylase (EC 4.1.1.19)	1	326	0.0327133850015046
+Dipeptidyl carboxypeptidase Dcp (EC 3.4.15.5)	Dipeptidyl carboxypeptidase Dcp (EC 3.4.15.5)	1	326	0.0305998150021828
+Dipeptidyl peptidase IV in 4-hydroxyproline catabolic gene cluster	Dipeptidyl peptidase IV in 4-hydroxyproline catabolic gene cluster	1	326	0.0285665465314036
+DNA recombination protein RmuC	DNA recombination protein RmuC	1	326	0.033192891003105
+Ferric siderophore transport system, biopolymer transport protein ExbB	Ferric siderophore transport system, biopolymer transport protein ExbB	1	326	0.0336695561613251
+Glycyl-tRNA synthetase (EC 6.1.1.14)	Glycyl-tRNA synthetase (EC 6.1.1.14)	1	326	0.0281041686277046
+Isochorismate synthase (EC 5.4.4.2)	Isochorismate synthase (EC 5.4.4.2)	1	326	0.0311500606610729
+L-threonine 3-dehydrogenase (EC 1.1.1.103)	L-threonine 3-dehydrogenase (EC 1.1.1.103)	1	326	0.0309956535773927
+Outer membrane stress sensor protease DegS	Outer membrane stress sensor protease DegS	1	326	0.0340155639910757
+Putrescine/proton symporter, putrescine/ornithine antiporter PotE	Putrescine/proton symporter, putrescine/ornithine antiporter PotE	1	326	0.0296044531719104
+Radical SAM family protein HutW, similar to coproporphyrinogen III oxidase, oxygen-independent, associated with heme uptake	Radical SAM family protein HutW, similar to coproporphyrinogen III oxidase, oxygen-independent, associated with heme uptake	1	326	0.0336787106593884
+Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)	Ribonucleotide reductase of class Ia (aerobic), alpha subunit (EC 1.17.4.1)	1	326	0.0288085161265962
+Superoxide reductase (EC 1.15.1.2)	Superoxide reductase (EC 1.15.1.2)	1	326	0.0322854808080792
+Survival protein SurA precursor (Peptidyl-prolyl cis-trans isomerase SurA) (EC 5.2.1.8)	Survival protein SurA precursor (Peptidyl-prolyl cis-trans isomerase SurA) (EC 5.2.1.8)	1	326	0.0312315449967731
+SusC, outer membrane protein involved in starch binding	SusC, outer membrane protein involved in starch binding	1	326	0.0352347227374924
+SusD, outer membrane protein	SusD, outer membrane protein	1	326	0.0322107199201521
+Tetraacyldisaccharide 4'-kinase (EC 2.7.1.130)	Tetraacyldisaccharide 4'-kinase (EC 2.7.1.130)	1	326	0.0268281052501183
+Cell envelope-associated transcriptional attenuator LytR-CpsA-Psr, subfamily M (as in PMID19099556)	Cell envelope-associated transcriptional attenuator LytR-CpsA-Psr, subfamily M (as in PMID19099556)	1	326	0.0234768477959354
+Electron transport complex protein RnfB	Electron transport complex protein RnfB	1	326	0.0278015395883718
+Ferric iron ABC transporter, iron-binding protein	Ferric iron ABC transporter, iron-binding protein	1	326	0.0234752029478913
+Hypothetical protein DUF901, similar to C-terminal domain of ribosome protection-type Tc-resistance proteins	Hypothetical protein DUF901, similar to C-terminal domain of ribosome protection-type Tc-resistance proteins	1	326	0.0236121174914667
+Rrf2 family transcriptional regulator	Rrf2 family transcriptional regulator	1	326	0.0258410600850374
+C4-type zinc finger protein, DksA/TraR family	C4-type zinc finger protein, DksA/TraR family	1	326	0.0317459478232303
+Pseudouridine kinase (EC 2.7.1.83)	Pseudouridine kinase (EC 2.7.1.83)	1	326	0.0340557275176908
+Radical SAM domain heme biosynthesis protein	Radical SAM domain heme biosynthesis protein	1	326	0.0311289449165786
+Aminopeptidase Y (Arg, Lys, Leu preference) (EC 3.4.11.15)	Aminopeptidase Y (Arg, Lys, Leu preference) (EC 3.4.11.15)	1	326	0.0323065291235757
+AmpG permease	AmpG permease	1	326	0.0281075194527078
+FKBP-type peptidyl-prolyl cis-trans isomerase FkpA precursor (EC 5.2.1.8)	FKBP-type peptidyl-prolyl cis-trans isomerase FkpA precursor (EC 5.2.1.8)	1	326	0.0268895170303783
+Guanosine-3',5'-bis(diphosphate) 3'-pyrophosphohydrolase (EC 3.1.7.2)	Guanosine-3',5'-bis(diphosphate) 3'-pyrophosphohydrolase (EC 3.1.7.2)	1	326	0.0320662805595693
+Na+/H+ antiporter NhaD type	Na+/H+ antiporter NhaD type	1	326	0.0281795962572574
+Predicted cobalt transporter in Bacteroides_Porphyromonas	Predicted cobalt transporter in Bacteroides_Porphyromonas	1	326	0.0271517045218551
+rhamnogalacturonan acetylesterase	rhamnogalacturonan acetylesterase	1	326	0.0288200666974899
+Uroporphyrinogen-III synthase (EC 4.2.1.75)	Uroporphyrinogen-III synthase (EC 4.2.1.75)	1	326	0.029136784882567
+MotA/TolQ/ExbB proton channel family protein	MotA/TolQ/ExbB proton channel family protein	1	326	0.0276597028361976
+V-type ATP synthase subunit F (EC 3.6.3.14)	V-type ATP synthase subunit F (EC 3.6.3.14)	1	326	0.0297999429921341
+Aspartyl-tRNA(Asn) synthetase (EC 6.1.1.23)	Aspartyl-tRNA(Asn) synthetase (EC 6.1.1.23)	1	326	0.0271246949234834
+DNA-binding protein HU-alpha	DNA-binding protein HU-alpha	1	326	0.0294528131987459
+L-serine dehydratase (EC 4.3.1.17)	L-serine dehydratase (EC 4.3.1.17)	1	326	0.0289785646987097
+Thiazole biosynthesis protein ThiG	Thiazole biosynthesis protein ThiG	1	326	0.0323519844873569
+Arginine pathway regulatory protein ArgR, repressor of arg regulon	Arginine pathway regulatory protein ArgR, repressor of arg regulon	1	326	0.0239118903301614
+Gamma-glutamyl phosphate reductase (EC 1.2.1.41)	Gamma-glutamyl phosphate reductase (EC 1.2.1.41)	1	326	0.0222209333581101
+Zinc uptake regulation protein ZUR	Zinc uptake regulation protein ZUR	1	326	0.0221792125309576
+prolyl oligopeptidase family protein	prolyl oligopeptidase family protein	1	326	0.0347349006625641
+Aspartate ammonia-lyase (EC 4.3.1.1)	Aspartate ammonia-lyase (EC 4.3.1.1)	1	326	0.0243724705556067
+cAMP-binding proteins - catabolite gene activator and regulatory subunit of cAMP-dependent protein kinases	cAMP-binding proteins - catabolite gene activator and regulatory subunit of cAMP-dependent protein kinases	1	326	0.0257367011269589
+Putative permease often clustered with de novo purine synthesis	Putative permease often clustered with de novo purine synthesis	1	326	0.0252673309345163
+Aminoglycoside N6'-acetyltransferase (EC 2.3.1.82)	Aminoglycoside N6'-acetyltransferase (EC 2.3.1.82)	1	326	0.0270135277123592
+FIG019733: possible DNA-binding protein	FIG019733: possible DNA-binding protein	1	326	0.0280941973570233
+Protein of unknown function DUF156	Protein of unknown function DUF156	1	326	0.0266323506551885
+FIG003307: hypothetical protein	FIG003307: hypothetical protein	1	326	0.0312097458436047
+Phosphoribosylformylglycinamidine cyclo-ligase (EC 6.3.3.1)	Phosphoribosylformylglycinamidine cyclo-ligase (EC 6.3.3.1)	1	326	0.027067229605524
+RNA polymerase sigma factor RpoS	RNA polymerase sigma factor RpoS	1	326	0.0315337499151687
+Sigma factor RpoE regulatory protein RseC	Sigma factor RpoE regulatory protein RseC	1	326	0.0318638281637426
+Sodium/glycine symporter GlyP	Sodium/glycine symporter GlyP	1	326	0.0280260878191277
+Soluble lytic murein transglycosylase precursor (EC 3.2.1.-)	Soluble lytic murein transglycosylase precursor (EC 3.2.1.-)	1	326	0.027301920086975
+D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)	D-3-phosphoglycerate dehydrogenase (EC 1.1.1.95)	1	326	0.0289412611768773
+Queuosine biosynthesis QueD, PTPS-I	Queuosine biosynthesis QueD, PTPS-I	1	326	0.0314228724303534
+Branched-chain amino acid aminotransferase (EC 2.6.1.42)	Branched-chain amino acid aminotransferase (EC 2.6.1.42)	1	326	0.0254372590266898
+Dipeptide transport system permease protein DppB (TC 3.A.1.5.2)	Dipeptide transport system permease protein DppB (TC 3.A.1.5.2)	1	326	0.0271623089359201
+Alpha-amylase (Neopullulanase) SusA (EC 3.2.1.135)	Alpha-amylase (Neopullulanase) SusA (EC 3.2.1.135)	1	326	0.030653852508952
+Cytoplasmic alpha-amylase (EC 3.2.1.1)	Cytoplasmic alpha-amylase (EC 3.2.1.1)	1	326	0.0314004237735759
+Phosphoserine aminotransferase (EC 2.6.1.52)	Phosphoserine aminotransferase (EC 2.6.1.52)	1	326	0.0310817217830808
+Putative glycogen debranching enzyme, archaeal type, TIGR01561	Putative glycogen debranching enzyme, archaeal type, TIGR01561	1	326	0.030964990758108
+Amidophosphoribosyltransferase (EC 2.4.2.14)	Amidophosphoribosyltransferase (EC 2.4.2.14)	1	326	0.024372977187794
+Phosphoribosylaminoimidazolecarboxamide formyltransferase (EC 2.1.2.3)	Phosphoribosylaminoimidazolecarboxamide formyltransferase (EC 2.1.2.3)	1	326	0.0259136053136159
+Phosphoribosylformylglycinamidine synthase, glutamine amidotransferase subunit (EC 6.3.5.3)	Phosphoribosylformylglycinamidine synthase, glutamine amidotransferase subunit (EC 6.3.5.3)	1	326	0.0260151707719789
+Phosphoribosylaminoimidazole carboxylase catalytic subunit (EC 4.1.1.21)	Phosphoribosylaminoimidazole carboxylase catalytic subunit (EC 4.1.1.21)	1	326	0.0240758482837762
+Colicin I receptor precursor	Colicin I receptor precursor	1	326	0.0348551017939357
+Pseudouridine 5'-phosphate glycosidase	Pseudouridine 5'-phosphate glycosidase	1	326	0.0354670449702018
+Translation elongation factor G-related protein	Translation elongation factor G-related protein	1	326	0.0334491151177392
+Na(+)-translocating NADH-quinone reductase subunit D (EC 1.6.5.-)	Na(+)-translocating NADH-quinone reductase subunit D (EC 1.6.5.-)	1	326	0.0294588009774312
+NADH-ubiquinone oxidoreductase chain L (EC 1.6.5.3)	NADH-ubiquinone oxidoreductase chain L (EC 1.6.5.3)	1	326	0.0300703515607785
+Pyruvate,phosphate dikinase (EC 2.7.9.1)	Pyruvate,phosphate dikinase (EC 2.7.9.1)	1	326	0.0256864900460941
+Ribosomal RNA large subunit methyltransferase N (EC 2.1.1.-)	Ribosomal RNA large subunit methyltransferase N (EC 2.1.1.-)	1	326	0.0234723664712722
+Cell wall-associated murein hydrolase LytC	Cell wall-associated murein hydrolase LytC	1	326	0.0275940321979342
+LSU ribosomal protein L25p	LSU ribosomal protein L25p	1	326	0.0283443132934533
+Periplasmic [Fe] hydrogenase large subunit (EC 1.12.7.2)	Periplasmic [Fe] hydrogenase large subunit (EC 1.12.7.2)	1	326	0.0344952227088482
+Glycerol-3-phosphate dehydrogenase (EC 1.1.5.3)	Glycerol-3-phosphate dehydrogenase (EC 1.1.5.3)	1	326	0.0275778317440843
+Outer membrane protein A precursor	Outer membrane protein A precursor	1	326	0.0321186761342491
+Phenylacetic acid degradation protein PaaD, thioesterase	Phenylacetic acid degradation protein PaaD, thioesterase	1	326	0.0357126252864141
+Lipopolysaccharide heptosyltransferase I (EC 2.4.1.-)	Lipopolysaccharide heptosyltransferase I (EC 2.4.1.-)	1	326	0.0303439813311822
+Molybdenum cofactor biosynthesis protein MoaB	Molybdenum cofactor biosynthesis protein MoaB	1	326	0.0324815567177127
+Carbon starvation protein A	Carbon starvation protein A	1	326	0.035063404205758
+Na(+)-translocating NADH-quinone reductase subunit A (EC 1.6.5.-)	Na(+)-translocating NADH-quinone reductase subunit A (EC 1.6.5.-)	1	326	0.0370155382463401
+NAD-specific glutamate dehydrogenase (EC 1.4.1.2)	NAD-specific glutamate dehydrogenase (EC 1.4.1.2)	1	326	0.0330772489609759
+TonB-dependent siderophore receptor	TonB-dependent siderophore receptor	1	326	0.0369304633635119
+Pantothenate kinase type III, CoaX-like (EC 2.7.1.33)	Pantothenate kinase type III, CoaX-like (EC 2.7.1.33)	1	326	0.0238607647020648
+Peptidyl-prolyl cis-trans isomerase (EC 5.2.1.8)	Peptidyl-prolyl cis-trans isomerase (EC 5.2.1.8)	1	326	0.0218039925454307
+YjeF protein, function unknown	YjeF protein, function unknown	1	326	0.0229866124624043
+Dipeptide transport system permease protein DppC (TC 3.A.1.5.2)	Dipeptide transport system permease protein DppC (TC 3.A.1.5.2)	1	326	0.0231157955543748
+Polyphosphate kinase (EC 2.7.4.1)	Polyphosphate kinase (EC 2.7.4.1)	1	326	0.0230645734056417
+Protein of unknown function DUF1009 clustered with KDO2-Lipid A biosynthesis genes	Protein of unknown function DUF1009 clustered with KDO2-Lipid A biosynthesis genes	1	326	0.0262680260140774
+S-adenosylmethionine decarboxylase proenzyme (EC 4.1.1.50), prokaryotic class 1B	S-adenosylmethionine decarboxylase proenzyme (EC 4.1.1.50), prokaryotic class 1B	1	326	0.0226076506708709
+Nucleotide excision repair protein, with UvrB/UvrC motif	Nucleotide excision repair protein, with UvrB/UvrC motif	1	326	0.0212847789611748
+Serine acetyltransferase (EC 2.3.1.30)	Serine acetyltransferase (EC 2.3.1.30)	1	326	0.0244116592715632
+Transcription termination factor Rho	Transcription termination factor Rho	1	326	0.0241834478385312
+Cation ABC transporter, periplasmic cation-binding protein, PA2407 homolog	Cation ABC transporter, periplasmic cation-binding protein, PA2407 homolog	1	326	0.0369267309269924
+Predicted cobalt ABC transporter periplasmic component	Predicted cobalt ABC transporter periplasmic component	1	326	0.0401905396153333
+Rare lipoprotein A precursor	Rare lipoprotein A precursor	1	326	0.0321604022434745
+V-type ATP synthase subunit E (EC 3.6.3.14)	V-type ATP synthase subunit E (EC 3.6.3.14)	1	326	0.0308994857892534
+V-type ATP synthase subunit K (EC 3.6.3.14)	V-type ATP synthase subunit K (EC 3.6.3.14)	1	326	0.031195797137576
+Hypothetical protein in pyoverdin gene cluster, PA2406 homolog	Hypothetical protein in pyoverdin gene cluster, PA2406 homolog	1	326	0.0402332642553208
+ClpB protein	ClpB protein	1	326	0.0283708687052253
+Pyridoxine biosynthesis glutamine amidotransferase, synthase subunit (EC 2.4.2.-)	Pyridoxine biosynthesis glutamine amidotransferase, synthase subunit (EC 2.4.2.-)	1	326	0.028207746248516
+Transketolase, C-terminal section (EC 2.2.1.1)	Transketolase, C-terminal section (EC 2.2.1.1)	1	326	0.0273778908689529
+Substrate-specific component BioY of biotin ECF transporter	Substrate-specific component BioY of biotin ECF transporter	1	326	0.0277604084911047
+Lipoprotein releasing system ATP-binding protein LolD	Lipoprotein releasing system ATP-binding protein LolD	1	326	0.0298337129076147
+Pyrophosphate-specific outer membrane porin OprO	Pyrophosphate-specific outer membrane porin OprO	1	326	0.0370767621409568
+Tyrosine-protein kinase Wzc (EC 2.7.10.2)	Tyrosine-protein kinase Wzc (EC 2.7.10.2)	1	326	0.0336067433708481
+Na(+)-translocating NADH-quinone reductase subunit E (EC 1.6.5.-)	Na(+)-translocating NADH-quinone reductase subunit E (EC 1.6.5.-)	1	326	0.0271482226530742
+KH domain RNA binding protein YlqC	KH domain RNA binding protein YlqC	1	326	0.0264580818577123
+Formate hydrogenlyase transcriptional activator	Formate hydrogenlyase transcriptional activator	1	326	0.0347693212479808
+Na(+)-translocating NADH-quinone reductase subunit B (EC 1.6.5.-)	Na(+)-translocating NADH-quinone reductase subunit B (EC 1.6.5.-)	1	326	0.0317762297432161
+NADH-ubiquinone oxidoreductase chain N (EC 1.6.5.3)	NADH-ubiquinone oxidoreductase chain N (EC 1.6.5.3)	1	326	0.0300693134581532
+Thiazole biosynthesis protein ThiH	Thiazole biosynthesis protein ThiH	1	326	0.0240371494842848
+Ribosome-associated heat shock protein implicated in the recycling of the 50S subunit (S4 paralog)	Ribosome-associated heat shock protein implicated in the recycling of the 50S subunit (S4 paralog)	1	326	0.0229099818008791
+O-succinylbenzoate-CoA synthase (EC 4.2.1.-)	O-succinylbenzoate-CoA synthase (EC 4.2.1.-)	1	326	0.0272832040512646
+Succinyl-CoA ligase [ADP-forming] beta chain (EC 6.2.1.5)	Succinyl-CoA ligase [ADP-forming] beta chain (EC 6.2.1.5)	1	326	0.0312789468045504
+NADH-ubiquinone oxidoreductase chain M (EC 1.6.5.3)	NADH-ubiquinone oxidoreductase chain M (EC 1.6.5.3)	1	326	0.0266217292943085
+V-type ATP synthase subunit I (EC 3.6.3.14)	V-type ATP synthase subunit I (EC 3.6.3.14)	1	326	0.0299937640947948
+Septum formation protein Maf	Septum formation protein Maf	1	326	0.0203741436242429
+Predicted endonuclease distantly related to archaeal Holliday junction resolvase	Predicted endonuclease distantly related to archaeal Holliday junction resolvase	1	326	0.0193365937512773
+Sodium-dependent phosphate transporter	Sodium-dependent phosphate transporter	1	326	0.0209212693908261
+Stage II sporulation protein D (SpoIID)	Stage II sporulation protein D (SpoIID)	1	326	0.0283271162353423
+Vitamin B12 ABC transporter, B12-binding component BtuF	Vitamin B12 ABC transporter, B12-binding component BtuF	1	326	0.0226501050832589
+V-type ATP synthase subunit B (EC 3.6.3.14)	V-type ATP synthase subunit B (EC 3.6.3.14)	1	326	0.0305656837933641
+(3R)-hydroxymyristoyl-[acyl carrier protein] dehydratase (EC 4.2.1.-)	(3R)-hydroxymyristoyl-[acyl carrier protein] dehydratase (EC 4.2.1.-)	1	326	0.0262281832596543
+(S)-2-hydroxy-acid oxidase (EC 1.1.3.15)	(S)-2-hydroxy-acid oxidase (EC 1.1.3.15)	1	326	0.031257054975324
+1-deoxy-D-xylulose 5-phosphate reductoisomerase (EC 1.1.1.267)	1-deoxy-D-xylulose 5-phosphate reductoisomerase (EC 1.1.1.267)	1	326	0.02926828219929
+1,4-alpha-glucan (glycogen) branching enzyme, GH-13-type (EC 2.4.1.18)	1,4-alpha-glucan (glycogen) branching enzyme, GH-13-type (EC 2.4.1.18)	1	326	0.0286187241135384
+2-amino-3-ketobutyrate coenzyme A ligase (EC 2.3.1.29)	2-amino-3-ketobutyrate coenzyme A ligase (EC 2.3.1.29)	1	326	0.0254276446097352
+2-dehydropantoate 2-reductase (EC 1.1.1.169)	2-dehydropantoate 2-reductase (EC 1.1.1.169)	1	326	0.0256180068539958
+3-ketoacyl-CoA thiolase (EC 2.3.1.16)	3-ketoacyl-CoA thiolase (EC 2.3.1.16)	1	326	0.0304774348775284
+3-methyl-2-oxobutanoate hydroxymethyltransferase (EC 2.1.2.11)	3-methyl-2-oxobutanoate hydroxymethyltransferase (EC 2.1.2.11)	1	326	0.0322802326809521
+4-diphosphocytidyl-2-C-methyl-D-erythritol kinase (EC 2.7.1.148)	4-diphosphocytidyl-2-C-methyl-D-erythritol kinase (EC 2.7.1.148)	1	326	0.0235753359499272
+5-Enolpyruvylshikimate-3-phosphate synthase (EC 2.5.1.19)	5-Enolpyruvylshikimate-3-phosphate synthase (EC 2.5.1.19)	1	326	0.026944732052235
+ABC-type transport system involved in resistance to organic solvents, permease component USSDB6A	ABC-type transport system involved in resistance to organic solvents, permease component USSDB6A	1	326	0.0302897651880963
+Adenosylmethionine-8-amino-7-oxononanoate aminotransferase (EC 2.6.1.62)	Adenosylmethionine-8-amino-7-oxononanoate aminotransferase (EC 2.6.1.62)	1	326	0.033267456812127
+Aldehyde dehydrogenase (EC 1.2.1.3)	Aldehyde dehydrogenase (EC 1.2.1.3)	1	326	0.027526190669362
+Alkyl hydroperoxide reductase protein C (EC 1.6.4.-)	Alkyl hydroperoxide reductase protein C (EC 1.6.4.-)	1	326	0.0272364884243087
+Alpha-1,2-mannosidase	Alpha-1,2-mannosidase	1	326	0.0310265903776391
+Alpha-glucosidase SusB (EC 3.2.1.20)	Alpha-glucosidase SusB (EC 3.2.1.20)	1	326	0.0349207757614324
+Ammonium transporter	Ammonium transporter	1	326	0.0242401145273134
+Aquaporin Z	Aquaporin Z	1	326	0.0247247835671816
+Aspartate 1-decarboxylase (EC 4.1.1.11)	Aspartate 1-decarboxylase (EC 4.1.1.11)	1	326	0.0320298753043597
+ATP synthase protein I	ATP synthase protein I	1	326	0.0345010875834385
+BatB	BatB	1	326	0.0317827414688225
+Cadmium efflux system accessory protein	Cadmium efflux system accessory protein	1	326	0.0235081781715161
+Chorismate mutase (EC 5.4.99.5)	Chorismate mutase (EC 5.4.99.5)	1	326	0.0211814088590593
+COG1649 predicted glycoside hydrolase	COG1649 predicted glycoside hydrolase	1	326	0.0273109937062957
+Conjugative transposon protein TraA	Conjugative transposon protein TraA	1	326	0.0291655422702785
+Dethiobiotin synthetase (EC 6.3.3.3)	Dethiobiotin synthetase (EC 6.3.3.3)	1	326	0.0290311195327518
+Dihydrolipoamide dehydrogenase of acetoin dehydrogenase (EC 1.8.1.4)	Dihydrolipoamide dehydrogenase of acetoin dehydrogenase (EC 1.8.1.4)	1	326	0.0314721382491421
+FIG007959: peptidase, M16 family	FIG007959: peptidase, M16 family	1	326	0.0270871846200225
+FIG139598: Potential ribosomal protein	FIG139598: Potential ribosomal protein	1	326	0.0258426943747137
+His repressor	His repressor	1	326	0.0228368508601291
+Lipoprotein releasing system transmembrane protein LolC	Lipoprotein releasing system transmembrane protein LolC	1	326	0.0282002845266724
+MazG nucleotide pyrophosphohydrolase	MazG nucleotide pyrophosphohydrolase	1	326	0.0243374700334952
+NADH-dependent butanol dehydrogenase A (EC 1.1.1.-)	NADH-dependent butanol dehydrogenase A (EC 1.1.1.-)	1	326	0.0289557944332778
+Phosphomannomutase (EC 5.4.2.8)	Phosphomannomutase (EC 5.4.2.8)	1	326	0.0210734714591842
+Pyrroline-5-carboxylate reductase (EC 1.5.1.2)	Pyrroline-5-carboxylate reductase (EC 1.5.1.2)	1	326	0.0210624111119913
+Rubredoxin	Rubredoxin	1	326	0.0283349658728335
+V-type ATP synthase subunit A (EC 3.6.3.14)	V-type ATP synthase subunit A (EC 3.6.3.14)	1	326	0.0301342065607246
+Dihydropteroate synthase (EC 2.5.1.15)	Dihydropteroate synthase (EC 2.5.1.15)	2	3	0.00790253214522987
+GTP cyclohydrolase I (EC 3.5.4.16) type 1	GTP cyclohydrolase I (EC 3.5.4.16) type 1	2	3	0.00775376465866652
+2-amino-4-hydroxy-6-hydroxymethyldihydropteridine pyrophosphokinase (EC 2.7.6.3)	2-amino-4-hydroxy-6-hydroxymethyldihydropteridine pyrophosphokinase (EC 2.7.6.3)	2	3	0.00697877479726779
+protein from nitrogen regulatory protein P-II (GLNB) family, ortholog YAAQ B. subtilis	protein from nitrogen regulatory protein P-II (GLNB) family, ortholog YAAQ B. subtilis	3	36	-0.0357812725983677
+6-phospho-beta-glucosidase (EC 3.2.1.86)	6-phospho-beta-glucosidase (EC 3.2.1.86)	3	36	-0.0415746551485155
+Agmatine/putrescine antiporter, associated with agmatine catabolism	Agmatine/putrescine antiporter, associated with agmatine catabolism	3	36	-0.0428403387874706
+Beta-glucoside bgl operon antiterminator, BglG family	Beta-glucoside bgl operon antiterminator, BglG family	3	36	-0.0410514683866529
+Hypothetical similar to thiamin biosynthesis lipoprotein ApbE	Hypothetical similar to thiamin biosynthesis lipoprotein ApbE	3	36	-0.0490481340048446
+Lactate 2-monooxygenase (EC 1.13.12.4)	Lactate 2-monooxygenase (EC 1.13.12.4)	3	36	-0.0539610202001927
+Lysophospholipase L2 (EC 3.1.1.5)	Lysophospholipase L2 (EC 3.1.1.5)	3	36	-0.0474929921607765
+Outer surface protein of unknown function, cellobiose operon	Outer surface protein of unknown function, cellobiose operon	3	36	-0.0463805612624587
+Penicillin-binding protein 1A/1B (PBP1)	Penicillin-binding protein 1A/1B (PBP1)	3	36	-0.0445757487514225
+Phosphonate ABC transporter permease protein phnE1 (TC 3.A.1.9.1)	Phosphonate ABC transporter permease protein phnE1 (TC 3.A.1.9.1)	3	36	-0.0517964261241501
+Phosphonate ABC transporter permease protein phnE2 (TC 3.A.1.9.1)	Phosphonate ABC transporter permease protein phnE2 (TC 3.A.1.9.1)	3	36	-0.0469033266911909
+Phosphonate ABC transporter phosphate-binding periplasmic component (TC 3.A.1.9.1)	Phosphonate ABC transporter phosphate-binding periplasmic component (TC 3.A.1.9.1)	3	36	-0.0462049038545483
+Programmed cell death toxin MazF	Programmed cell death toxin MazF	3	36	-0.0457331612666506
+Pyruvate oxidase (EC 1.2.3.3)	Pyruvate oxidase (EC 1.2.3.3)	3	36	-0.0507738277685644
+Regulation of D-alanyl-lipoteichoic acid biosynthesis, DltR	Regulation of D-alanyl-lipoteichoic acid biosynthesis, DltR	3	36	-0.0411723998098993
+Regulation of D-alanyl-lipoteichoic acid biosynthesis, sensor histidine kinase	Regulation of D-alanyl-lipoteichoic acid biosynthesis, sensor histidine kinase	3	36	-0.0457561746163438
+Septation ring formation regulator EzrA	Septation ring formation regulator EzrA	3	36	-0.0495696083932042
+Transcriptional regulator in cluster with unspecified monosaccharide ABC transport system	Transcriptional regulator in cluster with unspecified monosaccharide ABC transport system	3	36	-0.0440505353824472
+Trehalose-6-phosphate hydrolase (EC 3.2.1.93)	Trehalose-6-phosphate hydrolase (EC 3.2.1.93)	3	36	-0.0376098278475198
+Putative oxidoreductase YeaE, aldo/keto reductase family	Putative oxidoreductase YeaE, aldo/keto reductase family	3	36	-0.0449848743005035
+Putative ribose uptake protein RbsU, GRP transporter family (TC 2.A.7.5)	Putative ribose uptake protein RbsU, GRP transporter family (TC 2.A.7.5)	3	36	-0.0414946978936769
+Ribosomal-protein-L7p-serine acetyltransferase	Ribosomal-protein-L7p-serine acetyltransferase	3	36	-0.0362472196820313
+Trehalose operon transcriptional repressor	Trehalose operon transcriptional repressor	3	36	-0.04020874905809
+Phosphonate ABC transporter ATP-binding protein (TC 3.A.1.9.1)	Phosphonate ABC transporter ATP-binding protein (TC 3.A.1.9.1)	3	36	-0.0409875188718506
+Teichoic acid glycosylation protein	Teichoic acid glycosylation protein	3	36	-0.0394796339489577
+Potassium voltage-gated channel subfamily KQT	Potassium voltage-gated channel subfamily KQT	3	36	-0.0433933189575277
+Substrate-specific component FolT of folate ECF transporter	Substrate-specific component FolT of folate ECF transporter	3	36	-0.0423395561183871
+2',3'-cyclic-nucleotide 2'-phosphodiesterase (EC 3.1.4.16)	2',3'-cyclic-nucleotide 2'-phosphodiesterase (EC 3.1.4.16)	3	36	-0.0308499328876628
+5'-nucleotidase family protein in cluster with NagD-like phosphatase	5'-nucleotidase family protein in cluster with NagD-like phosphatase	3	36	-0.0448773869802716
+Amino acid permease in 4-hydroxyproline catabolic gene cluster	Amino acid permease in 4-hydroxyproline catabolic gene cluster	3	36	-0.0453401027718211
+Beta-glucanase precursor (EC 3.2.1.73)	Beta-glucanase precursor (EC 3.2.1.73)	3	36	-0.0390124217077477
+CRISPR-associated helicase Cas3	CRISPR-associated helicase Cas3	3	36	-0.0373600526054882
+fig|269801.1.peg.4266	fig|269801.1.peg.4266	3	36	-0.0441991719472427
+Galactose operon repressor, GalR-LacI family of transcriptional regulators	Galactose operon repressor, GalR-LacI family of transcriptional regulators	3	36	-0.0351540194763287
+MFS superfamily export protein YceL	MFS superfamily export protein YceL	3	36	-0.039642949423699
+Peptide methionine sulfoxide reductase MsrA (EC 1.8.4.11)	Peptide methionine sulfoxide reductase MsrA (EC 1.8.4.11)	3	36	-0.0329659018864874
+Oligopeptide transport system permease protein OppC (TC 3.A.1.5.1)	Oligopeptide transport system permease protein OppC (TC 3.A.1.5.1)	4	2	-0.00773861203352826
+5-formyltetrahydrofolate cyclo-ligase (EC 6.3.3.2)	5-formyltetrahydrofolate cyclo-ligase (EC 6.3.3.2)	4	2	-0.00941407383047451
+PTS system, lactose-specific IIC component (EC 2.7.1.69)	PTS system, lactose-specific IIC component (EC 2.7.1.69)	5	2	-0.00616023050062931
+6-phospho-beta-galactosidase (EC 3.2.1.85)	6-phospho-beta-galactosidase (EC 3.2.1.85)	5	2	-0.00695127870054729
+Asparaginyl-tRNA synthetase (EC 6.1.1.22)	Asparaginyl-tRNA synthetase (EC 6.1.1.22)	6	187	-0.0109105516196714
+Membrane-associated zinc metalloprotease	Membrane-associated zinc metalloprotease	6	187	-0.0134495901325775
+Phosphoglycerate mutase (EC 5.4.2.1)	Phosphoglycerate mutase (EC 5.4.2.1)	6	187	-0.0129769659415586
+Pyruvate kinase (EC 2.7.1.40)	Pyruvate kinase (EC 2.7.1.40)	6	187	-0.0117664530302865
+Rod shape-determining protein MreB	Rod shape-determining protein MreB	6	187	-0.0113012910733523
+Thymidine kinase (EC 2.7.1.21)	Thymidine kinase (EC 2.7.1.21)	6	187	-0.0136993124860603
+ATP-dependent hsl protease ATP-binding subunit HslU	ATP-dependent hsl protease ATP-binding subunit HslU	6	187	-0.0125374162807425
+ATP-dependent RNA helicase YqfR	ATP-dependent RNA helicase YqfR	6	187	-0.0151254823228941
+DNA-entry nuclease (Competence-specific nuclease) (EC 3.1.30.-)	DNA-entry nuclease (Competence-specific nuclease) (EC 3.1.30.-)	6	187	-0.0130204621442794
+FIG007079: UPF0348 protein family	FIG007079: UPF0348 protein family	6	187	-0.0159920812370212
+NAD synthetase (EC 6.3.1.5)	NAD synthetase (EC 6.3.1.5)	6	187	-0.0198325905124016
+Nucleotidase YfbR, HD superfamily	Nucleotidase YfbR, HD superfamily	6	187	-0.0169494504472045
+Phosphoenolpyruvate-protein phosphotransferase of PTS system (EC 2.7.3.9)	Phosphoenolpyruvate-protein phosphotransferase of PTS system (EC 2.7.3.9)	6	187	-0.0177629125395454
+Phosphoesterase, DHH family protein	Phosphoesterase, DHH family protein	6	187	-0.0161251557948924
+RNA methyltransferase, TrmA family	RNA methyltransferase, TrmA family	6	187	-0.0149650957922865
+Thymidylate kinase (EC 2.7.4.9)	Thymidylate kinase (EC 2.7.4.9)	6	187	-0.0138268453273562
+Transcription regulator [contains diacylglycerol kinase catalytic domain]	Transcription regulator [contains diacylglycerol kinase catalytic domain]	6	187	-0.0170939818912808
+Zn-dependent hydrolase (beta-lactamase superfamily)	Zn-dependent hydrolase (beta-lactamase superfamily)	6	187	-0.016431776795991
+Hydroxymethylglutaryl-CoA synthase (EC 2.3.3.10)	Hydroxymethylglutaryl-CoA synthase (EC 2.3.3.10)	6	187	-0.0218791827006453
+Alanine racemase (EC 5.1.1.1)	Alanine racemase (EC 5.1.1.1)	6	187	-0.0145007161523437
+Holo-[acyl-carrier protein] synthase (EC 2.7.8.7)	Holo-[acyl-carrier protein] synthase (EC 2.7.8.7)	6	187	-0.0128267854431868
+Cysteine desulfurase (EC 2.8.1.7)	Cysteine desulfurase (EC 2.8.1.7)	6	187	-0.0129816350484813
+Putrescine transport ATP-binding protein PotA (TC 3.A.1.11.1)	Putrescine transport ATP-binding protein PotA (TC 3.A.1.11.1)	6	187	-0.013218777393272
+Spermidine Putrescine ABC transporter permease component potC (TC_3.A.1.11.1)	Spermidine Putrescine ABC transporter permease component potC (TC_3.A.1.11.1)	6	187	-0.0157885785166723
+Beta-lactamase class C and other penicillin binding proteins	Beta-lactamase class C and other penicillin binding proteins	6	187	-0.025926439025861
+FIG001721: Predicted N6-adenine-specific DNA methylase	FIG001721: Predicted N6-adenine-specific DNA methylase	6	187	-0.023840213998277
+Fumarate reductase flavoprotein subunit (EC 1.3.99.1)	Fumarate reductase flavoprotein subunit (EC 1.3.99.1)	6	187	-0.028290848583596
+Cytidylate kinase (EC 2.7.4.14)	Cytidylate kinase (EC 2.7.4.14)	6	187	-0.011746031735206
+DNA ligase (EC 6.5.1.2)	DNA ligase (EC 6.5.1.2)	6	187	-0.0117978921714963
+FIG000233: metal-dependent hydrolase	FIG000233: metal-dependent hydrolase	6	187	-0.0127751108704061
+Guanylate kinase (EC 2.7.4.8)	Guanylate kinase (EC 2.7.4.8)	6	187	-0.0100465004459062
+Methionyl-tRNA formyltransferase (EC 2.1.2.9)	Methionyl-tRNA formyltransferase (EC 2.1.2.9)	6	187	-0.011532294567917
+Phosphate starvation-inducible protein PhoH, predicted ATPase	Phosphate starvation-inducible protein PhoH, predicted ATPase	6	187	-0.0138510120621108
+Undecaprenyl pyrophosphate synthetase (EC 2.5.1.31)	Undecaprenyl pyrophosphate synthetase (EC 2.5.1.31)	6	187	-0.0109121020939073
+Oligopeptide transport ATP-binding protein OppD (TC 3.A.1.5.1)	Oligopeptide transport ATP-binding protein OppD (TC 3.A.1.5.1)	6	187	-0.00967173492304552
+DNA repair protein RadC	DNA repair protein RadC	6	187	-0.0175188716178687
+Lon-like protease with PDZ domain	Lon-like protease with PDZ domain	6	187	-0.0125222692969991
+Aspartate racemase (EC 5.1.1.13)	Aspartate racemase (EC 5.1.1.13)	6	187	-0.0185627224847742
+Maltodextrin glucosidase (EC 3.2.1.20)	Maltodextrin glucosidase (EC 3.2.1.20)	6	187	-0.0145338061458536
+Oligo-1,6-glucosidase (EC 3.2.1.10)	Oligo-1,6-glucosidase (EC 3.2.1.10)	6	187	-0.0124653838289008
+Ribonuclease Z (EC 3.1.26.11)	Ribonuclease Z (EC 3.1.26.11)	6	187	-0.0140485661138738
+Cell division protein FtsH (EC 3.4.24.-)	Cell division protein FtsH (EC 3.4.24.-)	6	187	-0.00902436696717054
+Dimethyladenosine transferase (EC 2.1.1.-)	Dimethyladenosine transferase (EC 2.1.1.-)	6	187	-0.00868262847525814
+DNA polymerase III delta prime subunit (EC 2.7.7.7)	DNA polymerase III delta prime subunit (EC 2.7.7.7)	6	187	-0.012423351851931
+LSU ribosomal protein L3p (L3e)	LSU ribosomal protein L3p (L3e)	6	187	-0.00984617914089631
+Peptide chain release factor 3	Peptide chain release factor 3	6	187	-0.0104413030876991
+Phosphatidate cytidylyltransferase (EC 2.7.7.41)	Phosphatidate cytidylyltransferase (EC 2.7.7.41)	6	187	-0.0105979750477226
+Prolyl-tRNA synthetase (EC 6.1.1.15)	Prolyl-tRNA synthetase (EC 6.1.1.15)	6	187	-0.0108535577163725
+Cell division protein FtsL	Cell division protein FtsL	6	187	-0.0207225198895259
+DNA-binding heavy metal response regulator	DNA-binding heavy metal response regulator	6	187	-0.0150342368424631
+FIG015094: hypothetical protein	FIG015094: hypothetical protein	6	187	-0.0232891628695911
+Glucose-6-phosphate 1-dehydrogenase (EC 1.1.1.49)	Glucose-6-phosphate 1-dehydrogenase (EC 1.1.1.49)	6	187	-0.0172760471856661
+Glycerol-3-phosphate ABC transporter, permease protein UgpE (TC 3.A.1.1.3)	Glycerol-3-phosphate ABC transporter, permease protein UgpE (TC 3.A.1.1.3)	6	187	-0.0184478968726021
+HPr kinase/phosphorylase (EC 2.7.1.-) (EC 2.7.4.-)	HPr kinase/phosphorylase (EC 2.7.1.-) (EC 2.7.4.-)	6	187	-0.0205761446938273
+Integral membrane protein LafC, accessory function in glycolipid and LTA synthesis	Integral membrane protein LafC, accessory function in glycolipid and LTA synthesis	6	187	-0.0177972900717237
+Manganese-dependent inorganic pyrophosphatase (EC 3.6.1.1)	Manganese-dependent inorganic pyrophosphatase (EC 3.6.1.1)	6	187	-0.0219409139019054
+Phosphate regulon transcriptional regulatory protein PhoB	Phosphate regulon transcriptional regulatory protein PhoB	6	187	-0.0205726717685325
+Putative pheromone cAM373 precursor lipoprotein CamS	Putative pheromone cAM373 precursor lipoprotein CamS	6	187	-0.0216428602929667
+Small protein similar to cysteinyl-tRNA synthetase	Small protein similar to cysteinyl-tRNA synthetase	6	187	-0.0195058151490978
+Trehalose phosphorylase (EC 2.4.1.64)	Trehalose phosphorylase (EC 2.4.1.64)	6	187	-0.0148114493874204
+UDP-N-acetylmuramoylalanyl-D-glutamate--L-lysine ligase (EC 6.3.2.7)	UDP-N-acetylmuramoylalanyl-D-glutamate--L-lysine ligase (EC 6.3.2.7)	6	187	-0.0214415301776282
+Zn-dependent hydrolase, RNA-metabolising, CPSF 73 kDa analog	Zn-dependent hydrolase, RNA-metabolising, CPSF 73 kDa analog	6	187	-0.0205112944096338
+ATP synthase A chain (EC 3.6.3.14)	ATP synthase A chain (EC 3.6.3.14)	6	187	-0.00666144069943592
+COG0536: GTP-binding protein Obg	COG0536: GTP-binding protein Obg	6	187	-0.00830269925781532
+DNA repair exonuclease family protein YhaO	DNA repair exonuclease family protein YhaO	6	187	-0.0108779660310702
+FIG000557: hypothetical protein co-occurring with RecR	FIG000557: hypothetical protein co-occurring with RecR	6	187	-0.00961080891065452
+Putative Holliday junction resolvase (EC 3.1.-.-)	Putative Holliday junction resolvase (EC 3.1.-.-)	6	187	-0.00694181508791381
+Cell division protein GpsB, coordinates the switch between cylindrical and septal cell wall synthesis by re-localization of PBP1	Cell division protein GpsB, coordinates the switch between cylindrical and septal cell wall synthesis by re-localization of PBP1	6	187	-0.0243381521470345
+Cell division protein YlmG/Ycf19 (putative), YggT family	Cell division protein YlmG/Ycf19 (putative), YggT family	6	187	-0.0245200213349566
+Cell envelope-associated transcriptional attenuator LytR-CpsA-Psr, subfamily F2 (as in PMID19099556)	Cell envelope-associated transcriptional attenuator LytR-CpsA-Psr, subfamily F2 (as in PMID19099556)	6	187	-0.0237216048454175
+Chromosome replication initiation protein dnaD	Chromosome replication initiation protein dnaD	6	187	-0.0244989927389405
+D-alanine--poly(phosphoribitol) ligase subunit 2 (EC 6.1.1.13)	D-alanine--poly(phosphoribitol) ligase subunit 2 (EC 6.1.1.13)	6	187	-0.0246577581230781
+D-alanyl transfer protein DltB	D-alanyl transfer protein DltB	6	187	-0.0261967927462555
+DNA replication intiation control protein YabA	DNA replication intiation control protein YabA	6	187	-0.0234351079416017
+DNA-directed RNA polymerase delta subunit (EC 2.7.7.6)	DNA-directed RNA polymerase delta subunit (EC 2.7.7.6)	6	187	-0.0196348395073355
+Foldase clustered with pyrimidine conversion	Foldase clustered with pyrimidine conversion	6	187	-0.0245294739972516
+Glycosyltransferase LafB, responsible for the formation of Gal-Glc-DAG	Glycosyltransferase LafB, responsible for the formation of Gal-Glc-DAG	6	187	-0.0200273820546445
+Hydrolase in cluster with beta-lactamase (HAD superfamily)	Hydrolase in cluster with beta-lactamase (HAD superfamily)	6	187	-0.0217811452834921
+Hypothetical protein SAV1839	Hypothetical protein SAV1839	6	187	-0.025519437739684
+Late competence protein ComEC, DNA transport	Late competence protein ComEC, DNA transport	6	187	-0.020763727289837
+Lipoteichoic acid synthase LtaS Type IIb	Lipoteichoic acid synthase LtaS Type IIb	6	187	-0.0218168682680716
+Multidrug efflux transporter MdtP	Multidrug efflux transporter MdtP	6	187	-0.0223436886412963
+Poly(glycerophosphate chain) D-alanine transfer protein DltD	Poly(glycerophosphate chain) D-alanine transfer protein DltD	6	187	-0.0261583747441366
+Xaa-Pro dipeptidyl-peptidase (EC 3.4.14.11)	Xaa-Pro dipeptidyl-peptidase (EC 3.4.14.11)	6	187	-0.0247561729456096
+D-serine/D-alanine/glycine transporter	D-serine/D-alanine/glycine transporter	6	187	-0.0122375891554232
+Dihydroxyacetone kinase family protein	Dihydroxyacetone kinase family protein	6	187	-0.0179979645877091
+Similar to ribosomal large subunit pseudouridine synthase D, Bacillus subtilis YhcT type	Similar to ribosomal large subunit pseudouridine synthase D, Bacillus subtilis YhcT type	6	187	-0.0168748712996703
+UTP--glucose-1-phosphate uridylyltransferase (EC 2.7.7.9)	UTP--glucose-1-phosphate uridylyltransferase (EC 2.7.7.9)	6	187	-0.0147694848741494
+Lipoteichoic acid synthase LtaS Type IIa	Lipoteichoic acid synthase LtaS Type IIa	6	187	-0.0184878874745198
+Pantothenate kinase (EC 2.7.1.33)	Pantothenate kinase (EC 2.7.1.33)	6	187	-0.0155140982853833
+Protein of unknown function DUF1447	Protein of unknown function DUF1447	6	187	-0.0171121264590542
+Recombination protein RecU	Recombination protein RecU	6	187	-0.0189284337667518
+Site-specific tyrosine recombinase	Site-specific tyrosine recombinase	6	187	-0.0168310142443779
+YjeF protein, C-terminal domain	YjeF protein, C-terminal domain	6	187	-0.0168171926721418
+Spermidine Putrescine ABC transporter permease component PotB (TC 3.A.1.11.1)	Spermidine Putrescine ABC transporter permease component PotB (TC 3.A.1.11.1)	6	187	-0.0199212289815068
+CDP-glycerol:poly(glycerophosphate) glycerophosphotransferase (EC 2.7.8.12)	CDP-glycerol:poly(glycerophosphate) glycerophosphotransferase (EC 2.7.8.12)	6	187	-0.0194074799695388
+Helicase loader DnaI	Helicase loader DnaI	6	187	-0.0191684596724989
+Glucan 1,6-alpha-glucosidase (EC 3.2.1.70)	Glucan 1,6-alpha-glucosidase (EC 3.2.1.70)	6	187	-0.0246979918148097
+Glycerol-3-phosphate ABC transporter, ATP-binding protein UgpC (TC 3.A.1.1.3)	Glycerol-3-phosphate ABC transporter, ATP-binding protein UgpC (TC 3.A.1.1.3)	6	187	-0.0169892185602256
+Late competence protein ComEA, DNA receptor	Late competence protein ComEA, DNA receptor	6	187	-0.0201339033471575
+Purine trans deoxyribosylase (Nucleoside deoxyribosyltransferase-I) (EC 2.4.2.6)	Purine trans deoxyribosylase (Nucleoside deoxyribosyltransferase-I) (EC 2.4.2.6)	6	187	-0.0238556502398235
+Transcriptional regulator SpxA1	Transcriptional regulator SpxA1	6	187	-0.01588155100465
+Cell division protein FtsK	Cell division protein FtsK	6	187	-0.00638953705304655
+Cell division protein FtsQ	Cell division protein FtsQ	6	187	-0.00931938720600756
+Ribosome small subunit-stimulated GTPase EngC	Ribosome small subunit-stimulated GTPase EngC	6	187	-0.00790541625300909
+tRNA-specific adenosine-34 deaminase (EC 3.5.4.-)	tRNA-specific adenosine-34 deaminase (EC 3.5.4.-)	6	187	-0.0088559992247202
+DNA gyrase subunit A (EC 5.99.1.3)	DNA gyrase subunit A (EC 5.99.1.3)	6	187	-0.00574290747621972
+LSU ribosomal protein L2p (L8e)	LSU ribosomal protein L2p (L8e)	6	187	-0.0106447210551335
+Peptide chain release factor 1	Peptide chain release factor 1	6	187	-0.00867339609288555
+Replicative DNA helicase (EC 3.6.1.-) [SA14-24]	Replicative DNA helicase (EC 3.6.1.-) [SA14-24]	6	187	-0.00925712602035591
+Heme efflux system permease HrtB	Heme efflux system permease HrtB	6	187	-0.0280025633728785
+DNA recombination and repair protein RecF	DNA recombination and repair protein RecF	6	187	-0.010651653569175
+Late competence protein ComGA, access of DNA to ComEA	Late competence protein ComGA, access of DNA to ComEA	6	187	-0.0211368505920313
+Glycosyltransferase LafA, responsible for the formation of Glc-DAG	Glycosyltransferase LafA, responsible for the formation of Glc-DAG	6	187	-0.0125064898925041
+D-tyrosyl-tRNA(Tyr) deacylase	D-tyrosyl-tRNA(Tyr) deacylase	6	187	-0.00876981678394965
+DNA polymerase III alpha subunit (EC 2.7.7.7)	DNA polymerase III alpha subunit (EC 2.7.7.7)	6	187	-0.0153429227420068
+DNA repair protein RecN	DNA repair protein RecN	6	187	-0.0145374392771943
+Exodeoxyribonuclease VII large subunit (EC 3.1.11.6)	Exodeoxyribonuclease VII large subunit (EC 3.1.11.6)	6	187	-0.0158830149561899
+FIG001802: Putative alkaline-shock protein	FIG001802: Putative alkaline-shock protein	6	187	-0.0173051992882975
+Ribosomal RNA small subunit methyltransferase B (EC 2.1.1.-)	Ribosomal RNA small subunit methyltransferase B (EC 2.1.1.-)	6	187	-0.0172446837877677
+DNA mismatch repair protein MutS	DNA mismatch repair protein MutS	6	187	-0.00545817221107372
+Phosphomevalonate kinase (EC 2.7.4.2)	Phosphomevalonate kinase (EC 2.7.4.2)	6	187	-0.0158235847190018
+Segregation and condensation protein B	Segregation and condensation protein B	6	187	-0.0147004595373517
+Glycerol-3-phosphate dehydrogenase [NAD(P)+] (EC 1.1.1.94)	Glycerol-3-phosphate dehydrogenase [NAD(P)+] (EC 1.1.1.94)	6	187	-0.0101706288423249
+Uracil-DNA glycosylase, family 1	Uracil-DNA glycosylase, family 1	6	187	-0.0104425443881126
+Topoisomerase IV subunit B (EC 5.99.1.-)	Topoisomerase IV subunit B (EC 5.99.1.-)	6	187	-0.0120783419469117
+FIG146085: 3'-to-5' oligoribonuclease A, Bacillus type	FIG146085: 3'-to-5' oligoribonuclease A, Bacillus type	6	187	-0.018569635236232
+rRNA small subunit methyltransferase I	rRNA small subunit methyltransferase I	6	187	-0.0086962699321397
+FIG000859: hypothetical protein	FIG000859: hypothetical protein	6	187	-0.00585840221073728
+UDP-N-acetylmuramoylalanyl-D-glutamyl-2,6-diaminopimelate--D-alanyl-D-alanine ligase (EC 6.3.2.10)	UDP-N-acetylmuramoylalanyl-D-glutamyl-2,6-diaminopimelate--D-alanyl-D-alanine ligase (EC 6.3.2.10)	6	187	-0.00634867486984909
+N-acetylglucosamine-1-phosphate uridyltransferase (EC 2.7.7.23)	N-acetylglucosamine-1-phosphate uridyltransferase (EC 2.7.7.23)	6	187	-0.0105640738128361
+Fructose-bisphosphate aldolase class II (EC 4.1.2.13)	Fructose-bisphosphate aldolase class II (EC 4.1.2.13)	6	187	-0.0102211609678922
+Nicotinate-nucleotide adenylyltransferase (EC 2.7.7.18)	Nicotinate-nucleotide adenylyltransferase (EC 2.7.7.18)	6	187	-0.00997058030088981
+Phosphoglucosamine mutase (EC 5.4.2.10)	Phosphoglucosamine mutase (EC 5.4.2.10)	6	187	-0.00989092771458697
+Segregation and condensation protein A	Segregation and condensation protein A	6	187	-0.00897524677191699
+Hydroxymethylglutaryl-CoA reductase (EC 1.1.1.34)	Hydroxymethylglutaryl-CoA reductase (EC 1.1.1.34)	6	187	-0.0199479523525459
+Exodeoxyribonuclease VII small subunit (EC 3.1.11.6)	Exodeoxyribonuclease VII small subunit (EC 3.1.11.6)	6	187	-0.0153931791360889
+Lysyl-tRNA synthetase (class II) (EC 6.1.1.6)	Lysyl-tRNA synthetase (class II) (EC 6.1.1.6)	6	187	-0.00687200271806803
+Rod shape-determining protein MreD	Rod shape-determining protein MreD	6	187	-0.0161747220085815
+Phosphate:acyl-ACP acyltransferase PlsX	Phosphate:acyl-ACP acyltransferase PlsX	6	187	-0.0173465316467561
+LSU ribosomal protein L11p (L12e)	LSU ribosomal protein L11p (L12e)	6	187	-0.00963144713445821
+Recombination protein RecR	Recombination protein RecR	6	187	-0.00823980242658662
+SSU ribosomal protein S19p (S15e)	SSU ribosomal protein S19p (S15e)	6	187	-0.00851113281789393
+Ribosome-binding factor A	Ribosome-binding factor A	6	187	-0.0101600118793756
+UDP-N-acetylglucosamine 1-carboxyvinyltransferase (EC 2.5.1.7)	UDP-N-acetylglucosamine 1-carboxyvinyltransferase (EC 2.5.1.7)	6	187	-0.00591714666547463
+TrmH family tRNA/rRNA methyltransferase YacO (EC 2.1.1.-)	TrmH family tRNA/rRNA methyltransferase YacO (EC 2.1.1.-)	6	187	-0.0115276697047364
+Undecaprenyl-phosphate N-acetylglucosaminyl 1-phosphate transferase (EC 2.7.8.-)	Undecaprenyl-phosphate N-acetylglucosaminyl 1-phosphate transferase (EC 2.7.8.-)	6	187	-0.0110805437172791
+Protein serine/threonine phosphatase PrpC, regulation of stationary phase	Protein serine/threonine phosphatase PrpC, regulation of stationary phase	6	187	-0.00763561287878704
+RecA protein	RecA protein	6	187	-0.00907980821266301
+Transmembrane component YkoC of energizing module of thiamin-regulated ECF transporter for HydroxyMethylPyrimidine	Transmembrane component YkoC of energizing module of thiamin-regulated ECF transporter for HydroxyMethylPyrimidine	6	187	-0.0185415539715521
+Rod shape-determining protein MreC	Rod shape-determining protein MreC	6	187	-0.0109585290179487
+Pyrrolidone-carboxylate peptidase (EC 3.4.19.3)	Pyrrolidone-carboxylate peptidase (EC 3.4.19.3)	6	187	-0.0105092077008816
+Ribonuclease M5 (EC 3.1.26.8)	Ribonuclease M5 (EC 3.1.26.8)	6	187	-0.0101263157402449
+6-phosphofructokinase (EC 2.7.1.11)	6-phosphofructokinase (EC 2.7.1.11)	6	187	-0.0125885477915424
+6-phosphogluconate dehydrogenase, decarboxylating (EC 1.1.1.44)	6-phosphogluconate dehydrogenase, decarboxylating (EC 1.1.1.44)	6	187	-0.0140391969533138
+6-phosphogluconolactonase (EC 3.1.1.31)	6-phosphogluconolactonase (EC 3.1.1.31)	6	187	-0.0181585333772265
+ABC transporter ATP-binding protein uup	ABC transporter ATP-binding protein uup	6	187	-0.0126500290226755
+ABC transporter, periplasmic spermidine putrescine-binding protein PotD (TC 3.A.1.11.1)	ABC transporter, periplasmic spermidine putrescine-binding protein PotD (TC 3.A.1.11.1)	6	187	-0.0143918030038984
+Acyl-phosphate:glycerol-3-phosphate O-acyltransferase PlsY	Acyl-phosphate:glycerol-3-phosphate O-acyltransferase PlsY	6	187	-0.0239724269254132
+Adenine phosphoribosyltransferase (EC 2.4.2.7)	Adenine phosphoribosyltransferase (EC 2.4.2.7)	6	187	-0.0114701845447833
+ADP-ribose pyrophosphatase (EC 3.6.1.13)	ADP-ribose pyrophosphatase (EC 3.6.1.13)	6	187	-0.012569296806662
+Alkaline phosphatase like protein	Alkaline phosphatase like protein	6	187	-0.0104310476592371
+Asparagine synthetase [glutamine-hydrolyzing] (EC 6.3.5.4)	Asparagine synthetase [glutamine-hydrolyzing] (EC 6.3.5.4)	6	187	-0.0152154340042968
+Aspartyl-tRNA(Asn) amidotransferase subunit A (EC 6.3.5.6)	Aspartyl-tRNA(Asn) amidotransferase subunit A (EC 6.3.5.6)	6	187	-0.00762622652567257
+Aspartyl-tRNA(Asn) amidotransferase subunit B (EC 6.3.5.6)	Aspartyl-tRNA(Asn) amidotransferase subunit B (EC 6.3.5.6)	6	187	-0.00942183885210201
+ATP-dependent RNA helicase YfmL	ATP-dependent RNA helicase YfmL	6	187	-0.0258535623085226
+Beta-lactamase class A	Beta-lactamase class A	6	187	-0.0190245876579671
+Catabolite control protein A	Catabolite control protein A	6	187	-0.0197981611295788
+Cell division protein FtsA	Cell division protein FtsA	6	187	-0.00809330723411391
+Chromosomal replication initiator protein DnaA	Chromosomal replication initiator protein DnaA	6	187	-0.00954990606381291
+Cobalt-zinc-cadmium resistance protein CzcD	Cobalt-zinc-cadmium resistance protein CzcD	6	187	-0.0119073678231159
+COG2740: Predicted nucleic-acid-binding protein implicated in transcription termination	COG2740: Predicted nucleic-acid-binding protein implicated in transcription termination	6	187	-0.0155482728894856
+Cold-shock DEAD-box protein A	Cold-shock DEAD-box protein A	6	187	-0.00552024182084861
+ComF operon protein C	ComF operon protein C	6	187	-0.028034840333846
+Competence protein CoiA	Competence protein CoiA	6	187	-0.0168755377344418
+Deblocking aminopeptidase (EC 3.4.11.-)	Deblocking aminopeptidase (EC 3.4.11.-)	6	187	-0.0177979992061849
+Deoxyguanosine kinase (EC 2.7.1.113)	Deoxyguanosine kinase (EC 2.7.1.113)	6	187	-0.014306502735002
+Dephospho-CoA kinase (EC 2.7.1.24)	Dephospho-CoA kinase (EC 2.7.1.24)	6	187	-0.00464344887407353
+Enolase (EC 4.2.1.11)	Enolase (EC 4.2.1.11)	6	187	-0.00662932788418893
+GlpG protein (membrane protein of glp regulon)	GlpG protein (membrane protein of glp regulon)	6	187	-0.0166629919623901
+Glutamyl-tRNA(Gln) synthetase (EC 6.1.1.24)	Glutamyl-tRNA(Gln) synthetase (EC 6.1.1.24)	6	187	-0.0100905968577564
+GTP-binding protein TypA/BipA	GTP-binding protein TypA/BipA	6	187	-0.00822780671504132
+Heme efflux system ATPase HrtA	Heme efflux system ATPase HrtA	6	187	-0.0294165409645913
+Hypothetical protein possible functionally linked with Alanyl-tRNA synthetase	Hypothetical protein possible functionally linked with Alanyl-tRNA synthetase	6	187	-0.0127343522904051
+Nicotinate phosphoribosyltransferase (EC 2.4.2.11)	Nicotinate phosphoribosyltransferase (EC 2.4.2.11)	6	187	-0.0111662059067378
+Phosphocarrier protein of PTS system	Phosphocarrier protein of PTS system	6	187	-0.0129127329210334
+ThiJ/PfpI family protein	ThiJ/PfpI family protein	6	187	-0.0149530553512215
+GTP cyclohydrolase II (EC 3.5.4.25)	GTP cyclohydrolase II (EC 3.5.4.25)	7	4	-0.00210870610600064
+Riboflavin synthase alpha chain (EC 2.5.1.9)	Riboflavin synthase alpha chain (EC 2.5.1.9)	7	4	-0.00756107302629519
+6,7-dimethyl-8-ribityllumazine synthase (EC 2.5.1.9)	6,7-dimethyl-8-ribityllumazine synthase (EC 2.5.1.9)	7	4	0.00121570369009729
+Diaminohydroxyphosphoribosylaminopyrimidine deaminase (EC 3.5.4.26)	Diaminohydroxyphosphoribosylaminopyrimidine deaminase (EC 3.5.4.26)	7	4	-0.00646589093698224
+Acetoin dehydrogenase E1 component beta-subunit (EC 1.2.4.-)	Acetoin dehydrogenase E1 component beta-subunit (EC 1.2.4.-)	8	2	0.0267170852989823
+Acetoin dehydrogenase E1 component alpha-subunit (EC 1.2.4.-)	Acetoin dehydrogenase E1 component alpha-subunit (EC 1.2.4.-)	8	2	0.0308798884395428
+DNA-directed RNA polymerase alpha subunit (EC 2.7.7.6)	DNA-directed RNA polymerase alpha subunit (EC 2.7.7.6)	9	19	-0.00673889769731613
+LSU ribosomal protein L14p (L23e)	LSU ribosomal protein L14p (L23e)	9	19	-0.00900889938647011
+LSU ribosomal protein L23p (L23Ae)	LSU ribosomal protein L23p (L23Ae)	9	19	-0.00740374502159701
+LSU ribosomal protein L4p (L1e)	LSU ribosomal protein L4p (L1e)	9	19	-0.00761843430994251
+LSU ribosomal protein L5p (L11e)	LSU ribosomal protein L5p (L11e)	9	19	-0.00772194010542409
+Putative deoxyribonuclease YcfH	Putative deoxyribonuclease YcfH	9	19	-0.00647083908244406
+Translation initiation factor 3	Translation initiation factor 3	9	19	-0.00669990924163574
+LSU ribosomal protein L16p (L10e)	LSU ribosomal protein L16p (L10e)	9	19	-0.00891521077583779
+LSU ribosomal protein L29p (L35e)	LSU ribosomal protein L29p (L35e)	9	19	-0.00902602745167785
+SSU ribosomal protein S3p (S3e)	SSU ribosomal protein S3p (S3e)	9	19	-0.00767859384797355
+SSU ribosomal protein S5p (S2e)	SSU ribosomal protein S5p (S2e)	9	19	-0.0070515299642741
+SSU ribosomal protein S6p	SSU ribosomal protein S6p	9	19	-0.00569778796479985
+LSU ribosomal protein L6p (L9e)	LSU ribosomal protein L6p (L9e)	9	19	-0.00705302881109493
+Translation elongation factor P	Translation elongation factor P	9	19	-0.00565917223660521
+Transcription-repair coupling factor	Transcription-repair coupling factor	9	19	-0.00814838397259732
+Adenylate kinase (EC 2.7.4.3)	Adenylate kinase (EC 2.7.4.3)	9	19	-0.00809873039110841
+Cell division trigger factor (EC 5.2.1.8)	Cell division trigger factor (EC 5.2.1.8)	9	19	-0.00657891174596352
+LSU ribosomal protein L13p (L13Ae)	LSU ribosomal protein L13p (L13Ae)	9	19	-0.00867762509128941
+LSU ribosomal protein L30p (L7e)	LSU ribosomal protein L30p (L7e)	9	19	-0.00631183475575235
+Ornithine carbamoyltransferase (EC 2.1.3.3)	Ornithine carbamoyltransferase (EC 2.1.3.3)	10	2	-0.00775578216220262
+Arginine deiminase (EC 3.5.3.6)	Arginine deiminase (EC 3.5.3.6)	10	2	-0.00499335007216288
+Carbamate kinase (EC 2.7.2.2)	Carbamate kinase (EC 2.7.2.2)	11	2	-0.00279165922273093
+Arginine/ornithine antiporter ArcD	Arginine/ornithine antiporter ArcD	11	2	-0.00213396082217838
+Ascorbate-specific PTS system, EIIA component (EC 2.7.1.-)	Ascorbate-specific PTS system, EIIA component (EC 2.7.1.-)	12	3	-0.0351584180128028
+L-xylulose 5-phosphate 3-epimerase (EC 5.1.3.-)	L-xylulose 5-phosphate 3-epimerase (EC 5.1.3.-)	12	3	-0.0323392757412069
+Aromatic amino acid aminotransferase gamma (EC 2.6.1.57)	Aromatic amino acid aminotransferase gamma (EC 2.6.1.57)	12	3	-0.038495694616197
+Dihydroorotase (EC 3.5.2.3)	Dihydroorotase (EC 3.5.2.3)	13	2	-0.00854900880920881
+Aspartate carbamoyltransferase (EC 2.1.3.2)	Aspartate carbamoyltransferase (EC 2.1.3.2)	13	2	-0.00610843346029282
+Phosphatidylglycerophosphatase B (EC 3.1.3.27)	Phosphatidylglycerophosphatase B (EC 3.1.3.27)	14	4	-0.0127520226115434
+Topoisomerase IV subunit A (EC 5.99.1.-)	Topoisomerase IV subunit A (EC 5.99.1.-)	14	4	-0.00925272083655568
+ATP-dependent DNA helicase RecG (EC 3.6.1.-)	ATP-dependent DNA helicase RecG (EC 3.6.1.-)	14	4	-0.0127227210915413
+Low molecular weight protein tyrosine phosphatase (EC 3.1.3.48)	Low molecular weight protein tyrosine phosphatase (EC 3.1.3.48)	14	4	-0.00993616702660771
+L-proline glycine betaine ABC transport system permease protein ProV (TC 3.A.1.12.1)	L-proline glycine betaine ABC transport system permease protein ProV (TC 3.A.1.12.1)	15	3	-0.00179574911796311
+Putative transcriptional regulator of sorbose uptake and utilization genes	Putative transcriptional regulator of sorbose uptake and utilization genes	15	3	-0.00192326525190899
+benzoate MFS transporter BenK	benzoate MFS transporter BenK	15	3	-0.00023414281658224
+Multiple sugar ABC transporter, ATP-binding protein	Multiple sugar ABC transporter, ATP-binding protein	16	2	-0.0109916631911143
+Beta-phosphoglucomutase (EC 5.4.2.6)	Beta-phosphoglucomutase (EC 5.4.2.6)	16	2	-0.011533464818701
+Geranyltranstransferase (farnesyldiphosphate synthase) (EC 2.5.1.10)	Geranyltranstransferase (farnesyldiphosphate synthase) (EC 2.5.1.10)	17	4	0.00476030494013929
+Glutamate transport ATP-binding protein	Glutamate transport ATP-binding protein	17	4	0.00631027911312299
+Two-component response regulator YvcP	Two-component response regulator YvcP	17	4	0.00592485178193628
+Bis(5'-nucleosyl)-tetraphosphatase (asymmetrical) (EC 3.6.1.17)	Bis(5'-nucleosyl)-tetraphosphatase (asymmetrical) (EC 3.6.1.17)	17	4	0.00790623133038943
+PTS system, maltose and glucose-specific IIC component (EC 2.7.1.69)	PTS system, maltose and glucose-specific IIC component (EC 2.7.1.69)	18	2	-0.0415165544221866
+Blue copper oxidase CueO precursor	Blue copper oxidase CueO precursor	18	2	-0.047937774510608
+FIG004453: protein YceG like	FIG004453: protein YceG like	19	2	0.0113304124057706
+Carboxyl-terminal protease (EC 3.4.21.102)	Carboxyl-terminal protease (EC 3.4.21.102)	19	2	0.013910220617929
+UDP-N-acetylmuramoylalanine--D-glutamate ligase (EC 6.3.2.9)	UDP-N-acetylmuramoylalanine--D-glutamate ligase (EC 6.3.2.9)	20	5	-0.00535568952353746
+Stage 0 sporulation protein J	Stage 0 sporulation protein J	20	5	-0.00661568841149577
+UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase (EC 2.4.1.227)	UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase (EC 2.4.1.227)	20	5	-0.00573086836524844
+Cell division protein FtsZ (EC 3.4.24.-)	Cell division protein FtsZ (EC 3.4.24.-)	20	5	-0.00644591375294358
+GTP-binding and nucleic acid-binding protein YchF	GTP-binding and nucleic acid-binding protein YchF	20	5	-0.00689448012073714
+Dihydrodipicolinate synthase (EC 4.2.1.52)	Dihydrodipicolinate synthase (EC 4.2.1.52)	21	2	0.0127504619611129
+Dihydrodipicolinate reductase (EC 1.3.1.26)	Dihydrodipicolinate reductase (EC 1.3.1.26)	21	2	0.0128261183391351
+GTP-binding protein YqeH, possibly involved in replication initiation	GTP-binding protein YqeH, possibly involved in replication initiation	22	2	-0.0295812822693114
+DinG family ATP-dependent helicase YoaA	DinG family ATP-dependent helicase YoaA	22	2	-0.0290259234522742
+Mevalonate kinase (EC 2.7.1.36)	Mevalonate kinase (EC 2.7.1.36)	23	2	-0.00975311070951077
+Diphosphomevalonate decarboxylase (EC 4.1.1.33)	Diphosphomevalonate decarboxylase (EC 4.1.1.33)	23	2	-0.0103847017658398
+Ribonucleotide reductase of class Ib (aerobic), beta subunit (EC 1.17.4.1)	Ribonucleotide reductase of class Ib (aerobic), beta subunit (EC 1.17.4.1)	24	4	-0.0274165193899611
+YbbL ABC transporter ATP-binding protein	YbbL ABC transporter ATP-binding protein	24	4	-0.026624934232516
+Ribonucleotide reduction protein NrdI	Ribonucleotide reduction protein NrdI	24	4	-0.027799142310847
+DNA-3-methyladenine glycosylase (EC 3.2.2.20)	DNA-3-methyladenine glycosylase (EC 3.2.2.20)	24	4	-0.0278140270700859
+UDP-N-acetylmuramate--alanine ligase (EC 6.3.2.8)	UDP-N-acetylmuramate--alanine ligase (EC 6.3.2.8)	25	2	-0.00860928337374079
+DNA-directed RNA polymerase beta' subunit (EC 2.7.7.6)	DNA-directed RNA polymerase beta' subunit (EC 2.7.7.6)	25	2	-0.00760160496144212
+Glucose-1-phosphate thymidylyltransferase (EC 2.7.7.24)	Glucose-1-phosphate thymidylyltransferase (EC 2.7.7.24)	26	2	0.0226986533405374
+dTDP-glucose 4,6-dehydratase (EC 4.2.1.46)	dTDP-glucose 4,6-dehydratase (EC 4.2.1.46)	26	2	0.0245648181255475
+Excinuclease ABC subunit B	Excinuclease ABC subunit B	27	3	-0.00657873229078274
+Recombination inhibitory protein MutS2	Recombination inhibitory protein MutS2	27	3	-0.00943543339742105
+Excinuclease ABC subunit A	Excinuclease ABC subunit A	27	3	-0.00711238473637001
+Signal peptidase I (EC 3.4.21.89)	Signal peptidase I (EC 3.4.21.89)	28	2	-0.00727545438055199
+FIGfam135315: Iojap-related protein	FIGfam135315: Iojap-related protein	28	2	-0.0074403091492739
+Ribosomal large subunit pseudouridine synthase D (EC 4.2.1.70)	Ribosomal large subunit pseudouridine synthase D (EC 4.2.1.70)	29	2	-0.00697590641098862
+Formate--tetrahydrofolate ligase (EC 6.3.4.3)	Formate--tetrahydrofolate ligase (EC 6.3.4.3)	29	2	-0.00715222817013297
+Predicted PTS system, galactosamine-specific IIC component (EC 2.7.1.69)	Predicted PTS system, galactosamine-specific IIC component (EC 2.7.1.69)	30	2	-0.00659117192457027
+Galactosamine-6-phosphate isomerase (EC 5.3.1.-)	Galactosamine-6-phosphate isomerase (EC 5.3.1.-)	30	2	-0.00108629192859183
+NAD-dependent protein deacetylase of SIR2 family	NAD-dependent protein deacetylase of SIR2 family	31	6	-0.0158104591915864
+RecD-like DNA helicase YrrC	RecD-like DNA helicase YrrC	31	6	-0.0181766815116357
+tRNA:m(5)U-54 MTase gid	tRNA:m(5)U-54 MTase gid	31	6	-0.0221354694719402
+YgjD/Kae1/Qri7 family, required for threonylcarbamoyladenosine (t(6)A) formation in tRNA	YgjD/Kae1/Qri7 family, required for threonylcarbamoyladenosine (t(6)A) formation in tRNA	31	6	-0.018493802213818
+Galactose-1-phosphate uridylyltransferase (EC 2.7.7.10)	Galactose-1-phosphate uridylyltransferase (EC 2.7.7.10)	31	6	-0.0166741282549892
+Inactive homolog of metal-dependent proteases, putative molecular chaperone	Inactive homolog of metal-dependent proteases, putative molecular chaperone	31	6	-0.0201510019574173
+Galactose-6-phosphate isomerase, LacB subunit (EC 5.3.1.26)	Galactose-6-phosphate isomerase, LacB subunit (EC 5.3.1.26)	32	6	0.00345853883837914
+Lactose phosphotransferase system repressor	Lactose phosphotransferase system repressor	32	6	0.00630256582697143
+PTS system, galactose-specific IIB component (EC 2.7.1.69)	PTS system, galactose-specific IIB component (EC 2.7.1.69)	32	6	0.00226623279461456
+Tagatose 1,6-bisphosphate aldolase (EC 4.1.2.40)	Tagatose 1,6-bisphosphate aldolase (EC 4.1.2.40)	32	6	0.00542285264563987
+PTS system, galactose-specific IIC component (EC 2.7.1.69)	PTS system, galactose-specific IIC component (EC 2.7.1.69)	32	6	0.00134967075608026
+Galactose-6-phosphate isomerase, LacA subunit (EC 5.3.1.26)	Galactose-6-phosphate isomerase, LacA subunit (EC 5.3.1.26)	32	6	0.00495706818635125
+Substrate-specific component PdxU of predicted pyridoxine ECF transporter	Substrate-specific component PdxU of predicted pyridoxine ECF transporter	33	2	-0.0491489558013359
+Glucitol operon repressor	Glucitol operon repressor	33	2	-0.0446953627047881
+Lactacin F two-component system sensor histidine kinase	Lactacin F two-component system sensor histidine kinase	34	3	-0.0332559733511153
+Thiamine biosynthesis protein thiI	Thiamine biosynthesis protein thiI	34	3	-0.0338370674733666
+Lactacin F two-component system response regulator	Lactacin F two-component system response regulator	34	3	-0.0326938586821188
+LSU ribosomal protein L18p (L5e)	LSU ribosomal protein L18p (L5e)	35	2	-0.00493702488542136
+LSU ribosomal protein L10p (P0)	LSU ribosomal protein L10p (P0)	35	2	-0.00398426981543886
+Similar to phosphoglycolate phosphatase, clustered with ribosomal large subunit pseudouridine synthase C	Similar to phosphoglycolate phosphatase, clustered with ribosomal large subunit pseudouridine synthase C	36	2	0.0292772791506904
+Membrane proteins related to metalloendopeptidases	Membrane proteins related to metalloendopeptidases	36	2	0.029227889429994
+Preprotein translocase subunit SecG (TC 3.A.5.1.1)	Preprotein translocase subunit SecG (TC 3.A.5.1.1)	37	2	0.0123610495781008
+NADH peroxidase (EC 1.11.1.1)	NADH peroxidase (EC 1.11.1.1)	37	2	0.0173380578989323
+Phage major capsid protein	Phage major capsid protein	38	2	0.00830701888619952
+Phage capsid assembly	Phage capsid assembly	38	2	0.00540296192818645
+Phosphate transport ATP-binding protein PstB (TC 3.A.1.7.1)	Phosphate transport ATP-binding protein PstB (TC 3.A.1.7.1)	39	4	-0.0265459091469617
+Phosphate transport system permease protein PstA (TC 3.A.1.7.1)	Phosphate transport system permease protein PstA (TC 3.A.1.7.1)	39	4	-0.0253329560936517
+Phosphate transport system permease protein PstC (TC 3.A.1.7.1)	Phosphate transport system permease protein PstC (TC 3.A.1.7.1)	39	4	-0.0216690709190756
+Phosphate ABC transporter, periplasmic phosphate-binding protein PstS (TC 3.A.1.7.1)	Phosphate ABC transporter, periplasmic phosphate-binding protein PstS (TC 3.A.1.7.1)	39	4	-0.0190788320437248
+Phosphoenolpyruvate-dihydroxyacetone phosphotransferase (EC 2.7.1.121), dihydroxyacetone binding subunit DhaK	Phosphoenolpyruvate-dihydroxyacetone phosphotransferase (EC 2.7.1.121), dihydroxyacetone binding subunit DhaK	40	2	0.002455861130392
+Phosphoenolpyruvate-dihydroxyacetone phosphotransferase (EC 2.7.1.121), ADP-binding subunit DhaL	Phosphoenolpyruvate-dihydroxyacetone phosphotransferase (EC 2.7.1.121), ADP-binding subunit DhaL	40	2	-0.00117891432891666
+PTS system, cellobiose-specific IIB component (EC 2.7.1.69)	PTS system, cellobiose-specific IIB component (EC 2.7.1.69)	41	2	-0.0246241482379164
+PTS system, cellobiose-specific IIA component (EC 2.7.1.69)	PTS system, cellobiose-specific IIA component (EC 2.7.1.69)	41	2	-0.022496952842825
+PTS system, galactitol-specific IIC component (EC 2.7.1.69)	PTS system, galactitol-specific IIC component (EC 2.7.1.69)	42	2	0.00621814230995405
+PTS system, galactitol-specific IIA component (EC 2.7.1.69)	PTS system, galactitol-specific IIA component (EC 2.7.1.69)	42	2	0.00549997694802935
+Sialic acid utilization regulator, RpiR family	Sialic acid utilization regulator, RpiR family	43	2	-0.0149261682238745
+PTS system, N-acetylglucosamine-specific IIC component (EC 2.7.1.69)	PTS system, N-acetylglucosamine-specific IIC component (EC 2.7.1.69)	43	2	-0.0192439113677034

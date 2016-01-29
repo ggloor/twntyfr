@@ -80,15 +80,9 @@ d.min[,"015B"] <- NULL
 d.min[,"019A"] <- NULL
 d.min[,"008B"] <- NULL
 
-# filter to a mean count of 5 per refseq.
-# in the perfect scenario, this would differ from 0-10
-# counts between two equally sized groups
-# reduces the set from
+# filter to a mean count of >2 per refseq.
+# reduces the set from 49885 to 10052 refseqs
 
-# interesting, the rare stuff (mean less than 5, is what
-# differentiates the different BV types) When I use a cutoff
-# of mean >44 then there is a lot more spread between the samples, but
-# the percent variance goes down
 d.min <- d.min[which(apply(d.min,1,mean)> 44),]
 
 # we need to replace 0 values with a best estimate
@@ -99,52 +93,133 @@ d.n0.CZM <- cmultRepl(t(d.min), label=0, method="CZM")
 
 # turn this into a centered log-ratio transform
 # samples are by row
-# remember that apply by row rotates the data
+# remember that apply() by row rotates the data
 # R is terrible, so we need to use t() again
 
 d.clr <- t( apply(d.n0.CZM, 1, function(x){log(x) - mean(log(x))}) )
 
+# calculate the total variance in the dataset
 d.mvar.clr <- mvar(d.clr)
 
+# do the Singular Value Decomposition
 d.pcx <- prcomp(d.clr)
 
-biplot(d.pcx, cex=c(0.5,0.05), col=c("black",rgb(0,0,0,0.05)), var.axes=F,
-    xlab=paste("PC1: ", round(sum(d.pcx$sdev[1]^2)/d.mvar.clr, 3)),
-    ylab=paste("PC2: ", round(sum(d.pcx$sdev[2]^2)/d.mvar.clr, 3)),
-    scale=0
-)
-
-# plot the taxon associated with each refseq
-# colors need some love
+# plot it
+# subsets
 tax.subset <- tax[rownames(d.min),]
 
 li <- grep("Lactobacillus;iners",tax.subset$common_taxonomy)
 lc <- grep("Lactobacillus;crispatus",tax.subset$common_taxonomy)
-lj <- c(grep("Lactobacillus;johnsonii",tax.subset$common_taxonomy),
-    grep("Lactobacillus;gasseri",tax.subset$common_taxonomy))
-lje <- c(grep("Lactobacillus;jensenii",tax.subset$common_taxonomy))
-bvab <- grep("BVAB",tax.subset$common_taxonomy)
+lj <- c(grep("Lactobacillus;johnsonii",tax.subset$common_taxonomy), grep("Lactobacillus;gasseri",tax.subset$common_taxonomy))
+lje <- grep("Lactobacillus;jensenii",tax.subset$common_taxonomy)
 pb <- grep("Prevotella",tax.subset$common_taxonomy)
 gv <- grep("Gardnerella",tax.subset$common_taxonomy)
 me <- grep("Megasphaera",tax.subset$common_taxonomy)
-sn <- grep("Sneathia",tax.subset$common_taxonomy)
+sn <- c(grep("Sneathia",tax.subset$common_taxonomy), grep("Leptotrichia",tax.subset$common_taxonomy))
 di <- grep("Dialister",tax.subset$common_taxonomy)
-le <- grep("Leptotrichia",tax.subset$common_taxonomy)
 as <- grep("NA.",rownames(tax.subset))
 
-points(d.pcx$rotation[,1][lc], d.pcx$rotation[,2][lc], pch=19, cex=0.05, col="cyan")
-points(d.pcx$rotation[,1][li], d.pcx$rotation[,2][li], pch=19, cex=0.05, col="steelblue3")
-points(d.pcx$rotation[,1][lj], d.pcx$rotation[,2][lj], pch=19, cex=0.05, col="royalblue4")
-points(d.pcx$rotation[,1][lje], d.pcx$rotation[,2][lje], pch=19, cex=0.05, col="paleturquoise1")
-points(d.pcx$rotation[,1][bvab], d.pcx$rotation[,2][bvab], pch=19, cex=0.05, col="yellow")
-points(d.pcx$rotation[,1][pb], d.pcx$rotation[,2][pb], pch=19, cex=0.05, col="mediumpurple1")
-points(d.pcx$rotation[,1][gv], d.pcx$rotation[,2][gv], pch=19, cex=0.05, col="indianred1")
-points(d.pcx$rotation[,1][me], d.pcx$rotation[,2][me], pch=19, cex=0.05, col="olivedrab3")
-points(d.pcx$rotation[,1][sn], d.pcx$rotation[,2][sn], pch=19, cex=0.05, col="pink")
-points(d.pcx$rotation[,1][di], d.pcx$rotation[,2][di], pch=19, cex=0.05, col="magenta")
-points(d.pcx$rotation[,1][le], d.pcx$rotation[,2][le], pch=19, cex=0.05, col="brown")
-points(d.pcx$rotation[,1][as], d.pcx$rotation[,2][as], pch=19, cex=0.05, col="black")
+# named colors
+crisp <- rgb(.53,.81,1,0.6)
+iners <- rgb(.3,.58,.8, 0.6)
+ljon <- rgb(.15,.25,.55,0.6)
+ljen <- rgb(0,1,1,0.5)
+bvab <- rgb(1,1,0,0.5)
+gvag <- rgb(1,.42,.42,0.6)
+prev <- rgb(.67,.51,1,0.6)
+mega <- rgb(.6,.8,.2,0.6)
+snea <- rgb(1,.75,.8,0.6)
+dial <- rgb(1,0,1,0.6)
+lept <- rgb(0.65,.16,.16,0.6)
+ass <- rgb(0,0,0,0.6)
 
+tax.nms <- list(li, lc, lj, lje, pb, gv, me, sn, di, le, as)
+tax.col <- list(iners, crisp, ljon, ljen, gvag, mega, snea, dial, lept, ass)
+
+# Make the number of points equal to the number of features (for labels)
+points <- c(rep("o", nrow(d.min)))
+
+#color for labels and points (vector of 2)
+col=c("black",rgb(0.2,0.2,0.2,0.0))
+cex=c(0.8, .2)
+
+pdf("refseq_biplot.pdf")
+biplot(d.pcx, cex=cex, col=col, var.axes=F,
+    xlab=paste("PC1: ", round(sum(d.pcx$sdev[1]^2)/d.mvar.clr, 3)),
+    ylab=paste("PC2: ", round(sum(d.pcx$sdev[2]^2)/d.mvar.clr, 3)),
+    scale=0, ylabs=points
+)
+text(-.035,-.035,labels="H1", cex=1.5)
+text(-.035,.025,labels="H2", cex=1.5)
+text(.025,.025,labels="BV2", cex=1.5)
+text(.025,-.035,labels="BV1", cex=1.5)
+# plot the lactobacilli elipses
+test <- dataEllipse(d.pcx$rotation[,1][li], d.pcx$rotation[,2][li],levels=0.90, plot.points=FALSE,col="steelblue3",lwd=3)
+test <- dataEllipse(d.pcx$rotation[,1][lc], d.pcx$rotation[,2][lc],levels=0.90, plot.points=FALSE,col="skyblue1",lwd=3)
+test <- dataEllipse(d.pcx$rotation[,1][lj], d.pcx$rotation[,2][lj],levels=0.90, plot.points=FALSE,col="royalblue4",lwd=3)
+test <- dataEllipse(d.pcx$rotation[,1][lje], d.pcx$rotation[,2][lje],levels=0.90, plot.points=FALSE,col="cyan",lwd=3)
+
+
+# plot the taxonomic colors
+points(d.pcx$rotation[,1][lc], d.pcx$rotation[,2][lc], pch=19, cex=0.2, col=crisp)
+points(d.pcx$rotation[,1][li], d.pcx$rotation[,2][li], pch=19, cex=0.2, col=iners)
+points(d.pcx$rotation[,1][lj], d.pcx$rotation[,2][lj], pch=19, cex=0.2, col=ljon)
+points(d.pcx$rotation[,1][lje], d.pcx$rotation[,2][lje], pch=19, cex=0.2, col=ljen)
+points(d.pcx$rotation[,1][bvab], d.pcx$rotation[,2][bvab], pch=19, cex=0.2, col=bvab)
+points(d.pcx$rotation[,1][gv], d.pcx$rotation[,2][gv], pch=19, cex=0.2, col=gvag)
+points(d.pcx$rotation[,1][pb], d.pcx$rotation[,2][pb], pch=19, cex=0.2, col=prev)
+points(d.pcx$rotation[,1][me], d.pcx$rotation[,2][me], pch=19, cex=0.2, col=mega)
+points(d.pcx$rotation[,1][sn], d.pcx$rotation[,2][sn], pch=19, cex=0.2, col=lept)
+points(d.pcx$rotation[,1][di], d.pcx$rotation[,2][di], pch=19, cex=0.2, col=dial)
+points(d.pcx$rotation[,1][as], d.pcx$rotation[,2][as], pch=19, cex=0.2, col=ass)
+
+# axes
+abline(h=0, lty=2)
+abline(v=0, lty=2)
+dev.off()
+#######
+
+
+# extract the different megasphaera and prevotella groups
+ meg1 <- d.pcx$rotation[me,1] > 0.004
+ meg2 <- d.pcx$rotation[me,1] < 0.004
+ pbiv1 <- -1.1 * d.pcx$rotation[pb,1] + 0.007 -  d.pcx$rotation[pb,2]
+
+######
+# subset the plot to only cover the right side, and only the rotations
+pdf("bv_refseq_loadings.pdf")
+plot(d.pcx$rotation[,1], d.pcx$rotation[,2], xlim=c(-0.005,0.015), ylim=c(-0.015,0.010), col=rgb(0,0,0,0), xlab="PC1 loading", ylab="PC2 loading")
+
+# plot the taxonomic colors
+points(d.pcx$rotation[,1][lc], d.pcx$rotation[,2][lc], pch=19, cex=0.3, col=crisp)
+points(d.pcx$rotation[,1][li], d.pcx$rotation[,2][li], pch=19, cex=0.3, col=iners)
+points(d.pcx$rotation[,1][lj], d.pcx$rotation[,2][lj], pch=19, cex=0.3, col=ljon)
+points(d.pcx$rotation[,1][lje], d.pcx$rotation[,2][lje], pch=19, cex=0.3, col=ljen)
+points(d.pcx$rotation[,1][bvab], d.pcx$rotation[,2][bvab], pch=19, cex=0.3, col=bvab)
+points(d.pcx$rotation[,1][gv], d.pcx$rotation[,2][gv], pch=19, cex=0.3, col=gvag)
+points(d.pcx$rotation[,1][pb], d.pcx$rotation[,2][pb], pch=19, cex=0.3, col=prev)
+points(d.pcx$rotation[,1][me], d.pcx$rotation[,2][me], pch=19, cex=0.3, col=rgb(.6,.8,.2))
+points(d.pcx$rotation[,1][sn], d.pcx$rotation[,2][sn], pch=19, cex=0.3, col=lept)
+points(d.pcx$rotation[,1][di], d.pcx$rotation[,2][di], pch=19, cex=0.3, col=dial)
+points(d.pcx$rotation[,1][as], d.pcx$rotation[,2][as], pch=19, cex=0.3, col=ass)
+
+
+#test <- dataEllipse(d.pcx$rotation[,1][li], d.pcx$rotation[,2][li],levels=0.90, plot.points=FALSE,col="steelblue3",lwd=3)
+test <- dataEllipse(d.pcx$rotation[,1][gv], d.pcx$rotation[,2][gv],levels=0.90, plot.points=FALSE,col="indianred1",lwd=3)
+#test <- dataEllipse(d.pcx$rotation[,1][sn], d.pcx$rotation[,2][sn],levels=0.90, plot.points=FALSE,col="brown",lwd=3)
+
+#test <- dataEllipse(d.pcx$rotation[,1][di], d.pcx$rotation[,2][di],levels=0.90, plot.points=FALSE,col="magenta",lwd=3)
+test <- dataEllipse(d.pcx$rotation[pb,1][pbiv1>0], d.pcx$rotation[pb,2][pbiv1>0],levels=0.90, plot.points=FALSE,col=rgb(.67,.51,1), lwd=3)
+
+test <- dataEllipse(d.pcx$rotation[pb,1][pbiv1<=0], d.pcx$rotation[pb,2][pbiv1<=0],levels=0.90, plot.points=FALSE,col=rgb(.67,.51,1),lwd=3)
+
+test <- dataEllipse(d.pcx$rotation[me,1][meg1], d.pcx$rotation[me,2][meg1],levels=c(0,0.90), plot.points=FALSE,col=rgb(.6,.8,.2),lwd=3)
+test <- dataEllipse(d.pcx$rotation[me,1][meg2], d.pcx$rotation[me,2][meg2],levels=c(0,0.90), plot.points=FALSE,col=rgb(.6,.8,.2),lwd=3)
+
+
+abline(h=0, lty=2)
+abline(v=0, lty=2)
+dev.off()
 #####
 
 ```
@@ -154,6 +229,7 @@ This is a good representation of the data explaining `r round(sum(d.pcx$sdev[1]^
 To get around the correlation between gene occurrence and expression, we aggregate the data to the SEED subsystem 4 level. This is done on the same set of samples.
 
 ```{r minimum_biplot,message=FALSE,warning=FALSE}
+
 
 e <- read.table("data/AitchisonTransformedDataForALDExInput.txt", header=T,
    row.names=1, check.names=F, sep="\t", comment.char="", quote="")
@@ -180,12 +256,29 @@ e.min.mvar.clr <- mvar(e.min.clr)
 
 e.min.pcx <- prcomp(e.min.clr)
 
+points.e <- c(rep("o", nrow(e.min)))
+
+#color for labels and points (vector of 2)
+col=c("black",rgb(1,0.2,0.2,0.3))
+cex=c(0.8, .5)
+
+#### SUBSYS 4 BIPLOT
+pdf("subsys4_biplot.pdf")
 # TODO color samples by most abundant organism
-biplot(e.min.pcx, cex=c(0.5,0.05), col=c("black",rgb(1,0,0,0.2)), var.axes=F,
+biplot(e.min.pcx, cex=cex, col=col, var.axes=F,
     xlab=paste("PC1: ", round(sum(e.min.pcx$sdev[1]^2)/e.min.mvar.clr, 3)),
     ylab=paste("PC2: ", round(sum(e.min.pcx$sdev[2]^2)/e.min.mvar.clr, 3)),
-    scale=0
+    scale=0, ylabs=points.e
 )
+text(-.08,-.08,labels="H1", cex=1.5)
+text(-.08,.07,labels="H2", cex=1.5)
+text(.065,.07,labels="BV2", cex=1.5)
+text(.065,-.08,labels="BV1", cex=1.5)
+
+abline(v=0, lty=2)
+abline(h=0, lty=2)
+dev.off()
+
 
 # filter the taxon table by what is in e.min
 o.min <- o[,colnames(e.min)]
@@ -195,31 +288,30 @@ o.clr <- t( apply(o.CZM, 1, function(x){log(x) - mean(log(x))}) )
 # overplot taxon correlations with first two components
 cor.scale.0 <-  max(abs(1/range(e.min.pcx$rotation[,1:2])))
 
+# iners
 points(cor(e.min.pcx$x[,1], o.clr[,1], method="kendall") /cor.scale.0,
     cor(e.min.pcx$x[,2], o.clr[,1], method="kendall")/cor.scale.0, pch="I",
-    col="DodgerBlue")
+    col="steelblue3")
+# lactobacillus
 points(cor(e.min.pcx$x[,1], o.clr[,6], method="kendall") /cor.scale.0,
     cor(e.min.pcx$x[,2], o.clr[,6], method="kendall")/cor.scale.0, pch="L",
     col="DarkBlue")
-
+# crispatus
 points(cor(e.min.pcx$x[,1], o.clr[,2], method="kendall") /cor.scale.0,
-    cor(e.min.pcx$x[,2], o.clr[,2], method="kendall")/cor.scale.0, pch="C", col="cyan")
-
+    cor(e.min.pcx$x[,2], o.clr[,2], method="kendall")/cor.scale.0, pch="C", col="skyblue1")
+# megasphaera
 points(cor(e.min.pcx$x[,1], o.clr[,10], method="kendall") /cor.scale.0,
-    cor(e.min.pcx$x[,2], o.clr[,10], method="kendall")/cor.scale.0, pch="M", col="green")
-
+    cor(e.min.pcx$x[,2], o.clr[,10], method="kendall")/cor.scale.0, pch="M", col=rgb(.6,.8,.2))
+# prevotalla
 points(cor(e.min.pcx$x[,1], o.clr[,8], method="kendall") /cor.scale.0,
-    cor(e.min.pcx$x[,2], o.clr[,8], method="kendall")/cor.scale.0, pch="P", col="purple")
-
+    cor(e.min.pcx$x[,2], o.clr[,8], method="kendall")/cor.scale.0, pch="P", col=rgb(.67,.51,1))
+# gardnerella
 points(cor(e.min.pcx$x[,1], o.clr[,7], method="kendall") /cor.scale.0,
-    cor(e.min.pcx$x[,2], o.clr[,7], method="kendall")/cor.scale.0, pch="G", col="red")
+    cor(e.min.pcx$x[,2], o.clr[,7], method="kendall")/cor.scale.0, pch="G", col="indianred1")
 
-points(cor(e.min.pcx$x[,1], o.clr[,9], method="kendall") /cor.scale.0,
-    cor(e.min.pcx$x[,2], o.clr[,9], method="kendall")/cor.scale.0, pch="A",
-    col="Goldenrod")
-
+# sneathia/leptotrichia
 points(cor(e.min.pcx$x[,1], o.clr[,12], method="kendall") /cor.scale.0,
-    cor(e.min.pcx$x[,2], o.clr[,12], method="kendall")/cor.scale.0, pch="S", col="coral3")
+    cor(e.min.pcx$x[,2], o.clr[,12], method="kendall")/cor.scale.0, pch="S", col="brown")
 ```
 This is a much better representation of the data. We did not bother filtering by abundance since there is a much smaller number of features (`r nrow(e)`). Now we can see a fairly clear split in the data that is less driven by gene occurrence and more by functions within the microbiome (cite Beiko review regarding ecosystems of genes rather than organisms here!).
 
@@ -231,44 +323,45 @@ This is a much better representation of the data. We did not bother filtering by
 # that have the same distribution of 0 values across samples
 # so we need to estimate the value of 0 (and other low-count functions)
 
-# generate random DIR clr instances with ALDEx2 in the minimum function set
-e.x <- aldex.clr(e.min)
-
-# calculate phi divided by number of random instances
-e.min.sma.df <- aldex.phi(e.x)
-
+## generate random DIR clr instances with ALDEx2 in the minimum function set
+#e.x <- aldex.clr(e.min)
+#
+## calculate phi divided by number of random instances
+#e.min.sma.df <- aldex.phi(e.x)
+#
 # find the set of connections with phi less than some value
 # we choose an arbitrary cutoff, but it is higher after Bayesian estimation
 # obviously
- phi.cutoff <- 0.03
-
-e.min.sma.lo.phi <- subset(e.min.sma.df, phi < phi.cutoff)
-
-# generate a graphical object
-g <- graph.data.frame(e.min.sma.lo.phi, directed=FALSE)
-
-# overview of all the proportional relationships
-# this can take a long time!!!
+# phi.cutoff <- 0.03
+#
+#e.min.sma.lo.phi <- subset(e.min.sma.df, phi < phi.cutoff)
+#
+## generate a graphical object
+#g <- graph.data.frame(e.min.sma.lo.phi, directed=FALSE)
+#V(g)$color <- com$membership+1
+#
+## overview of all the proportional relationships
+## this can take a long time!!!
 # plot(g, layout=layout.fruchterman.reingold.grid(g, weight=0.05/E(g)$phi), vertex.size=1,
-#   vertex.color="black", vertex.label=NA)
-
-# # get the clusters from the graph object
- g.clust <- clusters(g)
-
-# write them to a file
-
-# # data frame containing the names and group memberships of each cluster
-g.df <- data.frame(Systematic.name=V(g)$name, cluster=g.clust$membership,
-    cluster.size=g.clust$csize[g.clust$membership])
-
-attach(g.df)
-g.order <- g.df[order(cluster),]
-detach(g.df)
-write.table(g.order, file="SEED.g.df.txt", sep="\t", quote=F, col.names=NA)
-
-max.clust <- induced.subgraph(g, which(g.clust$membership %in% which(g.clust$csize ==
-    max(g.clust$csize))))
-max.clust.names <- V(max.clust)$name
+#    vertex.label=NA)
+#
+## # get the clusters from the graph object
+# g.clust <- clusters(g)
+#
+## write them to a file
+#
+## # data frame containing the names and group memberships of each cluster
+#g.df <- data.frame(Systematic.name=V(g)$name, cluster=g.clust$membership,
+#    cluster.size=g.clust$csize[g.clust$membership])
+#
+#attach(g.df)
+#g.order <- g.df[order(cluster),]
+#detach(g.df)
+#write.table(g.order, file="SEED.g.df.txt", sep="\t", quote=F, col.names=NA)
+#
+#max.clust <- induced.subgraph(g, which(g.clust$membership %in% which(g.clust$csize ==
+#    max(g.clust$csize))))
+#max.clust.names <- V(max.clust)$name
 ```
 
 ```{r phi.biplot, warning=FALSE, message=FALSE}
@@ -282,7 +375,7 @@ var.axes=F, scale=0)
 #points(e.min.pcx$rotation[max.clust.names,][,1],e.min.pcx$rotation[max.clust.names,][,2],
 #    col=rgb(0,0,1,0.2),pch=19,cex=0.2)
 
-colours <- c("steelblue3", "skyblue1", "indianred1", "mediumpurple1", "olivedrab3",
+colours <- c("steelblue3", "skyblue1", "indianred1", "mediumdarkorchid41", "olivedrab3",
    "pink", "#FFED6F", "mediumorchid3", "ivory2", "tan1", "aquamarine3", "#C0C0C0",
    "royalblue4", "mediumvioletred", "#999933", "#666699", "#CC9933", "#006666", "#3399FF",
    "#993300", "#CCCC99", "#666666", "#FFCC66", "#6699CC", "#663366", "#9999CC", "#CCCCCC",
