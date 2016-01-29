@@ -365,6 +365,12 @@ This is a much better representation of the data. We did not bother filtering by
 ```
 
 ```{r phi.biplot, warning=FALSE, message=FALSE}
+g.df <- read.table("SEED.g.df.txt",row.names=1, header=T, check.names=F, sep="\t", comment.char="", quote="")
+
+coord.seed <- e.min.pcx$rotation[rownames(g.df),1]
+g.df$coord <- coord.seed
+
+write.table(g.df, file="SEED_phi_coord.txt", col.names=NA, sep="\t", quote=FALSE)
 par(mfrow=c(1,1))
 
 biplot(e.min.pcx,col=c("black", rgb(1,0,0,0.2)),cex=c(0.8,0.05),
@@ -504,9 +510,12 @@ detach(KO.g.df)
 
 write.table(k.order, file="KO.g.df.txt", sep="\t", quote=F, col.names=NA)
 
-max.clust <- induced.subgraph(g, which(g.clust$membership %in% which(g.clust$csize ==
-    max(g.clust$csize))))
-max.clust.names <- V(max.clust)$name
+g.df <- read.table("KO.g.df.txt",row.names=1, header=T, check.names=F, sep="\t", comment.char="", quote="")
+
+coord.seed <- k.min.pcx$rotation[rownames(g.df),1]
+g.df$coord <- coord.seed
+
+write.table(g.df, file="KO_phi_coord.txt", col.names=NA, sep="\t", quote=FALSE)
 
 biplot(k.min.pcx,col=c("black", rgb(1,0,0,0.2)),cex=c(0.8,0.05),
 var.axes=F, scale=0)
