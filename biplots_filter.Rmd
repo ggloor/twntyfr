@@ -20,6 +20,7 @@ library(ALDEx2)
 source("~/git/proprBayes/R/propr-functions.R")
 
 library(igraph)
+library(car)
 
 ############### incorporating phi into ALDEx
 # calculate phi on Dirichlet log-ratio distributions
@@ -133,8 +134,8 @@ dial <- rgb(1,0,1,0.6)
 lept <- rgb(0.65,.16,.16,0.6)
 ass <- rgb(0,0,0,0.6)
 
-tax.nms <- list(li, lc, lj, lje, pb, gv, me, sn, di, le, as)
-tax.col <- list(iners, crisp, ljon, ljen, gvag, mega, snea, dial, lept, ass)
+tax.nms <- list(li, lc, lj, lje, pb, gv, me, sn, di, as)
+tax.col <- list(iners, crisp, ljon, ljen, gvag, mega, snea, dial, ass)
 
 # Make the number of points equal to the number of features (for labels)
 points <- c(rep("o", nrow(d.min)))
@@ -142,8 +143,10 @@ points <- c(rep("o", nrow(d.min)))
 #color for labels and points (vector of 2)
 col=c("black",rgb(0.2,0.2,0.2,0.0))
 cex=c(0.8, .2)
+###########################
 
-pdf("refseq_biplot.pdf")
+pdf("figs/fig2_refseq_biplot.pdf", height=6, width=10)
+par(mfrow=c(1,2))
 biplot(d.pcx, cex=cex, col=col, var.axes=F,
     xlab=paste("PC1: ", round(sum(d.pcx$sdev[1]^2)/d.mvar.clr, 3)),
     ylab=paste("PC2: ", round(sum(d.pcx$sdev[2]^2)/d.mvar.clr, 3)),
@@ -155,9 +158,13 @@ text(.025,.025,labels="BV2", cex=1.5)
 text(.025,-.035,labels="BV1", cex=1.5)
 # plot the lactobacilli elipses
 test <- dataEllipse(d.pcx$rotation[,1][li], d.pcx$rotation[,2][li],levels=0.90, plot.points=FALSE,col="steelblue3",lwd=3)
+text(.005,.018,labels="Li", cex=0.8,col="steelblue3")
 test <- dataEllipse(d.pcx$rotation[,1][lc], d.pcx$rotation[,2][lc],levels=0.90, plot.points=FALSE,col="skyblue1",lwd=3)
+text(-.025,-.025,labels="Lc", cex=0.8,col="skyblue1")
 test <- dataEllipse(d.pcx$rotation[,1][lj], d.pcx$rotation[,2][lj],levels=0.90, plot.points=FALSE,col="royalblue4",lwd=3)
+text(-.0019,.028,labels="Ljg", cex=0.8,col="royalblue4")
 test <- dataEllipse(d.pcx$rotation[,1][lje], d.pcx$rotation[,2][lje],levels=0.90, plot.points=FALSE,col="cyan",lwd=3)
+text(-.024,.01,labels="Lje", cex=0.8,col="cyan")
 
 
 # plot the taxonomic colors
@@ -176,7 +183,6 @@ points(d.pcx$rotation[,1][as], d.pcx$rotation[,2][as], pch=19, cex=0.2, col=ass)
 # axes
 abline(h=0, lty=2)
 abline(v=0, lty=2)
-dev.off()
 #######
 
 
@@ -187,7 +193,7 @@ dev.off()
 
 ######
 # subset the plot to only cover the right side, and only the rotations
-pdf("bv_refseq_loadings.pdf")
+
 plot(d.pcx$rotation[,1], d.pcx$rotation[,2], xlim=c(-0.005,0.015), ylim=c(-0.015,0.010), col=rgb(0,0,0,0), xlab="PC1 loading", ylab="PC2 loading")
 
 # plot the taxonomic colors
@@ -206,20 +212,26 @@ points(d.pcx$rotation[,1][as], d.pcx$rotation[,2][as], pch=19, cex=0.3, col=ass)
 
 #test <- dataEllipse(d.pcx$rotation[,1][li], d.pcx$rotation[,2][li],levels=0.90, plot.points=FALSE,col="steelblue3",lwd=3)
 test <- dataEllipse(d.pcx$rotation[,1][gv], d.pcx$rotation[,2][gv],levels=0.90, plot.points=FALSE,col="indianred1",lwd=3)
+text(.01,.009,labels="Gv", cex=0.8,col="indianred1")
+
 #test <- dataEllipse(d.pcx$rotation[,1][sn], d.pcx$rotation[,2][sn],levels=0.90, plot.points=FALSE,col="brown",lwd=3)
 
 #test <- dataEllipse(d.pcx$rotation[,1][di], d.pcx$rotation[,2][di],levels=0.90, plot.points=FALSE,col="magenta",lwd=3)
 test <- dataEllipse(d.pcx$rotation[pb,1][pbiv1>0], d.pcx$rotation[pb,2][pbiv1>0],levels=0.90, plot.points=FALSE,col=rgb(.67,.51,1), lwd=3)
+text(.014,.0015,labels="Pr", cex=0.8,col=rgb(.67,.51,1))
 
 test <- dataEllipse(d.pcx$rotation[pb,1][pbiv1<=0], d.pcx$rotation[pb,2][pbiv1<=0],levels=0.90, plot.points=FALSE,col=rgb(.67,.51,1),lwd=3)
 
 test <- dataEllipse(d.pcx$rotation[me,1][meg1], d.pcx$rotation[me,2][meg1],levels=c(0,0.90), plot.points=FALSE,col=rgb(.6,.8,.2),lwd=3)
 test <- dataEllipse(d.pcx$rotation[me,1][meg2], d.pcx$rotation[me,2][meg2],levels=c(0,0.90), plot.points=FALSE,col=rgb(.6,.8,.2),lwd=3)
+text(-.004,-.010,labels="Me", cex=0.8,col=rgb(.6,.8,.2))
+text(.01,-.014,labels="AS", cex=0.8,col="black")
 
 
 abline(h=0, lty=2)
 abline(v=0, lty=2)
 dev.off()
+
 #####
 
 ```
@@ -228,8 +240,7 @@ This is a good representation of the data explaining `r round(sum(d.pcx$sdev[1]^
 
 To get around the correlation between gene occurrence and expression, we aggregate the data to the SEED subsystem 4 level. This is done on the same set of samples.
 
-```{r minimum_biplot,message=FALSE,warning=FALSE}
-
+```{r subsys4_KO__biplot,message=FALSE,warning=FALSE}
 
 e <- read.table("data/AitchisonTransformedDataForALDExInput.txt", header=T,
    row.names=1, check.names=F, sep="\t", comment.char="", quote="")
@@ -256,20 +267,25 @@ e.min.mvar.clr <- mvar(e.min.clr)
 
 e.min.pcx <- prcomp(e.min.clr)
 
+#################### SUBSYS 4 BIPLOT
+
+pdf("figs/fig3_subsys4_KO__biplot.pdf", height=6, width=10)
+
 points.e <- c(rep("o", nrow(e.min)))
 
 #color for labels and points (vector of 2)
-col=c("black",rgb(1,0.2,0.2,0.3))
-cex=c(0.8, .5)
+col=c("black",rgb(0.2,0.2,0.2,0.2))
+cex=c(0.8, .4)
 
-#### SUBSYS 4 BIPLOT
-pdf("subsys4_biplot.pdf")
+par(mfrow=c(1,2))
+
 # TODO color samples by most abundant organism
 biplot(e.min.pcx, cex=cex, col=col, var.axes=F,
     xlab=paste("PC1: ", round(sum(e.min.pcx$sdev[1]^2)/e.min.mvar.clr, 3)),
     ylab=paste("PC2: ", round(sum(e.min.pcx$sdev[2]^2)/e.min.mvar.clr, 3)),
-    scale=0, ylabs=points.e
+    scale=0, ylabs=points.e, main="SEED"
 )
+# scale=0
 text(-.08,-.08,labels="H1", cex=1.5)
 text(-.08,.07,labels="H2", cex=1.5)
 text(.065,.07,labels="BV2", cex=1.5)
@@ -277,46 +293,6 @@ text(.065,-.08,labels="BV1", cex=1.5)
 
 abline(v=0, lty=2)
 abline(h=0, lty=2)
-dev.off()
-
-
-# filter the taxon table by what is in e.min
-o.min <- o[,colnames(e.min)]
-o.CZM <- cmultRepl(t(o.min), label=0, method="CZM")
-o.clr <- t( apply(o.CZM, 1, function(x){log(x) - mean(log(x))}) )
-
-# overplot taxon correlations with first two components
-cor.scale.0 <-  max(abs(1/range(e.min.pcx$rotation[,1:2])))
-
-# iners
-points(cor(e.min.pcx$x[,1], o.clr[,1], method="kendall") /cor.scale.0,
-    cor(e.min.pcx$x[,2], o.clr[,1], method="kendall")/cor.scale.0, pch="I",
-    col="steelblue3")
-# lactobacillus
-points(cor(e.min.pcx$x[,1], o.clr[,6], method="kendall") /cor.scale.0,
-    cor(e.min.pcx$x[,2], o.clr[,6], method="kendall")/cor.scale.0, pch="L",
-    col="DarkBlue")
-# crispatus
-points(cor(e.min.pcx$x[,1], o.clr[,2], method="kendall") /cor.scale.0,
-    cor(e.min.pcx$x[,2], o.clr[,2], method="kendall")/cor.scale.0, pch="C", col="skyblue1")
-# megasphaera
-points(cor(e.min.pcx$x[,1], o.clr[,10], method="kendall") /cor.scale.0,
-    cor(e.min.pcx$x[,2], o.clr[,10], method="kendall")/cor.scale.0, pch="M", col=rgb(.6,.8,.2))
-# prevotalla
-points(cor(e.min.pcx$x[,1], o.clr[,8], method="kendall") /cor.scale.0,
-    cor(e.min.pcx$x[,2], o.clr[,8], method="kendall")/cor.scale.0, pch="P", col=rgb(.67,.51,1))
-# gardnerella
-points(cor(e.min.pcx$x[,1], o.clr[,7], method="kendall") /cor.scale.0,
-    cor(e.min.pcx$x[,2], o.clr[,7], method="kendall")/cor.scale.0, pch="G", col="indianred1")
-
-# sneathia/leptotrichia
-points(cor(e.min.pcx$x[,1], o.clr[,12], method="kendall") /cor.scale.0,
-    cor(e.min.pcx$x[,2], o.clr[,12], method="kendall")/cor.scale.0, pch="S", col="brown")
-```
-This is a much better representation of the data. We did not bother filtering by abundance since there is a much smaller number of features (`r nrow(e)`). Now we can see a fairly clear split in the data that is less driven by gene occurrence and more by functions within the microbiome (cite Beiko review regarding ecosystems of genes rather than organisms here!).
-
-
-```{r phi1, warning=FALSE, message=FALSE}
 
 ###### phi with Bayesian estimation
 # the problem is that a low phi can easily arise between functions
@@ -324,7 +300,7 @@ This is a much better representation of the data. We did not bother filtering by
 # so we need to estimate the value of 0 (and other low-count functions)
 
 ## generate random DIR clr instances with ALDEx2 in the minimum function set
-#e.x <- aldex.clr(e.min)
+e.x <- aldex.clr(e.min)
 #
 ## calculate phi divided by number of random instances
 #e.min.sma.df <- aldex.phi(e.x)
@@ -338,13 +314,6 @@ This is a much better representation of the data. We did not bother filtering by
 #
 ## generate a graphical object
 #g <- graph.data.frame(e.min.sma.lo.phi, directed=FALSE)
-#V(g)$color <- com$membership+1
-#
-## overview of all the proportional relationships
-## this can take a long time!!!
-# plot(g, layout=layout.fruchterman.reingold.grid(g, weight=0.05/E(g)$phi), vertex.size=1,
-#    vertex.label=NA)
-#
 ## # get the clusters from the graph object
 # g.clust <- clusters(g)
 #
@@ -359,38 +328,18 @@ This is a much better representation of the data. We did not bother filtering by
 #detach(g.df)
 #write.table(g.order, file="SEED.g.df.txt", sep="\t", quote=F, col.names=NA)
 #
-#max.clust <- induced.subgraph(g, which(g.clust$membership %in% which(g.clust$csize ==
-#    max(g.clust$csize))))
-#max.clust.names <- V(max.clust)$name
-```
-
-```{r phi.biplot, warning=FALSE, message=FALSE}
 g.df <- read.table("SEED.g.df.txt",row.names=1, header=T, check.names=F, sep="\t", comment.char="", quote="")
+big <- g.df[which(g.df$cluster.size >= 10),]
+colnames(big) <- colnames(g.df)
 
-coord.seed <- e.min.pcx$rotation[rownames(g.df),1]
-g.df$coord <- coord.seed
-
-write.table(g.df, file="SEED_phi_coord.txt", col.names=NA, sep="\t", quote=FALSE)
-par(mfrow=c(1,1))
-
-biplot(e.min.pcx,col=c("black", rgb(1,0,0,0.2)),cex=c(0.8,0.05),
-var.axes=F, scale=0)
-
-#nms <- rownames(g.df)[g.df$cluster==max.clust.names]
-
-#points(e.min.pcx$rotation[max.clust.names,][,1],e.min.pcx$rotation[max.clust.names,][,2],
-#    col=rgb(0,0,1,0.2),pch=19,cex=0.2)
-
-colours <- c("steelblue3", "skyblue1", "indianred1", "mediumdarkorchid41", "olivedrab3",
+colours <- c("indianred1", "steelblue3",  "skyblue1", "mediumorchid", "olivedrab3", "royalblue4",
    "pink", "#FFED6F", "mediumorchid3", "ivory2", "tan1", "aquamarine3", "#C0C0C0",
-   "royalblue4", "mediumvioletred", "#999933", "#666699", "#CC9933", "#006666", "#3399FF",
+    "mediumvioletred", "#999933", "#666699", "#CC9933", "#006666", "#3399FF",
    "#993300", "#CCCC99", "#666666", "#FFCC66", "#6699CC", "#663366", "#9999CC", "#CCCCCC",
    "#669999", "#CCCC66", "#CC6600", "#9999FF", "#0066CC", "#99CCCC", "#999999", "#FFCC00",
    "#009999", "#FF9900", "#999966", "#66CCCC", "#339966", "#CCCC33", "#EDEDED"
 )
 
-big <- g.df[which(g.df$cluster.size >= 2),]
-colnames(big) <- colnames(g.df)
 
 lev <- factor(big$cluster)
 for(i in as.numeric(levels(lev))){
@@ -398,43 +347,9 @@ nms <- rownames(big)[big$cluster==i]
 #print(rownames(big)[big$cluster==i])
 #print("")
 points(e.min.pcx$rotation[nms,][,1],e.min.pcx$rotation[nms,][,2], col=colours[i],
-    pch=19, cex=0.3)
-}
-```
-
-Here the vast majority of low phi values come from core functions that are constant ratios in all samples, but not differential. A few smaller groups are both differential and compositionally associated.
-
-Incorporating the Bayesian estimate of 0 gives a much clearer picture, than using point estimates. When point estimates are used, then the majority of the clusters are near 0,0 - simply because of sets of functions that share the same distribution of 0 across samples.
-
-The relationship between phi and effect size.
-```{r phi.aldex , warning=FALSE, message=FALSE, error=FALSE}
-	B <- match(rownames(e.min.pcx$x)[e.min.pcx$x[,1] > 0], rownames(e.min.pcx$x))
-	H <- match(rownames(e.min.pcx$x)[e.min.pcx$x[,1] < 0], rownames(e.min.pcx$x))
-
-	conds <- vector()
-	conds[B] <- "B"
-	conds[H] <- "H"
-
-	x.e <- aldex.effect(e.x, conds, verbose=FALSE)
-
-	plot(x.e$diff.win, x.e$diff.btw, pch=19,cex=0.4, col=rgb(0,0,0,0.2))
-
-	abline(0,2, lty=2, col="grey")
-	abline(0,-2, lty=2, col="grey")
-	abline(0,1, lty=3, col="grey")
-	abline(0,-1, lty=3, col="grey")
-
-	for(i in as.numeric(levels(lev))){
-	nms <- rownames(big)[big$cluster==i]
-	#print(rownames(big)[big$cluster==i])
-	#print("")
-	points(x.e[nms,"diff.win"],x.e[nms,"diff.btw"], col=colours[i], pch=19, cex=0.5)
+    pch=19, cex=0.4)
 }
 
-```
-# Now we do it all over again with KO numbers
-
-```{r KO, warning=FALSE, message=FALSE, error=FALSE}
 k <- read.table("data/KO_reads_aitchison_sum.txt", header=T,
     row.names=1, sep="\t", check.names=FALSE)
 
@@ -464,73 +379,111 @@ k.min.mvar.clr <- mvar(k.min.clr)
 
 k.min.pcx <- prcomp(k.min.clr)
 
+#color for labels and points (vector of 2)
+col=c("black",rgb(0.2,0.2,0.2,0.2))
+cex=c(0.8, .4)
+points.k <- c(rep("o", nrow(k.min)))
+
+#### KO 4 BIPLOT
 # TODO color samples by most abundant organism
-biplot(k.min.pcx, cex=c(0.5,0.05), col=c("black",rgb(1,0,0,0.2)), var.axes=F,
+biplot(k.min.pcx, cex=cex, col=col, var.axes=F,
     xlab=paste("PC1: ", round(sum(k.min.pcx$sdev[1]^2)/k.min.mvar.clr, 3)),
     ylab=paste("PC2: ", round(sum(k.min.pcx$sdev[2]^2)/k.min.mvar.clr, 3)),
-    scale=0
+    scale=1, ylabs=points.k, main="KEGG"
 )
-```
-Wow, this is indistinguishable from SEED level 4 in terms of variance explained and associations between samples.
+# scale=0
+text(-.09,-.09,labels="H1", cex=1.5)
+text(-.09,.08,labels="H2", cex=1.5)
+text(.075,.08,labels="BV2", cex=1.5)
+text(.075,-.09,labels="BV1", cex=1.5)
 
-```{r phi.ko, warning=FALSE, message=FALSE}
+abline(v=0, lty=2)
+abline(h=0, lty=2)
+
 # generate random DIR clr instances with ALDEx2 in the minimum function set
-k.x <- aldex.clr(k.min)
+#k.x <- aldex.clr(k.min)
+#
+## calculate phi divided by number of random instances
+#k.min.sma.df <- aldex.phi(k.x)
+#
+## find the set of connections with phi less than some value
+## we choose an arbitrary cutoff, but it is higher after Bayesian estimation
+## obviously
+# phi.cutoff <- 0.03
+#
+#k.min.sma.lo.phi <- subset(k.min.sma.df, phi < phi.cutoff)
+#
+## generate a graphical object
+#g <- graph.data.frame(k.min.sma.lo.phi, directed=FALSE)
+#
+## overview of all the proportional relationships
+## this can take a long time!!!
+## plot(g, layout=layout.fruchterman.reingold.grid(g, weight=0.05/E(g)$phi), vertex.size=1,
+##   vertex.color="black", vertex.label=NA)
+#
+## # get the clusters from the graph object
+# g.clust <- clusters(g)
+#
+## write them to a file
+#
+## # data frame containing the names and group memberships of each cluster
+#KO.g.df <- data.frame(Systematic.name=V(g)$name, cluster=g.clust$membership,
+#    cluster.size=g.clust$csize[g.clust$membership])
+#
+#attach(KO.g.df)
+#k.order <- KO.g.df[order(cluster),]
+#detach(KO.g.df)
+#
+#write.table(k.order, file="KO.g.df.txt", sep="\t", quote=F, col.names=NA)
+#
+KO.g.df <- read.table("KO.g.df.txt",row.names=1, header=T, check.names=F, sep="\t", comment.char="", quote="")
 
-# calculate phi divided by number of random instances
-k.min.sma.df <- aldex.phi(k.x)
+colours <- c("indianred1", "royalblue4", "skyblue1", "mediumorchid", "olivedrab3", "steelblue3",
+   "pink", "#FFED6F", "mediumorchid3", "ivory2", "tan1", "aquamarine3", "#C0C0C0",
+    "mediumvioletred", "#999933", "#666699", "#CC9933", "#006666", "#3399FF",
+   "#993300", "#CCCC99", "#666666", "#FFCC66", "#6699CC", "#663366", "#9999CC", "#CCCCCC",
+   "#669999", "#CCCC66", "#CC6600", "#9999FF", "#0066CC", "#99CCCC", "#999999", "#FFCC00",
+   "#009999", "#FF9900", "#999966", "#66CCCC", "#339966", "#CCCC33", "#EDEDED"
+)
 
-# find the set of connections with phi less than some value
-# we choose an arbitrary cutoff, but it is higher after Bayesian estimation
-# obviously
- phi.cutoff <- 0.03
-
-k.min.sma.lo.phi <- subset(k.min.sma.df, phi < phi.cutoff)
-
-# generate a graphical object
-g <- graph.data.frame(k.min.sma.lo.phi, directed=FALSE)
-
-# overview of all the proportional relationships
-# this can take a long time!!!
-# plot(g, layout=layout.fruchterman.reingold.grid(g, weight=0.05/E(g)$phi), vertex.size=1,
-#   vertex.color="black", vertex.label=NA)
-
-# # get the clusters from the graph object
- g.clust <- clusters(g)
-
-# write them to a file
-
-# # data frame containing the names and group memberships of each cluster
-KO.g.df <- data.frame(Systematic.name=V(g)$name, cluster=g.clust$membership,
-    cluster.size=g.clust$csize[g.clust$membership])
-
-attach(KO.g.df)
-k.order <- KO.g.df[order(cluster),]
-detach(KO.g.df)
-
-write.table(k.order, file="KO.g.df.txt", sep="\t", quote=F, col.names=NA)
-
-g.df <- read.table("KO.g.df.txt",row.names=1, header=T, check.names=F, sep="\t", comment.char="", quote="")
-
-coord.seed <- k.min.pcx$rotation[rownames(g.df),1]
-g.df$coord <- coord.seed
-
-write.table(g.df, file="KO_phi_coord.txt", col.names=NA, sep="\t", quote=FALSE)
-
-biplot(k.min.pcx,col=c("black", rgb(1,0,0,0.2)),cex=c(0.8,0.05),
-var.axes=F, scale=0)
-
-#nms <- rownames(g.df)[g.df$cluster==max.clust.names]
-
-big <- KO.g.df[which(KO.g.df$cluster.size >= 2),]
+big <- KO.g.df[which(KO.g.df$cluster.size >= 10),]
 colnames(big) <- colnames(KO.g.df)
 
 lev <- factor(big$cluster)
 for(i in as.numeric(levels(lev))){
 nms <- rownames(big)[big$cluster==i]
-#print(rownames(big)[big$cluster==i])
-#print("")
+
 points(k.min.pcx$rotation[nms,][,1],k.min.pcx$rotation[nms,][,2], col=colours[i],
-    pch=19, cex=0.3)
+    pch=19, cex=0.4)
 }
+
+dev.off()
+```
+
+The relationship between phi and effect size.
+
+```{r phi.aldex , warning=FALSE, message=FALSE, error=FALSE}
+	B <- match(rownames(e.min.pcx$x)[e.min.pcx$x[,1] > 0], rownames(e.min.pcx$x))
+	H <- match(rownames(e.min.pcx$x)[e.min.pcx$x[,1] < 0], rownames(e.min.pcx$x))
+
+	conds <- vector()
+	conds[B] <- "B"
+	conds[H] <- "H"
+
+	x.e <- aldex.effect(e.x, conds, verbose=FALSE)
+
+	plot(x.e$diff.win, x.e$diff.btw, pch=19,cex=0.4, col=rgb(0,0,0,0.2))
+
+	abline(0,2, lty=2, col="grey")
+	abline(0,-2, lty=2, col="grey")
+	abline(0,1, lty=3, col="grey")
+	abline(0,-1, lty=3, col="grey")
+
+	for(i in as.numeric(levels(lev))){
+	nms <- rownames(big)[big$cluster==i]
+	#print(rownames(big)[big$cluster==i])
+	#print("")
+	points(x.e[nms,"diff.win"],x.e[nms,"diff.btw"], col=colours[i], pch=19, cex=0.5)
+}
+
 ```
