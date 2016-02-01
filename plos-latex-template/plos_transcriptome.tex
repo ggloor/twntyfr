@@ -164,21 +164,32 @@
 \newline
 % Insert author names, affiliations and corresponding author email (do not include titles, positions, or degrees).
 \\
-Jean M. Macklaim\textsuperscript{1,},
-Amy McMillan\textsuperscript{2,},
-Name3 Surname\textsuperscript{2,\textcurrency a},
-Name4 Surname\textsuperscript{2,\ddag},
-Name5 Surname\textsuperscript{2,\ddag},
-Gregor Reid\textsuperscript{2},
-Gregory B. Gloor\textsuperscript{3,*},
-with the Lorem Ipsum Consortium\textsuperscript{\textpilcrow}
+Jean M. Macklaim\textsuperscript{1,2},
+Amy McMillan\textsuperscript{1,3},
+Jo-Anne Hammond\textsuperscript{4},
+Michael John\textsuperscript{5},
+Mark Sumarah\textsuperscript{6},
+Johnathan Swan\textsuperscript{7},
+Gregor Reid\textsuperscript{1,3,8},
+Gregory B. Gloor\textsuperscript{1,2,*},
+with the VOGUE Research Group\textsuperscript{\textpilcrow}
 \\
 \bigskip
-\bf{1} Affiliation Dept/Program/Center, Institution Name, City, State, Country
+\bf{1} Canadian Centre for Human Microbiome and Probiotic Research, Lawson Health Research Institute, The University of Western Ontario, London, Ontario, Canada
 \\
-\bf{2} Affiliation Dept/Program/Center, Institution Name, City, State, Country
+\bf{2} Department of Biochemistry, The University of Western Ontario, London, Ontario, Canada
 \\
-\bf{3} Affiliation Dept/Program/Center, Institution Name, City, State, Country
+\bf{3} Department of Microbiology and Immunology, The University of Western Ontario, London, Ontario, Canada
+\\
+\bf{4} Department of Family Medicine, The University of Western Ontario, London, N6A 5C1, Canada
+\\
+\bf{5} Department of Pathology and Laboratory Medicine, The University of Western Ontario, London, N6A 5C1, Canada
+\\
+\bf{6} Agriculture and Agri-food Canada, London, Ontario, Canada
+\\
+\bf{7}Department of Food and Nutritional Sciences, School of Chemistry, Food and Pharmacy, University of Reading, Reading RG6 6AP, United Kingdom
+\\
+\bf{7} Department of Surgery, The University of Western Ontario, London, Ontario, Canada
 \\
 \bigskip
 
@@ -191,10 +202,10 @@ with the Lorem Ipsum Consortium\textsuperscript{\textpilcrow}
 
 % Additional Equal Contribution Note
 % Also use this double-dagger symbol for special authorship notes, such as senior authorship.
-\ddag Corresponding Author
+%\ddag Corresponding Author
 
 % Current address notes
-\textcurrency a Insert current address of first author with an address update
+%\textcurrency a Insert current address of first author with an address update
 % \textcurrency b Insert current address of second author with an address update
 % \textcurrency c Insert current address of third author with an address update
 
@@ -205,7 +216,7 @@ with the Lorem Ipsum Consortium\textsuperscript{\textpilcrow}
 \textpilcrow Membership list can be found in the Acknowledgments section.
 
 % Use the asterisk to denote corresponding authorship and provide email address in note below.
-* CorrespondingAuthor@institute.edu
+* ggloor@uwo.ca
 
 \end{flushleft}
 % Please keep the abstract below 300 words
@@ -218,7 +229,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget porta er
 % Author Summary not valid for PLOS ONE submissions.   
 %\section*{Author Summary}
 %The meta-transcriptome of twenty-two human vaginal samples was characterized at 
-%\linenumbers
+\linenumbers
 
 \section*{Introduction}
 The vaginal microbiome is important
@@ -229,7 +240,9 @@ The vaginal meta-transcriptome was characterized using a very small sample size 
 
 The vaginal metabolome has been characterized with the result that (confirms and extends) ...
 
-Here we report the integrated analysis of the vaginal microbiome, meta-transcriptome and metabolome on an overlapping set of samples from (N) women from London Ontario. We find that the ..., and .... We suggest that ...
+
+
+Here we report the integrated analysis of the vaginal microbiome, meta-transcriptome and metabolome on an overlapping set of samples from (N) women from London Ontario. We used  high-throughput sequencing of that the ..., and .... We suggest that ...
 
 %\begin{equation}\label{eq:schemeP} 
 %D_{coll} = \frac{D_f+\frac{[S]^2}{K_D S_T} D_S} {1+\frac{[S]^2}{K_D S_T}}, 
@@ -304,13 +317,13 @@ Compositional biplots of the reference sequence transcripts filtered to include 
 
 Not surprisingly, the reference sequence-based biplot shows that taxonomic abundance is the major driver of the variation of transcript abundance between samples. We were interested to determine if the different states had different underlying functions regardless of the taxonomic composition. Thus the reads were grouped by SEED subsystem 4 function or by KEGG function and Fig. \ref{F3:function_biplot} shows the result.  Here we can see that the functions partition more strongly along the major axis of variance with 56.2\% of the variance explained on PC1, and 8.5\% on PC2 when aggregated by SEED subsystem and 57.3\% and 8.6\% when aggregated by KEGG function. Thus the first two components explain at least 64\% of the variance regardless of the functional classification used. We observe that in both cases the  samples group into the same four groups as observed for the non-aggregated data. This indicates that the observed splits are robust to aggregation of the data, and are not simply driven by changes in taxonomic abundance. Samples composing the healthy group on the left side of the biplot are associated with a relatively small set of functions that are proportionally increased in these samples, and the samples composing the BV group are associated with a large set of functions that are proportionally increased in the BV samples.  The large number of functions with small variance indicates the presence of a core set of functions that are required regardless of condition. The health and BV samples also partition along PC2 similarly to the partitioning seen in Panel A. 
 
-We note that that the majority of functions are at or near the origin with the greatest density being near -5 on PC1. A limitation of the a centered log-ratio approach, or indeed of any ratio-based approach is that the geometric mean of a sample depends on the density of 0 values in the sample.  Samples will have a high density of 0 values in the group that has fewer expressed genes. The H1 and H2 group samples, composed of \emph{Lactobacillus} species will have a much smaller set of functions than will the BV1 and BV2 groups that comprise a mixed bag of organisms, and which generally include at least some functions found only in \emph{Lactobacillus}. Thus the geometric mean for the H groups will be closer to 0 than will the geometric mean for the BV group samples, and the values will have higher . The clr value for the  function i in H and BV, is determined by the formula $\frac{F_i}{gm}$, and so genes with low counts will \emph{appear} to be exhibit variation indicating a greater abundance on the H side of PC1.
+We note that that the majority of functions are at or near the origin with the greatest density being near -5 on PC1. A limitation of the a centered log-ratio approach, or indeed of any ratio-based approach is that the geometric mean of a sample depends on the density of 0 values in the sample.  Samples will have a high density of 0 values in the group that has fewer expressed genes. The H1 and H2 group samples, composed of \emph{Lactobacillus} species will have a much smaller set of functions than will the BV1 and BV2 groups that comprise a mixed bag of organisms, and which generally include at least some functions found only in \emph{Lactobacillus}. Thus the geometric mean for the H groups will be closer to 0 than will the geometric mean for the BV group samples, and the resulting ratio values will be higher. 
 
 \subsection{Exploring differential abundance}
 
 Traditional statistical approaches, while widely used, are inappropriate when examining compositional  abundances using the $\phi$ metric that assesses the stability of the abundance ratios across samples for all possible pairs of transcripts \cite{Lovell:2015}. Samples that have stable ratios are said to be compositionally associated and have a value of $phi$ near 0. 
 
-As with any compositional data analysis approach, values of 0 are not compatible with the transformation requried. In the original paper, the authors removed from analysis all genes that had a 0 count in any sample and then calculated the clr and $\phi$ as point estimates. We took a different approach and estimated the distribution of values that 0 could reasonably assume and then clr-transformed the data using the aldex.clr function from the ALDEx2 Bioconductor package \cite{fernandes:2013, fernandes:2014}. The $\phi$ measure was then calculated for each independent element of the distribution and the expected value of $\phi$ was reported. This approach allowed us to determine reasonable estimates for compositional association values even for functions with a dichotomous distribution, while still maintaining a low false positive background. 
+As with any compositional data analysis approach, values of 0 are not compatible with the transformation required. In the original paper, the authors removed from analysis all genes that had a 0 count in any sample and then calculated the clr and $\phi$ as point estimates. We took a different approach and estimated the distribution of values that 0 could reasonably assume and then clr-transformed the data using the aldex.clr function from the ALDEx2 Bioconductor package \cite{fernandes:2013, fernandes:2014}. The $\phi$ measure was then calculated for each independent element of the distribution and the expected value of $\phi$ was reported. This approach allowed us to determine reasonable estimates for compositional association values even for functions with a dichotomous distribution, while still maintaining a low false positive background. 
 
 Figure \ref{F3:phi_biplot} shows a graphical depiction of $\phi$ groupings determined for the SEED subsystem 4 functional grouping and the KEGG functional grouping. In both approaches, there were four major clusters that partitioned on PC1, and Supplementary Tables 3 and 4 contain the clusters of SEED subsystem 4 and KO annotations. The first group, composed of XX members was the small group of functions that were much more relatively abundant in the healthy than in the BV group. Inspection of these functions shows that they are belong to ???. These same functions were generally observed to be differentially abundant in our previous analysis (REF). The second group which is nearer the origin was also relatively more abundant in health than in BV, and were found to correspond largely to replication and gene expression housekeeping genes. This confirms our previous observation that these abundant housekeeping genes are slightly increased relative tot he remainder in the healthy microbiome. The third major group had a much greater relative abundance in BV than in health. These functions are largely functions that are absent in lactobacilli and correspond to functions involved in the greater biosynthetic and respiratory capacities of the majority of the BV-associated organisms (REF). In addition to the three major groups, there were a number of smaller clusters. These were generally found to correspond to functions in the same pathway or in many cases to co-expressed subunits.  A full list of functions and their associated group is found in tabular format in the supplement. 
 
@@ -320,9 +333,6 @@ Figure \ref{F3:phi_biplot} shows a graphical depiction of $\phi$ groupings deter
 Panel A shows a compositional biplot of the SEED subsystem 4 aggregated data with different groups of compositionally associated transcripts coloured by group membership. Panel B shows the same for data aggregated and analyzed by KEGG annotation. In both cases we determined the expected value of $\phi$ with a cutoff of 0.03. }
 \label{F3:phi_biplot}
 \end{figure}
-
-
-
 
 \begin{table}[!ht]
 \begin{adjustwidth}{-2.25in}{0in} % Comment out/remove adjustwidth environment if table fits in text column.
@@ -341,34 +351,12 @@ $cell1 row3$ & cell2 row 3 & cell3 row 3 & cell4 row 3 & cell5 row 3 & cell6 row
 \end{adjustwidth}
 \end{table}
 
-
-
-
-\section*{Supporting Information}
-
-% Include only the SI item label in the subsection heading. Use the \nameref{label} command to cite SI items in the text.
-\subsection*{S1 Video}
-\label{S1_Video}
-{\bf Bold the first sentence.}  Maecenas convallis mauris sit amet sem ultrices gravida. Etiam eget sapien nibh. Sed ac ipsum eget enim egestas ullamcorper nec euismod ligula. Curabitur fringilla pulvinar lectus consectetur pellentesque.
-
-\subsection*{S1 Text}
-\label{S1_Text}
-{\bf Lorem Ipsum.} Maecenas convallis mauris sit amet sem ultrices gravida. Etiam eget sapien nibh. Sed ac ipsum eget enim egestas ullamcorper nec euismod ligula. Curabitur fringilla pulvinar lectus consectetur pellentesque.
-
-\subsection*{S1 Fig}
-\label{S1_Fig}
-{\bf Lorem Ipsum.} Maecenas convallis mauris sit amet sem ultrices gravida. Etiam eget sapien nibh. Sed ac ipsum eget enim egestas ullamcorper nec euismod ligula. Curabitur fringilla pulvinar lectus consectetur pellentesque.
-
-\subsection*{S2 Fig}
-\label{S2_Fig}
-{\bf Lorem Ipsum.} Maecenas convallis mauris sit amet sem ultrices gravida. Etiam eget sapien nibh. Sed ac ipsum eget enim egestas ullamcorper nec euismod ligula. Curabitur fringilla pulvinar lectus consectetur pellentesque.
-
-\subsection*{S1 Table}
-\label{S1_Table}
-{\bf Lorem Ipsum.} Maecenas convallis mauris sit amet sem ultrices gravida. Etiam eget sapien nibh. Sed ac ipsum eget enim egestas ullamcorper nec euismod ligula. Curabitur fringilla pulvinar lectus consectetur pellentesque.
-
 \section*{Acknowledgments}
-Cras egestas velit mauris, eu mollis turpis pellentesque sit amet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam id pretium nisi. Sed ac quam id nisi malesuada congue. Sed interdum aliquet augue, at pellentesque quam rhoncus vitae.
+The VOGUE Research Group is Deborah Money, Alan Bocking, Sean Hemmingsen, Janet Hill, Gregor Reid, Tim Dumonceaux, Gregory Gloor, Matthew Links, Kieran O'Doherty, Patrick Tang, Julianne Van Schalkwyk and Mark Yudin.
+
+
+Funding Statement
+Financial support for this study was provided by a joint Canadian Institutes of Health Research (CIHR) Emerging Team Grant and a Genome British Columbia (GBC) grant awarded to DM, SMH, GR and JEH (grant reference \#108030). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
 
 \nolinenumbers
 
