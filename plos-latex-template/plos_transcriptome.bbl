@@ -1,28 +1,27 @@
 \begin{thebibliography}{10}
 
-\bibitem{bowtie2}
-Langmead B, Salzberg SL.
-\newblock Fast gapped-read alignment with Bowtie 2.
-\newblock Nature methods. 2012;9(4):357--359.
+\bibitem{mRNA:2002}
+Bernstein JA, Khodursky AB, Lin PH, Lin-Chao S, Cohen SN.
+\newblock Global analysis of mRNA decay and abundance in Escherichia coli at
+  single-gene resolution using two-color fluorescent DNA microarrays.
+\newblock Proceedings of the National Academy of Sciences.
+  2002;99(15):9697--9702.
 
-\bibitem{Anders:2013aa}
-Anders S, McCarthy DJ, Chen Y, Okoniewski M, Smyth GK, Huber W, et~al.
-\newblock Count-based differential expression analysis of {RNA} sequencing data
-  using {R} and {Bioconductor}.
-\newblock Nat Protoc. 2013 Sep;8(9):1765--86.
+\bibitem{mRNA:2006}
+Andersson AF, Lundgren M, Eriksson S, Rosenlund M, Bernander R, Nilsson P.
+\newblock Global analysis of mRNA stability in the archaeon Sulfolobus.
+\newblock Genome biology. 2006;7(10):R99.
+
+\bibitem{Friedman:2012}
+Friedman J, Alm EJ.
+\newblock Inferring correlation networks from genomic survey data.
+\newblock PLoS Comput Biol. 2012;8(9):e1002687.
 
 \bibitem{fernandes:2013}
 Fernandes AD, Macklaim JM, Linn TG, Reid G, Gloor GB.
 \newblock {ANOVA}-Like Differential Expression ({ALDEx}) Analysis for Mixed
   Population {RNA}-Seq.
 \newblock PLoS ONE. 2013 July;8(7):e67019.
-
-\bibitem{fernandes:2014}
-Fernandes AD, Reid JN, Macklaim JM, McMurrough TA, Edgell DR, Gloor GB.
-\newblock Unifying the analysis of high-throughput sequencing datasets:
-  characterizing {RNA}-seq, 16S r{RNA} gene sequencing and selective growth
-  experiments by compositional data analysis.
-\newblock Microbiome. 2014;2:15.
 
 \bibitem{Lovell:2015}
 Lovell D, Pawlowsky-Glahn V, Egozcue JJ, Marguerat S, B{\"a}hler J.
@@ -35,10 +34,75 @@ Aitchison J.
 \newblock The Statistical Analysis of Compositional Data.
 \newblock Chapman \& Hall; 1986.
 
+\bibitem{Kurtz:2015}
+Kurtz ZD, M{\"u}ller CL, Miraldi ER, Littman DR, Blaser MJ, Bonneau RA.
+\newblock Sparse and compositionally robust inference of microbial ecological
+  networks.
+\newblock PLoS Comput Biol. 2015 May;11(5):e1004226.
+
+\bibitem{Pearson:1896}
+Pearson K.
+\newblock Mathematical contributions to the theory of evolution. -- on a form
+  of spurious correlation which may arise when indices are used in the
+  measurement of organs.
+\newblock Proceedings of the Royal Society of London. 1897;60:489--498.
+
 \bibitem{pawlowsky2015modeling}
 Pawlowsky-Glahn V, Egozcue JJ, Tolosana-Delgado R.
 \newblock Modeling and Analysis of Compositional Data.
 \newblock John Wiley \& Sons; 2015.
+
+\bibitem{MPE2011}
+Mateu-Figueras G, Pawlowsky-Glahn V, Egozcue JJ, Pawlowsky-Glahn V, Buccianti
+  A.
+\newblock The principle of working on coordinates.
+\newblock Compositional data analysis: Theory and applications. 2011;p. 31--42.
+
+\bibitem{Egozcue:2003}
+Egozcue JJ, Pawlowsky-Glahn V, Mateu-Figueras G, Barcel O-Vidal C.
+\newblock Isometric logratio transformations for compositional data analysis.
+\newblock Math Geol. 2003;35(3):279--300.
+
+\bibitem{martin:2003}
+Mart{\'\i}n-Fern{\'a}ndez JA, Barcel{\'o}-Vidal C, Pawlowsky-Glahn V.
+\newblock Dealing with zeros and missing values in compositional data sets
+  using nonparametric imputation.
+\newblock Mathematical Geology. 2003;35(3):253--278.
+
+\bibitem{macklaim:2013}
+Macklaim MJ, Fernandes DA, Di~Bella MJ, Hammond JA, Reid G, Gloor GB.
+\newblock Comparative meta-{RNA}-seq of the vaginal microbiota and differential
+  expression by \textit{{L}actobacillus iners} in health and dysbiosis.
+\newblock Microbiome. 2013;1:15.
+
+\bibitem{ancom:2015}
+Mandal S, Van~Treuren W, White RA, Eggesb{\o} M, Knight R, Peddada SD.
+\newblock Analysis of composition of microbiomes: a novel method for studying
+  microbial composition.
+\newblock Microb Ecol Health Dis. 2015;26:27663.
+
+\bibitem{kozera:2013}
+Kozera B, Rapacz M.
+\newblock Reference genes in real-time PCR.
+\newblock Journal of applied genetics. 2013;54(4):391--406.
+
+\bibitem{bowtie2}
+Langmead B, Salzberg SL.
+\newblock Fast gapped-read alignment with Bowtie 2.
+\newblock Nature methods. 2012;9(4):357--359.
+
+\bibitem{Anders:2013aa}
+Anders S, McCarthy DJ, Chen Y, Okoniewski M, Smyth GK, Huber W, et~al.
+\newblock Count-based differential expression analysis of {RNA} sequencing data
+  using {R} and {Bioconductor}.
+\newblock Nat Protoc. 2013 Sep;8(9):1765--86.
+
+\bibitem{fernandes:2014}
+Fernandes AD, Reid JN, Macklaim JM, McMurrough TA, Edgell DR, Gloor GB.
+\newblock Unifying the analysis of high-throughput sequencing datasets:
+  characterizing {RNA}-seq, 16S r{RNA} gene sequencing and selective growth
+  experiments by compositional data analysis.
+\newblock Microbiome. 2014;2:15.
 
 \bibitem{pawlowsky2011compositional}
 Pawlowsky-Glahn V, Buccianti A.
@@ -66,12 +130,6 @@ Aitchison J, Greenacre M.
 \newblock Journal of the Royal Statistical Society: Series C (Applied
   Statistics). 2002;51(4):375--392.
 
-\bibitem{macklaim:2013}
-Macklaim MJ, Fernandes DA, Di~Bella MJ, Hammond JA, Reid G, Gloor GB.
-\newblock Comparative meta-{RNA}-seq of the vaginal microbiota and differential
-  expression by \textit{{L}actobacillus iners} in health and dysbiosis.
-\newblock Microbiome. 2013;1:15.
-
 \bibitem{stein:1999}
 Stein SE.
 \newblock An integrated method for spectrum extraction and compound
@@ -90,11 +148,6 @@ Swann JR, Tuohy KM, Lindfors P, Brown DT, Gibson GR, Wilson ID, et~al.
 \newblock Variation in antibiotic-induced microbial recolonization impacts on
   the host metabolic phenotypes of rats.
 \newblock J Proteome Res. 2011 Aug;10(8):3590--603.
-
-\bibitem{Friedman:2012}
-Friedman J, Alm EJ.
-\newblock Inferring correlation networks from genomic survey data.
-\newblock PLoS Comput Biol. 2012;8(9):e1002687.
 
 \bibitem{Ravel:2010}
 Ravel J, Gajer P, Abdo Z, Schneider GM, Koenig SSK, McCulle SL, et~al.
