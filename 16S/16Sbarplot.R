@@ -109,7 +109,7 @@ r.order<-c("Lactobacillus_iners", "Lactobacillus_crispatus", "Lactobacillus_jens
 y<-y[r.order,]
 
 #colors to match the taxa order
-colours<-c("steelblue3", "skyblue1", "#1C4466", "#cfebff", "indianred1", "mediumpurple1", "ivory2", "olivedrab3", "#FFED6F", "pink", "aquamarine3", "mediumvioletred", "mediumorchid3", "#CC9933", "#C0C0C0", "#663366", "#CC6600", "#999933", "#666699", "#CC9933", "#006666", "#3399FF", "#993300", "#CCCC99", "#666666", "#FFCC66", "#663366", "#9999CC", "#CCCCCC", "#669999", "#CCCC66", "#9999FF", "black", "black", "white")
+colours<-c("steelblue3", "skyblue1", "#1C4466", "cyan", "indianred1", "mediumpurple1", "ivory2", "olivedrab3", "#FFED6F", "pink", "aquamarine3", "mediumvioletred", "mediumorchid3", "#CC9933", "#C0C0C0", "#663366", "#CC6600", "#999933", "#666699", "#CC9933", "#006666", "#3399FF", "#993300", "#CCCC99", "#666666", "#FFCC66", "#663366", "#9999CC", "#CCCCCC", "#669999", "#CCCC66", "#9999FF", "black", "black", "white")
 
 
 #check everything sums to 1
