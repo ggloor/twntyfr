@@ -389,7 +389,7 @@ points.k <- c(rep("o", nrow(k.min)))
 biplot(k.min.pcx, cex=cex, col=col, var.axes=F,
     xlab=paste("PC1: ", round(sum(k.min.pcx$sdev[1]^2)/k.min.mvar.clr, 3)),
     ylab=paste("PC2: ", round(sum(k.min.pcx$sdev[2]^2)/k.min.mvar.clr, 3)),
-    scale=1, ylabs=points.k, main="KEGG"
+    scale=0, ylabs=points.k, main="KEGG"
 )
 # scale=0
 text(-.09,-.09,labels="H1", cex=1.5)
