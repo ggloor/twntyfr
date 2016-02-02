@@ -72,9 +72,47 @@ Macklaim MJ, Fernandes DA, Di~Bella MJ, Hammond JA, Reid G, Gloor GB.
   expression by \textit{{L}actobacillus iners} in health and dysbiosis.
 \newblock Microbiome. 2013;1:15.
 
+\bibitem{stein:1999}
+Stein SE.
+\newblock An integrated method for spectrum extraction and compound
+  identification from gas chromatography/mass spectrometry data.
+\newblock Journal of the American Society for Mass Spectrometry.
+  1999;10(8):770--781.
+
+\bibitem{stycz:2007}
+Styczynski MP, Moxley JF, Tong LV, Walther JL, Jensen KL, Stephanopoulos GN.
+\newblock Systematic identification of conserved metabolites in GC/MS data for
+  metabolomics and biomarker discovery.
+\newblock Analytical Chemistry. 2007;79(3):966--973.
+
+\bibitem{Swann:2011}
+Swann JR, Tuohy KM, Lindfors P, Brown DT, Gibson GR, Wilson ID, et~al.
+\newblock Variation in antibiotic-induced microbial recolonization impacts on
+  the host metabolic phenotypes of rats.
+\newblock J Proteome Res. 2011 Aug;10(8):3590--603.
+
 \bibitem{Friedman:2012}
 Friedman J, Alm EJ.
 \newblock Inferring correlation networks from genomic survey data.
 \newblock PLoS Comput Biol. 2012;8(9):e1002687.
+
+\bibitem{Ravel:2010}
+Ravel J, Gajer P, Abdo Z, Schneider GM, Koenig SSK, McCulle SL, et~al.
+\newblock Vaginal microbiome of reproductive-age women.
+\newblock Proc Natl Acad Sci U S A. 2010;doi/10.1073/pnas.100611107.
+
+\bibitem{Hummelen:2010}
+Hummelen R, Fernandes AD, Macklaim JM, Dickson RJ, Changalucha J, Gloor GB,
+  et~al.
+\newblock Deep sequencing of the vaginal microbiota of women with {HIV}.
+\newblock PLoS One. 2010;5(8):e12078.
+
+\bibitem{mcmillan:2015}
+McMillan A, Rulisa S, Sumarah M, Macklaim JM, Renaud J, Bisanz JE, et~al.
+\newblock A multi-platform metabolomics approach identifies highly specific
+  biomarkers of bacterial diversity in the vagina of pregnant and non-pregnant
+  women.
+\newblock Scientific Reports. 2015 09;5:14174 EP --.
+\newblock Available from: \url{http://dx.doi.org/10.1038/srep14174}.
 
 \end{thebibliography}
