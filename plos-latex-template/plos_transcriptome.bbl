@@ -81,10 +81,24 @@ Mandal S, Van~Treuren W, White RA, Eggesb{\o} M, Knight R, Peddada SD.
   microbial composition.
 \newblock Microb Ecol Health Dis. 2015;26:27663.
 
-\bibitem{kozera:2013}
-Kozera B, Rapacz M.
-\newblock Reference genes in real-time PCR.
-\newblock Journal of applied genetics. 2013;54(4):391--406.
+\bibitem{fernandes:2014}
+Fernandes AD, Reid JN, Macklaim JM, McMurrough TA, Edgell DR, Gloor GB.
+\newblock Unifying the analysis of high-throughput sequencing datasets:
+  characterizing {RNA}-seq, 16S r{RNA} gene sequencing and selective growth
+  experiments by compositional data analysis.
+\newblock Microbiome. 2014;2:15.
+
+\bibitem{gloorAJS:2016}
+Gloor GB, Macklaim JM, Vu M, Fernandes AD.
+\newblock Compositional uncertainty should not be ignored in high-throughput
+  sequencing data analysis.
+\newblock Austrian Journal of Statistics. 2015;under review.
+
+\bibitem{boon:2014}
+Boon E, Meehan CJ, Whidden C, Wong DHJ, Langille MG, Beiko RG.
+\newblock Interactions in the microbiome: communities of organisms and
+  communities of genes.
+\newblock FEMS microbiology reviews. 2014;38(1):90--118.
 
 \bibitem{bowtie2}
 Langmead B, Salzberg SL.
@@ -96,13 +110,6 @@ Anders S, McCarthy DJ, Chen Y, Okoniewski M, Smyth GK, Huber W, et~al.
 \newblock Count-based differential expression analysis of {RNA} sequencing data
   using {R} and {Bioconductor}.
 \newblock Nat Protoc. 2013 Sep;8(9):1765--86.
-
-\bibitem{fernandes:2014}
-Fernandes AD, Reid JN, Macklaim JM, McMurrough TA, Edgell DR, Gloor GB.
-\newblock Unifying the analysis of high-throughput sequencing datasets:
-  characterizing {RNA}-seq, 16S r{RNA} gene sequencing and selective growth
-  experiments by compositional data analysis.
-\newblock Microbiome. 2014;2:15.
 
 \bibitem{pawlowsky2011compositional}
 Pawlowsky-Glahn V, Buccianti A.
@@ -117,12 +124,6 @@ Palarea-Albaladejo J, Mart{\'\i}n-Fern{\'a}ndez JA.
   96.
 \newblock Available from:
   \url{http://www.sciencedirect.com/science/article/pii/S0169743915000490}.
-
-\bibitem{gloorAJS:2016}
-Gloor GB, Macklaim JM, Vu M, Fernandes AD.
-\newblock Compositional uncertainty should not be ignored in high-throughput
-  sequencing data analysis.
-\newblock Austrian Journal of Statistics. 2015;under review.
 
 \bibitem{aitchison2002biplots}
 Aitchison J, Greenacre M.
