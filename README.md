@@ -2,7 +2,7 @@
 
 Discussion points and the Figure list are in
 
-`/working`
+`/writing`
 
 The current sample list fo analysis is in
 
