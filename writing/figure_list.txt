@@ -1,0 +1,10 @@
+All samples included
+
+1. a) refseq biplot coloured by taxonomy, b) Subsys4 biplot
+2. Heatmap + barplots
+
+Filtered (outliers removed)
+
+3. a) subsys4 with Phi, b) KEGG with Phi
+4. BV1 vs BV2 stripcharts
+5. subsys4 biplot with correlating metabolomes a) GC-MS, b) NMR
