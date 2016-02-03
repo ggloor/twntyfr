@@ -8,6 +8,3 @@ bv2 <- c("27S", "016B", "008A", "012B", "014B", "013A", "017B", "018B")
 
 
 all.in <- c(h1, h2, bv1, bv2)
-
-
-#What do we think of 31S????
