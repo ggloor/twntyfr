@@ -8,3 +8,22 @@ Filtered (outliers removed)
 3. a) subsys4 with Phi, b) KEGG with Phi
 4. BV1 vs BV2 stripcharts
 5. subsys4 biplot with correlating metabolomes a) GC-MS, b) NMR
+
+#--------------------------------------------------------------------------------------------------
+
+Figure points
+Fig1
+- Organism taxonomy is driving variation
+- Once we group to a higher functional level, we have better separation of N and BV (PC1)
+- role of the assembled ORFs
+
+Fig2
+- Outliers, Nugent, metabolome, define working sample set, color by 4 groups (BV1, BV2, H1, H2)
+
+
+Fig3
+- 2-3 major co-expressed groups
+- Same overall big picture from 2 different annotation databses (robust)
+
+Fig4
+- Differences are structural and virulence, not metabolic
