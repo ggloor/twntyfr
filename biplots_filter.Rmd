@@ -31,6 +31,7 @@ library(car)
 #
 ############ end functions
 
+
 ```
 This will generate biplots with various things painted on top for use as figures, and will serve as a supplement for how the data was processed.
 
@@ -44,6 +45,7 @@ Samples 3A, 31S, 13B and 15B are near the midpoint on the right, and 19A and 8B 
 15B    near right midpoint     significant Bifidobacteria           long branch
 8B     near left midpoint      mix of L. jensenii and G. vaginalis  mid branch
 19A    near left midpoint      L.iners but expresses BV             long branch
+1A     embedded in H2          L. iners and GV, but clinically h    wierd
 
 This is a form biplot that represents distances between samples with variances of components mapped onto the plot.
 
@@ -71,6 +73,130 @@ d$refseqIDfaa <- NULL
 len <- d$length
 d$length <- NULL
 
+# filter to a mean count of >2 per refseq.
+# reduces the set from 49885 to 9002 refseqs
+
+d.f <- d[which(apply(d,1,mean)> 56),]
+d.f.CZM <- cmultRepl(t(d.f), label=0, method="CZM")
+d.f.clr <- t( apply(d.f.CZM, 1, function(x){log(x) - mean(log(x))}) )
+# calculate the total variance in the dataset
+d.f.mvar.clr <- mvar(d.f.clr)
+
+# do the Singular Value Decomposition
+d.f.pcx <- prcomp(d.f.clr)
+
+# Make the number of points equal to the number of features (for labels)
+points <- c(rep("o", nrow(d.f)))
+#######################################
+# FIG2A and B
+d.f.pcx$rotation[,2] <- d.f.pcx$rotation[,2] * -1
+d.f.pcx$x[,2] <- d.f.pcx$x[,2] * -1
+
+
+pdf("figs/f2_refseq_seed.pdf", height=6.5, width=12)
+par(mfrow=c(1,2))
+#color for labels and points (vector of 2)
+col=c("black",rgb(0.2,0.2,0.2,0.2))
+cex=c(0.8, .15)
+biplot(d.f.pcx, cex=cex, col=col, var.axes=F, ylim=c(-150,200),
+    xlab=paste("PC1: ", round(sum(d.f.pcx$sdev[1]^2)/d.f.mvar.clr, 3)),
+    ylab=paste("PC2: ", round(sum(d.f.pcx$sdev[2]^2)/d.f.mvar.clr, 3)),
+    scale=0, ylabs=points, main="refseq"
+)
+abline(h=0, lty=2)
+abline(v=0, lty=2)
+
+tax.subset <- tax[rownames(d.f),]
+
+li <- grep("Lactobacillus;iners",tax.subset$common_taxonomy)
+lc <- grep("Lactobacillus;crispatus",tax.subset$common_taxonomy)
+lj <- c(grep("Lactobacillus;johnsonii",tax.subset$common_taxonomy), grep("Lactobacillus;gasseri",tax.subset$common_taxonomy))
+lje <- grep("Lactobacillus;jensenii",tax.subset$common_taxonomy)
+pb <- grep("Prevotella",tax.subset$common_taxonomy)
+gv <- grep("Gardnerella",tax.subset$common_taxonomy)
+me <- grep("Megasphaera",tax.subset$common_taxonomy)
+sn <- c(grep("Sneathia",tax.subset$common_taxonomy), grep("Leptotrichia",tax.subset$common_taxonomy))
+di <- grep("Dialister",tax.subset$common_taxonomy)
+as <- grep("NA.",rownames(tax.subset))
+
+# named colors
+crisp <- rgb(.53,.81,1,0.25)
+iners <- rgb(.3,.58,.8, 0.25)
+ljon <- rgb(.25,.25,.55,0.2)
+ljen <- rgb(0,1,1,0.5)
+gvag <- rgb(1,.42,.42,0.25)
+prev <- rgb(.67,.51,1,0.25)
+mega <- rgb(.6,.8,.2,0.25)
+snea <- rgb(1,.75,.8,0.25)
+dial <- rgb(1,0,1,0.25)
+lept <- rgb(0.65,.16,.16,0.25)
+ass <- rgb(0,0,0,0.4)
+
+tax.nms <- list(li, lc, lj, lje, pb, gv, me, sn, di, as)
+tax.col <- list(iners, crisp, ljon, ljen, gvag, mega, snea, dial, ass)
+
+crisp.l <- rgb(.53,.81,1,0.6)
+iners.l <- rgb(.3,.58,.8, 0.8)
+ljon.l <- rgb(.15,.25,.55,0.6)
+ljen.l <- rgb(0,1,1,0.5)
+gvag.l <- rgb(1,.42,.42,0.6)
+prev.l <- rgb(.67,.51,1,0.6)
+mega.l <- rgb(.6,.8,.2,0.6)
+snea.l <- rgb(1,.75,.8,0.6)
+dial.l <- rgb(1,0,1,0.6)
+lept.l <- rgb(0.65,.16,.16,0.6)
+ass.l <- rgb(0,0,0,1)
+
+leg.col <- c(iners.l, crisp.l, ljon.l, ljen.l, gvag.l,prev.l, mega.l, lept.l, dial.l, ass.l)
+
+points(d.f.pcx$rotation[,1][lc], d.f.pcx$rotation[,2][lc], pch=19, cex=0.15, col=crisp)
+points(d.f.pcx$rotation[,1][lj], d.f.pcx$rotation[,2][lj], pch=19, cex=0.15, col=ljon)
+points(d.f.pcx$rotation[,1][lje], d.f.pcx$rotation[,2][lje], pch=19, cex=0.15, col=ljen)
+points(d.f.pcx$rotation[,1][gv], d.f.pcx$rotation[,2][gv], pch=19, cex=0.15, col=gvag)
+points(d.f.pcx$rotation[,1][pb], d.f.pcx$rotation[,2][pb], pch=19, cex=0.15, col=prev)
+points(d.f.pcx$rotation[,1][me], d.f.pcx$rotation[,2][me], pch=19, cex=0.15, col=mega)
+points(d.f.pcx$rotation[,1][sn], d.f.pcx$rotation[,2][sn], pch=19, cex=0.15, col=lept)
+points(d.f.pcx$rotation[,1][di], d.f.pcx$rotation[,2][di], pch=19, cex=0.15, col=dial)
+points(d.f.pcx$rotation[,1][li], d.f.pcx$rotation[,2][li], pch=19, cex=0.15, col=iners)
+points(d.f.pcx$rotation[,1][as], d.f.pcx$rotation[,2][as], pch=19, cex=0.15, col=ass)
+
+
+legend(.025,.035, c("li", "lc", "lj", "lje", "gv", "pv", "me", "sn", "di", "as"),  fill=leg.col, cex=0.8)
+
+########### REFSEQ
+e <- read.table("data/AitchisonTransformedDataForALDExInput.txt", header=T,
+   row.names=1, check.names=F, sep="\t", comment.char="", quote="")
+e.f <- d[which(apply(e,1,mean)> 56),]
+
+points.e <- c(rep("o", nrow(e)))
+
+e.n0.CZM <- cmultRepl(t(e), label=0, method="CZM")
+
+# turn this into a centered log-ratio transform
+# samples are by row
+# remember that apply by row rotates the data
+# R is terrible, so we need to use t() again
+
+e.clr <- t( apply(e.n0.CZM, 1, function(x){log(x) - mean(log(x))}) )
+
+e.mvar.clr <- mvar(e.clr)
+
+e.pcx <- prcomp(e.clr)
+
+col=c("black",rgb(0,0,0,0.2))
+cex=c(0.8, .4)
+biplot(e.pcx, cex=cex, col=col, var.axes=F,
+    xlab=paste("PC1: ", round(sum(e.pcx$sdev[1]^2)/e.mvar.clr, 3)),
+    ylab=paste("PC2: ", round(sum(e.pcx$sdev[2]^2)/e.mvar.clr, 3)),
+    scale=0, ylabs=points.e, main="SEED subsys4"
+)
+abline(h=0, lty=2)
+abline(v=0, lty=2)
+
+dev.off()
+
+
+##########################
 d.min <- d
 
 # remove samples
@@ -80,6 +206,7 @@ d.min[,"013B"] <- NULL
 d.min[,"015B"] <- NULL
 d.min[,"019A"] <- NULL
 d.min[,"008B"] <- NULL
+d.min[,"001A"] <- NULL
 
 # filter to a mean count of >2 per refseq.
 # reduces the set from 49885 to 10052 refseqs
@@ -145,33 +272,36 @@ col=c("black",rgb(0.2,0.2,0.2,0.0))
 cex=c(0.8, .2)
 ###########################
 
-pdf("figs/fig2_refseq_biplot.pdf", height=6, width=10)
-par(mfrow=c(1,2))
+pdf("figs/fig2_refseq_biplot.pdf", height=6, width=6)
+par(mfrow=c(1,1))
 biplot(d.pcx, cex=cex, col=col, var.axes=F,
     xlab=paste("PC1: ", round(sum(d.pcx$sdev[1]^2)/d.mvar.clr, 3)),
     ylab=paste("PC2: ", round(sum(d.pcx$sdev[2]^2)/d.mvar.clr, 3)),
     scale=0, ylabs=points
 )
-text(-.035,-.035,labels="H1", cex=1.5)
-text(-.035,.025,labels="H2", cex=1.5)
+text(-.025,-.03,labels="H1", cex=1.5)
+text(-.025,.025,labels="H2", cex=1.5)
 text(.025,.025,labels="BV2", cex=1.5)
-text(.025,-.035,labels="BV1", cex=1.5)
-# plot the lactobacilli elipses
-test <- dataEllipse(d.pcx$rotation[,1][li], d.pcx$rotation[,2][li],levels=0.90, plot.points=FALSE,col="steelblue3",lwd=3)
-text(.005,.018,labels="Li", cex=0.8,col="steelblue3")
-test <- dataEllipse(d.pcx$rotation[,1][lc], d.pcx$rotation[,2][lc],levels=0.90, plot.points=FALSE,col="skyblue1",lwd=3)
-text(-.025,-.025,labels="Lc", cex=0.8,col="skyblue1")
-test <- dataEllipse(d.pcx$rotation[,1][lj], d.pcx$rotation[,2][lj],levels=0.90, plot.points=FALSE,col="royalblue4",lwd=3)
-text(-.0019,.028,labels="Ljg", cex=0.8,col="royalblue4")
-test <- dataEllipse(d.pcx$rotation[,1][lje], d.pcx$rotation[,2][lje],levels=0.90, plot.points=FALSE,col="cyan",lwd=3)
-text(-.024,.01,labels="Lje", cex=0.8,col="cyan")
+text(.025,-.025,labels="BV1", cex=1.5)
+
+
+text(-.007,-.015,labels="Li", cex=1.0,col="steelblue3")
+text(-.01,.006,labels="Ljg", cex=1.0,col="royalblue4")
+text(-.03,-.005,labels="Lc", cex=1.0,col="skyblue1")
+text(-.016,-.012,labels="Lje", cex=1.0,col="cyan")
+text(-.007,.02,labels="Me", cex=1.0,col=mega)
+text(-.001,.027,labels="Ass", cex=1.0,col=ass)
+text(.015,-.017,labels="Pr", cex=1.0,col=prev)
+text(.017,-.002,labels="Gv", cex=1.0,col=gvag)
+text(.017,.005,labels="Di", cex=1.0,col=dial)
+text(.016,.012,labels="Sn/Le", cex=1.0,col=lept)
 
 
 # plot the taxonomic colors
 points(d.pcx$rotation[,1][lc], d.pcx$rotation[,2][lc], pch=19, cex=0.2, col=crisp)
 points(d.pcx$rotation[,1][li], d.pcx$rotation[,2][li], pch=19, cex=0.2, col=iners)
-points(d.pcx$rotation[,1][lj], d.pcx$rotation[,2][lj], pch=19, cex=0.2, col=ljon)
 points(d.pcx$rotation[,1][lje], d.pcx$rotation[,2][lje], pch=19, cex=0.2, col=ljen)
+points(d.pcx$rotation[,1][lj], d.pcx$rotation[,2][lj], pch=19, cex=0.2, col=ljon)
 points(d.pcx$rotation[,1][bvab], d.pcx$rotation[,2][bvab], pch=19, cex=0.2, col=bvab)
 points(d.pcx$rotation[,1][gv], d.pcx$rotation[,2][gv], pch=19, cex=0.2, col=gvag)
 points(d.pcx$rotation[,1][pb], d.pcx$rotation[,2][pb], pch=19, cex=0.2, col=prev)
@@ -183,56 +313,8 @@ points(d.pcx$rotation[,1][as], d.pcx$rotation[,2][as], pch=19, cex=0.2, col=ass)
 # axes
 abline(h=0, lty=2)
 abline(v=0, lty=2)
-#######
-
-
-# extract the different megasphaera and prevotella groups
- meg1 <- d.pcx$rotation[me,1] > 0.004
- meg2 <- d.pcx$rotation[me,1] < 0.004
- pbiv1 <- -1.1 * d.pcx$rotation[pb,1] + 0.007 -  d.pcx$rotation[pb,2]
-
-######
-# subset the plot to only cover the right side, and only the rotations
-
-plot(d.pcx$rotation[,1], d.pcx$rotation[,2], xlim=c(-0.005,0.015), ylim=c(-0.015,0.010), col=rgb(0,0,0,0), xlab="PC1 loading", ylab="PC2 loading")
-
-# plot the taxonomic colors
-points(d.pcx$rotation[,1][lc], d.pcx$rotation[,2][lc], pch=19, cex=0.3, col=crisp)
-points(d.pcx$rotation[,1][li], d.pcx$rotation[,2][li], pch=19, cex=0.3, col=iners)
-points(d.pcx$rotation[,1][lj], d.pcx$rotation[,2][lj], pch=19, cex=0.3, col=ljon)
-points(d.pcx$rotation[,1][lje], d.pcx$rotation[,2][lje], pch=19, cex=0.3, col=ljen)
-points(d.pcx$rotation[,1][bvab], d.pcx$rotation[,2][bvab], pch=19, cex=0.3, col=bvab)
-points(d.pcx$rotation[,1][gv], d.pcx$rotation[,2][gv], pch=19, cex=0.3, col=gvag)
-points(d.pcx$rotation[,1][pb], d.pcx$rotation[,2][pb], pch=19, cex=0.3, col=prev)
-points(d.pcx$rotation[,1][me], d.pcx$rotation[,2][me], pch=19, cex=0.3, col=rgb(.6,.8,.2))
-points(d.pcx$rotation[,1][sn], d.pcx$rotation[,2][sn], pch=19, cex=0.3, col=lept)
-points(d.pcx$rotation[,1][di], d.pcx$rotation[,2][di], pch=19, cex=0.3, col=dial)
-points(d.pcx$rotation[,1][as], d.pcx$rotation[,2][as], pch=19, cex=0.3, col=ass)
-
-
-#test <- dataEllipse(d.pcx$rotation[,1][li], d.pcx$rotation[,2][li],levels=0.90, plot.points=FALSE,col="steelblue3",lwd=3)
-test <- dataEllipse(d.pcx$rotation[,1][gv], d.pcx$rotation[,2][gv],levels=0.90, plot.points=FALSE,col="indianred1",lwd=3)
-text(.01,.009,labels="Gv", cex=0.8,col="indianred1")
-
-#test <- dataEllipse(d.pcx$rotation[,1][sn], d.pcx$rotation[,2][sn],levels=0.90, plot.points=FALSE,col="brown",lwd=3)
-
-#test <- dataEllipse(d.pcx$rotation[,1][di], d.pcx$rotation[,2][di],levels=0.90, plot.points=FALSE,col="magenta",lwd=3)
-test <- dataEllipse(d.pcx$rotation[pb,1][pbiv1>0], d.pcx$rotation[pb,2][pbiv1>0],levels=0.90, plot.points=FALSE,col=rgb(.67,.51,1), lwd=3)
-text(.014,.0015,labels="Pr", cex=0.8,col=rgb(.67,.51,1))
-
-test <- dataEllipse(d.pcx$rotation[pb,1][pbiv1<=0], d.pcx$rotation[pb,2][pbiv1<=0],levels=0.90, plot.points=FALSE,col=rgb(.67,.51,1),lwd=3)
-
-test <- dataEllipse(d.pcx$rotation[me,1][meg1], d.pcx$rotation[me,2][meg1],levels=c(0,0.90), plot.points=FALSE,col=rgb(.6,.8,.2),lwd=3)
-test <- dataEllipse(d.pcx$rotation[me,1][meg2], d.pcx$rotation[me,2][meg2],levels=c(0,0.90), plot.points=FALSE,col=rgb(.6,.8,.2),lwd=3)
-text(-.004,-.010,labels="Me", cex=0.8,col=rgb(.6,.8,.2))
-text(.01,-.014,labels="AS", cex=0.8,col="black")
-
-
-abline(h=0, lty=2)
-abline(v=0, lty=2)
 dev.off()
-
-#####
+#######
 
 ```
 
@@ -253,6 +335,7 @@ e.min[,"013B"] <- NULL
 e.min[,"015B"] <- NULL
 e.min[,"019A"] <- NULL
 e.min[,"008B"] <- NULL
+e.min[,"001A"] <- NULL
 
 e.min.n0.CZM <- cmultRepl(t(e.min), label=0, method="CZM")
 
@@ -280,7 +363,7 @@ cex=c(0.8, .4)
 par(mfrow=c(1,2))
 
 # TODO color samples by most abundant organism
-biplot(e.min.pcx, cex=cex, col=col, var.axes=F,
+biplot(e.min.pcx,choices=c(2,3), cex=cex, col=col, var.axes=F,
     xlab=paste("PC1: ", round(sum(e.min.pcx$sdev[1]^2)/e.min.mvar.clr, 3)),
     ylab=paste("PC2: ", round(sum(e.min.pcx$sdev[2]^2)/e.min.mvar.clr, 3)),
     scale=0, ylabs=points.e, main="SEED"
