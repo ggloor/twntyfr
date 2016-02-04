@@ -8,6 +8,7 @@ Filtered (outliers removed)
 3. a) subsys4 with Phi, b) KEGG with Phi
 4. BV1 vs BV2 stripcharts
 5. subsys4 biplot with correlating metabolomes a) GC-MS, b) NMR
+	- Top pannel will be metabolite PCA, bottom pannel the subsys4 biplot with overlaying significant metabolites
 
 #--------------------------------------------------------------------------------------------------
 
