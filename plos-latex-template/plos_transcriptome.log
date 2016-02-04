@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.5.24)  4 FEB 2016 14:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.5.24)  4 FEB 2016 15:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -910,48 +910,43 @@ File: PLOS-submission.eps Graphic file (type eps)
  <PLOS-submission.eps> [5]
 File: PLOS-submission.eps Graphic file (type eps)
  <PLOS-submission.eps> [6]
-File: PLOS-submission.eps Graphic file (type eps)
- <PLOS-submission.eps>
-[7]
 
-LaTeX Warning: Reference `F2:barplot' on page 8 undefined on input line 330.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: PLOS-submission.eps Graphic file (type eps)
+<PLOS-submission.eps> [7]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: PLOS-submission.eps Graphic file (type eps)
 <PLOS-submission.eps> [8]
 
-LaTeX Warning: Citation `Lovell:2-015' on page 9 undefined on input line 347.
+LaTeX Warning: Citation `Lovell:2-015' on page 9 undefined on input line 357.
 
 File: PLOS-submission.eps Graphic file (type eps)
 <PLOS-submission.eps> [9]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 File: PLOS-submission.eps Graphic file (type eps)
-<PLOS-submission.eps> [10] (./plos_transcriptome.bbl
+ <PLOS-submission.eps> [10]
 File: PLOS-submission.eps Graphic file (type eps)
  <PLOS-submission.eps>
-[11]
+[11] (./plos_transcriptome.bbl
 File: PLOS-submission.eps Graphic file (type eps)
  <PLOS-submission.eps> [12]
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-)
 File: PLOS-submission.eps Graphic file (type eps)
- <PLOS-submission.eps> [13]
 
+<PLOS-submission.eps> [13]) 
 AED: lastpage setting LastPage
 File: PLOS-submission.eps Graphic file (type eps)
 <PLOS-submission.eps> [14]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 427.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 427.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 437.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 437.
  (./plos_transcriptome.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 427.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 427.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 437.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 437.
 Package rerunfilecheck Info: File `plos_transcriptome.out' has not changed.
 (rerunfilecheck)             Checksum: F787E7EBCA45DB1D064BF16EEA6C0401;132.
 
@@ -961,15 +956,15 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 427.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 437.
  ) 
 Here is how much of TeX's memory you used:
  10014 strings out of 493090
  151698 string characters out of 6134868
- 290177 words of memory out of 5000000
+ 292451 words of memory out of 5000000
  13341 multiletter control sequences out of 15000+600000
  8655 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,12n,43p,2465b,475s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,12n,43p,2465b,477s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on plos_transcriptome.dvi (14 pages, 106332 bytes).
+Output written on plos_transcriptome.dvi (14 pages, 108268 bytes).
