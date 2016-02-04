@@ -17,7 +17,17 @@ d$refseqIDfaa <- NULL
 len <- d$length
 d$length <- NULL
 
-d.min <- d[which(apply(d,1,mean)> 5),]
+h2 <- c("002B", "006B", "004B", "020B")
+h1 <- c("30S", "4S", "010B", "001B", "009B")
+
+bv1 <- c("010A", "006A", "009A", "012A")
+bv2 <- c("27S", "016B", "008A", "012B", "014B", "013A", "017B", "018B")
+
+
+all.in <- c(h1, h2, bv1, bv2)
+rownames(all.in) <- rownames(d)
+
+d.min <- all.in[which(apply(all.in,1,mean)> 2),]
 
 # generate random DIR clr instances with ALDEx2
 e.x <- aldex.clr(d.min)

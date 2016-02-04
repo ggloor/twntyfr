@@ -93,7 +93,7 @@ d.f.pcx$rotation[,2] <- d.f.pcx$rotation[,2] * -1
 d.f.pcx$x[,2] <- d.f.pcx$x[,2] * -1
 
 
-pdf("figs/f2_refseq_seed.pdf", height=6.5, width=12)
+pdf("figs/f1_refseq_seed.pdf", height=6.5, width=12)
 par(mfrow=c(1,2))
 #color for labels and points (vector of 2)
 col=c("black",rgb(0.2,0.2,0.2,0.2))
@@ -166,11 +166,11 @@ legend(.025,.035, c("li", "lc", "lj", "lje", "gv", "pv", "me", "sn", "di", "as")
 ########### REFSEQ
 e <- read.table("data/AitchisonTransformedDataForALDExInput.txt", header=T,
    row.names=1, check.names=F, sep="\t", comment.char="", quote="")
-e.f <- d[which(apply(e,1,mean)> 56),]
+e.f <- e[which(apply(e,1,mean)> 56),]
 
-points.e <- c(rep("o", nrow(e)))
+points.e <- c(rep("o", nrow(e.f)))
 
-e.n0.CZM <- cmultRepl(t(e), label=0, method="CZM")
+e.n0.CZM <- cmultRepl(t(e.f), label=0, method="CZM")
 
 # turn this into a centered log-ratio transform
 # samples are by row
@@ -272,7 +272,7 @@ col=c("black",rgb(0.2,0.2,0.2,0.0))
 cex=c(0.8, .2)
 ###########################
 
-pdf("figs/fig2_refseq_biplot.pdf", height=6, width=6)
+pdf("figs/supp_refseq_biplot.pdf", height=6, width=6)
 par(mfrow=c(1,1))
 biplot(d.pcx, cex=cex, col=col, var.axes=F,
     xlab=paste("PC1: ", round(sum(d.pcx$sdev[1]^2)/d.mvar.clr, 3)),
@@ -327,15 +327,16 @@ To get around the correlation between gene occurrence and expression, we aggrega
 e <- read.table("data/AitchisonTransformedDataForALDExInput.txt", header=T,
    row.names=1, check.names=F, sep="\t", comment.char="", quote="")
 
-e.min <- e
 
-e.min[,"003A"] <- NULL
-e.min[,"31S"] <- NULL
-e.min[,"013B"] <- NULL
-e.min[,"015B"] <- NULL
-e.min[,"019A"] <- NULL
-e.min[,"008B"] <- NULL
-e.min[,"001A"] <- NULL
+h2 <- c("002B", "006B", "004B", "020B")
+h1 <- c("30S", "4S", "010B", "001B", "009B")
+
+bv1 <- c("010A", "006A", "009A", "012A")
+bv2 <- c("27S", "016B", "008A", "012B", "014B", "013A", "017B", "018B")
+
+all.in <- data.frame(e[,h1], e[,h2], e[,bv1], e[,bv2], check.names=FALSE)
+
+e.min <- all.in[apply(all.in,1,mean) > 0,]
 
 e.min.n0.CZM <- cmultRepl(t(e.min), label=0, method="CZM")
 
@@ -348,11 +349,13 @@ e.min.clr <- t( apply(e.min.n0.CZM, 1, function(x){log(x) - mean(log(x))}) )
 
 e.min.mvar.clr <- mvar(e.min.clr)
 
+points.e <- c(rep("o", nrow(e.min)))
+
 e.min.pcx <- prcomp(e.min.clr)
 
 #################### SUBSYS 4 BIPLOT
 
-pdf("figs/fig3_subsys4_KO__biplot.pdf", height=6, width=10)
+pdf("figs/fig3_subsys4_KO__biplot.pdf", height=6, width=11)
 
 points.e <- c(rep("o", nrow(e.min)))
 
@@ -363,16 +366,16 @@ cex=c(0.8, .4)
 par(mfrow=c(1,2))
 
 # TODO color samples by most abundant organism
-biplot(e.min.pcx,choices=c(2,3), cex=cex, col=col, var.axes=F,
+biplot(e.min.pcx,choices=c(1,2), cex=cex, col=col, var.axes=F,
     xlab=paste("PC1: ", round(sum(e.min.pcx$sdev[1]^2)/e.min.mvar.clr, 3)),
     ylab=paste("PC2: ", round(sum(e.min.pcx$sdev[2]^2)/e.min.mvar.clr, 3)),
     scale=0, ylabs=points.e, main="SEED"
 )
 # scale=0
-text(-.08,-.08,labels="H1", cex=1.5)
-text(-.08,.07,labels="H2", cex=1.5)
-text(.065,.07,labels="BV2", cex=1.5)
-text(.065,-.08,labels="BV1", cex=1.5)
+text(-.085,-.085,labels="H1", cex=1.5)
+text(-.085,.065,labels="H2", cex=1.5)
+text(.06,.065,labels="BV2", cex=1.5)
+text(.06,-.085,labels="BV1", cex=1.5)
 
 abline(v=0, lty=2)
 abline(h=0, lty=2)
@@ -384,25 +387,25 @@ abline(h=0, lty=2)
 
 ## generate random DIR clr instances with ALDEx2 in the minimum function set
 e.x <- aldex.clr(e.min)
-#
+
 ## calculate phi divided by number of random instances
 #e.min.sma.df <- aldex.phi(e.x)
 #
-# find the set of connections with phi less than some value
-# we choose an arbitrary cutoff, but it is higher after Bayesian estimation
-# obviously
-# phi.cutoff <- 0.03
+## find the set of connections with phi less than some value
+## we choose an arbitrary cutoff, but it is higher after Bayesian estimation
+## obviously
+#phi.cutoff <- 0.03
 #
 #e.min.sma.lo.phi <- subset(e.min.sma.df, phi < phi.cutoff)
 #
-## generate a graphical object
+### generate a graphical object
 #g <- graph.data.frame(e.min.sma.lo.phi, directed=FALSE)
-## # get the clusters from the graph object
-# g.clust <- clusters(g)
+### # get the clusters from the graph object
+#g.clust <- clusters(g)
 #
-## write them to a file
+### write them to a file
 #
-## # data frame containing the names and group memberships of each cluster
+### # data frame containing the names and group memberships of each cluster
 #g.df <- data.frame(Systematic.name=V(g)$name, cluster=g.clust$membership,
 #    cluster.size=g.clust$csize[g.clust$membership])
 #
@@ -410,12 +413,12 @@ e.x <- aldex.clr(e.min)
 #g.order <- g.df[order(cluster),]
 #detach(g.df)
 #write.table(g.order, file="SEED.g.df.txt", sep="\t", quote=F, col.names=NA)
-#
+##
 g.df <- read.table("SEED.g.df.txt",row.names=1, header=T, check.names=F, sep="\t", comment.char="", quote="")
 big <- g.df[which(g.df$cluster.size >= 10),]
 colnames(big) <- colnames(g.df)
 
-colours <- c("indianred1", "steelblue3",  "skyblue1", "mediumorchid", "olivedrab3", "royalblue4",
+colours <- c("indianred1", "steelblue3",  "skyblue1", "mediumorchid","royalblue4", "olivedrab3",
    "pink", "#FFED6F", "mediumorchid3", "ivory2", "tan1", "aquamarine3", "#C0C0C0",
     "mediumvioletred", "#999933", "#666699", "#CC9933", "#006666", "#3399FF",
    "#993300", "#CCCC99", "#666666", "#FFCC66", "#6699CC", "#663366", "#9999CC", "#CCCCCC",
@@ -436,18 +439,16 @@ points(e.min.pcx$rotation[nms,][,1],e.min.pcx$rotation[nms,][,2], col=colours[i]
 k <- read.table("data/KO_reads_aitchison_sum.txt", header=T,
     row.names=1, sep="\t", check.names=FALSE)
 
-k.min <- k[grep("^K", rownames(k)),]
+all.in.k <- data.frame(k[,h1], k[,h2], k[,bv1], k[,bv2], check.names=FALSE)
 
-k.min[,"003A"] <- NULL
-k.min[,"31S"] <- NULL
-k.min[,"013B"] <- NULL
-k.min[,"015B"] <- NULL
-k.min[,"019A"] <- NULL
-k.min[,"008B"] <- NULL
-dim(k.min)
+k.int <- all.in.k[apply(all.in.k,1,mean) > 0,]
+
+k.min <- k.int[grep("^K", rownames(k.int)),]
+
 k.min <- k.min[apply(k.min,1,max) > 0,]
 
-dim(k.min)
+# dim(k.min)
+# 2832 21
 
 k.min.n0.CZM <- cmultRepl(t(k.min), label=0, method="CZM")
 
@@ -475,16 +476,16 @@ biplot(k.min.pcx, cex=cex, col=col, var.axes=F,
     scale=0, ylabs=points.k, main="KEGG"
 )
 # scale=0
-text(-.09,-.09,labels="H1", cex=1.5)
-text(-.09,.08,labels="H2", cex=1.5)
+text(-.1,-.1,labels="H1", cex=1.5)
+text(-.1,.08,labels="H2", cex=1.5)
 text(.075,.08,labels="BV2", cex=1.5)
-text(.075,-.09,labels="BV1", cex=1.5)
+text(.075,-.1,labels="BV1", cex=1.5)
 
 abline(v=0, lty=2)
 abline(h=0, lty=2)
 
 # generate random DIR clr instances with ALDEx2 in the minimum function set
-#k.x <- aldex.clr(k.min)
+k.x <- aldex.clr(k.min)
 #
 ## calculate phi divided by number of random instances
 #k.min.sma.df <- aldex.phi(k.x)
@@ -521,7 +522,7 @@ abline(h=0, lty=2)
 #
 KO.g.df <- read.table("KO.g.df.txt",row.names=1, header=T, check.names=F, sep="\t", comment.char="", quote="")
 
-colours <- c("indianred1", "royalblue4", "skyblue1", "mediumorchid", "olivedrab3", "steelblue3",
+colours <- c("indianred1", "royalblue4", "skyblue1", "mediumorchid", "steelblue3","olivedrab3",
    "pink", "#FFED6F", "mediumorchid3", "ivory2", "tan1", "aquamarine3", "#C0C0C0",
     "mediumvioletred", "#999933", "#666699", "#CC9933", "#006666", "#3399FF",
    "#993300", "#CCCC99", "#666666", "#FFCC66", "#6699CC", "#663366", "#9999CC", "#CCCCCC",
