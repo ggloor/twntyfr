@@ -32,6 +32,14 @@ library(car)
 ############ end functions
 
 
+# samples
+h2 <- c("002B", "006B", "004B", "020B")
+h1 <- c("30S", "4S", "010B", "001B", "009B")
+
+bv1 <- c("010A", "006A", "009A", "012A")
+bv2 <- c("27S", "016B", "008A", "012B", "014B", "013A", "017B", "018B")
+
+
 ```
 This will generate biplots with various things painted on top for use as figures, and will serve as a supplement for how the data was processed.
 
@@ -197,21 +205,198 @@ dev.off()
 
 
 ##########################
-d.min <- d
+#### BV ONLY
 
-# remove samples
-d.min[,"003A"] <- NULL
-d.min[,"31S"] <- NULL
-d.min[,"013B"] <- NULL
-d.min[,"015B"] <- NULL
-d.min[,"019A"] <- NULL
-d.min[,"008B"] <- NULL
-d.min[,"001A"] <- NULL
+d.min <- data.frame(d[,bv1],d[,bv2])
+
 
 # filter to a mean count of >2 per refseq.
 # reduces the set from 49885 to 10052 refseqs
 
-d.min <- d.min[which(apply(d.min,1,mean)> 44),]
+d.min <- d.min[which(apply(d.min,1,mean)> 24),]
+
+# we need to replace 0 values with a best estimate
+# use zCompositions CZM by default
+# but samples must be by row, so use t()
+
+d.n0.CZM <- cmultRepl(t(d.min), label=0, method="CZM")
+
+# turn this into a centered log-ratio transform
+# samples are by row
+# remember that apply() by row rotates the data
+# R is terrible, so we need to use t() again
+
+d.clr <- t( apply(d.n0.CZM, 1, function(x){log(x) - mean(log(x))}) )
+
+# calculate the total variance in the dataset
+d.mvar.clr <- mvar(d.clr)
+
+# do the Singular Value Decomposition
+d.pcx <- prcomp(d.clr)
+
+# plot it
+# subsets
+tax.subset <- tax[rownames(d.min),]
+
+li <- grep("Lactobacillus;iners",tax.subset$common_taxonomy)
+lc <- grep("Lactobacillus;crispatus",tax.subset$common_taxonomy)
+lj <- c(grep("Lactobacillus;johnsonii",tax.subset$common_taxonomy), grep("Lactobacillus;gasseri",tax.subset$common_taxonomy))
+lje <- grep("Lactobacillus;jensenii",tax.subset$common_taxonomy)
+pb <- grep("Prevotella",tax.subset$common_taxonomy)
+gv <- grep("Gardnerella",tax.subset$common_taxonomy)
+me <- grep("Megasphaera",tax.subset$common_taxonomy)
+sn <- c(grep("Sneathia",tax.subset$common_taxonomy), grep("Leptotrichia",tax.subset$common_taxonomy))
+di <- grep("Dialister",tax.subset$common_taxonomy)
+as <- grep("NA.",rownames(tax.subset))
+
+# named colors
+crisp <- rgb(.53,.81,1,0.6)
+iners <- rgb(.3,.58,.8, 0.6)
+ljon <- rgb(.15,.25,.55,0.6)
+ljen <- rgb(0,1,1,0.5)
+bvab <- rgb(1,1,0,0.5)
+gvag <- rgb(1,.42,.42,0.6)
+prev <- rgb(.67,.51,1,0.6)
+mega <- rgb(.6,.8,.2,0.6)
+snea <- rgb(1,.75,.8,0.6)
+dial <- rgb(1,0,1,0.6)
+lept <- rgb(0.65,.16,.16,0.6)
+ass <- rgb(0,0,0,0.6)
+
+tax.nms <- list(li, lc, lj, lje, pb, gv, me, sn, di, as)
+tax.col <- list(iners, crisp, ljon, ljen, gvag, mega, snea, dial, ass)
+
+# Make the number of points equal to the number of features (for labels)
+points <- c(rep("o", nrow(d.min)))
+
+#color for labels and points (vector of 2)
+col=c("black",rgb(0.2,0.2,0.2,0.0))
+cex=c(0.8, .2)
+##########################
+#### BV ONLY
+
+d.min <- data.frame(d[,bv1],d[,bv2], check.names=F)
+
+
+# filter to a mean count of >2 per refseq.
+# reduces the set from 49885 to 10052 refseqs
+
+d.min <- d.min[which(apply(d.min,1,mean)> 24),]
+
+# we need to replace 0 values with a best estimate
+# use zCompositions CZM by default
+# but samples must be by row, so use t()
+
+d.n0.CZM <- cmultRepl(t(d.min), label=0, method="CZM")
+
+# turn this into a centered log-ratio transform
+# samples are by row
+# remember that apply() by row rotates the data
+# R is terrible, so we need to use t() again
+
+d.clr <- t( apply(d.n0.CZM, 1, function(x){log(x) - mean(log(x))}) )
+
+# calculate the total variance in the dataset
+d.mvar.clr <- mvar(d.clr)
+
+# do the Singular Value Decomposition
+d.pcx <- prcomp(d.clr)
+
+# plot it
+# subsets
+tax.subset <- tax[rownames(d.min),]
+
+li <- grep("Lactobacillus;iners",tax.subset$common_taxonomy)
+lc <- grep("Lactobacillus;crispatus",tax.subset$common_taxonomy)
+lj <- c(grep("Lactobacillus;johnsonii",tax.subset$common_taxonomy), grep("Lactobacillus;gasseri",tax.subset$common_taxonomy))
+lje <- grep("Lactobacillus;jensenii",tax.subset$common_taxonomy)
+pb <- grep("Prevotella",tax.subset$common_taxonomy)
+gv <- grep("Gardnerella",tax.subset$common_taxonomy)
+me <- grep("Megasphaera",tax.subset$common_taxonomy)
+sn <- c(grep("Sneathia",tax.subset$common_taxonomy), grep("Leptotrichia",tax.subset$common_taxonomy))
+di <- grep("Dialister",tax.subset$common_taxonomy)
+as <- grep("NA.",rownames(tax.subset))
+
+# named colors
+crisp <- rgb(.53,.81,1,0.6)
+iners <- rgb(.3,.58,.8, 0.6)
+ljon <- rgb(.15,.25,.55,0.6)
+ljen <- rgb(0,1,1,0.5)
+bvab <- rgb(1,1,0,0.5)
+gvag <- rgb(1,.42,.42,0.6)
+prev <- rgb(.67,.51,1,0.6)
+mega <- rgb(.6,.8,.2,0.6)
+snea <- rgb(1,.75,.8,0.6)
+dial <- rgb(1,0,1,0.6)
+lept <- rgb(0.65,.16,.16,0.6)
+ass <- rgb(0,0,0,0.6)
+
+tax.nms <- list(li, lc, lj, lje, pb, gv, me, sn, di, as)
+tax.col <- list(iners, crisp, ljon, ljen, gvag, mega, snea, dial, ass)
+
+# Make the number of points equal to the number of features (for labels)
+points <- c(rep("o", nrow(d.min)))
+
+#color for labels and points (vector of 2)
+col=c("black",rgb(0.2,0.2,0.2,0.0))
+cex=c(0.8, .2)
+###########################
+
+pdf("figs/bvonly_refseq_biplot.pdf", height=6, width=6)
+par(mfrow=c(1,1))
+biplot(d.pcx, cex=cex, col=col, var.axes=F,
+    xlab=paste("PC1: ", round(sum(d.pcx$sdev[1]^2)/d.mvar.clr, 3)),
+    ylab=paste("PC2: ", round(sum(d.pcx$sdev[2]^2)/d.mvar.clr, 3)),
+    scale=0, ylabs=points, expand=1.5, xlim=c(-300,150), ylim=c(-250,150)
+)
+#text(-.025,-.03,labels="H1", cex=1.5)
+#text(-.025,.025,labels="H2", cex=1.5)
+#text(.025,.025,labels="BV2", cex=1.5)
+#text(.025,-.025,labels="BV1", cex=1.5)
+#
+#
+#text(-.007,-.015,labels="Li", cex=1.0,col="steelblue3")
+#text(-.01,.006,labels="Ljg", cex=1.0,col="royalblue4")
+#text(-.03,-.005,labels="Lc", cex=1.0,col="skyblue1")
+#text(-.016,-.012,labels="Lje", cex=1.0,col="cyan")
+#text(-.007,.02,labels="Me", cex=1.0,col=mega)
+#text(-.001,.027,labels="Ass", cex=1.0,col=ass)
+#text(.015,-.017,labels="Pr", cex=1.0,col=prev)
+#text(.017,-.002,labels="Gv", cex=1.0,col=gvag)
+#text(.017,.005,labels="Di", cex=1.0,col=dial)
+#text(.016,.012,labels="Sn/Le", cex=1.0,col=lept)
+
+
+# plot the taxonomic colors
+points(d.pcx$rotation[,1][lc], d.pcx$rotation[,2][lc], pch=19, cex=0.2, col=crisp)
+points(d.pcx$rotation[,1][li], d.pcx$rotation[,2][li], pch=19, cex=0.2, col=iners)
+points(d.pcx$rotation[,1][lje], d.pcx$rotation[,2][lje], pch=19, cex=0.2, col=ljen)
+points(d.pcx$rotation[,1][lj], d.pcx$rotation[,2][lj], pch=19, cex=0.2, col=ljon)
+points(d.pcx$rotation[,1][bvab], d.pcx$rotation[,2][bvab], pch=19, cex=0.2, col=bvab)
+points(d.pcx$rotation[,1][gv], d.pcx$rotation[,2][gv], pch=19, cex=0.2, col=gvag)
+points(d.pcx$rotation[,1][pb], d.pcx$rotation[,2][pb], pch=19, cex=0.2, col=prev)
+points(d.pcx$rotation[,1][me], d.pcx$rotation[,2][me], pch=19, cex=0.2, col=mega)
+points(d.pcx$rotation[,1][sn], d.pcx$rotation[,2][sn], pch=19, cex=0.2, col=lept)
+points(d.pcx$rotation[,1][di], d.pcx$rotation[,2][di], pch=19, cex=0.2, col=dial)
+points(d.pcx$rotation[,1][as], d.pcx$rotation[,2][as], pch=19, cex=0.2, col=ass)
+
+# axes
+abline(h=0, lty=2)
+abline(v=0, lty=2)
+dev.off()
+#######
+
+
+##########################
+#### no-outliers
+
+d.min <- data.frame(d[,h1], c[,h2],d[,bv1],d[,bv2])
+
+
+# filter to a mean count of >2 per refseq.
+# reduces the set from 49885 to 10052 refseqs
+
+d.min <- d.min[which(apply(d.min,1,mean)> 24),]
 
 # we need to replace 0 values with a best estimate
 # use zCompositions CZM by default
@@ -277,7 +462,7 @@ par(mfrow=c(1,1))
 biplot(d.pcx, cex=cex, col=col, var.axes=F,
     xlab=paste("PC1: ", round(sum(d.pcx$sdev[1]^2)/d.mvar.clr, 3)),
     ylab=paste("PC2: ", round(sum(d.pcx$sdev[2]^2)/d.mvar.clr, 3)),
-    scale=0, ylabs=points
+    scale=0, ylabs=points, expand=1.5
 )
 text(-.025,-.03,labels="H1", cex=1.5)
 text(-.025,.025,labels="H2", cex=1.5)
@@ -326,13 +511,6 @@ To get around the correlation between gene occurrence and expression, we aggrega
 
 e <- read.table("data/AitchisonTransformedDataForALDExInput.txt", header=T,
    row.names=1, check.names=F, sep="\t", comment.char="", quote="")
-
-
-h2 <- c("002B", "006B", "004B", "020B")
-h1 <- c("30S", "4S", "010B", "001B", "009B")
-
-bv1 <- c("010A", "006A", "009A", "012A")
-bv2 <- c("27S", "016B", "008A", "012B", "014B", "013A", "017B", "018B")
 
 all.in <- data.frame(e[,h1], e[,h2], e[,bv1], e[,bv2], check.names=FALSE)
 
