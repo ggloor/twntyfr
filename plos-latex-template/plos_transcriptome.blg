@@ -1,3 +1,50 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:fe16da6ee6a970e6563d3a32def463ac178f7906fc7e2aa1b3c3740d0c9be95a
-size 1167
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: plos_transcriptome.aux
+The style file: plos2015.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: bibdesk_refs.bib
+You've used 31 entries,
+            3170 wiz_defined-function locations,
+            859 strings with 12764 characters,
+and the built_in function-call counts, 74867 in all, are:
+= -- 9376
+> -- 576
+< -- 1
++ -- 300
+- -- 144
+* -- 6509
+:= -- 7961
+add.period$ -- 123
+call.type$ -- 31
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 31
+duplicate$ -- 5803
+empty$ -- 7226
+format.name$ -- 172
+if$ -- 17510
+int.to.chr$ -- 0
+int.to.str$ -- 31
+missing$ -- 376
+newline$ -- 160
+num.names$ -- 31
+pop$ -- 625
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 620
+stack$ -- 0
+substring$ -- 15738
+swap$ -- 817
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 327
+width$ -- 33
+write$ -- 344
