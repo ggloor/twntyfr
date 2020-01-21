@@ -1,0 +1,21 @@
+Gene	rxn_number	rxn_Annotation
+V1449531	rn:R03800	Blasticidin-S aminohydrolase; Blasticidin S + H2O <=> Deaminohydroxyblasticidin S + Ammonia
+V1042208	rn:R01134	inosine-5'-phosphate:NADP+ oxidoreductase (aminating); NADH:guanosine-5'-phosphate oxidoreductase (deaminating); IMP + Ammonia + NADP+ <=> GMP + NADPH + H+
+V1574564	rn:R09673	[protein]-3-O-(N-acetyl-D-glucosaminyl)-L-threonine N-acetylglucosaminyl hydrolase; [Protein]-3-O-(N-acetyl-D-glucosaminyl)-L-threonine + H2O <=> [Protein]-L-threonine + N-Acetyl-D-glucosamine
+V1204229	rn:R02961	S-Adenosyl-L-methionine + DNA adenine <=> S-Adenosyl-L-homocysteine + DNA 6-methylaminopurine
+V1042191	rn:R03348	Nicotinate-nucleotide:pyrophosphate phosphoribosyltransferase (carboxylating); Nicotinate D-ribonucleotide + Diphosphate + CO2 <=> Quinolinate + 5-Phospho-alpha-D-ribose 1-diphosphate
+V1581325	rn:R06199	Starch(n+1) + H2O <=> alpha-D-Glucose + Starch(n)
+V1618260	rn:R03657	L-Leucine:tRNA(Leu) ligase (AMP-forming); ATP + L-Leucine + tRNA(Leu) <=> AMP + Diphosphate + L-Leucyl-tRNA
+V1618422	rn:R01049	ATP:D-ribose-5-phosphate diphosphotransferase; ATP + D-Ribose 5-phosphate <=> AMP + 5-Phospho-alpha-D-ribose 1-diphosphate
+V1043664	rn:R07285	tRNA:phosphate nucleotidyltransferase; tRNA + Orthophosphate <=> tRNA + NDP
+V1618329	rn:R02786	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate:L-lysine gamma-ligase (ADP-forming); UDP-N-acetylmuramoyl-L-alanyl-D-glutamate:L-lysine ligase (ADP-forming); ATP + UDP-N-acetylmuramoyl-L-alanyl-D-glutamate + L-Lysine <=> ADP + Orthophosphate + UDP-N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-L-lysine
+V1884198	rn:R00238	Acetyl-CoA:acetyl-CoA C-acetyltransferase; 2 Acetyl-CoA <=> CoA + Acetoacetyl-CoA
+V1039415	rn:R09698	(3R)-3-hydroxyacyl-CoA hydro-lyase; (3R)-3-Hydroxyacyl-CoA <=> trans-2,3-Dehydroacyl-CoA + H2O
+V1039773	rn:R01528	6-phospho-D-gluconate:NADP+ 2-oxidoreductase (decarboxylating); 6-Phospho-D-gluconate + NADP+ <=> D-Ribulose 5-phosphate + CO2 + NADPH + H+
+V1040869	rn:R01061	D-glyceraldehyde-3-phosphate:NAD+ oxidoreductase (phosphorylating); D-Glyceraldehyde 3-phosphate + Orthophosphate + NAD+ <=> 3-Phospho-D-glyceroyl phosphate + NADH + H+
+V1041453	rn:R01132	IMP:diphosphate phospho-D-ribosyltransferase; IMP + Diphosphate <=> Hypoxanthine + 5-Phospho-alpha-D-ribose 1-diphosphate
+V1041574	rn:R01070	beta-D-fructose-1,6-bisphosphate D-glyceraldehyde-3-phosphate-lyase (glycerone-phosphate-forming); beta-D-Fructose 1,6-bisphosphate <=> Glycerone phosphate + D-Glyceraldehyde 3-phosphate
+V1200195	rn:R10782	4-hydroxybutanoyl-CoA hydro-lyase; 4-Hydroxybutyryl-CoA <=> Crotonoyl-CoA + H2O
+V1294926	rn:R00894	L-glutamate:L-cysteine gamma-ligase (ADP-forming); ATP + L-Glutamate + L-Cysteine <=> ADP + Orthophosphate + gamma-L-Glutamyl-L-cysteine
+V1576923	rn:R02189	Polyphosphate:D-glucose 6-phosphotransferase; Polyphosphate + alpha-D-Glucose <=> Polyphosphate + alpha-D-Glucose 6-phosphate
+V1617895	rn:R02110	1,4-alpha-D-Glucan:1,4-alpha-D-glucan 6-alpha-D-(1,4-alpha-D-glucano)-transferase; Amylose <=> Starch

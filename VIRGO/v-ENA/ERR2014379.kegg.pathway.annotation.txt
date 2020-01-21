@@ -1,0 +1,2845 @@
+Gene	KEGG_pathwayID	Annotation
+V1872766	map00240	Pyrimidine metabolism
+V1033557	map05010	Alzheimer's disease
+V1204502	map00240	Pyrimidine metabolism
+V1338863	map04930	Type II diabetes mellitus
+V1033079	map00680	Methane metabolism
+V1033549	map03018	RNA degradation
+V1034259	map04626	Plant-pathogen interaction
+V1150427	map00710	Carbon fixation in photosynthetic organisms
+V1884596	map03440	Homologous recombination
+V1806611	map00620	Pyruvate metabolism
+V1033558	map00710	Carbon fixation in photosynthetic organisms
+V1033629	map05152	Tuberculosis
+V1033097	map00250	Alanine, aspartate and glutamate metabolism
+V1032620	map00240	Pyrimidine metabolism
+V1216924	map00240	Pyrimidine metabolism
+V1033003	map02060	Phosphotransferase system (PTS)
+V1033120	map00040	Pentose and glucuronate interconversions
+V1032670	map00520	Amino sugar and nucleotide sugar metabolism
+V1872734	map03010	Ribosome
+V1033464	map04724	Glutamatergic synapse
+V1032341	map00195	Photosynthesis
+V1885172	map00195	Photosynthesis
+V1033096	map03020	RNA polymerase
+V1033682	map00053	Ascorbate and aldarate metabolism
+V1891370	map00620	Pyruvate metabolism
+V1047240	map02060	Phosphotransferase system (PTS)
+V1887313	map03010	Ribosome
+V1033091	map03010	Ribosome
+V1033428	map02060	Phosphotransferase system (PTS)
+V1032309	map05152	Tuberculosis
+V1033129	map02060	Phosphotransferase system (PTS)
+V1032342	map00195	Photosynthesis
+V1034213	map00680	Methane metabolism
+V1032631	map02030	Bacterial chemotaxis
+V1032750	map03010	Ribosome
+V1806595	map02060	Phosphotransferase system (PTS)
+V1032333	map03010	Ribosome
+V1046993	map00195	Photosynthesis
+V1032681	map00640	Propanoate metabolism
+V1884576	map00195	Photosynthesis
+V1032715	map00970	Aminoacyl-tRNA biosynthesis
+V1032829	map03010	Ribosome
+V1552800	map03010	Ribosome
+V1883385	map00240	Pyrimidine metabolism
+V1046995	map00195	Photosynthesis
+V1883097	map00520	Amino sugar and nucleotide sugar metabolism
+V1032513	map03010	Ribosome
+V1047177	map00500	Starch and sucrose metabolism
+V1034296	map00620	Pyruvate metabolism
+V1047061	map00970	Aminoacyl-tRNA biosynthesis
+V1886198	map04724	Glutamatergic synapse
+V1033559	map00710	Carbon fixation in photosynthetic organisms
+V1883121	map00195	Photosynthesis
+V1884575	map03010	Ribosome
+V1046991	map00195	Photosynthesis
+V1034179	map05010	Alzheimer's disease
+V1033902	map05010	Alzheimer's disease
+V1033346	map00970	Aminoacyl-tRNA biosynthesis
+V1552772	map04930	Type II diabetes mellitus
+V1032792	map00520	Amino sugar and nucleotide sugar metabolism
+V1882317	map04626	Plant-pathogen interaction
+V1032815	map03010	Ribosome
+V1206514	map00230	Purine metabolism
+V1796878	map02010	ABC transporters
+V1032563	map00710	Carbon fixation in photosynthetic organisms
+V1338881	map03010	Ribosome
+V1032218	map02010	ABC transporters
+V1032374	map05150	Staphylococcus aureus infection
+V1032825	map03070	Bacterial secretion system
+V1046994	map00195	Photosynthesis
+V1032826	map00230	Purine metabolism
+V1033501	map03010	Ribosome
+V1032814	map03010	Ribosome
+V1684175	map05150	Staphylococcus aureus infection
+V1032473	map00550	Peptidoglycan biosynthesis
+V1033444	map04141	Protein processing in endoplasmic reticulum
+V1032372	map05150	Staphylococcus aureus infection
+V1032978	map03010	Ribosome
+V1032397	map03440	Homologous recombination
+V1552701	map03070	Bacterial secretion system
+V1882237	map00710	Carbon fixation in photosynthetic organisms
+V1684156	map00970	Aminoacyl-tRNA biosynthesis
+V1884638	map04930	Type II diabetes mellitus
+V1885167	map02060	Phosphotransferase system (PTS)
+V1755580	map00640	Propanoate metabolism
+V1032381	map00720	Carbon fixation pathways in prokaryotes
+V1032514	map03010	Ribosome
+V1806605	map00500	Starch and sucrose metabolism
+V1828851	map03020	RNA polymerase
+V1033168	map00520	Amino sugar and nucleotide sugar metabolism
+V1033426	map02060	Phosphotransferase system (PTS)
+V1033869	map04626	Plant-pathogen interaction
+V1033474	map04626	Plant-pathogen interaction
+V1033392	map00730	Thiamine metabolism
+V1806647	map03030	DNA replication
+V1884555	map00970	Aminoacyl-tRNA biosynthesis
+V1033276	map00970	Aminoacyl-tRNA biosynthesis
+V1828827	map03010	Ribosome
+V1338860	map00970	Aminoacyl-tRNA biosynthesis
+V1883278	map02010	ABC transporters
+V1033416	map00230	Purine metabolism
+V1032410	map00240	Pyrimidine metabolism
+V1032731	map00680	Methane metabolism
+V1163789	map00230	Purine metabolism
+V1033170	map00900	Terpenoid backbone biosynthesis
+V1033493	map03010	Ribosome
+V1033565	map03020	RNA polymerase
+V1032641	map03440	Homologous recombination
+V1755579	map03018	RNA degradation
+V1033098	map00250	Alanine, aspartate and glutamate metabolism
+V1032807	map03010	Ribosome
+V1684155	map03020	RNA polymerase
+V1047159	map00650	Butanoate metabolism
+V1684154	map03020	RNA polymerase
+V1032808	map03010	Ribosome
+V1047215	map00480	Glutathione metabolism
+V1032301	map00970	Aminoacyl-tRNA biosynthesis
+V1882253	map05152	Tuberculosis
+V1033782	map04930	Type II diabetes mellitus
+V1047288	map00190	Oxidative phosphorylation
+V1032809	map03010	Ribosome
+V1891261	map03020	RNA polymerase
+V1033427	map02060	Phosphotransferase system (PTS)
+V1884563	map00710	Carbon fixation in photosynthetic organisms
+V1033034	map03010	Ribosome
+V1034199	map00240	Pyrimidine metabolism
+V1033033	map00970	Aminoacyl-tRNA biosynthesis
+V1032819	map03010	Ribosome
+V1032217	map02010	ABC transporters
+V1032302	map00970	Aminoacyl-tRNA biosynthesis
+V1047152	map00910	Nitrogen metabolism
+V1032407	map00520	Amino sugar and nucleotide sugar metabolism
+V1032630	map02010	ABC transporters
+V1032373	map05150	Staphylococcus aureus infection
+V1032330	map04122	Sulfur relay system
+V1032984	map03010	Ribosome
+V1032232	map00230	Purine metabolism
+V1032228	map00550	Peptidoglycan biosynthesis
+V1101399	map00983	Drug metabolism - other enzymes
+V1032592	map00983	Drug metabolism - other enzymes
+V1032558	map00520	Amino sugar and nucleotide sugar metabolism
+V1692640	map03018	RNA degradation
+V1047109	map03430	Mismatch repair
+V1033121	map02060	Phosphotransferase system (PTS)
+V1032216	map02010	ABC transporters
+V1047172	map00670	One carbon pool by folate
+V1891247	map00680	Methane metabolism
+V1032741	map00190	Oxidative phosphorylation
+V1032299	map03430	Mismatch repair
+V1032415	map00983	Drug metabolism - other enzymes
+V1808108	map03010	Ribosome
+V1206519	map00240	Pyrimidine metabolism
+V1033848	map00230	Purine metabolism
+V1033614	map00970	Aminoacyl-tRNA biosynthesis
+V1047007	map00970	Aminoacyl-tRNA biosynthesis
+V1032679	map03420	Nucleotide excision repair
+V1883337	map00720	Carbon fixation pathways in prokaryotes
+V1032601	map02060	Phosphotransferase system (PTS)
+V1032665	map03430	Mismatch repair
+V1552781	map03440	Homologous recombination
+V1033099	map00240	Pyrimidine metabolism
+V1033256	map03440	Homologous recombination
+V1033030	map00230	Purine metabolism
+V1034262	map03018	RNA degradation
+V1032571	map02020	Two-component system
+V1033514	map03010	Ribosome
+V1033490	map03010	Ribosome
+V1047070	map00550	Peptidoglycan biosynthesis
+V1047060	map02010	ABC transporters
+V1032713	map03010	Ribosome
+V1032649	map02020	Two-component system
+V1163762	map00480	Glutathione metabolism
+V1032804	map00480	Glutathione metabolism
+V1033045	map00500	Starch and sucrose metabolism
+V1033101	map00240	Pyrimidine metabolism
+V1199409	map02010	ABC transporters
+V1033090	map03010	Ribosome
+V1034244	map03018	RNA degradation
+V1424786	map00520	Amino sugar and nucleotide sugar metabolism
+V1032292	map00760	Nicotinate and nicotinamide metabolism
+V1032822	map03010	Ribosome
+V1032555	map00550	Peptidoglycan biosynthesis
+V1882160	map02010	ABC transporters
+V1033127	map04112	Cell cycle - Caulobacter
+V1032728	map00550	Peptidoglycan biosynthesis
+V1883274	map00720	Carbon fixation pathways in prokaryotes
+V1033126	map02010	ABC transporters
+V1684153	map03010	Ribosome
+V1033757	map00970	Aminoacyl-tRNA biosynthesis
+V1755587	map03010	Ribosome
+V1033117	map00710	Carbon fixation in photosynthetic organisms
+V1806578	map04112	Cell cycle - Caulobacter
+V1033100	map00250	Alanine, aspartate and glutamate metabolism
+V1032981	map00621	Dioxin degradation
+V1032349	map00240	Pyrimidine metabolism
+V1032983	map03010	Ribosome
+V1034221	map00521	Streptomycin biosynthesis
+V1684093	map04112	Cell cycle - Caulobacter
+V1032406	map00564	Glycerophospholipid metabolism
+V1552798	map03020	RNA polymerase
+V1033032	map00970	Aminoacyl-tRNA biosynthesis
+V1032629	map00500	Starch and sucrose metabolism
+V1033119	map00053	Ascorbate and aldarate metabolism
+V1033497	map00970	Aminoacyl-tRNA biosynthesis
+V1796834	map03430	Mismatch repair
+V1684077	map04112	Cell cycle - Caulobacter
+V1032989	map00330	Arginine and proline metabolism
+V1886371	map00473	D-Alanine metabolism
+V1796838	map05211	Renal cell carcinoma
+V1046990	map00900	Terpenoid backbone biosynthesis
+V1032936	map00680	Methane metabolism
+V1033733	map04112	Cell cycle - Caulobacter
+V1032824	map03010	Ribosome
+V1819389	map00750	Vitamin B6 metabolism
+V1033707	map00520	Amino sugar and nucleotide sugar metabolism
+V1032434	map00970	Aminoacyl-tRNA biosynthesis
+V1884616	map02010	ABC transporters
+V1033253	map04122	Sulfur relay system
+V1034382	map02060	Phosphotransferase system (PTS)
+V1032293	map00910	Nitrogen metabolism
+V1047149	map02010	ABC transporters
+V1819373	map00650	Butanoate metabolism
+V1032818	map03010	Ribosome
+V1033200	map00970	Aminoacyl-tRNA biosynthesis
+V1203404	map00970	Aminoacyl-tRNA biosynthesis
+V1047062	map03440	Homologous recombination
+V1884526	map00680	Methane metabolism
+V1032315	map00970	Aminoacyl-tRNA biosynthesis
+V1163714	map05150	Staphylococcus aureus infection
+V1032882	map03440	Homologous recombination
+V1884647	map00970	Aminoacyl-tRNA biosynthesis
+V1101424	map00550	Peptidoglycan biosynthesis
+V1032313	map03070	Bacterial secretion system
+V1033302	map03070	Bacterial secretion system
+V1796841	map00030	Pentose phosphate pathway
+V1032820	map03010	Ribosome
+V1047067	map00550	Peptidoglycan biosynthesis
+V1032979	map03010	Ribosome
+V1034187	map03440	Homologous recombination
+V1032517	map03440	Homologous recombination
+V1033035	map03010	Ribosome
+V1047210	map00190	Oxidative phosphorylation
+V1891218	map00900	Terpenoid backbone biosynthesis
+V1806654	map00624	Polycyclic aromatic hydrocarbon degradation
+V1033069	map00970	Aminoacyl-tRNA biosynthesis
+V1033667	map00270	Cysteine and methionine metabolism
+V1163598	map00520	Amino sugar and nucleotide sugar metabolism
+V1034247	map00480	Glutathione metabolism
+V1033009	map00500	Starch and sucrose metabolism
+V1034284	map03013	RNA transport
+V1032931	map00051	Fructose and mannose metabolism
+V1032519	map03440	Homologous recombination
+V1552752	map04112	Cell cycle - Caulobacter
+V1885173	map00240	Pyrimidine metabolism
+V1047089	map04112	Cell cycle - Caulobacter
+V1033050	map02020	Two-component system
+V1882328	map00680	Methane metabolism
+V1755551	map03010	Ribosome
+V1032476	map00630	Glyoxylate and dicarboxylate metabolism
+V1684170	map04112	Cell cycle - Caulobacter
+V1032402	map03070	Bacterial secretion system
+V1032331	map04122	Sulfur relay system
+V1033169	map02020	Two-component system
+V1032635	map00740	Riboflavin metabolism
+V1203708	map00500	Starch and sucrose metabolism
+V1884634	map00620	Pyruvate metabolism
+V1032698	map00970	Aminoacyl-tRNA biosynthesis
+V1032223	map00240	Pyrimidine metabolism
+V1047286	map03440	Homologous recombination
+V1366243	map00500	Starch and sucrose metabolism
+V1886310	map00983	Drug metabolism - other enzymes
+V1204779	map02010	ABC transporters
+V1033463	map00910	Nitrogen metabolism
+V1032881	map03440	Homologous recombination
+V1047142	map03420	Nucleotide excision repair
+V1880900	map00473	D-Alanine metabolism
+V1796884	map03020	RNA polymerase
+V1033813	map03010	Ribosome
+V1150392	map00500	Starch and sucrose metabolism
+V1033163	map00520	Amino sugar and nucleotide sugar metabolism
+V1033278	map00230	Purine metabolism
+V1552707	map03018	RNA degradation
+V1032351	map00970	Aminoacyl-tRNA biosynthesis
+V1032990	map02010	ABC transporters
+V1034350	map03010	Ribosome
+V1033340	map03440	Homologous recombination
+V1032923	map00627	Aminobenzoate degradation
+V1032800	map03010	Ribosome
+V1047176	map02010	ABC transporters
+V1032742	map00190	Oxidative phosphorylation
+V1204734	map00650	Butanoate metabolism
+V1047198	map00250	Alanine, aspartate and glutamate metabolism
+V1884601	map00240	Pyrimidine metabolism
+V1032396	map00564	Glycerophospholipid metabolism
+V1033515	map05152	Tuberculosis
+V1143186	map02010	ABC transporters
+V1032312	map03440	Homologous recombination
+V1033084	map00680	Methane metabolism
+V1032922	map00760	Nicotinate and nicotinamide metabolism
+V1033361	map03018	RNA degradation
+V1032459	map00650	Butanoate metabolism
+V1882316	map03010	Ribosome
+V1883153	map00970	Aminoacyl-tRNA biosynthesis
+V1047055	map02060	Phosphotransferase system (PTS)
+V1047246	map02060	Phosphotransferase system (PTS)
+V1891194	map02010	ABC transporters
+V1032552	map00720	Carbon fixation pathways in prokaryotes
+V1032394	map01040	Biosynthesis of unsaturated fatty acids
+V1033128	map03010	Ribosome
+V1047214	map00240	Pyrimidine metabolism
+V1047148	map02010	ABC transporters
+V1033439	map02010	ABC transporters
+V1204586	map04112	Cell cycle - Caulobacter
+V1882361	map03010	Ribosome
+V1032883	map04112	Cell cycle - Caulobacter
+V1033095	map03010	Ribosome
+V1032298	map00511	Other glycan degradation
+V1552755	map00561	Glycerolipid metabolism
+V1608693	map00300	Lysine biosynthesis
+V1891238	map00190	Oxidative phosphorylation
+V1032752	map00240	Pyrimidine metabolism
+V1891109	map02020	Two-component system
+V1047160	map03013	RNA transport
+V1032779	map00550	Peptidoglycan biosynthesis
+V1033413	map00250	Alanine, aspartate and glutamate metabolism
+V1693896	map03010	Ribosome
+V1891105	map00030	Pentose phosphate pathway
+V1033025	map00624	Polycyclic aromatic hydrocarbon degradation
+V1882180	map02010	ABC transporters
+V1162949	map03010	Ribosome
+V1883275	map00040	Pentose and glucuronate interconversions
+V1891377	map00190	Oxidative phosphorylation
+V1163046	map04112	Cell cycle - Caulobacter
+V1047144	map00970	Aminoacyl-tRNA biosynthesis
+V1033472	map00051	Fructose and mannose metabolism
+V1032291	map00051	Fructose and mannose metabolism
+V1032821	map03010	Ribosome
+V1610069	map03010	Ribosome
+V1033581	map00230	Purine metabolism
+V1163667	map00760	Nicotinate and nicotinamide metabolism
+V1884560	map03010	Ribosome
+V1032714	map03010	Ribosome
+V1032765	map00300	Lysine biosynthesis
+V1032574	map00790	Folate biosynthesis
+V1882372	map03010	Ribosome
+V1047058	map03070	Bacterial secretion system
+V1033132	map00550	Peptidoglycan biosynthesis
+V1806580	map00550	Peptidoglycan biosynthesis
+V1149291	map02010	ABC transporters
+V1366244	map00770	Pantothenate and CoA biosynthesis
+V1884554	map00970	Aminoacyl-tRNA biosynthesis
+V1163706	map00230	Purine metabolism
+V1033267	map00561	Glycerolipid metabolism
+V1032551	map05340	Primary immunodeficiency
+V1764180	map03010	Ribosome
+V1032594	map00710	Carbon fixation in photosynthetic organisms
+V1032322	map00471	D-Glutamine and D-glutamate metabolism
+V1883213	map03010	Ribosome
+V1552696	map03420	Nucleotide excision repair
+V1883115	map03070	Bacterial secretion system
+V1033700	map00970	Aminoacyl-tRNA biosynthesis
+V1033257	map00903	Limonene and pinene degradation
+V1884636	map00450	Selenocompound metabolism
+V1032813	map03010	Ribosome
+V1033588	map00970	Aminoacyl-tRNA biosynthesis
+V1796843	map00710	Carbon fixation in photosynthetic organisms
+V1033467	map02010	ABC transporters
+V1032817	map03010	Ribosome
+V1032523	map03440	Homologous recombination
+V1101444	map00680	Methane metabolism
+V1047077	map00970	Aminoacyl-tRNA biosynthesis
+V1882359	map03010	Ribosome
+V1032812	map03010	Ribosome
+V1033332	map00740	Riboflavin metabolism
+V1033118	map00630	Glyoxylate and dicarboxylate metabolism
+V1237163	map02010	ABC transporters
+V1032310	map03430	Mismatch repair
+V1149114	map02010	ABC transporters
+V1033595	map00550	Peptidoglycan biosynthesis
+V1032474	map00250	Alanine, aspartate and glutamate metabolism
+V1034332	map00240	Pyrimidine metabolism
+V1883149	map02010	ABC transporters
+V1033462	map00908	Zeatin biosynthesis
+V1046998	map04112	Cell cycle - Caulobacter
+V1032575	map00670	One carbon pool by folate
+V1047268	map00910	Nitrogen metabolism
+V1033254	map00680	Methane metabolism
+V1883390	map00330	Arginine and proline metabolism
+V1047146	map05152	Tuberculosis
+V1552804	map05152	Tuberculosis
+V1032318	map03430	Mismatch repair
+V1032426	map03070	Bacterial secretion system
+V1884597	map03010	Ribosome
+V1033130	map00550	Peptidoglycan biosynthesis
+V1032642	map04070	Phosphatidylinositol signaling system
+V1796904	map00480	Glutathione metabolism
+V1884648	map00970	Aminoacyl-tRNA biosynthesis
+V1032684	map00240	Pyrimidine metabolism
+V1034207	map00564	Glycerophospholipid metabolism
+V1032471	map02020	Two-component system
+V1423402	map04930	Type II diabetes mellitus
+V1034230	map00640	Propanoate metabolism
+V1033331	map00740	Riboflavin metabolism
+V1806575	map00740	Riboflavin metabolism
+V1033246	map00760	Nicotinate and nicotinamide metabolism
+V1033531	map00030	Pentose phosphate pathway
+V1890844	map03010	Ribosome
+V1033330	map00720	Carbon fixation pathways in prokaryotes
+V1047179	map00730	Thiamine metabolism
+V1883050	map00240	Pyrimidine metabolism
+V1033007	map00230	Purine metabolism
+V1886180	map00520	Amino sugar and nucleotide sugar metabolism
+V1033499	map00970	Aminoacyl-tRNA biosynthesis
+V1237151	map00520	Amino sugar and nucleotide sugar metabolism
+V1163750	map00680	Methane metabolism
+V1032735	map00190	Oxidative phosphorylation
+V1033078	map03440	Homologous recombination
+V1882325	map03010	Ribosome
+V1033053	map00520	Amino sugar and nucleotide sugar metabolism
+V1033560	map03070	Bacterial secretion system
+V1884244	map03018	RNA degradation
+V1204888	map00010	Glycolysis / Gluconeogenesis
+V1033568	map02010	ABC transporters
+V1149265	map03440	Homologous recombination
+V1199359	map02060	Phosphotransferase system (PTS)
+V1204519	map03420	Nucleotide excision repair
+V1032603	map02060	Phosphotransferase system (PTS)
+V1755572	map02020	Two-component system
+V1887156	map02020	Two-component system
+V1047059	map03070	Bacterial secretion system
+V1033402	map02020	Two-component system
+V1032707	map00900	Terpenoid backbone biosynthesis
+V1884715	map03430	Mismatch repair
+V1163124	map02060	Phosphotransferase system (PTS)
+V1032358	map02020	Two-component system
+V1101503	map00190	Oxidative phosphorylation
+V1032720	map00680	Methane metabolism
+V1883158	map03440	Homologous recombination
+V1034282	map02060	Phosphotransferase system (PTS)
+V1162999	map02020	Two-component system
+V1034275	map04974	Protein digestion and absorption
+V1033414	map00250	Alanine, aspartate and glutamate metabolism
+V1886216	map00970	Aminoacyl-tRNA biosynthesis
+V1032913	map03410	Base excision repair
+V1884529	map03010	Ribosome
+V1032521	map00240	Pyrimidine metabolism
+V1462044	map04626	Plant-pathogen interaction
+V1163740	map00520	Amino sugar and nucleotide sugar metabolism
+V1033440	map02010	ABC transporters
+V1046996	map00790	Folate biosynthesis
+V1046999	map00270	Cysteine and methionine metabolism
+V1046992	map00195	Photosynthesis
+V1047151	map02020	Two-component system
+V1769429	map03010	Ribosome
+V1033094	map02010	ABC transporters
+V1047378	map02010	ABC transporters
+V1552723	map00010	Glycolysis / Gluconeogenesis
+V1819375	map00910	Nitrogen metabolism
+V1033052	map02020	Two-component system
+V1033611	map00983	Drug metabolism - other enzymes
+V1886124	map00970	Aminoacyl-tRNA biosynthesis
+V1032830	map00240	Pyrimidine metabolism
+V1032632	map02010	ABC transporters
+V1047147	map02010	ABC transporters
+V1032356	map00650	Butanoate metabolism
+V1032886	map00770	Pantothenate and CoA biosynthesis
+V1204768	map03430	Mismatch repair
+V1034238	map00710	Carbon fixation in photosynthetic organisms
+V1032823	map03010	Ribosome
+V1033882	map04626	Plant-pathogen interaction
+V1033469	map00240	Pyrimidine metabolism
+V1162950	map00450	Selenocompound metabolism
+V1032526	map00061	Fatty acid biosynthesis
+V1796918	map00300	Lysine biosynthesis
+V1032660	map00770	Pantothenate and CoA biosynthesis
+V1032733	map00630	Glyoxylate and dicarboxylate metabolism
+V1033066	map03020	RNA polymerase
+V1884499	map02010	ABC transporters
+V1203288	map00051	Fructose and mannose metabolism
+V1032651	map03013	RNA transport
+V1203801	map00970	Aminoacyl-tRNA biosynthesis
+V1150389	map00900	Terpenoid backbone biosynthesis
+V1032586	map02010	ABC transporters
+V1032739	map02010	ABC transporters
+V1755583	map00620	Pyruvate metabolism
+V1047267	map03018	RNA degradation
+V1884797	map00121	Secondary bile acid biosynthesis
+V1883175	map05340	Primary immunodeficiency
+V1032926	map00450	Selenocompound metabolism
+V1047145	map02010	ABC transporters
+V1034183	map00760	Nicotinate and nicotinamide metabolism
+V1891193	map03010	Ribosome
+V1034266	map04122	Sulfur relay system
+V1808252	map04626	Plant-pathogen interaction
+V1882300	map03020	RNA polymerase
+V1033569	map02010	ABC transporters
+V1047157	map02010	ABC transporters
+V1032314	map03018	RNA degradation
+V1163654	map00970	Aminoacyl-tRNA biosynthesis
+V1796839	map02020	Two-component system
+V1755584	map00620	Pyruvate metabolism
+V1796926	map03010	Ribosome
+V1033438	map02010	ABC transporters
+V1033646	map03020	RNA polymerase
+V1033562	map02010	ABC transporters
+V1033043	map00910	Nitrogen metabolism
+V1886063	map00240	Pyrimidine metabolism
+V1032740	map02010	ABC transporters
+V1796925	map00030	Pentose phosphate pathway
+V1796919	map00770	Pantothenate and CoA biosynthesis
+V1033146	map03013	RNA transport
+V1047289	map00190	Oxidative phosphorylation
+V1034452	map02060	Phosphotransferase system (PTS)
+V1047247	map02060	Phosphotransferase system (PTS)
+V1032811	map03010	Ribosome
+V1034242	map02010	ABC transporters
+V1047203	map00564	Glycerophospholipid metabolism
+V1032839	map00960	Tropane, piperidine and pyridine alkaloid biosynthesis
+V1033262	map00300	Lysine biosynthesis
+V1033008	map00760	Nicotinate and nicotinamide metabolism
+V1684116	map03070	Bacterial secretion system
+V1033093	map02010	ABC transporters
+V1032419	map00760	Nicotinate and nicotinamide metabolism
+V1828770	map00720	Carbon fixation pathways in prokaryotes
+V1885079	map02010	ABC transporters
+V1047239	map00300	Lysine biosynthesis
+V1032957	map00010	Glycolysis / Gluconeogenesis
+V1032929	map03030	DNA replication
+V1684078	map04112	Cell cycle - Caulobacter
+V1032222	map02060	Phosphotransferase system (PTS)
+V1032214	map03410	Base excision repair
+V1886288	map02020	Two-component system
+V1032673	map00520	Amino sugar and nucleotide sugar metabolism
+V1150763	map04626	Plant-pathogen interaction
+V1884579	map03020	RNA polymerase
+V1033408	map00230	Purine metabolism
+V1886232	map00670	One carbon pool by folate
+V1032816	map03010	Ribosome
+V1046974	map03440	Homologous recombination
+V1032490	map00650	Butanoate metabolism
+V1884624	map00550	Peptidoglycan biosynthesis
+V1883203	map03020	RNA polymerase
+V1884806	map00500	Starch and sucrose metabolism
+V1883308	map00010	Glycolysis / Gluconeogenesis
+V1884291	map00970	Aminoacyl-tRNA biosynthesis
+V1032708	map00900	Terpenoid backbone biosynthesis
+V1034300	map02060	Phosphotransferase system (PTS)
+V1033551	map00710	Carbon fixation in photosynthetic organisms
+V1034269	map00900	Terpenoid backbone biosynthesis
+V1032212	map00910	Nitrogen metabolism
+V1032587	map00983	Drug metabolism - other enzymes
+V1047238	map00300	Lysine biosynthesis
+V1149172	map03070	Bacterial secretion system
+V1806577	map00010	Glycolysis / Gluconeogenesis
+V1034319	map03010	Ribosome
+V1033102	map00500	Starch and sucrose metabolism
+V1033502	map03010	Ribosome
+V1033037	map00760	Nicotinate and nicotinamide metabolism
+V1047150	map02020	Two-component system
+V1872742	map05152	Tuberculosis
+V1891160	map03018	RNA degradation
+V1032846	map00520	Amino sugar and nucleotide sugar metabolism
+V1033142	map00240	Pyrimidine metabolism
+V1886332	map03010	Ribosome
+V1033556	map00040	Pentose and glucuronate interconversions
+V1163713	map00564	Glycerophospholipid metabolism
+V1032584	map02010	ABC transporters
+V1819367	map00970	Aminoacyl-tRNA biosynthesis
+V1163666	map00903	Limonene and pinene degradation
+V1033587	map03440	Homologous recombination
+V1237105	map00195	Photosynthesis
+V1033123	map00983	Drug metabolism - other enzymes
+V1033195	map04622	RIG-I-like receptor signaling pathway
+V1204704	map02060	Phosphotransferase system (PTS)
+V1886319	map04930	Type II diabetes mellitus
+V1032745	map02010	ABC transporters
+V1764178	map03070	Bacterial secretion system
+V1204794	map00627	Aminobenzoate degradation
+V1032710	map00624	Polycyclic aromatic hydrocarbon degradation
+V1032912	map00770	Pantothenate and CoA biosynthesis
+V1032717	map00240	Pyrimidine metabolism
+V1882378	map03020	RNA polymerase
+V1033638	map00130	Ubiquinone and other terpenoid-quinone biosynthesis
+V1047110	map03430	Mismatch repair
+V1032666	map00680	Methane metabolism
+V1033362	map02060	Phosphotransferase system (PTS)
+V1366239	map03440	Homologous recombination
+V1033012	map02020	Two-component system
+V1101410	map00900	Terpenoid backbone biosynthesis
+V1032297	map00051	Fructose and mannose metabolism
+V1446913	map00010	Glycolysis / Gluconeogenesis
+V1033327	map00250	Alanine, aspartate and glutamate metabolism
+V1237103	map02060	Phosphotransferase system (PTS)
+V1000378	map03010	Ribosome
+V1033131	map00550	Peptidoglycan biosynthesis
+V1204604	map00230	Purine metabolism
+V1032608	map03060	Protein export
+V1884245	map00970	Aminoacyl-tRNA biosynthesis
+V1204594	map00910	Nitrogen metabolism
+V1033500	map00710	Carbon fixation in photosynthetic organisms
+V1032564	map00270	Cysteine and methionine metabolism
+V1886373	map02060	Phosphotransferase system (PTS)
+V1684152	map03010	Ribosome
+V1032311	map03440	Homologous recombination
+V1163020	map02010	ABC transporters
+V1880912	map00710	Carbon fixation in photosynthetic organisms
+V1033111	map05111	Vibrio cholerae pathogenic cycle
+V1033273	map00052	Galactose metabolism
+V1163200	map00500	Starch and sucrose metabolism
+V1101406	map00240	Pyrimidine metabolism
+V1423397	map03010	Ribosome
+V1032329	map03440	Homologous recombination
+V1032585	map02010	ABC transporters
+V1884561	map03010	Ribosome
+V1047209	map00300	Lysine biosynthesis
+V1884566	map00710	Carbon fixation in photosynthetic organisms
+V1884510	map02020	Two-component system
+V1891170	map00730	Thiamine metabolism
+V1047213	map00561	Glycerolipid metabolism
+V1424927	map03010	Ribosome
+V1884406	map00670	One carbon pool by folate
+V1047004	map03410	Base excision repair
+V1202852	map02010	ABC transporters
+V1796916	map00720	Carbon fixation pathways in prokaryotes
+V1047169	map03440	Homologous recombination
+V1033374	map00260	Glycine, serine and threonine metabolism
+V1237100	map03020	RNA polymerase
+V1598199	map00680	Methane metabolism
+V1237185	map02060	Phosphotransferase system (PTS)
+V1201295	map00500	Starch and sucrose metabolism
+V1034257	map00710	Carbon fixation in photosynthetic organisms
+V1684177	map00230	Purine metabolism
+V1808036	map00010	Glycolysis / Gluconeogenesis
+V1033275	map00520	Amino sugar and nucleotide sugar metabolism
+V1880862	map00520	Amino sugar and nucleotide sugar metabolism
+V1034203	map00680	Methane metabolism
+V1202803	map00230	Purine metabolism
+V1237098	map02010	ABC transporters
+V1552713	map00520	Amino sugar and nucleotide sugar metabolism
+V1796868	map02010	ABC transporters
+V1032703	map02010	ABC transporters
+V1204827	map00720	Carbon fixation pathways in prokaryotes
+V1033174	map02010	ABC transporters
+V1552703	map03410	Base excision repair
+V1032999	map03030	DNA replication
+V1033051	map02020	Two-component system
+V1886195	map03440	Homologous recombination
+V1101540	map00230	Purine metabolism
+V1163037	map00970	Aminoacyl-tRNA biosynthesis
+V1884645	map00680	Methane metabolism
+V1684114	map00660	C5-Branched dibasic acid metabolism
+V1163634	map02010	ABC transporters
+V1033352	map00564	Glycerophospholipid metabolism
+V1163769	map04122	Sulfur relay system
+V1032768	map00564	Glycerophospholipid metabolism
+V1033679	map00750	Vitamin B6 metabolism
+V1808173	map00550	Peptidoglycan biosynthesis
+V1101375	map03070	Bacterial secretion system
+V1035061	map00330	Arginine and proline metabolism
+V1204811	map00550	Peptidoglycan biosynthesis
+V1033450	map00680	Methane metabolism
+V1883309	map00900	Terpenoid backbone biosynthesis
+V1032672	map00920	Sulfur metabolism
+V1764217	map03010	Ribosome
+V1032224	map00520	Amino sugar and nucleotide sugar metabolism
+V1884268	map00500	Starch and sucrose metabolism
+V1684176	map02060	Phosphotransferase system (PTS)
+V1891192	map03010	Ribosome
+V1503149	map03018	RNA degradation
+V1481432	map04930	Type II diabetes mellitus
+V1033304	map00330	Arginine and proline metabolism
+V1338888	map00760	Nicotinate and nicotinamide metabolism
+V1032433	map02010	ABC transporters
+V1883339	map03008	Ribosome biogenesis in eukaryotes
+V1884681	map05340	Primary immunodeficiency
+V1032307	map02060	Phosphotransferase system (PTS)
+V1237154	map00311	Penicillin and cephalosporin biosynthesis
+V1032736	map00130	Ubiquinone and other terpenoid-quinone biosynthesis
+V1807996	map00300	Lysine biosynthesis
+V1033720	map03060	Protein export
+V1047297	map00730	Thiamine metabolism
+V1880283	map00680	Methane metabolism
+V1883295	map03440	Homologous recombination
+V1033110	map00450	Selenocompound metabolism
+V1033173	map02010	ABC transporters
+V1764562	map00195	Photosynthesis
+V1684196	map04112	Cell cycle - Caulobacter
+V1883269	map00300	Lysine biosynthesis
+V1884577	map03020	RNA polymerase
+V1034201	map02010	ABC transporters
+V1884587	map00970	Aminoacyl-tRNA biosynthesis
+V1886197	map04724	Glutamatergic synapse
+V1204306	map02010	ABC transporters
+V1492438	map03010	Ribosome
+V1033274	map00520	Amino sugar and nucleotide sugar metabolism
+V1204507	map03440	Homologous recombination
+V1033526	map03070	Bacterial secretion system
+V1143165	map00680	Methane metabolism
+V1882327	map00680	Methane metabolism
+V1033693	map00520	Amino sugar and nucleotide sugar metabolism
+V1034234	map02060	Phosphotransferase system (PTS)
+V1891164	map03440	Homologous recombination
+V1225501	map03070	Bacterial secretion system
+V1032668	map00650	Butanoate metabolism
+V1033124	map00960	Tropane, piperidine and pyridine alkaloid biosynthesis
+V1163625	map00550	Peptidoglycan biosynthesis
+V1880127	map00480	Glutathione metabolism
+V1886090	map00970	Aminoacyl-tRNA biosynthesis
+V1033324	map00970	Aminoacyl-tRNA biosynthesis
+V1202485	map02060	Phosphotransferase system (PTS)
+V1035466	map00240	Pyrimidine metabolism
+V1032928	map00564	Glycerophospholipid metabolism
+V1237161	map02010	ABC transporters
+V1034240	map02060	Phosphotransferase system (PTS)
+V1163776	map00970	Aminoacyl-tRNA biosynthesis
+V1684084	map03010	Ribosome
+V1033162	map00600	Sphingolipid metabolism
+V1684136	map02010	ABC transporters
+V1033013	map02020	Two-component system
+V1886305	map03020	RNA polymerase
+V1033295	map03440	Homologous recombination
+V1032770	map00680	Methane metabolism
+V1034198	map02010	ABC transporters
+V1204706	map00270	Cysteine and methionine metabolism
+V1808174	map00970	Aminoacyl-tRNA biosynthesis
+V1882184	map04724	Glutamatergic synapse
+V1872685	map02010	ABC transporters
+V1033539	map00520	Amino sugar and nucleotide sugar metabolism
+V1033582	map03018	RNA degradation
+V1149201	map03440	Homologous recombination
+V1032700	map02010	ABC transporters
+V1163261	map03020	RNA polymerase
+V1203284	map04112	Cell cycle - Caulobacter
+V1886211	map04070	Phosphatidylinositol signaling system
+V1885047	map00630	Glyoxylate and dicarboxylate metabolism
+V1684325	map03070	Bacterial secretion system
+V1886282	map03070	Bacterial secretion system
+V1034862	map02060	Phosphotransferase system (PTS)
+V1032702	map02010	ABC transporters
+V1033141	map00650	Butanoate metabolism
+V1886047	map00710	Carbon fixation in photosynthetic organisms
+V1034375	map00970	Aminoacyl-tRNA biosynthesis
+V1033329	map03060	Protein export
+V1163202	map00010	Glycolysis / Gluconeogenesis
+V1808271	map00230	Purine metabolism
+V1033213	map00900	Terpenoid backbone biosynthesis
+V1033333	map00740	Riboflavin metabolism
+V1032737	map00900	Terpenoid backbone biosynthesis
+V1882979	map02010	ABC transporters
+V1033563	map00230	Purine metabolism
+V1032841	map02010	ABC transporters
+V1692978	map05152	Tuberculosis
+V1032706	map04146	Peroxisome
+V1204640	map00500	Starch and sucrose metabolism
+V1204788	map03420	Nucleotide excision repair
+V1884531	map00240	Pyrimidine metabolism
+V1199395	map00190	Oxidative phosphorylation
+V1692510	map03440	Homologous recombination
+V1034276	map00300	Lysine biosynthesis
+V1033466	map02010	ABC transporters
+V1101377	map00520	Amino sugar and nucleotide sugar metabolism
+V1891110	map00983	Drug metabolism - other enzymes
+V1829441	map00620	Pyruvate metabolism
+V1047039	map03070	Bacterial secretion system
+V1035062	map00910	Nitrogen metabolism
+V1819411	map00300	Lysine biosynthesis
+V1033555	map00910	Nitrogen metabolism
+V1033548	map00270	Cysteine and methionine metabolism
+V1047206	map02060	Phosphotransferase system (PTS)
+V1032701	map02010	ABC transporters
+V1200536	map00970	Aminoacyl-tRNA biosynthesis
+V1684172	map02010	ABC transporters
+V1796837	map02010	ABC transporters
+V1032738	map00130	Ubiquinone and other terpenoid-quinone biosynthesis
+V1032778	map00520	Amino sugar and nucleotide sugar metabolism
+V1033264	map00300	Lysine biosynthesis
+V1032427	map00627	Aminobenzoate degradation
+V1204660	map00720	Carbon fixation pathways in prokaryotes
+V1694432	map00710	Carbon fixation in photosynthetic organisms
+V1891163	map04122	Sulfur relay system
+V1884654	map02010	ABC transporters
+V1032431	map02010	ABC transporters
+V1033417	map03020	RNA polymerase
+V1884536	map02010	ABC transporters
+V1213026	map00970	Aminoacyl-tRNA biosynthesis
+V1886317	map00730	Thiamine metabolism
+V1001201	map00710	Carbon fixation in photosynthetic organisms
+V1032774	map03410	Base excision repair
+V1033460	map00300	Lysine biosynthesis
+V1164033	map02060	Phosphotransferase system (PTS)
+V1203078	map03430	Mismatch repair
+V1886242	map00790	Folate biosynthesis
+V1101502	map02020	Two-component system
+V1886360	map00230	Purine metabolism
+V1033786	map00524	Butirosin and neomycin biosynthesis
+V1204096	map00230	Purine metabolism
+V1033727	map00983	Drug metabolism - other enzymes
+V1424385	map00970	Aminoacyl-tRNA biosynthesis
+V1101396	map00650	Butanoate metabolism
+V1806626	map02020	Two-component system
+V1033415	map00520	Amino sugar and nucleotide sugar metabolism
+V1891198	map03430	Mismatch repair
+V1828850	map00983	Drug metabolism - other enzymes
+V1883179	map02010	ABC transporters
+V1032556	map02010	ABC transporters
+V1886353	map02020	Two-component system
+V1032627	map00500	Starch and sucrose metabolism
+V1034809	map00500	Starch and sucrose metabolism
+V1581714	map03010	Ribosome
+V1101416	map02010	ABC transporters
+V1214522	map00970	Aminoacyl-tRNA biosynthesis
+V1883383	map02010	ABC transporters
+V1032554	map03440	Homologous recombination
+V1033942	map00970	Aminoacyl-tRNA biosynthesis
+V1101403	map00500	Starch and sucrose metabolism
+V1047074	map00520	Amino sugar and nucleotide sugar metabolism
+V1828756	map02010	ABC transporters
+V1880005	map00600	Sphingolipid metabolism
+V1202750	map00720	Carbon fixation pathways in prokaryotes
+V1206528	map00564	Glycerophospholipid metabolism
+V1300693	map00650	Butanoate metabolism
+V1033459	map00300	Lysine biosynthesis
+V1883249	map00230	Purine metabolism
+V1684159	map02010	ABC transporters
+V1033161	map00600	Sphingolipid metabolism
+V1035063	map00330	Arginine and proline metabolism
+V1033263	map00300	Lysine biosynthesis
+V1491723	map00330	Arginine and proline metabolism
+V1884683	map03430	Mismatch repair
+V1204804	map00630	Glyoxylate and dicarboxylate metabolism
+V1033305	map00330	Arginine and proline metabolism
+V1455144	map04112	Cell cycle - Caulobacter
+V1143195	map00195	Photosynthesis
+V1143768	map00710	Carbon fixation in photosynthetic organisms
+V1032748	map00564	Glycerophospholipid metabolism
+V1047280	map00230	Purine metabolism
+V1808054	map00910	Nitrogen metabolism
+V1237175	map00670	One carbon pool by folate
+V1692731	map03010	Ribosome
+V1033086	map02010	ABC transporters
+V1047237	map00680	Methane metabolism
+V1807962	map00230	Purine metabolism
+V1886191	map03420	Nucleotide excision repair
+V1149227	map03060	Protein export
+V1000734	map03010	Ribosome
+V1163698	map00450	Selenocompound metabolism
+V1755596	map02010	ABC transporters
+V1764225	map03010	Ribosome
+V1885076	map02020	Two-component system
+V1163822	map03070	Bacterial secretion system
+V1034750	map00195	Photosynthesis
+V1891128	map02010	ABC transporters
+V1033520	map00550	Peptidoglycan biosynthesis
+V1032986	map00903	Limonene and pinene degradation
+V1389007	map00010	Glycolysis / Gluconeogenesis
+V1886334	map00970	Aminoacyl-tRNA biosynthesis
+V1884607	map00240	Pyrimidine metabolism
+V1808000	map00970	Aminoacyl-tRNA biosynthesis
+V1163633	map00710	Carbon fixation in photosynthetic organisms
+V1212545	map00760	Nicotinate and nicotinamide metabolism
+V1034324	map00480	Glutathione metabolism
+V1769399	map00620	Pyruvate metabolism
+V1891154	map03440	Homologous recombination
+V1000816	map05010	Alzheimer's disease
+V1891073	map05010	Alzheimer's disease
+V1035318	map00620	Pyruvate metabolism
+V1884642	map02010	ABC transporters
+V1162910	map00300	Lysine biosynthesis
+V1886168	map04112	Cell cycle - Caulobacter
+V1033153	map00903	Limonene and pinene degradation
+V1764732	map03010	Ribosome
+V1047241	map02010	ABC transporters
+V1891259	map00900	Terpenoid backbone biosynthesis
+V1458569	map05152	Tuberculosis
+V1886295	map00650	Butanoate metabolism
+V1164011	map00970	Aminoacyl-tRNA biosynthesis
+V1204495	map02020	Two-component system
+V1204733	map00270	Cysteine and methionine metabolism
+V1882897	map00730	Thiamine metabolism
+V1300553	map00190	Oxidative phosphorylation
+V1808018	map00710	Carbon fixation in photosynthetic organisms
+V1882375	map00480	Glutathione metabolism
+V1204708	map02060	Phosphotransferase system (PTS)
+V1034326	map02010	ABC transporters
+V1828804	map00564	Glycerophospholipid metabolism
+V1755526	map02010	ABC transporters
+V1884602	map00720	Carbon fixation pathways in prokaryotes
+V1886895	map03010	Ribosome
+V1891149	map00903	Limonene and pinene degradation
+V1032918	map00330	Arginine and proline metabolism
+V1033635	map00680	Methane metabolism
+V1032794	map00051	Fructose and mannose metabolism
+V1880026	map00910	Nitrogen metabolism
+V1203091	map00010	Glycolysis / Gluconeogenesis
+V1891251	map03070	Bacterial secretion system
+V1884519	map00650	Butanoate metabolism
+V1883246	map00630	Glyoxylate and dicarboxylate metabolism
+V1033114	map00230	Purine metabolism
+V1035400	map00550	Peptidoglycan biosynthesis
+V1339051	map02020	Two-component system
+V1033065	map03070	Bacterial secretion system
+V1204379	map02010	ABC transporters
+V1035417	map00520	Amino sugar and nucleotide sugar metabolism
+V1204588	map00970	Aminoacyl-tRNA biosynthesis
+V1424187	map02030	Bacterial chemotaxis
+V1886013	map04112	Cell cycle - Caulobacter
+V1156922	map02060	Phosphotransferase system (PTS)
+V1032417	map02020	Two-component system
+V1163730	map04122	Sulfur relay system
+V1388957	map00900	Terpenoid backbone biosynthesis
+V1424934	map03020	RNA polymerase
+V1886297	map00550	Peptidoglycan biosynthesis
+V1890913	map02010	ABC transporters
+V1143270	map02030	Bacterial chemotaxis
+V1423733	map03010	Ribosome
+V1035353	map05152	Tuberculosis
+V1047244	map00040	Pentose and glucuronate interconversions
+V1423767	map05152	Tuberculosis
+V1032572	map02010	ABC transporters
+V1338904	map00564	Glycerophospholipid metabolism
+V1388999	map00900	Terpenoid backbone biosynthesis
+V1887212	map03060	Protein export
+V1101395	map00680	Methane metabolism
+V1552770	map00770	Pantothenate and CoA biosynthesis
+V1884298	map00550	Peptidoglycan biosynthesis
+V1143676	map00195	Photosynthesis
+V1481298	map03020	RNA polymerase
+V1882856	map03030	DNA replication
+V1143683	map03020	RNA polymerase
+V1884488	map00730	Thiamine metabolism
+V1101373	map02010	ABC transporters
+V1424383	map00970	Aminoacyl-tRNA biosynthesis
+V1755677	map03020	RNA polymerase
+V1884657	map02020	Two-component system
+V1297356	map04626	Plant-pathogen interaction
+V1884578	map03020	RNA polymerase
+V1886048	map04112	Cell cycle - Caulobacter
+V1890909	map00051	Fructose and mannose metabolism
+V1047269	map00564	Glycerophospholipid metabolism
+V1034988	map03440	Homologous recombination
+V1806642	map00643	Styrene degradation
+V1164008	map00900	Terpenoid backbone biosynthesis
+V1886264	map00710	Carbon fixation in photosynthetic organisms
+V1891140	map00030	Pentose phosphate pathway
+V1882964	map00564	Glycerophospholipid metabolism
+V1755540	map04122	Sulfur relay system
+V1886225	map03440	Homologous recombination
+V1047248	map02060	Phosphotransferase system (PTS)
+V1101372	map02010	ABC transporters
+V1163126	map00190	Oxidative phosphorylation
+V1481299	map02010	ABC transporters
+V1064519	map03440	Homologous recombination
+V1424071	map03010	Ribosome
+V1807923	map00650	Butanoate metabolism
+V1207141	map02010	ABC transporters
+V1807973	map00061	Fatty acid biosynthesis
+V1163920	map00970	Aminoacyl-tRNA biosynthesis
+V1884439	map00270	Cysteine and methionine metabolism
+V1033584	map00982	Drug metabolism - cytochrome P450
+V1033686	map00550	Peptidoglycan biosynthesis
+V1034983	map03070	Bacterial secretion system
+V1035349	map02010	ABC transporters
+V1880079	map02010	ABC transporters
+V1202802	map03420	Nucleotide excision repair
+V1033553	map02060	Phosphotransferase system (PTS)
+V1035578	map00520	Amino sugar and nucleotide sugar metabolism
+V1806641	map02010	ABC transporters
+V1872682	map00564	Glycerophospholipid metabolism
+V1886143	map00230	Purine metabolism
+V1199406	map00770	Pantothenate and CoA biosynthesis
+V1764086	map00680	Methane metabolism
+V1143704	map00240	Pyrimidine metabolism
+V1764721	map00680	Methane metabolism
+V1807977	map00730	Thiamine metabolism
+V1034749	map00195	Photosynthesis
+V1035362	map00680	Methane metabolism
+V1035372	map00983	Drug metabolism - other enzymes
+V1884544	map00520	Amino sugar and nucleotide sugar metabolism
+V1143786	map00190	Oxidative phosphorylation
+V1204802	map00362	Benzoate degradation
+V1237084	map00500	Starch and sucrose metabolism
+V1580855	map03010	Ribosome
+V1163179	map00710	Carbon fixation in photosynthetic organisms
+V1206128	map02060	Phosphotransferase system (PTS)
+V1338909	map00500	Starch and sucrose metabolism
+V1033552	map02060	Phosphotransferase system (PTS)
+V1887057	map02010	ABC transporters
+V1694217	map02060	Phosphotransferase system (PTS)
+V1000735	map03010	Ribosome
+V1033279	map00710	Carbon fixation in photosynthetic organisms
+V1423861	map02060	Phosphotransferase system (PTS)
+V1424058	map03010	Ribosome
+V1886141	map00520	Amino sugar and nucleotide sugar metabolism
+V1033838	map02060	Phosphotransferase system (PTS)
+V1164166	map02010	ABC transporters
+V1237081	map02010	ABC transporters
+V1510921	map00970	Aminoacyl-tRNA biosynthesis
+V1101412	map00550	Peptidoglycan biosynthesis
+V1614139	map03010	Ribosome
+V1886300	map00790	Folate biosynthesis
+V1032914	map03440	Homologous recombination
+V1033903	map03010	Ribosome
+V1149240	map03430	Mismatch repair
+V1237155	map02010	ABC transporters
+V1033828	map00624	Polycyclic aromatic hydrocarbon degradation
+V1256223	map03018	RNA degradation
+V1446946	map02010	ABC transporters
+V1032793	map02060	Phosphotransferase system (PTS)
+V1035218	map00520	Amino sugar and nucleotide sugar metabolism
+V1808079	map02010	ABC transporters
+V1884502	map03440	Homologous recombination
+V1000406	map03010	Ribosome
+V1339074	map00750	Vitamin B6 metabolism
+V1755589	map02010	ABC transporters
+V1884653	map02060	Phosphotransferase system (PTS)
+V1033339	map00061	Fatty acid biosynthesis
+V1035393	map00190	Oxidative phosphorylation
+V1163426	map00520	Amino sugar and nucleotide sugar metabolism
+V1204601	map03440	Homologous recombination
+V1238872	map02010	ABC transporters
+V1808267	map04974	Protein digestion and absorption
+V1886140	map02010	ABC transporters
+V1034849	map00720	Carbon fixation pathways in prokaryotes
+V1035487	map00561	Glycerolipid metabolism
+V1032411	map00903	Limonene and pinene degradation
+V1425064	map00970	Aminoacyl-tRNA biosynthesis
+V1446922	map00300	Lysine biosynthesis
+V1799396	map00970	Aminoacyl-tRNA biosynthesis
+V1891260	map04146	Peroxisome
+V1000962	map00240	Pyrimidine metabolism
+V1101407	map03440	Homologous recombination
+V1202641	map00561	Glycerolipid metabolism
+V1204709	map00680	Methane metabolism
+V1694042	map00970	Aminoacyl-tRNA biosynthesis
+V1204711	map00564	Glycerophospholipid metabolism
+V1204821	map00730	Thiamine metabolism
+V1891079	map03010	Ribosome
+V1034807	map00500	Starch and sucrose metabolism
+V1806645	map00630	Glyoxylate and dicarboxylate metabolism
+V1806714	map00230	Purine metabolism
+V1884637	map02060	Phosphotransferase system (PTS)
+V1034962	map00910	Nitrogen metabolism
+V1164339	map04122	Sulfur relay system
+V1213130	map00900	Terpenoid backbone biosynthesis
+V1880135	map04626	Plant-pathogen interaction
+V1033314	map00550	Peptidoglycan biosynthesis
+V1552698	map00051	Fructose and mannose metabolism
+V1883111	map00680	Methane metabolism
+V1032704	map00970	Aminoacyl-tRNA biosynthesis
+V1033885	map00550	Peptidoglycan biosynthesis
+V1886121	map00300	Lysine biosynthesis
+V1000642	map03018	RNA degradation
+V1034812	map02010	ABC transporters
+V1035382	map00521	Streptomycin biosynthesis
+V1204783	map02010	ABC transporters
+V1213504	map03010	Ribosome
+V1887241	map00900	Terpenoid backbone biosynthesis
+V1000639	map05010	Alzheimer's disease
+V1034813	map02010	ABC transporters
+V1143398	map00670	One carbon pool by folate
+V1163834	map00300	Lysine biosynthesis
+V1806627	map00052	Galactose metabolism
+V1806747	map03010	Ribosome
+V1819396	map00680	Methane metabolism
+V1143362	map02010	ABC transporters
+V1257298	map03010	Ribosome
+V1764999	map03010	Ribosome
+V1884646	map00500	Starch and sucrose metabolism
+V1204760	map02010	ABC transporters
+V1598242	map00903	Limonene and pinene degradation
+V1886196	map00900	Terpenoid backbone biosynthesis
+V1000407	map03440	Homologous recombination
+V1034951	map00561	Glycerolipid metabolism
+V1035082	map03430	Mismatch repair
+V1035240	map03440	Homologous recombination
+V1891098	map03420	Nucleotide excision repair
+V1150421	map00903	Limonene and pinene degradation
+V1614065	map05150	Staphylococcus aureus infection
+V1755598	map03030	DNA replication
+V1035351	map02010	ABC transporters
+V1101651	map02010	ABC transporters
+V1143766	map03018	RNA degradation
+V1765237	map00970	Aminoacyl-tRNA biosynthesis
+V1302774	map05010	Alzheimer's disease
+V1807988	map00564	Glycerophospholipid metabolism
+V1883303	map02010	ABC transporters
+V1035119	map03020	RNA polymerase
+V1047402	map00740	Riboflavin metabolism
+V1143767	map00710	Carbon fixation in photosynthetic organisms
+V1580822	map03018	RNA degradation
+V1884890	map00643	Styrene degradation
+V1034632	map03440	Homologous recombination
+V1035266	map02020	Two-component system
+V1163142	map00710	Carbon fixation in photosynthetic organisms
+V1237114	map02060	Phosphotransferase system (PTS)
+V1423290	map02010	ABC transporters
+V1692996	map03010	Ribosome
+V1799397	map02010	ABC transporters
+V1891258	map00900	Terpenoid backbone biosynthesis
+V1899810	map02010	ABC transporters
+V1034456	map00970	Aminoacyl-tRNA biosynthesis
+V1034845	map00550	Peptidoglycan biosynthesis
+V1034871	map00480	Glutathione metabolism
+V1035120	map03030	DNA replication
+V1202534	map02010	ABC transporters
+V1034751	map00195	Photosynthesis
+V1035018	map00970	Aminoacyl-tRNA biosynthesis
+V1203776	map00010	Glycolysis / Gluconeogenesis
+V1257375	map03010	Ribosome
+V1503148	map00650	Butanoate metabolism
+V1829394	map00550	Peptidoglycan biosynthesis
+V1033625	map00680	Methane metabolism
+V1884495	map00970	Aminoacyl-tRNA biosynthesis
+V1884709	map03440	Homologous recombination
+V1034688	map02010	ABC transporters
+V1035022	map03430	Mismatch repair
+V1164018	map04122	Sulfur relay system
+V1362300	map02060	Phosphotransferase system (PTS)
+V1458494	map00520	Amino sugar and nucleotide sugar metabolism
+V1493100	map03010	Ribosome
+V1552872	map00051	Fructose and mannose metabolism
+V1884625	map02020	Two-component system
+V1884644	map00010	Glycolysis / Gluconeogenesis
+V1884659	map02010	ABC transporters
+V1886208	map02010	ABC transporters
+V1034763	map00550	Peptidoglycan biosynthesis
+V1882223	map00680	Methane metabolism
+V1035350	map02010	ABC transporters
+V1143699	map02010	ABC transporters
+V1424050	map00970	Aminoacyl-tRNA biosynthesis
+V1464571	map04626	Plant-pathogen interaction
+V1034797	map00790	Folate biosynthesis
+V1034943	map00970	Aminoacyl-tRNA biosynthesis
+V1143823	map00680	Methane metabolism
+V1150595	map00740	Riboflavin metabolism
+V1481351	map00520	Amino sugar and nucleotide sugar metabolism
+V1882388	map00620	Pyruvate metabolism
+V1884674	map02010	ABC transporters
+V1886046	map00710	Carbon fixation in photosynthetic organisms
+V1000122	map04626	Plant-pathogen interaction
+V1035339	map03018	RNA degradation
+V1163370	map00520	Amino sugar and nucleotide sugar metabolism
+V1891051	map03010	Ribosome
+V1032323	map00730	Thiamine metabolism
+V1101699	map00680	Methane metabolism
+V1143789	map00550	Peptidoglycan biosynthesis
+V1207166	map00970	Aminoacyl-tRNA biosynthesis
+V1297407	map02010	ABC transporters
+V1836069	map03010	Ribosome
+V1885166	map02010	ABC transporters
+V1886312	map02010	ABC transporters
+V1891118	map00500	Starch and sucrose metabolism
+V1383883	map02020	Two-component system
+V1883099	map00190	Oxidative phosphorylation
+V1884651	map00250	Alanine, aspartate and glutamate metabolism
+V1891114	map02010	ABC transporters
+V1000860	map03010	Ribosome
+V1034925	map03070	Bacterial secretion system
+V1035156	map00520	Amino sugar and nucleotide sugar metabolism
+V1065125	map03010	Ribosome
+V1608774	map02010	ABC transporters
+V1034689	map02010	ABC transporters
+V1035008	map00970	Aminoacyl-tRNA biosynthesis
+V1035488	map00561	Glycerolipid metabolism
+V1047336	map02010	ABC transporters
+V1064604	map00520	Amino sugar and nucleotide sugar metabolism
+V1163743	map00300	Lysine biosynthesis
+V1209724	map04112	Cell cycle - Caulobacter
+V1210636	map03440	Homologous recombination
+V1424922	map03020	RNA polymerase
+V1580955	map05152	Tuberculosis
+V1755581	map00903	Limonene and pinene degradation
+V1884416	map00790	Folate biosynthesis
+V1000116	map04930	Type II diabetes mellitus
+V1000596	map05152	Tuberculosis
+V1035315	map03070	Bacterial secretion system
+V1430275	map00195	Photosynthesis
+V1448519	map05010	Alzheimer's disease
+V1807916	map00520	Amino sugar and nucleotide sugar metabolism
+V1883046	map03020	RNA polymerase
+V1883145	map05150	Staphylococcus aureus infection
+V1035027	map03440	Homologous recombination
+V1035057	map00760	Nicotinate and nicotinamide metabolism
+V1035241	map00970	Aminoacyl-tRNA biosynthesis
+V1035394	map00190	Oxidative phosphorylation
+V1143326	map00250	Alanine, aspartate and glutamate metabolism
+V1203889	map04112	Cell cycle - Caulobacter
+V1598369	map03018	RNA degradation
+V1829396	map02010	ABC transporters
+V1886049	map00630	Glyoxylate and dicarboxylate metabolism
+V1891043	map00680	Methane metabolism
+V1000534	map00680	Methane metabolism
+V1034747	map00195	Photosynthesis
+V1035107	map02010	ABC transporters
+V1035281	map00970	Aminoacyl-tRNA biosynthesis
+V1136272	map00620	Pyruvate metabolism
+V1202892	map00230	Purine metabolism
+V1204852	map00983	Drug metabolism - other enzymes
+V1423747	map03010	Ribosome
+V1577228	map05152	Tuberculosis
+V1580961	map03010	Ribosome
+V1755676	map03010	Ribosome
+V1880433	map00627	Aminobenzoate degradation
+V1035019	map00970	Aminoacyl-tRNA biosynthesis
+V1064601	map00240	Pyrimidine metabolism
+V1064939	map03070	Bacterial secretion system
+V1209688	map04626	Plant-pathogen interaction
+V1362271	map00720	Carbon fixation pathways in prokaryotes
+V1891035	map00983	Drug metabolism - other enzymes
+V1034873	map00400	Phenylalanine, tyrosine and tryptophan biosynthesis
+V1035390	map03440	Homologous recombination
+V1035412	map02060	Phosphotransferase system (PTS)
+V1423293	map00230	Purine metabolism
+V1034631	map03440	Homologous recombination
+V1034787	map00680	Methane metabolism
+V1035413	map02060	Phosphotransferase system (PTS)
+V1203204	map03070	Bacterial secretion system
+V1891376	map04112	Cell cycle - Caulobacter
+V1891401	map00710	Carbon fixation in photosynthetic organisms
+V1101485	map02010	ABC transporters
+V1144143	map00500	Starch and sucrose metabolism
+V1155989	map05010	Alzheimer's disease
+V1163352	map02010	ABC transporters
+V1458775	map03420	Nucleotide excision repair
+V1888665	map00710	Carbon fixation in photosynthetic organisms
+V1000383	map03010	Ribosome
+V1000950	map00680	Methane metabolism
+V1033941	map00710	Carbon fixation in photosynthetic organisms
+V1034963	map00710	Carbon fixation in photosynthetic organisms
+V1035011	map04112	Cell cycle - Caulobacter
+V1035398	map00970	Aminoacyl-tRNA biosynthesis
+V1808257	map00910	Nitrogen metabolism
+V1033666	map03010	Ribosome
+V1034789	map05211	Renal cell carcinoma
+V1034802	map00250	Alanine, aspartate and glutamate metabolism
+V1034818	map00190	Oxidative phosphorylation
+V1034938	map00970	Aminoacyl-tRNA biosynthesis
+V1035432	map00550	Peptidoglycan biosynthesis
+V1035442	map00900	Terpenoid backbone biosynthesis
+V1210751	map03010	Ribosome
+V1423313	map03430	Mismatch repair
+V1755675	map03010	Ribosome
+V1882895	map00240	Pyrimidine metabolism
+V1032418	map02020	Two-component system
+V1064471	map00520	Amino sugar and nucleotide sugar metabolism
+V1163189	map00900	Terpenoid backbone biosynthesis
+V1491720	map03010	Ribosome
+V1491863	map00740	Riboflavin metabolism
+V1764352	map00970	Aminoacyl-tRNA biosynthesis
+V1883081	map04112	Cell cycle - Caulobacter
+V1899773	map03070	Bacterial secretion system
+V1034732	map00230	Purine metabolism
+V1034954	map00561	Glycerolipid metabolism
+V1157115	map03018	RNA degradation
+V1209806	map00710	Carbon fixation in photosynthetic organisms
+V1322978	map00624	Polycyclic aromatic hydrocarbon degradation
+V1423938	map03018	RNA degradation
+V1446904	map00970	Aminoacyl-tRNA biosynthesis
+V1692725	map00680	Methane metabolism
+V1784158	map04626	Plant-pathogen interaction
+V1885965	map00480	Glutathione metabolism
+V1886034	map00010	Glycolysis / Gluconeogenesis
+V1033961	map00550	Peptidoglycan biosynthesis
+V1034669	map03018	RNA degradation
+V1034690	map03010	Ribosome
+V1034926	map03440	Homologous recombination
+V1035081	map00720	Carbon fixation pathways in prokaryotes
+V1035121	map00970	Aminoacyl-tRNA biosynthesis
+V1035238	map00230	Purine metabolism
+V1143820	map03010	Ribosome
+V1162943	map00650	Butanoate metabolism
+V1199472	map02060	Phosphotransferase system (PTS)
+V1204510	map02060	Phosphotransferase system (PTS)
+V1204835	map02010	ABC transporters
+V1204871	map02010	ABC transporters
+V1302934	map00710	Carbon fixation in photosynthetic organisms
+V1491685	map03018	RNA degradation
+V1694433	map00710	Carbon fixation in photosynthetic organisms
+V1755516	map00240	Pyrimidine metabolism
+V1891396	map04112	Cell cycle - Caulobacter
+V1033535	map00770	Pantothenate and CoA biosynthesis
+V1034670	map00473	D-Alanine metabolism
+V1034736	map00520	Amino sugar and nucleotide sugar metabolism
+V1034965	map00030	Pentose phosphate pathway
+V1035198	map02010	ABC transporters
+V1163648	map02010	ABC transporters
+V1339929	map00640	Propanoate metabolism
+V1424285	map00195	Photosynthesis
+V1431607	map03010	Ribosome
+V1481280	map05010	Alzheimer's disease
+V1886758	map03010	Ribosome
+V1886838	map00680	Methane metabolism
+V1000546	map02030	Bacterial chemotaxis
+V1033771	map04146	Peroxisome
+V1034810	map00500	Starch and sucrose metabolism
+V1034819	map00230	Purine metabolism
+V1034921	map00970	Aminoacyl-tRNA biosynthesis
+V1035058	map00627	Aminobenzoate degradation
+V1035465	map00250	Alanine, aspartate and glutamate metabolism
+V1101428	map00982	Drug metabolism - cytochrome P450
+V1163104	map00362	Benzoate degradation
+V1885932	map00983	Drug metabolism - other enzymes
+V1891252	map00500	Starch and sucrose metabolism
+V1000305	map03018	RNA degradation
+V1000359	map03010	Ribosome
+V1001191	map03010	Ribosome
+V1034024	map02010	ABC transporters
+V1034737	map00010	Glycolysis / Gluconeogenesis
+V1034765	map00051	Fructose and mannose metabolism
+V1149284	map02010	ABC transporters
+V1209678	map03420	Nucleotide excision repair
+V1598302	map03010	Ribosome
+V1684299	map00550	Peptidoglycan biosynthesis
+V1755527	map02010	ABC transporters
+V1755606	map03070	Bacterial secretion system
+V1034650	map03410	Base excision repair
+V1034912	map00970	Aminoacyl-tRNA biosynthesis
+V1035284	map00230	Purine metabolism
+V1035379	map00900	Terpenoid backbone biosynthesis
+V1035405	map03440	Homologous recombination
+V1035452	map00010	Glycolysis / Gluconeogenesis
+V1163106	map02010	ABC transporters
+V1439197	map00983	Drug metabolism - other enzymes
+V1883014	map00561	Glycerolipid metabolism
+V1886091	map00710	Carbon fixation in photosynthetic organisms
+V1891129	map00680	Methane metabolism
+V1891130	map00564	Glycerophospholipid metabolism
+V1034746	map00240	Pyrimidine metabolism
+V1034748	map00195	Photosynthesis
+V1034877	map00500	Starch and sucrose metabolism
+V1034882	map00520	Amino sugar and nucleotide sugar metabolism
+V1035110	map03440	Homologous recombination
+V1035145	map00480	Glutathione metabolism
+V1035404	map00970	Aminoacyl-tRNA biosynthesis
+V1064476	map05010	Alzheimer's disease
+V1064634	map00520	Amino sugar and nucleotide sugar metabolism
+V1150312	map02060	Phosphotransferase system (PTS)
+V1392216	map05152	Tuberculosis
+V1608685	map00624	Polycyclic aromatic hydrocarbon degradation
+V1610090	map03020	RNA polymerase
+V1886068	map00240	Pyrimidine metabolism
+V1891291	map00190	Oxidative phosphorylation
+V1034786	map00640	Propanoate metabolism
+V1035302	map03013	RNA transport
+V1143325	map02020	Two-component system
+V1162992	map02010	ABC transporters
+V1204592	map04122	Sulfur relay system
+V1297335	map00620	Pyruvate metabolism
+V1692953	map00970	Aminoacyl-tRNA biosynthesis
+V1829425	map02010	ABC transporters
+V1879863	map00982	Drug metabolism - cytochrome P450
+V1886212	map00010	Glycolysis / Gluconeogenesis
+V1886246	map00030	Pentose phosphate pathway
+V1886296	map03430	Mismatch repair
+V1886971	map00520	Amino sugar and nucleotide sugar metabolism
+V1891385	map03010	Ribosome
+V1000373	map03020	RNA polymerase
+V1032795	map00362	Benzoate degradation
+V1034803	map00250	Alanine, aspartate and glutamate metabolism
+V1035029	map03440	Homologous recombination
+V1035105	map00051	Fructose and mannose metabolism
+V1035282	map00970	Aminoacyl-tRNA biosynthesis
+V1035312	map04112	Cell cycle - Caulobacter
+V1035361	map02020	Two-component system
+V1064889	map00130	Ubiquinone and other terpenoid-quinone biosynthesis
+V1162977	map00330	Arginine and proline metabolism
+V1322982	map02010	ABC transporters
+V1481288	map03430	Mismatch repair
+V1608712	map00710	Carbon fixation in photosynthetic organisms
+V1608750	map00270	Cysteine and methionine metabolism
+V1610080	map00650	Butanoate metabolism
+V1764350	map00970	Aminoacyl-tRNA biosynthesis
+V1784289	map03010	Ribosome
+V1819520	map02020	Two-component system
+V1899797	map03420	Nucleotide excision repair
+V1000390	map03070	Bacterial secretion system
+V1000487	map00710	Carbon fixation in photosynthetic organisms
+V1034784	map04622	RIG-I-like receptor signaling pathway
+V1034886	map00970	Aminoacyl-tRNA biosynthesis
+V1034931	map00550	Peptidoglycan biosynthesis
+V1035002	map04122	Sulfur relay system
+V1035016	map00480	Glutathione metabolism
+V1035023	map03430	Mismatch repair
+V1035084	map00900	Terpenoid backbone biosynthesis
+V1035276	map00471	D-Glutamine and D-glutamate metabolism
+V1035440	map00624	Polycyclic aromatic hydrocarbon degradation
+V1162565	map00624	Polycyclic aromatic hydrocarbon degradation
+V1237073	map00550	Peptidoglycan biosynthesis
+V1598386	map03010	Ribosome
+V1684190	map03440	Homologous recombination
+V1899806	map00770	Pantothenate and CoA biosynthesis
+V1000004	map03020	RNA polymerase
+V1000651	map00550	Peptidoglycan biosynthesis
+V1000836	map03010	Ribosome
+V1001089	map03010	Ribosome
+V1034766	map02060	Phosphotransferase system (PTS)
+V1034846	map00970	Aminoacyl-tRNA biosynthesis
+V1034854	map00030	Pentose phosphate pathway
+V1035090	map00910	Nitrogen metabolism
+V1035267	map02020	Two-component system
+V1035273	map03430	Mismatch repair
+V1035519	map02010	ABC transporters
+V1306539	map03010	Ribosome
+V1491860	map04112	Cell cycle - Caulobacter
+V1541236	map04626	Plant-pathogen interaction
+V1596727	map02010	ABC transporters
+V1693296	map00970	Aminoacyl-tRNA biosynthesis
+V1882185	map00910	Nitrogen metabolism
+V1889437	map00330	Arginine and proline metabolism
+V1891404	map02010	ABC transporters
+V1000660	map03010	Ribosome
+V1000943	map03010	Ribosome
+V1034636	map04112	Cell cycle - Caulobacter
+V1034781	map05150	Staphylococcus aureus infection
+V1034804	map00730	Thiamine metabolism
+V1035333	map03013	RNA transport
+V1035409	map00770	Pantothenate and CoA biosynthesis
+V1064929	map03010	Ribosome
+V1163537	map04122	Sulfur relay system
+V1237108	map00195	Photosynthesis
+V1424239	map05150	Staphylococcus aureus infection
+V1684312	map03050	Proteasome
+V1692509	map03010	Ribosome
+V1694289	map00970	Aminoacyl-tRNA biosynthesis
+V1884641	map00520	Amino sugar and nucleotide sugar metabolism
+V1891240	map00903	Limonene and pinene degradation
+V1899774	map00670	One carbon pool by folate
+V1912442	map00680	Methane metabolism
+V1001181	map00195	Photosynthesis
+V1035579	map00970	Aminoacyl-tRNA biosynthesis
+V1143245	map03010	Ribosome
+V1163118	map03070	Bacterial secretion system
+V1164548	map03020	RNA polymerase
+V1209675	map00650	Butanoate metabolism
+V1209835	map03020	RNA polymerase
+V1210262	map03010	Ribosome
+V1297350	map00195	Photosynthesis
+V1302571	map03010	Ribosome
+V1425299	map03430	Mismatch repair
+V1446914	map00520	Amino sugar and nucleotide sugar metabolism
+V1511717	map00564	Glycerophospholipid metabolism
+V1580712	map00230	Purine metabolism
+V1764161	map00640	Propanoate metabolism
+V1829420	map00903	Limonene and pinene degradation
+V1829427	map00240	Pyrimidine metabolism
+V1882404	map00480	Glutathione metabolism
+V1891097	map02060	Phosphotransferase system (PTS)
+V1034782	map05150	Staphylococcus aureus infection
+V1035200	map02030	Bacterial chemotaxis
+V1035252	map00900	Terpenoid backbone biosynthesis
+V1209696	map03020	RNA polymerase
+V1213705	map00710	Carbon fixation in photosynthetic organisms
+V1362250	map00564	Glycerophospholipid metabolism
+V1458307	map00564	Glycerophospholipid metabolism
+V1492121	map00680	Methane metabolism
+V1608726	map00520	Amino sugar and nucleotide sugar metabolism
+V1684208	map03440	Homologous recombination
+V1693871	map03020	RNA polymerase
+V1882330	map04626	Plant-pathogen interaction
+V1885938	map02020	Two-component system
+V1886223	map02010	ABC transporters
+V1891119	map00500	Starch and sucrose metabolism
+V1034527	map03010	Ribosome
+V1034939	map04122	Sulfur relay system
+V1035017	map00910	Nitrogen metabolism
+V1035359	map02020	Two-component system
+V1035491	map00330	Arginine and proline metabolism
+V1035524	map00910	Nitrogen metabolism
+V1073967	map03010	Ribosome
+V1101717	map00521	Streptomycin biosynthesis
+V1163036	map00680	Methane metabolism
+V1214107	map03420	Nucleotide excision repair
+V1301472	map03010	Ribosome
+V1765286	map00710	Carbon fixation in photosynthetic organisms
+V1807987	map00680	Methane metabolism
+V1884568	map00970	Aminoacyl-tRNA biosynthesis
+V1886304	map02010	ABC transporters
+V1886908	map00983	Drug metabolism - other enzymes
+V1891155	map00230	Purine metabolism
+V1000375	map03010	Ribosome
+V1000545	map02010	ABC transporters
+V1000548	map00500	Starch and sucrose metabolism
+V1000751	map03010	Ribosome
+V1000814	map00710	Carbon fixation in photosynthetic organisms
+V1000818	map04112	Cell cycle - Caulobacter
+V1034993	map02010	ABC transporters
+V1035006	map00230	Purine metabolism
+V1035042	map00270	Cysteine and methionine metabolism
+V1035100	map00970	Aminoacyl-tRNA biosynthesis
+V1035358	map02020	Two-component system
+V1035514	map00010	Glycolysis / Gluconeogenesis
+V1064580	map04112	Cell cycle - Caulobacter
+V1064926	map00710	Carbon fixation in photosynthetic organisms
+V1143979	map00900	Terpenoid backbone biosynthesis
+V1297345	map00195	Photosynthesis
+V1464170	map00195	Photosynthesis
+V1481435	map02060	Phosphotransferase system (PTS)
+V1492725	map04112	Cell cycle - Caulobacter
+V1519450	map00710	Carbon fixation in photosynthetic organisms
+V1541136	map03010	Ribosome
+V1598408	map03018	RNA degradation
+V1610201	map03010	Ribosome
+V1808122	map00550	Peptidoglycan biosynthesis
+V1880913	map00710	Carbon fixation in photosynthetic organisms
+V1882194	map04112	Cell cycle - Caulobacter
+V1883044	map00910	Nitrogen metabolism
+V1885927	map00970	Aminoacyl-tRNA biosynthesis
+V1885949	map00740	Riboflavin metabolism
+V1886416	map04930	Type II diabetes mellitus
+V1889441	map00500	Starch and sucrose metabolism
+V1891078	map00520	Amino sugar and nucleotide sugar metabolism
+V1899778	map00051	Fructose and mannose metabolism
+V1000040	map00240	Pyrimidine metabolism
+V1000080	map03010	Ribosome
+V1000384	map03010	Ribosome
+V1000385	map03010	Ribosome
+V1000386	map03010	Ribosome
+V1000549	map00500	Starch and sucrose metabolism
+V1000659	map00970	Aminoacyl-tRNA biosynthesis
+V1000907	map00680	Methane metabolism
+V1033571	map00710	Carbon fixation in photosynthetic organisms
+V1035031	map03440	Homologous recombination
+V1035034	map00061	Fatty acid biosynthesis
+V1035239	map03020	RNA polymerase
+V1035277	map00730	Thiamine metabolism
+V1035381	map03420	Nucleotide excision repair
+V1035395	map02010	ABC transporters
+V1150432	map03020	RNA polymerase
+V1157421	map03010	Ribosome
+V1163609	map00860	Porphyrin and chlorophyll metabolism
+V1204829	map00643	Styrene degradation
+V1207150	map03010	Ribosome
+V1227395	map00480	Glutathione metabolism
+V1481300	map02010	ABC transporters
+V1552719	map00970	Aminoacyl-tRNA biosynthesis
+V1694218	map02060	Phosphotransferase system (PTS)
+V1764172	map03020	RNA polymerase
+V1764495	map05010	Alzheimer's disease
+V1764524	map00520	Amino sugar and nucleotide sugar metabolism
+V1883013	map00561	Glycerolipid metabolism
+V1000391	map00230	Purine metabolism
+V1000640	map00710	Carbon fixation in photosynthetic organisms
+V1000840	map00195	Photosynthesis
+V1001051	map02010	ABC transporters
+V1034826	map00740	Riboflavin metabolism
+V1034910	map00550	Peptidoglycan biosynthesis
+V1034920	map00561	Glycerolipid metabolism
+V1035024	map00511	Other glycan degradation
+V1035067	map00240	Pyrimidine metabolism
+V1035253	map04070	Phosphatidylinositol signaling system
+V1035365	map03420	Nucleotide excision repair
+V1035383	map00240	Pyrimidine metabolism
+V1035430	map00520	Amino sugar and nucleotide sugar metabolism
+V1143435	map00680	Methane metabolism
+V1143984	map03018	RNA degradation
+V1209674	map02060	Phosphotransferase system (PTS)
+V1425479	map00710	Carbon fixation in photosynthetic organisms
+V1458526	map00630	Glyoxylate and dicarboxylate metabolism
+V1462246	map03010	Ribosome
+V1503168	map02060	Phosphotransferase system (PTS)
+V1755604	map02020	Two-component system
+V1755661	map00230	Purine metabolism
+V1764176	map03010	Ribosome
+V1799412	map00550	Peptidoglycan biosynthesis
+V1808268	map05150	Staphylococcus aureus infection
+V1882849	map00970	Aminoacyl-tRNA biosynthesis
+V1883033	map03010	Ribosome
+V1000841	map00195	Photosynthesis
+V1034730	map03030	DNA replication
+V1034742	map00983	Drug metabolism - other enzymes
+V1034820	map03440	Homologous recombination
+V1034857	map00760	Nicotinate and nicotinamide metabolism
+V1034858	map00230	Purine metabolism
+V1034915	map02020	Two-component system
+V1034928	map03430	Mismatch repair
+V1034940	map04122	Sulfur relay system
+V1035051	map00500	Starch and sucrose metabolism
+V1035075	map03440	Homologous recombination
+V1035122	map03440	Homologous recombination
+V1035149	map03070	Bacterial secretion system
+V1035205	map00500	Starch and sucrose metabolism
+V1035229	map02060	Phosphotransferase system (PTS)
+V1035396	map02010	ABC transporters
+V1035462	map03440	Homologous recombination
+V1064641	map02020	Two-component system
+V1101829	map00195	Photosynthesis
+V1143737	map00760	Nicotinate and nicotinamide metabolism
+V1144023	map02060	Phosphotransferase system (PTS)
+V1210633	map00550	Peptidoglycan biosynthesis
+V1213445	map02010	ABC transporters
+V1297331	map02010	ABC transporters
+V1302825	map03010	Ribosome
+V1424106	map05152	Tuberculosis
+V1436641	map00650	Butanoate metabolism
+V1481290	map02010	ABC transporters
+V1576144	map03070	Bacterial secretion system
+V1755642	map00051	Fructose and mannose metabolism
+V1755655	map02020	Two-component system
+V1828869	map04112	Cell cycle - Caulobacter
+V1829392	map02020	Two-component system
+V1872683	map02010	ABC transporters
+V1889361	map00970	Aminoacyl-tRNA biosynthesis
+V1899822	map00500	Starch and sucrose metabolism
+V1000092	map05150	Staphylococcus aureus infection
+V1000382	map03010	Ribosome
+V1006020	map03010	Ribosome
+V1033759	map00564	Glycerophospholipid metabolism
+V1033859	map00900	Terpenoid backbone biosynthesis
+V1034646	map02060	Phosphotransferase system (PTS)
+V1034783	map05150	Staphylococcus aureus infection
+V1034989	map01040	Biosynthesis of unsaturated fatty acids
+V1035014	map00550	Peptidoglycan biosynthesis
+V1035155	map02020	Two-component system
+V1035228	map02060	Phosphotransferase system (PTS)
+V1035245	map00710	Carbon fixation in photosynthetic organisms
+V1035250	map00240	Pyrimidine metabolism
+V1035327	map00051	Fructose and mannose metabolism
+V1035513	map02060	Phosphotransferase system (PTS)
+V1035577	map00450	Selenocompound metabolism
+V1043485	map03010	Ribosome
+V1047143	map02020	Two-component system
+V1078022	map03010	Ribosome
+V1143774	map04112	Cell cycle - Caulobacter
+V1155827	map00620	Pyruvate metabolism
+V1162881	map00521	Streptomycin biosynthesis
+V1195882	map00710	Carbon fixation in photosynthetic organisms
+V1424926	map03010	Ribosome
+V1852039	map03020	RNA polymerase
+V1882779	map04112	Cell cycle - Caulobacter
+V1883103	map00240	Pyrimidine metabolism
+V1883380	map00650	Butanoate metabolism
+V1884567	map00970	Aminoacyl-tRNA biosynthesis
+V1884617	map00500	Starch and sucrose metabolism
+V1884789	map02010	ABC transporters
+V1886133	map00300	Lysine biosynthesis
+V1886199	map00330	Arginine and proline metabolism
+V1886558	map00710	Carbon fixation in photosynthetic organisms
+V1000300	map00970	Aminoacyl-tRNA biosynthesis
+V1000361	map00770	Pantothenate and CoA biosynthesis
+V1000379	map03010	Ribosome
+V1000499	map00970	Aminoacyl-tRNA biosynthesis
+V1033923	map03018	RNA degradation
+V1034922	map03018	RNA degradation
+V1034927	map03430	Mismatch repair
+V1034950	map03440	Homologous recombination
+V1035013	map04112	Cell cycle - Caulobacter
+V1035336	map05340	Primary immunodeficiency
+V1035368	map03060	Protein export
+V1035455	map00564	Glycerophospholipid metabolism
+V1035644	map00983	Drug metabolism - other enzymes
+V1064522	map00500	Starch and sucrose metabolism
+V1101562	map03020	RNA polymerase
+V1209765	map00550	Peptidoglycan biosynthesis
+V1503139	map03440	Homologous recombination
+V1581231	map03010	Ribosome
+V1609097	map00564	Glycerophospholipid metabolism
+V1755539	map02060	Phosphotransferase system (PTS)
+V1755612	map03070	Bacterial secretion system
+V1785033	map00710	Carbon fixation in photosynthetic organisms
+V1785238	map03010	Ribosome
+V1882198	map05152	Tuberculosis
+V1882353	map00970	Aminoacyl-tRNA biosynthesis
+V1883093	map02020	Two-component system
+V1884800	map02010	ABC transporters
+V1885092	map00720	Carbon fixation pathways in prokaryotes
+V1888601	map05152	Tuberculosis
+V1000001	map03010	Ribosome
+V1000106	map00720	Carbon fixation pathways in prokaryotes
+V1000172	map02010	ABC transporters
+V1000387	map03010	Ribosome
+V1033343	map02010	ABC transporters
+V1033925	map00195	Photosynthesis
+V1035124	map00983	Drug metabolism - other enzymes
+V1035204	map02010	ABC transporters
+V1035215	map02010	ABC transporters
+V1035335	map00720	Carbon fixation pathways in prokaryotes
+V1035342	map00624	Polycyclic aromatic hydrocarbon degradation
+V1035371	map00624	Polycyclic aromatic hydrocarbon degradation
+V1035441	map00900	Terpenoid backbone biosynthesis
+V1035547	map00550	Peptidoglycan biosynthesis
+V1036606	map00195	Photosynthesis
+V1064477	map00450	Selenocompound metabolism
+V1064572	map00760	Nicotinate and nicotinamide metabolism
+V1101641	map00500	Starch and sucrose metabolism
+V1101906	map03020	RNA polymerase
+V1143466	map00362	Benzoate degradation
+V1157499	map05152	Tuberculosis
+V1295196	map04112	Cell cycle - Caulobacter
+V1301213	map02010	ABC transporters
+V1424286	map00195	Photosynthesis
+V1424581	map00680	Methane metabolism
+V1430573	map02010	ABC transporters
+V1447040	map03010	Ribosome
+V1491754	map03010	Ribosome
+V1500383	map05152	Tuberculosis
+V1512239	map00550	Peptidoglycan biosynthesis
+V1580701	map00230	Purine metabolism
+V1580780	map00240	Pyrimidine metabolism
+V1592992	map00970	Aminoacyl-tRNA biosynthesis
+V1608857	map03010	Ribosome
+V1684281	map03060	Protein export
+V1755657	map00190	Oxidative phosphorylation
+V1764443	map02060	Phosphotransferase system (PTS)
+V1764560	map00195	Photosynthesis
+V1836804	map00970	Aminoacyl-tRNA biosynthesis
+V1882853	map03020	RNA polymerase
+V1883174	map02010	ABC transporters
+V1884538	map00520	Amino sugar and nucleotide sugar metabolism
+V1884678	map00550	Peptidoglycan biosynthesis
+V1884876	map02010	ABC transporters
+V1886227	map02010	ABC transporters
+V1886517	map00640	Propanoate metabolism
+V1889358	map00620	Pyruvate metabolism
+V1891392	map02010	ABC transporters
+V1000003	map03010	Ribosome
+V1000018	map03010	Ribosome
+V1000820	map00620	Pyruvate metabolism
+V1000845	map00520	Amino sugar and nucleotide sugar metabolism
+V1000882	map00720	Carbon fixation pathways in prokaryotes
+V1006727	map03010	Ribosome
+V1034652	map00650	Butanoate metabolism
+V1034728	map00564	Glycerophospholipid metabolism
+V1034875	map02060	Phosphotransferase system (PTS)
+V1034880	map00230	Purine metabolism
+V1034949	map03410	Base excision repair
+V1035467	map00680	Methane metabolism
+V1035483	map00624	Polycyclic aromatic hydrocarbon degradation
+V1064474	map02020	Two-component system
+V1064895	map00564	Glycerophospholipid metabolism
+V1093074	map02030	Bacterial chemotaxis
+V1143840	map03020	RNA polymerase
+V1163637	map00903	Limonene and pinene degradation
+V1209699	map02060	Phosphotransferase system (PTS)
+V1209762	map03440	Homologous recombination
+V1297363	map05152	Tuberculosis
+V1340164	map00195	Photosynthesis
+V1364877	map00195	Photosynthesis
+V1392504	map03010	Ribosome
+V1424929	map03010	Ribosome
+V1481284	map02010	ABC transporters
+V1610353	map00240	Pyrimidine metabolism
+V1784679	map00195	Photosynthesis
+V1799398	map00730	Thiamine metabolism
+V1808052	map00680	Methane metabolism
+V1829416	map02020	Two-component system
+V1880223	map03010	Ribosome
+V1891062	map03020	RNA polymerase
+V1000017	map03010	Ribosome
+V1000021	map03010	Ribosome
+V1000082	map04112	Cell cycle - Caulobacter
+V1000093	map05150	Staphylococcus aureus infection
+V1000637	map04112	Cell cycle - Caulobacter
+V1000679	map03010	Ribosome
+V1032343	map00195	Photosynthesis
+V1034088	map02060	Phosphotransferase system (PTS)
+V1034972	map03410	Base excision repair
+V1035043	map00270	Cysteine and methionine metabolism
+V1035091	map00760	Nicotinate and nicotinamide metabolism
+V1035214	map02010	ABC transporters
+V1035375	map03018	RNA degradation
+V1035392	map00680	Methane metabolism
+V1064523	map03008	Ribosome biogenesis in eukaryotes
+V1064624	map00900	Terpenoid backbone biosynthesis
+V1064642	map00230	Purine metabolism
+V1064886	map00520	Amino sugar and nucleotide sugar metabolism
+V1149683	map00680	Methane metabolism
+V1159013	map04112	Cell cycle - Caulobacter
+V1199418	map00550	Peptidoglycan biosynthesis
+V1202312	map03070	Bacterial secretion system
+V1203463	map01040	Biosynthesis of unsaturated fatty acids
+V1209738	map03440	Homologous recombination
+V1356383	map02010	ABC transporters
+V1365518	map00550	Peptidoglycan biosynthesis
+V1425259	map02010	ABC transporters
+V1446915	map00520	Amino sugar and nucleotide sugar metabolism
+V1447417	map05152	Tuberculosis
+V1458772	map00620	Pyruvate metabolism
+V1481359	map02020	Two-component system
+V1491873	map03010	Ribosome
+V1503145	map00240	Pyrimidine metabolism
+V1511809	map00195	Photosynthesis
+V1573648	map03010	Ribosome
+V1580921	map05152	Tuberculosis
+V1598483	map03020	RNA polymerase
+V1610158	map00240	Pyrimidine metabolism
+V1755607	map02010	ABC transporters
+V1764497	map00710	Carbon fixation in photosynthetic organisms
+V1784141	map00620	Pyruvate metabolism
+V1852094	map00250	Alanine, aspartate and glutamate metabolism
+V1879918	map03010	Ribosome
+V1886911	map02010	ABC transporters
+V1886983	map00270	Cysteine and methionine metabolism
+V1889359	map00550	Peptidoglycan biosynthesis
+V1889488	map05010	Alzheimer's disease
+V1890044	map05152	Tuberculosis
+V1000146	map02010	ABC transporters
+V1000630	map03070	Bacterial secretion system
+V1000641	map00710	Carbon fixation in photosynthetic organisms
+V1000944	map03010	Ribosome
+V1001066	map00910	Nitrogen metabolism
+V1013092	map00650	Butanoate metabolism
+V1032348	map00195	Photosynthesis
+V1033946	map00550	Peptidoglycan biosynthesis
+V1034770	map00520	Amino sugar and nucleotide sugar metabolism
+V1034855	map00550	Peptidoglycan biosynthesis
+V1035003	map04122	Sulfur relay system
+V1035004	map00270	Cysteine and methionine metabolism
+V1035020	map00970	Aminoacyl-tRNA biosynthesis
+V1035083	map03430	Mismatch repair
+V1035103	map03070	Bacterial secretion system
+V1035230	map02060	Phosphotransferase system (PTS)
+V1035380	map00900	Terpenoid backbone biosynthesis
+V1035470	map00760	Nicotinate and nicotinamide metabolism
+V1035473	map02060	Phosphotransferase system (PTS)
+V1059001	map02060	Phosphotransferase system (PTS)
+V1064521	map02010	ABC transporters
+V1066646	map02030	Bacterial chemotaxis
+V1104333	map00330	Arginine and proline metabolism
+V1143706	map02010	ABC transporters
+V1144358	map03010	Ribosome
+V1159877	map03010	Ribosome
+V1208607	map00983	Drug metabolism - other enzymes
+V1256476	map03010	Ribosome
+V1297344	map00520	Amino sugar and nucleotide sugar metabolism
+V1297378	map03440	Homologous recombination
+V1302110	map00983	Drug metabolism - other enzymes
+V1338321	map03010	Ribosome
+V1357153	map04626	Plant-pathogen interaction
+V1424287	map00195	Photosynthesis
+V1424681	map03440	Homologous recombination
+V1424925	map03010	Ribosome
+V1424933	map03010	Ribosome
+V1511478	map00720	Carbon fixation pathways in prokaryotes
+V1574080	map00900	Terpenoid backbone biosynthesis
+V1580898	map03010	Ribosome
+V1581404	map03010	Ribosome
+V1600200	map02060	Phosphotransferase system (PTS)
+V1692530	map00195	Photosynthesis
+V1693165	map04724	Glutamatergic synapse
+V1693513	map02010	ABC transporters
+V1693899	map03010	Ribosome
+V1694222	map00650	Butanoate metabolism
+V1755616	map00510	N-Glycan biosynthesis
+V1784705	map03010	Ribosome
+V1829442	map00740	Riboflavin metabolism
+V1835695	map04626	Plant-pathogen interaction
+V1852138	map00010	Glycolysis / Gluconeogenesis
+V1882874	map00362	Benzoate degradation
+V1883082	map00564	Glycerophospholipid metabolism
+V1883142	map00450	Selenocompound metabolism
+V1886228	map02010	ABC transporters
+V1886999	map00270	Cysteine and methionine metabolism
+V1889372	map00710	Carbon fixation in photosynthetic organisms
+V1889698	map02010	ABC transporters
+V1890870	map03020	RNA polymerase
+V1000023	map00230	Purine metabolism
+V1000141	map04070	Phosphatidylinositol signaling system
+V1000162	map00790	Folate biosynthesis
+V1000295	map00970	Aminoacyl-tRNA biosynthesis
+V1000326	map00970	Aminoacyl-tRNA biosynthesis
+V1000380	map03010	Ribosome
+V1000393	map03010	Ribosome
+V1000547	map02010	ABC transporters
+V1000699	map03440	Homologous recombination
+V1000793	map00520	Amino sugar and nucleotide sugar metabolism
+V1000833	map00473	D-Alanine metabolism
+V1000835	map00550	Peptidoglycan biosynthesis
+V1002439	map03010	Ribosome
+V1032633	map02010	ABC transporters
+V1034866	map00520	Amino sugar and nucleotide sugar metabolism
+V1034924	map00480	Glutathione metabolism
+V1034970	map00520	Amino sugar and nucleotide sugar metabolism
+V1035376	map02060	Phosphotransferase system (PTS)
+V1035493	map00770	Pantothenate and CoA biosynthesis
+V1064481	map02010	ABC transporters
+V1064524	map00730	Thiamine metabolism
+V1064863	map02060	Phosphotransferase system (PTS)
+V1101793	map00624	Polycyclic aromatic hydrocarbon degradation
+V1101836	map00650	Butanoate metabolism
+V1143792	map02030	Bacterial chemotaxis
+V1155228	map04626	Plant-pathogen interaction
+V1163463	map00230	Purine metabolism
+V1163700	map00564	Glycerophospholipid metabolism
+V1164541	map00240	Pyrimidine metabolism
+V1204731	map00770	Pantothenate and CoA biosynthesis
+V1209701	map00760	Nicotinate and nicotinamide metabolism
+V1209745	map00250	Alanine, aspartate and glutamate metabolism
+V1213480	map03440	Homologous recombination
+V1337358	map04621	NOD-like receptor signaling pathway
+V1362268	map00900	Terpenoid backbone biosynthesis
+V1392006	map03010	Ribosome
+V1393635	map04626	Plant-pathogen interaction
+V1394389	map02030	Bacterial chemotaxis
+V1425480	map00710	Carbon fixation in photosynthetic organisms
+V1456927	map00100	Steroid biosynthesis
+V1458456	map00240	Pyrimidine metabolism
+V1458828	map03440	Homologous recombination
+V1458950	map02010	ABC transporters
+V1458978	map00450	Selenocompound metabolism
+V1460197	map05152	Tuberculosis
+V1460407	map00550	Peptidoglycan biosynthesis
+V1464441	map00970	Aminoacyl-tRNA biosynthesis
+V1481285	map02060	Phosphotransferase system (PTS)
+V1481293	map00564	Glycerophospholipid metabolism
+V1491714	map03010	Ribosome
+V1510908	map00240	Pyrimidine metabolism
+V1510916	map02020	Two-component system
+V1552718	map03430	Mismatch repair
+V1581223	map03440	Homologous recombination
+V1594655	map02010	ABC transporters
+V1608713	map00010	Glycolysis / Gluconeogenesis
+V1608716	map00550	Peptidoglycan biosynthesis
+V1693898	map03010	Ribosome
+V1694071	map03010	Ribosome
+V1764001	map02020	Two-component system
+V1784546	map03010	Ribosome
+V1806746	map03010	Ribosome
+V1829434	map02020	Two-component system
+V1836820	map00550	Peptidoglycan biosynthesis
+V1852080	map00550	Peptidoglycan biosynthesis
+V1882407	map00970	Aminoacyl-tRNA biosynthesis
+V1885132	map00240	Pyrimidine metabolism
+V1886712	map00520	Amino sugar and nucleotide sugar metabolism
+V1886965	map00520	Amino sugar and nucleotide sugar metabolism
+V1888837	map05010	Alzheimer's disease
+V1889608	map05150	Staphylococcus aureus infection
+V1891061	map03440	Homologous recombination
+V1891388	map00190	Oxidative phosphorylation
+V1899803	map02010	ABC transporters
+V1899812	map03013	RNA transport
+V1000009	map03010	Ribosome
+V1000044	map00910	Nitrogen metabolism
+V1000069	map02020	Two-component system
+V1000121	map04112	Cell cycle - Caulobacter
+V1000161	map02010	ABC transporters
+V1000171	map02010	ABC transporters
+V1000175	map03010	Ribosome
+V1000249	map00970	Aminoacyl-tRNA biosynthesis
+V1000312	map03010	Ribosome
+V1000440	map02010	ABC transporters
+V1000454	map00250	Alanine, aspartate and glutamate metabolism
+V1000504	map00760	Nicotinate and nicotinamide metabolism
+V1000533	map00240	Pyrimidine metabolism
+V1000643	map03018	RNA degradation
+V1000685	map04724	Glutamatergic synapse
+V1000842	map00195	Photosynthesis
+V1001086	map03010	Ribosome
+V1004157	map05010	Alzheimer's disease
+V1006021	map03010	Ribosome
+V1006819	map02010	ABC transporters
+V1012819	map00903	Limonene and pinene degradation
+V1013090	map00710	Carbon fixation in photosynthetic organisms
+V1015704	map00650	Butanoate metabolism
+V1025190	map00350	Tyrosine metabolism
+V1034110	map00520	Amino sugar and nucleotide sugar metabolism
+V1034659	map00230	Purine metabolism
+V1034791	map02010	ABC transporters
+V1034865	map00520	Amino sugar and nucleotide sugar metabolism
+V1034889	map00240	Pyrimidine metabolism
+V1034907	map00908	Zeatin biosynthesis
+V1034994	map02010	ABC transporters
+V1035096	map00051	Fructose and mannose metabolism
+V1035199	map02010	ABC transporters
+V1035258	map00680	Methane metabolism
+V1035306	map00903	Limonene and pinene degradation
+V1035574	map02010	ABC transporters
+V1035576	map00564	Glycerophospholipid metabolism
+V1064482	map02010	ABC transporters
+V1064534	map03020	RNA polymerase
+V1064967	map00970	Aminoacyl-tRNA biosynthesis
+V1064983	map02020	Two-component system
+V1065053	map02010	ABC transporters
+V1101345	map04112	Cell cycle - Caulobacter
+V1101835	map03020	RNA polymerase
+V1137029	map00190	Oxidative phosphorylation
+V1143299	map00010	Glycolysis / Gluconeogenesis
+V1143335	map03010	Ribosome
+V1143341	map02020	Two-component system
+V1143709	map03010	Ribosome
+V1144083	map00970	Aminoacyl-tRNA biosynthesis
+V1144133	map02010	ABC transporters
+V1144304	map03010	Ribosome
+V1159981	map00195	Photosynthesis
+V1160507	map00270	Cysteine and methionine metabolism
+V1163115	map00970	Aminoacyl-tRNA biosynthesis
+V1163909	map00970	Aminoacyl-tRNA biosynthesis
+V1210810	map00983	Drug metabolism - other enzymes
+V1223012	map05152	Tuberculosis
+V1241723	map03010	Ribosome
+V1297359	map00230	Purine metabolism
+V1297375	map03010	Ribosome
+V1297390	map03070	Bacterial secretion system
+V1301126	map00520	Amino sugar and nucleotide sugar metabolism
+V1339870	map04112	Cell cycle - Caulobacter
+V1340131	map00520	Amino sugar and nucleotide sugar metabolism
+V1356068	map03018	RNA degradation
+V1364188	map00195	Photosynthesis
+V1381099	map00195	Photosynthesis
+V1381169	map03020	RNA polymerase
+V1389989	map00520	Amino sugar and nucleotide sugar metabolism
+V1398674	map00195	Photosynthesis
+V1424461	map04724	Glutamatergic synapse
+V1424930	map03070	Bacterial secretion system
+V1439186	map03010	Ribosome
+V1459913	map00450	Selenocompound metabolism
+V1469304	map00970	Aminoacyl-tRNA biosynthesis
+V1481295	map00550	Peptidoglycan biosynthesis
+V1481324	map00970	Aminoacyl-tRNA biosynthesis
+V1481332	map02010	ABC transporters
+V1491824	map02060	Phosphotransferase system (PTS)
+V1512307	map00760	Nicotinate and nicotinamide metabolism
+V1552729	map03010	Ribosome
+V1552843	map03440	Homologous recombination
+V1553618	map03070	Bacterial secretion system
+V1553655	map00790	Folate biosynthesis
+V1571503	map05010	Alzheimer's disease
+V1576462	map00650	Butanoate metabolism
+V1580709	map03010	Ribosome
+V1581644	map00250	Alanine, aspartate and glutamate metabolism
+V1592800	map03010	Ribosome
+V1598279	map03010	Ribosome
+V1610130	map02020	Two-component system
+V1610420	map03430	Mismatch repair
+V1693019	map02010	ABC transporters
+V1693206	map00970	Aminoacyl-tRNA biosynthesis
+V1693857	map00640	Propanoate metabolism
+V1694102	map05152	Tuberculosis
+V1694414	map03070	Bacterial secretion system
+V1755622	map00970	Aminoacyl-tRNA biosynthesis
+V1764722	map04930	Type II diabetes mellitus
+V1765546	map00250	Alanine, aspartate and glutamate metabolism
+V1783986	map03020	RNA polymerase
+V1784615	map05010	Alzheimer's disease
+V1784740	map00480	Glutathione metabolism
+V1879985	map00500	Starch and sucrose metabolism
+V1882360	map03010	Ribosome
+V1883023	map00970	Aminoacyl-tRNA biosynthesis
+V1884512	map00362	Benzoate degradation
+V1886303	map00970	Aminoacyl-tRNA biosynthesis
+V1886466	map03010	Ribosome
+V1886498	map00550	Peptidoglycan biosynthesis
+V1886547	map05010	Alzheimer's disease
+V1886654	map03070	Bacterial secretion system
+V1888284	map04724	Glutamatergic synapse
+V1889496	map03013	RNA transport
+V1889539	map05152	Tuberculosis
+V1890278	map00500	Starch and sucrose metabolism
+V1891380	map00970	Aminoacyl-tRNA biosynthesis
+V1899788	map00564	Glycerophospholipid metabolism
+V1899829	map03440	Homologous recombination
+V1000008	map00230	Purine metabolism
+V1000011	map03010	Ribosome
+V1000020	map03010	Ribosome
+V1000076	map03010	Ribosome
+V1000077	map03440	Homologous recombination
+V1000117	map03013	RNA transport
+V1000301	map00230	Purine metabolism
+V1000307	map04724	Glutamatergic synapse
+V1000314	map05111	Vibrio cholerae pathogenic cycle
+V1000572	map00790	Folate biosynthesis
+V1000626	map00564	Glycerophospholipid metabolism
+V1000650	map00561	Glycerolipid metabolism
+V1000883	map00520	Amino sugar and nucleotide sugar metabolism
+V1000925	map03070	Bacterial secretion system
+V1001180	map00195	Photosynthesis
+V1001367	map00910	Nitrogen metabolism
+V1006017	map00240	Pyrimidine metabolism
+V1006815	map00720	Carbon fixation pathways in prokaryotes
+V1011087	map05152	Tuberculosis
+V1012671	map00680	Methane metabolism
+V1012818	map00650	Butanoate metabolism
+V1034096	map03440	Homologous recombination
+V1034175	map02030	Bacterial chemotaxis
+V1034738	map00960	Tropane, piperidine and pyridine alkaloid biosynthesis
+V1034937	map00790	Folate biosynthesis
+V1034968	map02010	ABC transporters
+V1035046	map02010	ABC transporters
+V1035047	map02010	ABC transporters
+V1035197	map02010	ABC transporters
+V1035246	map00052	Galactose metabolism
+V1035247	map02060	Phosphotransferase system (PTS)
+V1035255	map00903	Limonene and pinene degradation
+V1035397	map03410	Base excision repair
+V1035484	map00770	Pantothenate and CoA biosynthesis
+V1035569	map00010	Glycolysis / Gluconeogenesis
+V1043585	map03010	Ribosome
+V1044896	map03010	Ribosome
+V1046767	map03440	Homologous recombination
+V1047069	map02060	Phosphotransferase system (PTS)
+V1064575	map00680	Methane metabolism
+V1064629	map00051	Fructose and mannose metabolism
+V1064871	map00230	Purine metabolism
+V1064958	map04146	Peroxisome
+V1065007	map04112	Cell cycle - Caulobacter
+V1067037	map00982	Drug metabolism - cytochrome P450
+V1074742	map03010	Ribosome
+V1076330	map03440	Homologous recombination
+V1101427	map02010	ABC transporters
+V1101580	map00240	Pyrimidine metabolism
+V1136911	map00970	Aminoacyl-tRNA biosynthesis
+V1143712	map00230	Purine metabolism
+V1143911	map02010	ABC transporters
+V1143929	map00970	Aminoacyl-tRNA biosynthesis
+V1144259	map00240	Pyrimidine metabolism
+V1158426	map02060	Phosphotransferase system (PTS)
+V1160411	map03010	Ribosome
+V1163265	map03010	Ribosome
+V1163717	map03440	Homologous recombination
+V1164026	map03420	Nucleotide excision repair
+V1164543	map00900	Terpenoid backbone biosynthesis
+V1200593	map02010	ABC transporters
+V1208090	map05340	Primary immunodeficiency
+V1209708	map00970	Aminoacyl-tRNA biosynthesis
+V1209812	map02020	Two-component system
+V1209815	map00627	Aminobenzoate degradation
+V1210682	map00970	Aminoacyl-tRNA biosynthesis
+V1211445	map00520	Amino sugar and nucleotide sugar metabolism
+V1235967	map02040	Flagellar assembly
+V1237574	map00790	Folate biosynthesis
+V1327026	map00240	Pyrimidine metabolism
+V1338047	map00620	Pyruvate metabolism
+V1339656	map03018	RNA degradation
+V1340709	map03018	RNA degradation
+V1360328	map03010	Ribosome
+V1362341	map02010	ABC transporters
+V1381001	map00910	Nitrogen metabolism
+V1382281	map03010	Ribosome
+V1384044	map02030	Bacterial chemotaxis
+V1420559	map00250	Alanine, aspartate and glutamate metabolism
+V1423893	map03070	Bacterial secretion system
+V1424282	map00195	Photosynthesis
+V1424384	map00970	Aminoacyl-tRNA biosynthesis
+V1424921	map03020	RNA polymerase
+V1425384	map00970	Aminoacyl-tRNA biosynthesis
+V1430829	map00520	Amino sugar and nucleotide sugar metabolism
+V1455741	map02010	ABC transporters
+V1458842	map03018	RNA degradation
+V1459197	map00970	Aminoacyl-tRNA biosynthesis
+V1459613	map00550	Peptidoglycan biosynthesis
+V1469298	map02060	Phosphotransferase system (PTS)
+V1469322	map03030	DNA replication
+V1498789	map03010	Ribosome
+V1511015	map00230	Purine metabolism
+V1511780	map04626	Plant-pathogen interaction
+V1512240	map00240	Pyrimidine metabolism
+V1512980	map02060	Phosphotransferase system (PTS)
+V1549076	map00710	Carbon fixation in photosynthetic organisms
+V1594229	map00480	Glutathione metabolism
+V1607575	map03440	Homologous recombination
+V1608937	map00230	Purine metabolism
+V1693897	map03010	Ribosome
+V1694287	map00970	Aminoacyl-tRNA biosynthesis
+V1764130	map03020	RNA polymerase
+V1783980	map00230	Purine metabolism
+V1784227	map00640	Propanoate metabolism
+V1784242	map00640	Propanoate metabolism
+V1784618	map03018	RNA degradation
+V1784681	map00195	Photosynthesis
+V1785072	map00340	Histidine metabolism
+V1785211	map03020	RNA polymerase
+V1799418	map00564	Glycerophospholipid metabolism
+V1808269	map05150	Staphylococcus aureus infection
+V1829393	map02020	Two-component system
+V1851983	map03430	Mismatch repair
+V1852083	map03010	Ribosome
+V1852132	map00760	Nicotinate and nicotinamide metabolism
+V1852140	map00970	Aminoacyl-tRNA biosynthesis
+V1884213	map00720	Carbon fixation pathways in prokaryotes
+V1884671	map02020	Two-component system
+V1886409	map03070	Bacterial secretion system
+V1886614	map03440	Homologous recombination
+V1889686	map00240	Pyrimidine metabolism
+V1889827	map00195	Photosynthesis
+V1890020	map02010	ABC transporters
+V1890237	map00740	Riboflavin metabolism
+V1891059	map04070	Phosphatidylinositol signaling system
+V1891063	map00520	Amino sugar and nucleotide sugar metabolism
+V1891080	map03010	Ribosome
+V1891361	map02060	Phosphotransferase system (PTS)
+V1891378	map02020	Two-component system
+V1891381	map00620	Pyruvate metabolism
+V1899801	map00520	Amino sugar and nucleotide sugar metabolism
+V1000005	map03010	Ribosome
+V1000057	map00230	Purine metabolism
+V1000059	map00051	Fructose and mannose metabolism
+V1000124	map03010	Ribosome
+V1000139	map03440	Homologous recombination
+V1000140	map00970	Aminoacyl-tRNA biosynthesis
+V1000144	map03010	Ribosome
+V1000164	map00790	Folate biosynthesis
+V1000325	map03010	Ribosome
+V1000388	map03010	Ribosome
+V1000389	map03010	Ribosome
+V1000462	map00330	Arginine and proline metabolism
+V1000502	map00983	Drug metabolism - other enzymes
+V1000563	map00230	Purine metabolism
+V1000601	map00970	Aminoacyl-tRNA biosynthesis
+V1000611	map00480	Glutathione metabolism
+V1000831	map03420	Nucleotide excision repair
+V1000834	map03018	RNA degradation
+V1001184	map00195	Photosynthesis
+V1001303	map02020	Two-component system
+V1001322	map02060	Phosphotransferase system (PTS)
+V1001470	map00520	Amino sugar and nucleotide sugar metabolism
+V1004149	map00340	Histidine metabolism
+V1006022	map00270	Cysteine and methionine metabolism
+V1006029	map00550	Peptidoglycan biosynthesis
+V1006381	map03440	Homologous recombination
+V1006573	map00983	Drug metabolism - other enzymes
+V1008596	map05152	Tuberculosis
+V1008929	map05010	Alzheimer's disease
+V1009504	map00900	Terpenoid backbone biosynthesis
+V1009516	map03018	RNA degradation
+V1009689	map00524	Butirosin and neomycin biosynthesis
+V1010320	map00630	Glyoxylate and dicarboxylate metabolism
+V1011016	map00195	Photosynthesis
+V1013127	map00330	Arginine and proline metabolism
+V1013671	map00910	Nitrogen metabolism
+V1015868	map03010	Ribosome
+V1016890	map03010	Ribosome
+V1032240	map00500	Starch and sucrose metabolism
+V1032344	map00195	Photosynthesis
+V1032796	map00030	Pentose phosphate pathway
+V1033912	map00910	Nitrogen metabolism
+V1034139	map03070	Bacterial secretion system
+V1034518	map00970	Aminoacyl-tRNA biosynthesis
+V1034779	map02020	Two-component system
+V1034792	map02010	ABC transporters
+V1034867	map00680	Methane metabolism
+V1034948	map00770	Pantothenate and CoA biosynthesis
+V1034977	map00630	Glyoxylate and dicarboxylate metabolism
+V1034992	map05340	Primary immunodeficiency
+V1035012	map04112	Cell cycle - Caulobacter
+V1035026	map00330	Arginine and proline metabolism
+V1035304	map02020	Two-component system
+V1035360	map02020	Two-component system
+V1036261	map02010	ABC transporters
+V1038323	map02010	ABC transporters
+V1042629	map02010	ABC transporters
+V1042632	map00230	Purine metabolism
+V1058821	map03440	Homologous recombination
+V1064566	map00900	Terpenoid backbone biosynthesis
+V1064897	map00900	Terpenoid backbone biosynthesis
+V1064935	map02020	Two-component system
+V1065317	map02040	Flagellar assembly
+V1065552	map00330	Arginine and proline metabolism
+V1067450	map03010	Ribosome
+V1076036	map00760	Nicotinate and nicotinamide metabolism
+V1101670	map03020	RNA polymerase
+V1101796	map00190	Oxidative phosphorylation
+V1101846	map02060	Phosphotransferase system (PTS)
+V1101925	map00970	Aminoacyl-tRNA biosynthesis
+V1138984	map03010	Ribosome
+V1139691	map03070	Bacterial secretion system
+V1143329	map00982	Drug metabolism - cytochrome P450
+V1143351	map00250	Alanine, aspartate and glutamate metabolism
+V1143377	map02060	Phosphotransferase system (PTS)
+V1143711	map00740	Riboflavin metabolism
+V1143722	map00520	Amino sugar and nucleotide sugar metabolism
+V1143729	map03440	Homologous recombination
+V1143821	map04112	Cell cycle - Caulobacter
+V1143938	map00480	Glutathione metabolism
+V1144036	map03440	Homologous recombination
+V1144085	map01053	Biosynthesis of siderophore group nonribosomal peptides
+V1144117	map00520	Amino sugar and nucleotide sugar metabolism
+V1144329	map00330	Arginine and proline metabolism
+V1150611	map02010	ABC transporters
+V1151091	map04621	NOD-like receptor signaling pathway
+V1154539	map05010	Alzheimer's disease
+V1154617	map00520	Amino sugar and nucleotide sugar metabolism
+V1163322	map03440	Homologous recombination
+V1163963	map00520	Amino sugar and nucleotide sugar metabolism
+V1164207	map00230	Purine metabolism
+V1164544	map03440	Homologous recombination
+V1166912	map04112	Cell cycle - Caulobacter
+V1185257	map05010	Alzheimer's disease
+V1198668	map00710	Carbon fixation in photosynthetic organisms
+V1199441	map00740	Riboflavin metabolism
+V1203777	map04626	Plant-pathogen interaction
+V1209055	map03020	RNA polymerase
+V1209802	map00650	Butanoate metabolism
+V1234581	map03010	Ribosome
+V1238645	map00330	Arginine and proline metabolism
+V1246962	map03010	Ribosome
+V1256334	map02010	ABC transporters
+V1256761	map03010	Ribosome
+V1265596	map00195	Photosynthesis
+V1267956	map05150	Staphylococcus aureus infection
+V1297353	map03420	Nucleotide excision repair
+V1297358	map04112	Cell cycle - Caulobacter
+V1297373	map00240	Pyrimidine metabolism
+V1297396	map03018	RNA degradation
+V1299127	map00550	Peptidoglycan biosynthesis
+V1301930	map03010	Ribosome
+V1302676	map02020	Two-component system
+V1302970	map03020	RNA polymerase
+V1356077	map00770	Pantothenate and CoA biosynthesis
+V1362324	map03010	Ribosome
+V1365188	map03010	Ribosome
+V1365775	map02010	ABC transporters
+V1381333	map03018	RNA degradation
+V1383592	map00240	Pyrimidine metabolism
+V1386569	map00983	Drug metabolism - other enzymes
+V1389384	map03018	RNA degradation
+V1389498	map00970	Aminoacyl-tRNA biosynthesis
+V1392405	map00250	Alanine, aspartate and glutamate metabolism
+V1399511	map00680	Methane metabolism
+V1418918	map00471	D-Glutamine and D-glutamate metabolism
+V1421438	map05010	Alzheimer's disease
+V1424135	map00970	Aminoacyl-tRNA biosynthesis
+V1425099	map00240	Pyrimidine metabolism
+V1425197	map00620	Pyruvate metabolism
+V1430689	map03440	Homologous recombination
+V1431657	map03010	Ribosome
+V1439190	map03010	Ribosome
+V1447271	map03010	Ribosome
+V1447444	map04930	Type II diabetes mellitus
+V1447583	map02010	ABC transporters
+V1447850	map00621	Dioxin degradation
+V1458562	map02010	ABC transporters
+V1458918	map00564	Glycerophospholipid metabolism
+V1459079	map03020	RNA polymerase
+V1460783	map00650	Butanoate metabolism
+V1462316	map00195	Photosynthesis
+V1463315	map00970	Aminoacyl-tRNA biosynthesis
+V1463821	map00480	Glutathione metabolism
+V1464364	map05010	Alzheimer's disease
+V1464447	map00970	Aminoacyl-tRNA biosynthesis
+V1467629	map04626	Plant-pathogen interaction
+V1469285	map00983	Drug metabolism - other enzymes
+V1469580	map00983	Drug metabolism - other enzymes
+V1481348	map00970	Aminoacyl-tRNA biosynthesis
+V1491762	map00520	Amino sugar and nucleotide sugar metabolism
+V1491765	map00250	Alanine, aspartate and glutamate metabolism
+V1492246	map02020	Two-component system
+V1493001	map03440	Homologous recombination
+V1498466	map03420	Nucleotide excision repair
+V1516671	map03010	Ribosome
+V1541135	map00500	Starch and sucrose metabolism
+V1557734	map03018	RNA degradation
+V1574099	map02060	Phosphotransferase system (PTS)
+V1581807	map00710	Carbon fixation in photosynthetic organisms
+V1591198	map03010	Ribosome
+V1594712	map03020	RNA polymerase
+V1598348	map00970	Aminoacyl-tRNA biosynthesis
+V1598366	map00230	Purine metabolism
+V1605978	map00627	Aminobenzoate degradation
+V1608714	map03008	Ribosome biogenesis in eukaryotes
+V1608737	map00970	Aminoacyl-tRNA biosynthesis
+V1609073	map00710	Carbon fixation in photosynthetic organisms
+V1609309	map04112	Cell cycle - Caulobacter
+V1610343	map04112	Cell cycle - Caulobacter
+V1687741	map02010	ABC transporters
+V1692541	map03010	Ribosome
+V1693867	map00970	Aminoacyl-tRNA biosynthesis
+V1694288	map00970	Aminoacyl-tRNA biosynthesis
+V1755615	map02060	Phosphotransferase system (PTS)
+V1764291	map02060	Phosphotransferase system (PTS)
+V1764496	map00710	Carbon fixation in photosynthetic organisms
+V1784277	map04930	Type II diabetes mellitus
+V1784550	map03010	Ribosome
+V1784676	map00195	Photosynthesis
+V1784678	map00195	Photosynthesis
+V1784759	map00520	Amino sugar and nucleotide sugar metabolism
+V1829395	map04626	Plant-pathogen interaction
+V1835712	map03440	Homologous recombination
+V1851985	map00900	Terpenoid backbone biosynthesis
+V1852051	map00750	Vitamin B6 metabolism
+V1852084	map03010	Ribosome
+V1879845	map00760	Nicotinate and nicotinamide metabolism
+V1879847	map02010	ABC transporters
+V1879897	map00640	Propanoate metabolism
+V1880077	map00970	Aminoacyl-tRNA biosynthesis
+V1880218	map03020	RNA polymerase
+V1883029	map00010	Glycolysis / Gluconeogenesis
+V1884571	map03410	Base excision repair
+V1885127	map02010	ABC transporters
+V1886377	map00770	Pantothenate and CoA biosynthesis
+V1886438	map05150	Staphylococcus aureus infection
+V1886439	map05150	Staphylococcus aureus infection
+V1886585	map02060	Phosphotransferase system (PTS)
+V1886619	map03440	Homologous recombination
+V1888466	map03010	Ribosome
+V1889000	map00480	Glutathione metabolism
+V1889161	map00970	Aminoacyl-tRNA biosynthesis
+V1889234	map00970	Aminoacyl-tRNA biosynthesis
+V1889272	map04112	Cell cycle - Caulobacter
+V1889479	map04112	Cell cycle - Caulobacter
+V1889505	map00500	Starch and sucrose metabolism
+V1889673	map00970	Aminoacyl-tRNA biosynthesis
+V1889708	map00480	Glutathione metabolism
+V1889747	map00030	Pentose phosphate pathway
+V1890137	map04112	Cell cycle - Caulobacter
+V1890191	map00550	Peptidoglycan biosynthesis
+V1890853	map04930	Type II diabetes mellitus
+V1891065	map00680	Methane metabolism
+V1000019	map03010	Ribosome
+V1000097	map03060	Protein export
+V1000099	map00900	Terpenoid backbone biosynthesis
+V1000118	map00903	Limonene and pinene degradation
+V1000151	map03010	Ribosome
+V1000155	map00900	Terpenoid backbone biosynthesis
+V1000168	map00970	Aminoacyl-tRNA biosynthesis
+V1000176	map02010	ABC transporters
+V1000296	map03440	Homologous recombination
+V1000303	map02010	ABC transporters
+V1000315	map02060	Phosphotransferase system (PTS)
+V1000318	map00970	Aminoacyl-tRNA biosynthesis
+V1000323	map00051	Fructose and mannose metabolism
+V1000455	map02020	Two-component system
+V1000506	map00051	Fructose and mannose metabolism
+V1000513	map02010	ABC transporters
+V1000525	map00770	Pantothenate and CoA biosynthesis
+V1000526	map03430	Mismatch repair
+V1000528	map03010	Ribosome
+V1000573	map04122	Sulfur relay system
+V1000587	map00680	Methane metabolism
+V1000590	map00240	Pyrimidine metabolism
+V1000594	map00250	Alanine, aspartate and glutamate metabolism
+V1000597	map03430	Mismatch repair
+V1000598	map03070	Bacterial secretion system
+V1000605	map03430	Mismatch repair
+V1000633	map03420	Nucleotide excision repair
+V1000661	map03010	Ribosome
+V1000756	map02010	ABC transporters
+V1000892	map00520	Amino sugar and nucleotide sugar metabolism
+V1000895	map00330	Arginine and proline metabolism
+V1000904	map03010	Ribosome
+V1000936	map00680	Methane metabolism
+V1000937	map00680	Methane metabolism
+V1001040	map05150	Staphylococcus aureus infection
+V1001104	map02060	Phosphotransferase system (PTS)
+V1001274	map00330	Arginine and proline metabolism
+V1001468	map00970	Aminoacyl-tRNA biosynthesis
+V1001488	map00561	Glycerolipid metabolism
+V1003083	map03018	RNA degradation
+V1003148	map00230	Purine metabolism
+V1004221	map00650	Butanoate metabolism
+V1006125	map03018	RNA degradation
+V1006214	map03440	Homologous recombination
+V1006680	map04112	Cell cycle - Caulobacter
+V1007075	map02010	ABC transporters
+V1008253	map03010	Ribosome
+V1008740	map03070	Bacterial secretion system
+V1009869	map03010	Ribosome
+V1010067	map00195	Photosynthesis
+V1010248	map00710	Carbon fixation in photosynthetic organisms
+V1010926	map00030	Pentose phosphate pathway
+V1011332	map00750	Vitamin B6 metabolism
+V1011651	map02060	Phosphotransferase system (PTS)
+V1011667	map03010	Ribosome
+V1011839	map03010	Ribosome
+V1011840	map03010	Ribosome
+V1011843	map04626	Plant-pathogen interaction
+V1011985	map00970	Aminoacyl-tRNA biosynthesis
+V1012333	map03018	RNA degradation
+V1012422	map03010	Ribosome
+V1012496	map05152	Tuberculosis
+V1012527	map03018	RNA degradation
+V1012921	map00590	Arachidonic acid metabolism
+V1013253	map04626	Plant-pathogen interaction
+V1013352	map02010	ABC transporters
+V1013353	map00040	Pentose and glucuronate interconversions
+V1013906	map04973	Carbohydrate digestion and absorption
+V1014358	map04930	Type II diabetes mellitus
+V1015255	map05010	Alzheimer's disease
+V1015667	map00511	Other glycan degradation
+V1016652	map00195	Photosynthesis
+V1016891	map03440	Homologous recombination
+V1017003	map03010	Ribosome
+V1017148	map03010	Ribosome
+V1018031	map03010	Ribosome
+V1018383	map00030	Pentose phosphate pathway
+V1020162	map03010	Ribosome
+V1031948	map04112	Cell cycle - Caulobacter
+V1031976	map00710	Carbon fixation in photosynthetic organisms
+V1032278	map00780	Biotin metabolism
+V1032810	map03010	Ribosome
+V1033701	map00760	Nicotinate and nicotinamide metabolism
+V1033772	map04626	Plant-pathogen interaction
+V1033803	map00195	Photosynthesis
+V1033807	map03018	RNA degradation
+V1033913	map00760	Nicotinate and nicotinamide metabolism
+V1033987	map00900	Terpenoid backbone biosynthesis
+V1034610	map00270	Cysteine and methionine metabolism
+V1034641	map00010	Glycolysis / Gluconeogenesis
+V1034644	map02060	Phosphotransferase system (PTS)
+V1034645	map02060	Phosphotransferase system (PTS)
+V1034967	map02010	ABC transporters
+V1035066	map00500	Starch and sucrose metabolism
+V1035094	map00051	Fructose and mannose metabolism
+V1035129	map04122	Sulfur relay system
+V1035196	map00030	Pentose phosphate pathway
+V1035227	map00910	Nitrogen metabolism
+V1035248	map02060	Phosphotransferase system (PTS)
+V1035328	map03030	DNA replication
+V1035843	map03010	Ribosome
+V1035957	map02010	ABC transporters
+V1036685	map00240	Pyrimidine metabolism
+V1036803	map04112	Cell cycle - Caulobacter
+V1037302	map00400	Phenylalanine, tyrosine and tryptophan biosynthesis
+V1037336	map00650	Butanoate metabolism
+V1037687	map05152	Tuberculosis
+V1042097	map04626	Plant-pathogen interaction
+V1042355	map02060	Phosphotransferase system (PTS)
+V1042441	map03010	Ribosome
+V1042561	map00520	Amino sugar and nucleotide sugar metabolism
+V1046069	map00330	Arginine and proline metabolism
+V1048870	map03010	Ribosome
+V1050217	map00860	Porphyrin and chlorophyll metabolism
+V1056372	map04626	Plant-pathogen interaction
+V1059379	map00650	Butanoate metabolism
+V1064065	map00230	Purine metabolism
+V1064625	map03060	Protein export
+V1064640	map00230	Purine metabolism
+V1064875	map05150	Staphylococcus aureus infection
+V1064890	map03420	Nucleotide excision repair
+V1064925	map03008	Ribosome biogenesis in eukaryotes
+V1065034	map00900	Terpenoid backbone biosynthesis
+V1065045	map00230	Purine metabolism
+V1065156	map05152	Tuberculosis
+V1065161	map03440	Homologous recombination
+V1065203	map03070	Bacterial secretion system
+V1065322	map02040	Flagellar assembly
+V1065437	map00250	Alanine, aspartate and glutamate metabolism
+V1065553	map00330	Arginine and proline metabolism
+V1065581	map03010	Ribosome
+V1065916	map04626	Plant-pathogen interaction
+V1065923	map00195	Photosynthesis
+V1066614	map02060	Phosphotransferase system (PTS)
+V1066648	map03020	RNA polymerase
+V1066917	map00970	Aminoacyl-tRNA biosynthesis
+V1067099	map00680	Methane metabolism
+V1067114	map00450	Selenocompound metabolism
+V1067560	map00710	Carbon fixation in photosynthetic organisms
+V1067955	map03010	Ribosome
+V1068288	map00650	Butanoate metabolism
+V1069093	map00903	Limonene and pinene degradation
+V1070888	map04621	NOD-like receptor signaling pathway
+V1074688	map00550	Peptidoglycan biosynthesis
+V1074989	map00250	Alanine, aspartate and glutamate metabolism
+V1079167	map03020	RNA polymerase
+V1080453	map03070	Bacterial secretion system
+V1087096	map04626	Plant-pathogen interaction
+V1088373	map03020	RNA polymerase
+V1097503	map03020	RNA polymerase
+V1101600	map00400	Phenylalanine, tyrosine and tryptophan biosynthesis
+V1101684	map00520	Amino sugar and nucleotide sugar metabolism
+V1101694	map00550	Peptidoglycan biosynthesis
+V1101822	map00900	Terpenoid backbone biosynthesis
+V1103660	map00650	Butanoate metabolism
+V1103930	map00480	Glutathione metabolism
+V1109394	map04626	Plant-pathogen interaction
+V1117270	map00130	Ubiquinone and other terpenoid-quinone biosynthesis
+V1118483	map02030	Bacterial chemotaxis
+V1138803	map05152	Tuberculosis
+V1138974	map05152	Tuberculosis
+V1139283	map00524	Butirosin and neomycin biosynthesis
+V1139386	map03010	Ribosome
+V1139410	map00650	Butanoate metabolism
+V1140670	map00195	Photosynthesis
+V1141150	map03018	RNA degradation
+V1143201	map00051	Fructose and mannose metabolism
+V1143375	map00900	Terpenoid backbone biosynthesis
+V1143769	map00970	Aminoacyl-tRNA biosynthesis
+V1143815	map00051	Fructose and mannose metabolism
+V1143993	map00970	Aminoacyl-tRNA biosynthesis
+V1144017	map00970	Aminoacyl-tRNA biosynthesis
+V1144060	map03030	DNA replication
+V1144273	map03010	Ribosome
+V1144908	map05152	Tuberculosis
+V1145455	map00680	Methane metabolism
+V1145959	map00650	Butanoate metabolism
+V1149536	map03010	Ribosome
+V1149670	map00561	Glycerolipid metabolism
+V1150280	map03010	Ribosome
+V1157958	map03010	Ribosome
+V1159046	map00910	Nitrogen metabolism
+V1159677	map00195	Photosynthesis
+V1164056	map00680	Methane metabolism
+V1164274	map04146	Peroxisome
+V1164447	map04724	Glutamatergic synapse
+V1167440	map00500	Starch and sucrose metabolism
+V1167789	map03430	Mismatch repair
+V1168094	map03010	Ribosome
+V1172851	map00680	Methane metabolism
+V1194946	map02040	Flagellar assembly
+V1197287	map03020	RNA polymerase
+V1199487	map05340	Primary immunodeficiency
+V1200468	map04141	Protein processing in endoplasmic reticulum
+V1200558	map00620	Pyruvate metabolism
+V1200639	map00330	Arginine and proline metabolism
+V1203298	map02010	ABC transporters
+V1203785	map03430	Mismatch repair
+V1204399	map00600	Sphingolipid metabolism
+V1208877	map04964	Proximal tubule bicarbonate reclamation
+V1209054	map03440	Homologous recombination
+V1209732	map00230	Purine metabolism
+V1209735	map03018	RNA degradation
+V1209899	map03420	Nucleotide excision repair
+V1209998	map00900	Terpenoid backbone biosynthesis
+V1211045	map03430	Mismatch repair
+V1216718	map00720	Carbon fixation pathways in prokaryotes
+V1230285	map03440	Homologous recombination
+V1238174	map03010	Ribosome
+V1239604	map03020	RNA polymerase
+V1256156	map02060	Phosphotransferase system (PTS)
+V1256954	map02010	ABC transporters
+V1257520	map02010	ABC transporters
+V1265052	map03018	RNA degradation
+V1265462	map05152	Tuberculosis
+V1267333	map02010	ABC transporters
+V1268220	map00983	Drug metabolism - other enzymes
+V1291721	map00760	Nicotinate and nicotinamide metabolism
+V1292714	map00500	Starch and sucrose metabolism
+V1295007	map00970	Aminoacyl-tRNA biosynthesis
+V1295172	map02010	ABC transporters
+V1295628	map00970	Aminoacyl-tRNA biosynthesis
+V1297355	map03430	Mismatch repair
+V1297360	map04112	Cell cycle - Caulobacter
+V1297366	map03440	Homologous recombination
+V1297397	map03010	Ribosome
+V1301880	map00790	Folate biosynthesis
+V1302208	map04930	Type II diabetes mellitus
+V1302278	map00051	Fructose and mannose metabolism
+V1302379	map03070	Bacterial secretion system
+V1323596	map00790	Folate biosynthesis
+V1330982	map02030	Bacterial chemotaxis
+V1339538	map00240	Pyrimidine metabolism
+V1339704	map02010	ABC transporters
+V1339861	map03010	Ribosome
+V1339962	map00240	Pyrimidine metabolism
+V1341867	map03010	Ribosome
+V1346636	map03010	Ribosome
+V1349065	map00680	Methane metabolism
+V1355192	map00500	Starch and sucrose metabolism
+V1355689	map03020	RNA polymerase
+V1356439	map00790	Folate biosynthesis
+V1357672	map05152	Tuberculosis
+V1358988	map02010	ABC transporters
+V1365619	map02010	ABC transporters
+V1366835	map03010	Ribosome
+V1368881	map05152	Tuberculosis
+V1375900	map03010	Ribosome
+V1380652	map03010	Ribosome
+V1380987	map03010	Ribosome
+V1381439	map03440	Homologous recombination
+V1389928	map03010	Ribosome
+V1391945	map02060	Phosphotransferase system (PTS)
+V1392051	map00720	Carbon fixation pathways in prokaryotes
+V1395005	map00195	Photosynthesis
+V1408666	map00680	Methane metabolism
+V1409431	map03010	Ribosome
+V1415807	map03440	Homologous recombination
+V1420560	map00550	Peptidoglycan biosynthesis
+V1420576	map04112	Cell cycle - Caulobacter
+V1422203	map00982	Drug metabolism - cytochrome P450
+V1423286	map03070	Bacterial secretion system
+V1424281	map00195	Photosynthesis
+V1424283	map00195	Photosynthesis
+V1424823	map00051	Fructose and mannose metabolism
+V1424824	map02060	Phosphotransferase system (PTS)
+V1424849	map00970	Aminoacyl-tRNA biosynthesis
+V1424859	map00640	Propanoate metabolism
+V1430479	map00500	Starch and sucrose metabolism
+V1432631	map03440	Homologous recombination
+V1436832	map03018	RNA degradation
+V1441535	map02030	Bacterial chemotaxis
+V1445186	map04112	Cell cycle - Caulobacter
+V1445567	map00500	Starch and sucrose metabolism
+V1446846	map00680	Methane metabolism
+V1447020	map00550	Peptidoglycan biosynthesis
+V1447030	map00240	Pyrimidine metabolism
+V1447032	map00561	Glycerolipid metabolism
+V1447041	map00520	Amino sugar and nucleotide sugar metabolism
+V1447047	map00190	Oxidative phosphorylation
+V1447174	map00450	Selenocompound metabolism
+V1447208	map03010	Ribosome
+V1447216	map05152	Tuberculosis
+V1447477	map00480	Glutathione metabolism
+V1447500	map02010	ABC transporters
+V1447721	map00970	Aminoacyl-tRNA biosynthesis
+V1447733	map00710	Carbon fixation in photosynthetic organisms
+V1448160	map05010	Alzheimer's disease
+V1448206	map00521	Streptomycin biosynthesis
+V1449317	map00190	Oxidative phosphorylation
+V1449843	map00970	Aminoacyl-tRNA biosynthesis
+V1458206	map00920	Sulfur metabolism
+V1458657	map00982	Drug metabolism - cytochrome P450
+V1458725	map03010	Ribosome
+V1458857	map00230	Purine metabolism
+V1459022	map03440	Homologous recombination
+V1459099	map04112	Cell cycle - Caulobacter
+V1459116	map00190	Oxidative phosphorylation
+V1459206	map00250	Alanine, aspartate and glutamate metabolism
+V1459368	map03440	Homologous recombination
+V1459532	map00983	Drug metabolism - other enzymes
+V1459750	map03060	Protein export
+V1459826	map00624	Polycyclic aromatic hydrocarbon degradation
+V1460382	map00550	Peptidoglycan biosynthesis
+V1460901	map03070	Bacterial secretion system
+V1460960	map03010	Ribosome
+V1461066	map00710	Carbon fixation in photosynthetic organisms
+V1464522	map00983	Drug metabolism - other enzymes
+V1469278	map00760	Nicotinate and nicotinamide metabolism
+V1469282	map02010	ABC transporters
+V1469338	map00550	Peptidoglycan biosynthesis
+V1482504	map00550	Peptidoglycan biosynthesis
+V1482551	map00520	Amino sugar and nucleotide sugar metabolism
+V1482595	map03010	Ribosome
+V1492419	map03020	RNA polymerase
+V1492432	map02060	Phosphotransferase system (PTS)
+V1492649	map00564	Glycerophospholipid metabolism
+V1493218	map00970	Aminoacyl-tRNA biosynthesis
+V1493464	map00240	Pyrimidine metabolism
+V1493502	map00710	Carbon fixation in photosynthetic organisms
+V1511008	map02020	Two-component system
+V1511098	map02010	ABC transporters
+V1520185	map00195	Photosynthesis
+V1522031	map00300	Lysine biosynthesis
+V1541138	map02060	Phosphotransferase system (PTS)
+V1543896	map00195	Photosynthesis
+V1547329	map02010	ABC transporters
+V1550762	map03010	Ribosome
+V1553653	map03070	Bacterial secretion system
+V1553706	map00500	Starch and sucrose metabolism
+V1559772	map03018	RNA degradation
+V1561825	map04112	Cell cycle - Caulobacter
+V1567358	map04626	Plant-pathogen interaction
+V1576661	map00910	Nitrogen metabolism
+V1577140	map03020	RNA polymerase
+V1580860	map03018	RNA degradation
+V1591412	map02010	ABC transporters
+V1592742	map00730	Thiamine metabolism
+V1592899	map00195	Photosynthesis
+V1594437	map00240	Pyrimidine metabolism
+V1594514	map00195	Photosynthesis
+V1594919	map00250	Alanine, aspartate and glutamate metabolism
+V1599154	map05152	Tuberculosis
+V1607548	map00920	Sulfur metabolism
+V1607549	map00520	Amino sugar and nucleotide sugar metabolism
+V1608875	map03010	Ribosome
+V1610168	map00970	Aminoacyl-tRNA biosynthesis
+V1613200	map00590	Arachidonic acid metabolism
+V1614269	map00900	Terpenoid backbone biosynthesis
+V1614364	map00970	Aminoacyl-tRNA biosynthesis
+V1614612	map00550	Peptidoglycan biosynthesis
+V1614642	map03010	Ribosome
+V1693565	map05150	Staphylococcus aureus infection
+V1693901	map03070	Bacterial secretion system
+V1694118	map00970	Aminoacyl-tRNA biosynthesis
+V1694389	map02060	Phosphotransferase system (PTS)
+V1723592	map03010	Ribosome
+V1723757	map03010	Ribosome
+V1728033	map00550	Peptidoglycan biosynthesis
+V1728061	map03010	Ribosome
+V1746242	map01053	Biosynthesis of siderophore group nonribosomal peptides
+V1755684	map02010	ABC transporters
+V1764173	map03020	RNA polymerase
+V1764224	map03010	Ribosome
+V1764262	map00970	Aminoacyl-tRNA biosynthesis
+V1764543	map00520	Amino sugar and nucleotide sugar metabolism
+V1764558	map00195	Photosynthesis
+V1764561	map00195	Photosynthesis
+V1765201	map04724	Glutamatergic synapse
+V1784139	map00650	Butanoate metabolism
+V1784154	map03010	Ribosome
+V1784200	map04070	Phosphatidylinositol signaling system
+V1784203	map03440	Homologous recombination
+V1784225	map02020	Two-component system
+V1784256	map00121	Secondary bile acid biosynthesis
+V1784581	map00330	Arginine and proline metabolism
+V1784650	map00330	Arginine and proline metabolism
+V1784667	map00983	Drug metabolism - other enzymes
+V1784671	map00240	Pyrimidine metabolism
+V1784895	map03010	Ribosome
+V1785037	map02010	ABC transporters
+V1785219	map03010	Ribosome
+V1785220	map03010	Ribosome
+V1785228	map03070	Bacterial secretion system
+V1785378	map00130	Ubiquinone and other terpenoid-quinone biosynthesis
+V1786780	map04626	Plant-pathogen interaction
+V1806416	map00790	Folate biosynthesis
+V1806771	map00550	Peptidoglycan biosynthesis
+V1806808	map00710	Carbon fixation in photosynthetic organisms
+V1807984	map02060	Phosphotransferase system (PTS)
+V1827939	map00620	Pyruvate metabolism
+V1833890	map04626	Plant-pathogen interaction
+V1836065	map03010	Ribosome
+V1852017	map00240	Pyrimidine metabolism
+V1852074	map05150	Staphylococcus aureus infection
+V1874374	map04626	Plant-pathogen interaction
+V1880222	map03010	Ribosome
+V1882862	map00970	Aminoacyl-tRNA biosynthesis
+V1882991	map02060	Phosphotransferase system (PTS)
+V1884235	map03420	Nucleotide excision repair
+V1886205	map00250	Alanine, aspartate and glutamate metabolism
+V1886382	map03018	RNA degradation
+V1886389	map00030	Pentose phosphate pathway
+V1886440	map03010	Ribosome
+V1886441	map00240	Pyrimidine metabolism
+V1886485	map00900	Terpenoid backbone biosynthesis
+V1886491	map00550	Peptidoglycan biosynthesis
+V1886525	map00983	Drug metabolism - other enzymes
+V1886535	map00520	Amino sugar and nucleotide sugar metabolism
+V1886554	map03010	Ribosome
+V1886602	map03010	Ribosome
+V1886618	map03070	Bacterial secretion system
+V1886653	map00250	Alanine, aspartate and glutamate metabolism
+V1886679	map03440	Homologous recombination
+V1886684	map04122	Sulfur relay system
+V1886694	map00230	Purine metabolism
+V1888371	map03008	Ribosome biogenesis in eukaryotes
+V1888401	map03430	Mismatch repair
+V1888510	map00970	Aminoacyl-tRNA biosynthesis
+V1888552	map00270	Cysteine and methionine metabolism
+V1888647	map00720	Carbon fixation pathways in prokaryotes
+V1888756	map00564	Glycerophospholipid metabolism
+V1888775	map03010	Ribosome
+V1888905	map00970	Aminoacyl-tRNA biosynthesis
+V1888911	map03020	RNA polymerase
+V1889144	map00970	Aminoacyl-tRNA biosynthesis
+V1889219	map00970	Aminoacyl-tRNA biosynthesis
+V1889296	map02020	Two-component system
+V1889307	map02010	ABC transporters
+V1889498	map00720	Carbon fixation pathways in prokaryotes
+V1889538	map05152	Tuberculosis
+V1889587	map03420	Nucleotide excision repair
+V1889672	map00970	Aminoacyl-tRNA biosynthesis
+V1889813	map03070	Bacterial secretion system
+V1889878	map00473	D-Alanine metabolism
+V1889962	map02060	Phosphotransferase system (PTS)
+V1890057	map00440	Phosphonate and phosphinate metabolism
+V1890238	map02010	ABC transporters
+V1890726	map00230	Purine metabolism
+V1890856	map03440	Homologous recombination
+V1891039	map00650	Butanoate metabolism
+V1891074	map02060	Phosphotransferase system (PTS)
+V1891171	map00600	Sphingolipid metabolism
+V1891289	map02010	ABC transporters
+V1907669	map03030	DNA replication
+V1908267	map03018	RNA degradation
+V1908465	map00480	Glutathione metabolism
+V1911136	map00520	Amino sugar and nucleotide sugar metabolism

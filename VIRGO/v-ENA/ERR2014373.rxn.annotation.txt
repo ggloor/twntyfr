@@ -1,0 +1,26 @@
+Gene	rxn_number	rxn_Annotation
+V1899721	rn:R07111	5,6-EET hydrolase; 5,6-EET + H2O <=> 5,6-DHET
+V1899639	rn:R00714	succinate-semialdehyde:NADP+ oxidoreductase; Succinate semialdehyde + NADP+ + H2O <=> Succinate + NADPH + H+
+V1614147	rn:R00839	6-phospho-beta-D-glucosyl-(1->4)-D-glucose 6-phosphoglucohydrolase; 6-Phospho-beta-D-glucosyl-(1,4)-D-glucose + H2O <=> D-Glucose + D-Glucose 6-phosphate
+V1614093	rn:R06079	D-Glucose + G10499(n+1) <=> Sucrose + G10499(n)
+V1899704	rn:R09247	(2E,6E)-farnesyl-diphosphate:isopentenyl-diphosphate farnesyltranstransferase (adding 4 isopentenyl units); trans,trans-Farnesyl diphosphate + 4 Isopentenyl diphosphate <=> all-trans-Heptaprenyl diphosphate + 4 Diphosphate
+V1042208	rn:R01134	inosine-5'-phosphate:NADP+ oxidoreductase (aminating); NADH:guanosine-5'-phosphate oxidoreductase (deaminating); IMP + Ammonia + NADP+ <=> GMP + NADPH + H+
+V1574564	rn:R09673	[protein]-3-O-(N-acetyl-D-glucosaminyl)-L-threonine N-acetylglucosaminyl hydrolase; [Protein]-3-O-(N-acetyl-D-glucosaminyl)-L-threonine + H2O <=> [Protein]-L-threonine + N-Acetyl-D-glucosamine
+V1889931	rn:R00131	Urea amidohydrolase; Urea + H2O <=> CO2 + 2 Ammonia
+V1885782	rn:R06110	Lactose 6'-phosphate + H2O <=> beta-D-Glucose + D-Galactose 6-phosphate
+V1046761	rn:R07459	ATP:[sulfur-carrier protein] adenylyltransferase; Sulfur-carrier protein + ATP <=> Adenylyl-[sulfur-carrier protein] + Diphosphate
+V1449531	rn:R03800	Blasticidin-S aminohydrolase; Blasticidin S + H2O <=> Deaminohydroxyblasticidin S + Ammonia
+V1890678	rn:R02917	S-Adenosyl-L-methionine:tRNA (guanosine-2'-O-)-methyltransferase; S-Adenosyl-L-methionine + tRNA guanine <=> S-Adenosyl-L-homocysteine + tRNA containing 2'-O-methylguanosine
+V1614939	rn:R01512	ATP:3-phospho-D-glycerate 1-phosphotransferase; ATP + 3-Phospho-D-glycerate <=> ADP + 3-Phospho-D-glyceroyl phosphate
+V1042191	rn:R03348	Nicotinate-nucleotide:pyrophosphate phosphoribosyltransferase (carboxylating); Nicotinate D-ribonucleotide + Diphosphate + CO2 <=> Quinolinate + 5-Phospho-alpha-D-ribose 1-diphosphate
+V1614364	rn:R03650	L-Cysteine:tRNA(Cys) ligase (AMP-forming); ATP + L-Cysteine + tRNA(Cys) <=> AMP + Diphosphate + L-Cysteinyl-tRNA(Cys)
+V1040344	rn:R00212	Acetyl-CoA:formate C-acetyltransferase; Acetyl-CoA + Formate <=> CoA + Pyruvate
+V1581325	rn:R06199	Starch(n+1) + H2O <=> alpha-D-Glucose + Starch(n)
+V1614439	rn:R02813	(R)-10-Hydroxystearate 10-hydro-lyase; (R)-10-Hydroxystearate <=> (9Z)-Octadecenoic acid + H2O
+V1785072	rn:R01167	L-histidine carboxy-lyase (histamine-forming); L-Histidine <=> Histamine + CO2
+V1890720	rn:R01676	Guanine aminohydrolase; Guanine + H2O <=> Xanthine + Ammonia
+V1459483	rn:R09561	glutathione amide:NAD+ oxidoreductase; 2 Glutathione amide + NAD+ <=> Glutathione amide disulfide + NADH + H+
+V1613405	rn:R00189	deamido-NAD+:ammonia ligase (AMP-forming); ATP + Deamino-NAD+ + Ammonia <=> AMP + Diphosphate + NAD+
+V1890293	rn:R00217	oxaloacetate carboxy-lyase (pyruvate-forming); Oxaloacetate <=> Pyruvate + CO2
+V1880660	rn:R00195	2,3-diaminopropanoate ammonia-lyase (adding water; pyruvate-forming); 2,3-Diaminopropanoate + H2O <=> Pyruvate + 2 Ammonia
+V1880662	rn:R00425	GTP 7,8-8,9-dihydrolase (diphosphate-forming); GTP + 3 H2O <=> Formate + 2,5-Diamino-6-(5-phospho-D-ribosylamino)pyrimidin-4(3H)-one + Diphosphate

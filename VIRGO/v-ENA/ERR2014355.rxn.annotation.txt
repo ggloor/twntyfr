@@ -1,0 +1,9 @@
+Gene	rxn_number	rxn_Annotation
+V1042208	rn:R01134	inosine-5'-phosphate:NADP+ oxidoreductase (aminating); NADH:guanosine-5'-phosphate oxidoreductase (deaminating); IMP + Ammonia + NADP+ <=> GMP + NADPH + H+
+V1574564	rn:R09673	[protein]-3-O-(N-acetyl-D-glucosaminyl)-L-threonine N-acetylglucosaminyl hydrolase; [Protein]-3-O-(N-acetyl-D-glucosaminyl)-L-threonine + H2O <=> [Protein]-L-threonine + N-Acetyl-D-glucosamine
+V1449531	rn:R03800	Blasticidin-S aminohydrolase; Blasticidin S + H2O <=> Deaminohydroxyblasticidin S + Ammonia
+V1614939	rn:R01512	ATP:3-phospho-D-glycerate 1-phosphotransferase; ATP + 3-Phospho-D-glycerate <=> ADP + 3-Phospho-D-glyceroyl phosphate
+V1889931	rn:R00131	Urea amidohydrolase; Urea + H2O <=> CO2 + 2 Ammonia
+V1204502	rn:R04315	2'-Deoxyribonucleoside triphosphate:oxydized-thioredoxin 2'-oxidoreductase; Deoxynucleoside triphosphate + Thioredoxin disulfide + H2O <=> Ribonucleoside triphosphate + Thioredoxin
+V1047177	rn:R01555	Maltose:phosphate 1-beta-D-glucosyltransferase; Maltose + Orthophosphate <=> D-Glucose + beta-D-Glucose 1-phosphate
+V1884198	rn:R00238	Acetyl-CoA:acetyl-CoA C-acetyltransferase; 2 Acetyl-CoA <=> CoA + Acetoacetyl-CoA

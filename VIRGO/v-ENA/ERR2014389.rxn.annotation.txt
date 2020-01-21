@@ -1,0 +1,12 @@
+Gene	rxn_number	rxn_Annotation
+V1580701	rn:R01967	ATP:deoxyguanosine 5'-phosphotransferase; ATP + Deoxyguanosine <=> ADP + dGMP
+V1042208	rn:R01134	inosine-5'-phosphate:NADP+ oxidoreductase (aminating); NADH:guanosine-5'-phosphate oxidoreductase (deaminating); IMP + Ammonia + NADP+ <=> GMP + NADPH + H+
+V1580782	rn:R00847	ATP:glycerol 3-phosphotransferase; ATP + Glycerol <=> ADP + sn-Glycerol 3-phosphate
+V1449531	rn:R03800	Blasticidin-S aminohydrolase; Blasticidin S + H2O <=> Deaminohydroxyblasticidin S + Ammonia
+V1574564	rn:R09673	[protein]-3-O-(N-acetyl-D-glucosaminyl)-L-threonine N-acetylglucosaminyl hydrolase; [Protein]-3-O-(N-acetyl-D-glucosaminyl)-L-threonine + H2O <=> [Protein]-L-threonine + N-Acetyl-D-glucosamine
+V1581636	rn:R00199	ATP:pyruvate,water phosphotransferase; ATP + Pyruvate + H2O <=> AMP + Phosphoenolpyruvate + Orthophosphate
+V1204229	rn:R02961	S-Adenosyl-L-methionine + DNA adenine <=> S-Adenosyl-L-homocysteine + DNA 6-methylaminopurine
+V1038970	rn:R07312	4-hydroxyphenylacetate carboxy-lyase; 4-Hydroxyphenylacetate + H+ <=> 4-Cresol + CO2
+V1581325	rn:R06199	Starch(n+1) + H2O <=> alpha-D-Glucose + Starch(n)
+V1041574	rn:R01070	beta-D-fructose-1,6-bisphosphate D-glyceraldehyde-3-phosphate-lyase (glycerone-phosphate-forming); beta-D-Fructose 1,6-bisphosphate <=> Glycerone phosphate + D-Glyceraldehyde 3-phosphate
+V1380793	rn:R07650	L-2,4-diaminobutanoate carboxy-lyase; L-2,4-Diaminobutanoate <=> 1,3-Diaminopropane + CO2

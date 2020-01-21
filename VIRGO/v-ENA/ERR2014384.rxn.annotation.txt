@@ -1,0 +1,10 @@
+Gene	rxn_number	rxn_Annotation
+V1449531	rn:R03800	Blasticidin-S aminohydrolase; Blasticidin S + H2O <=> Deaminohydroxyblasticidin S + Ammonia
+V1042208	rn:R01134	inosine-5'-phosphate:NADP+ oxidoreductase (aminating); NADH:guanosine-5'-phosphate oxidoreductase (deaminating); IMP + Ammonia + NADP+ <=> GMP + NADPH + H+
+V1574564	rn:R09673	[protein]-3-O-(N-acetyl-D-glucosaminyl)-L-threonine N-acetylglucosaminyl hydrolase; [Protein]-3-O-(N-acetyl-D-glucosaminyl)-L-threonine + H2O <=> [Protein]-L-threonine + N-Acetyl-D-glucosamine
+V1204229	rn:R02961	S-Adenosyl-L-methionine + DNA adenine <=> S-Adenosyl-L-homocysteine + DNA 6-methylaminopurine
+V1042191	rn:R03348	Nicotinate-nucleotide:pyrophosphate phosphoribosyltransferase (carboxylating); Nicotinate D-ribonucleotide + Diphosphate + CO2 <=> Quinolinate + 5-Phospho-alpha-D-ribose 1-diphosphate
+V1581325	rn:R06199	Starch(n+1) + H2O <=> alpha-D-Glucose + Starch(n)
+V1040344	rn:R00212	Acetyl-CoA:formate C-acetyltransferase; Acetyl-CoA + Formate <=> CoA + Pyruvate
+V1039422	rn:R00217	oxaloacetate carboxy-lyase (pyruvate-forming); Oxaloacetate <=> Pyruvate + CO2
+V1041800	rn:R01868	(S)-dihydroorotate:quinone oxidoreductase; (S)-Dihydroorotate + Quinone <=> Orotate + Hydroquinone
