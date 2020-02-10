@@ -113,7 +113,7 @@ ylab<-paste("PC2: ", PC2, "%", sep="")
 p<-ggplot() +
 	geom_point(data = d.pca$rotation, aes(x=PC1, y=PC2), alpha = 1/20) +
 	geom_point(data = d2, aes(x=PC1/30000, y=PC2/30000, colour = nugent_status)) +
-	geom_text(data = d2, aes(x=PC1/30000, y=PC2/30000, label = rownames(d2), colour = nugent_status), hjust = 0, nudge_x = 0.0005
+	geom_text(data = d2, aes(x=PC1/30000, y=PC2/30000, label = rownames(d2), colour = nugent_status), hjust = 0, nudge_x = 0.0005, show.legend = FALSE
 )
 p + ggtitle("PCA") +
   xlab(xlab) + ylab(ylab) +
