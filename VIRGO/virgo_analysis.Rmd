@@ -1,0 +1,99 @@
+---
+title: "Exploratory analysis of RNA-seq dataset"
+author: "gg"
+date: "`r Sys.Date()`"
+fig_caption: true
+output: pdf_document
+---
+To run this file:
+Rscript -e "rmarkdown::render('biplots.Rmd')"
+
+Setup
+
+```{r setup, message=FALSE}
+library(compositions)
+library(zCompositions)
+library(ALDEx2)
+# you can get this from:
+# https://github.com/DavidRLovell/propr
+source("~/git/proprBayes/R/propr-functions.R")
+
+library(igraph)
+
+############### incorporating phi into ALDEx
+# calculate phi on Dirichlet log-ratio distributions
+# returns dataframe of the lower-triangle of symmetrical phi metric
+# requires David Lovell's propr.phisym function
+#
+# THIS IS NOW IN THE proprBayes source
+#
+############ end functions
+
+```
+First let us explore the data. The idea here is to identify those samples that are closely related
+
+Filter the refseq to a mean count across samples of greater than 5
+
+This is a form biplot that represents distances between samples with variances of components mapped onto the plot.
+
+
+####twntyfr
+d.24 <- read.table('v-twntyfr/summary.NR.abundance.txt', header=T, row.names=1)
+tax.table <- read.table('1_VIRGO/1.taxon.tbl.txt', header=F, row.names=2)
+
+
+tax_in_d.24 <- rownames(tax.table) %in% rownames(d.24)
+rows.tax <- rownames(tax.table)[tax_in_d.24]
+tax.names <-
+d.24.tax <- d.24[rows.tax,]
+
+library(CoDaSeq)
+
+d.24.filt <- codaSeq.filter(d.24.tax, min.occurrence=0.2, min.prop=0.0003, samples.by.row=F)
+
+d.24.clr <- apply(d.24.filt+0.5, 2, function(x) log(x) - mean(log(x)))
+
+pcx.24 <- prcomp(t(d.24.clr))
+
+plot(pcx.24$rotation[,1]*5000, pcx.24$rotation[,2]*5000, col=rgb(1,0,0,0.1), cex=0.1,pch=19)
+text(pcx.24$x[,1], pcx.24$x[,2], labels=colnames(d.24.filt))
+
+library(CoDaSeq)
+
+d.24.filt <- codaSeq.filter(d.24.tax, min.occurrence=0.2, min.prop=0.0001, samples.by.row=F)
+# match rownames to taxa
+
+tax.24 <- data.frame(tax.table[match(rownames(tax.table), rownames(d.24)),2])
+rownames(tax.24) <- rownames(tax.table)
+tax.filt <- tax.24[rownames(d.24.filt),1]  ##SLOW!
+iners <- which(tax.filt=="Lactobacillus_iners")
+crisp <- which(tax.filt=="Lactobacillus_crispatus")
+
+
+d.24.filt.clr <- apply(d.24.filt + 0.5, 2, function(x) log(x) - mean(log(x)))
+
+pcx.filt <- prcomp(t(d.24.filt.clr))
+
+plot(pcx.filt$rotation[,1]*20000, pcx.filt$rotation[,2]*20000, col=rgb(1,0,0,0.1), pch=19)
+text(pcx.filt$x[,1], pcx.filt$x[,2], labels=colnames(d.24))
+points(pcx.filt$rotation[iners,1]*20000, pcx.filt$rotation[iners,2]*20000, col=rgb(0,0,1,0.5), pch=19)
+points(pcx.filt$rotation[crisp,1]*20000, pcx.filt$rotation[crisp,2]*20000, col=rgb(0,1,1,0.5), pch=19)
+#####ENA
+d.ena <- read.table('v-ENA/summary.NR.abundance.txt', header=T, row.names=1)
+
+d.ena.clr <- apply(d.ena+0.5, 2, function(x) log(x) - mean(log(x)))
+
+pcx.ena <- prcomp(t(d.ena.clr))
+
+plot(pcx.ena$rotation[,1]*100000, pcx.ena$rotation[,2]*100000, col=rgb(1,0,0,0.1), pch=19)
+text(pcx.ena$x[,1], pcx.ena$x[,2], labels=colnames(d.ena))
+
+library(CoDaSeq)
+d.ena.filt <- codaSeq.filter(d.ena, min.occurrence=0.2, min.prop=0.0001, samples.by.row=F)
+
+d.ena.filt.clr <- apply(d.ena.filt + 0.5, 2, function(x) log(x) - mean(log(x)))
+
+pcx.filt <- prcomp(t(d.ena.filt.clr))
+
+plot(pcx.filt$rotation[,1]*20000, pcx.filt$rotation[,2]*20000, col=rgb(1,0,0,0.1), pch=19)
+text(pcx.filt$x[,1], pcx.filt$x[,2], labels=colnames(d.24))
